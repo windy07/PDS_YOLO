@@ -1,0 +1,47 @@
+[2024-11-08 14:14:21,030] Running step: step_qonnx_to_finn [1/10]
+[2024-11-08 14:14:21,033] Running step: step_tidy_up [2/10]
+[2024-11-08 14:14:21,285] Running step: step_streamline [3/10]
+[2024-11-08 14:14:27,454] /media/clr/XIlinx/finn/deps/qonnx/src/qonnx/transformation/infer_data_layouts.py:127: UserWarning: Assuming 4D input is NCHW
+[2024-11-08 14:14:27,454]   warnings.warn("Assuming 4D input is NCHW")
+[2024-11-08 14:14:27,481] Running step: step_convert_to_hw [4/10]
+[2024-11-08 14:14:27,528] /media/clr/XIlinx/finn/src/finn/transformation/fpgadataflow/convert_to_hw_layers.py:63: UserWarning: Im2Col_0 : Input is not int. Can't infer ConvInpGen.
+[2024-11-08 14:14:27,529]   warnings.warn("%s : Input is not int. Can't infer ConvInpGen." % n.name)
+[2024-11-08 14:14:27,644] Running step: step_create_dataflow_partition [5/10]
+[2024-11-08 14:14:27,682] Running step: step_specialize_layers [6/10]
+[2024-11-08 14:14:27,723] Running step: step_target_fps_parallelization [7/10]
+[2024-11-08 14:14:27,725] /media/clr/XIlinx/finn/src/finn/transformation/fpgadataflow/set_folding.py:221: UserWarning: SetFolding doesn't know how to handle op_type StreamingMaxPool_hls
+[2024-11-08 14:14:27,725]   warnings.warn("SetFolding doesn't know how to handle op_type " + op_type)
+[2024-11-08 14:14:27,726] /media/clr/XIlinx/finn/src/finn/transformation/fpgadataflow/set_folding.py:221: UserWarning: SetFolding doesn't know how to handle op_type FMPadding_rtl
+[2024-11-08 14:14:27,726]   warnings.warn("SetFolding doesn't know how to handle op_type " + op_type)
+[2024-11-08 14:14:27,779] /media/clr/XIlinx/finn/src/finn/custom_op/fpgadataflow/streamingmaxpool.py:139: UserWarning: Estimated latency for layer StreamingMaxPool_hls_0 can be lower than
+[2024-11-08 14:14:27,779]              actual latency!
+[2024-11-08 14:14:27,779]   warnings.warn(
+[2024-11-08 14:14:27,781] /media/clr/XIlinx/finn/src/finn/custom_op/fpgadataflow/streamingmaxpool.py:139: UserWarning: Estimated latency for layer StreamingMaxPool_hls_1 can be lower than
+[2024-11-08 14:14:27,781]              actual latency!
+[2024-11-08 14:14:27,781]   warnings.warn(
+[2024-11-08 14:14:27,782] /media/clr/XIlinx/finn/src/finn/custom_op/fpgadataflow/streamingmaxpool.py:139: UserWarning: Estimated latency for layer StreamingMaxPool_hls_2 can be lower than
+[2024-11-08 14:14:27,782]              actual latency!
+[2024-11-08 14:14:27,782]   warnings.warn(
+[2024-11-08 14:14:27,783] /media/clr/XIlinx/finn/src/finn/custom_op/fpgadataflow/streamingmaxpool.py:139: UserWarning: Estimated latency for layer StreamingMaxPool_hls_3 can be lower than
+[2024-11-08 14:14:27,783]              actual latency!
+[2024-11-08 14:14:27,783]   warnings.warn(
+[2024-11-08 14:14:27,783] /media/clr/XIlinx/finn/src/finn/custom_op/fpgadataflow/streamingmaxpool.py:139: UserWarning: Estimated latency for layer StreamingMaxPool_hls_4 can be lower than
+[2024-11-08 14:14:27,783]              actual latency!
+[2024-11-08 14:14:27,783]   warnings.warn(
+[2024-11-08 14:14:27,790] /media/clr/XIlinx/finn/src/finn/transformation/fpgadataflow/set_folding.py:233: UserWarning: Node MVAU_hls_0 is bottleneck with 346112 cycles, running second pass
+[2024-11-08 14:14:27,790]   warnings.warn(
+[2024-11-08 14:14:27,850] Running step: step_apply_folding_config [8/10]
+[2024-11-08 14:14:27,854] Running step: step_minimize_bit_width [9/10]
+[2024-11-08 14:14:28,021] Running step: step_generate_estimate_reports [10/10]
+[2024-11-08 14:14:41,260] Running step: step_qonnx_to_finn [1/19]
+[2024-11-08 14:14:41,264] Running step: step_tidy_up [2/19]
+[2024-11-08 14:14:41,509] Running step: step_streamline [3/19]
+[2024-11-08 14:14:47,919] Running step: step_convert_to_hw [4/19]
+[2024-11-08 14:14:48,074] Running step: step_create_dataflow_partition [5/19]
+[2024-11-08 14:14:48,112] Running step: step_specialize_layers [6/19]
+[2024-11-08 14:14:48,150] Running step: step_target_fps_parallelization [7/19]
+[2024-11-08 14:14:48,278] Running step: step_apply_folding_config [8/19]
+[2024-11-08 14:14:48,281] Running step: step_minimize_bit_width [9/19]
+[2024-11-08 14:14:48,453] Running step: step_generate_estimate_reports [10/19]
+[2024-11-08 14:14:48,458] Running step: step_hw_codegen [11/19]
+[2024-11-08 14:14:58,647] Running step: step_hw_ipgen [12/19]
