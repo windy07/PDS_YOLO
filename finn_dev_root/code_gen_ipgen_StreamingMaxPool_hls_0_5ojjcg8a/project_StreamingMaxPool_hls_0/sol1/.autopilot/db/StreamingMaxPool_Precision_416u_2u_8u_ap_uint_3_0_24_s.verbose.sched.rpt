@@ -1,0 +1,238 @@
+
+
+================================================================
+== Vitis HLS Report for 'StreamingMaxPool_Precision_416u_2u_8u_ap_uint_3_0_24_s'
+================================================================
+* Date:           Fri Nov  8 14:18:51 2024
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        project_StreamingMaxPool_hls_0
+* Solution:       sol1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  6.021 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+--------+--------+---------+
+    |  Latency (cycles) |  Latency (absolute) |     Interval    | Pipeline|
+    |   min   |   max   |    min   |    max   |   min  |   max  |   Type  |
+    +---------+---------+----------+----------+--------+--------+---------+
+    |   736740|   736740|  7.367 ms|  7.367 ms|  736740|  736740|       no|
+    +---------+---------+----------+----------+--------+--------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                                      |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |               Loop Name              |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_154_3                    |   736528|   736528|      3541|          -|          -|   208|        no|
+        | + VITIS_LOOP_155_4_VITIS_LOOP_156_5  |     3328|     3328|         8|          -|          -|   416|        no|
+        +--------------------------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 8
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 8 
+5 --> 6 
+6 --> 7 
+7 --> 4 
+8 --> 3 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.58>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%yp = alloca i32 1"   --->   Operation 9 'alloca' 'yp' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%buf_V = alloca i64 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145]   --->   Operation 10 'alloca' 'buf_V' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%buf_V_1 = alloca i64 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145]   --->   Operation 11 'alloca' 'buf_V_1' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%buf_V_2 = alloca i64 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145]   --->   Operation 12 'alloca' 'buf_V_2' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%buf_V_3 = alloca i64 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145]   --->   Operation 13 'alloca' 'buf_V_3' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%buf_V_4 = alloca i64 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145]   --->   Operation 14 'alloca' 'buf_V_4' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%buf_V_5 = alloca i64 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145]   --->   Operation 15 'alloca' 'buf_V_5' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%buf_V_6 = alloca i64 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145]   --->   Operation 16 'alloca' 'buf_V_6' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%buf_V_7 = alloca i64 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145]   --->   Operation 17 'alloca' 'buf_V_7' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 18 [2/2] (0.00ns)   --->   "%call_ln0 = call void @StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1, i3 %buf_V, i3 %buf_V_1, i3 %buf_V_2, i3 %buf_V_3, i3 %buf_V_4, i3 %buf_V_5, i3 %buf_V_6, i3 %buf_V_7"   --->   Operation 18 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 19 [1/1] (1.58ns)   --->   "%store_ln154 = store i8 0, i8 %yp" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154]   --->   Operation 19 'store' 'store_ln154' <Predicate = true> <Delay = 1.58>
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %out_V, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 20 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i24 %in0_V, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 21 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 22 [1/2] (0.00ns)   --->   "%call_ln0 = call void @StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1, i3 %buf_V, i3 %buf_V_1, i3 %buf_V_2, i3 %buf_V_3, i3 %buf_V_4, i3 %buf_V_5, i3 %buf_V_6, i3 %buf_V_7"   --->   Operation 22 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%br_ln154 = br void %VITIS_LOOP_155_4" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154]   --->   Operation 23 'br' 'br_ln154' <Predicate = true> <Delay = 0.00>
+
+State 3 <SV = 2> <Delay = 1.91>
+ST_3 : Operation 24 [1/1] (0.00ns)   --->   "%yp_1 = load i8 %yp" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154]   --->   Operation 24 'load' 'yp_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 25 [1/1] (1.55ns)   --->   "%icmp_ln154 = icmp_eq  i8 %yp_1, i8 208" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154]   --->   Operation 25 'icmp' 'icmp_ln154' <Predicate = true> <Delay = 1.55> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 208, i64 208, i64 208"   --->   Operation 26 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 27 [1/1] (1.91ns)   --->   "%yp_2 = add i8 %yp_1, i8 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154]   --->   Operation 27 'add' 'yp_2' <Predicate = true> <Delay = 1.91> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 28 [1/1] (0.00ns)   --->   "%br_ln154 = br i1 %icmp_ln154, void %VITIS_LOOP_155_4.split, void %for.end95" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154]   --->   Operation 28 'br' 'br_ln154' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 29 [1/1] (0.00ns)   --->   "%specloopname_ln154 = specloopname void @_ssdm_op_SpecLoopName, void @empty_7" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154]   --->   Operation 29 'specloopname' 'specloopname_ln154' <Predicate = (!icmp_ln154)> <Delay = 0.00>
+ST_3 : Operation 30 [1/1] (1.58ns)   --->   "%br_ln155 = br void %VITIS_LOOP_158_6" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:155]   --->   Operation 30 'br' 'br_ln155' <Predicate = (!icmp_ln154)> <Delay = 1.58>
+ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%ret_ln186 = ret" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:186]   --->   Operation 31 'ret' 'ret_ln186' <Predicate = (icmp_ln154)> <Delay = 0.00>
+
+State 4 <SV = 3> <Delay = 5.12>
+ST_4 : Operation 32 [1/1] (0.00ns)   --->   "%indvar_flatten = phi i9 0, void %VITIS_LOOP_155_4.split, i9 %add_ln155, void %for.inc59" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:155]   --->   Operation 32 'phi' 'indvar_flatten' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 33 [1/1] (0.00ns)   --->   "%xp = phi i8 0, void %VITIS_LOOP_155_4.split, i8 %add_ln156, void %for.inc59" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 33 'phi' 'xp' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 34 [1/1] (1.66ns)   --->   "%icmp_ln155 = icmp_eq  i9 %indvar_flatten, i9 416" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:155]   --->   Operation 34 'icmp' 'icmp_ln155' <Predicate = true> <Delay = 1.66> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.66> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 35 [1/1] (1.82ns)   --->   "%add_ln155 = add i9 %indvar_flatten, i9 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:155]   --->   Operation 35 'add' 'add_ln155' <Predicate = true> <Delay = 1.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 36 [1/1] (0.00ns)   --->   "%br_ln155 = br i1 %icmp_ln155, void %for.inc59, void %for.inc87.preheader" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:155]   --->   Operation 36 'br' 'br_ln155' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 37 [1/1] (1.55ns)   --->   "%icmp_ln156 = icmp_eq  i8 %xp, i8 208" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 37 'icmp' 'icmp_ln156' <Predicate = (!icmp_ln155)> <Delay = 1.55> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 38 [1/1] (1.24ns)   --->   "%select_ln155 = select i1 %icmp_ln156, i8 0, i8 %xp" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:155]   --->   Operation 38 'select' 'select_ln155' <Predicate = (!icmp_ln155)> <Delay = 1.24> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.24> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_4 : Operation 39 [1/1] (0.00ns)   --->   "%zext_ln156 = zext i8 %select_ln155" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 39 'zext' 'zext_ln156' <Predicate = (!icmp_ln155)> <Delay = 0.00>
+ST_4 : Operation 40 [1/1] (0.00ns)   --->   "%buf_V_addr = getelementptr i3 %buf_V, i64 0, i64 %zext_ln156" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 40 'getelementptr' 'buf_V_addr' <Predicate = (!icmp_ln155)> <Delay = 0.00>
+ST_4 : Operation 41 [1/1] (0.00ns)   --->   "%buf_V_1_addr = getelementptr i3 %buf_V_1, i64 0, i64 %zext_ln156" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 41 'getelementptr' 'buf_V_1_addr' <Predicate = (!icmp_ln155)> <Delay = 0.00>
+ST_4 : Operation 42 [1/1] (0.00ns)   --->   "%buf_V_2_addr = getelementptr i3 %buf_V_2, i64 0, i64 %zext_ln156" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 42 'getelementptr' 'buf_V_2_addr' <Predicate = (!icmp_ln155)> <Delay = 0.00>
+ST_4 : Operation 43 [1/1] (0.00ns)   --->   "%buf_V_3_addr = getelementptr i3 %buf_V_3, i64 0, i64 %zext_ln156" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 43 'getelementptr' 'buf_V_3_addr' <Predicate = (!icmp_ln155)> <Delay = 0.00>
+ST_4 : Operation 44 [1/1] (0.00ns)   --->   "%buf_V_4_addr = getelementptr i3 %buf_V_4, i64 0, i64 %zext_ln156" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 44 'getelementptr' 'buf_V_4_addr' <Predicate = (!icmp_ln155)> <Delay = 0.00>
+ST_4 : Operation 45 [1/1] (0.00ns)   --->   "%buf_V_5_addr = getelementptr i3 %buf_V_5, i64 0, i64 %zext_ln156" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 45 'getelementptr' 'buf_V_5_addr' <Predicate = (!icmp_ln155)> <Delay = 0.00>
+ST_4 : Operation 46 [1/1] (0.00ns)   --->   "%buf_V_6_addr = getelementptr i3 %buf_V_6, i64 0, i64 %zext_ln156" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 46 'getelementptr' 'buf_V_6_addr' <Predicate = (!icmp_ln155)> <Delay = 0.00>
+ST_4 : Operation 47 [1/1] (0.00ns)   --->   "%buf_V_7_addr = getelementptr i3 %buf_V_7, i64 0, i64 %zext_ln156" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 47 'getelementptr' 'buf_V_7_addr' <Predicate = (!icmp_ln155)> <Delay = 0.00>
+ST_4 : Operation 48 [2/2] (2.32ns)   --->   "%buf_V_load = load i8 %buf_V_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 48 'load' 'buf_V_load' <Predicate = (!icmp_ln155)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_4 : Operation 49 [2/2] (2.32ns)   --->   "%buf_V_1_load = load i8 %buf_V_1_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 49 'load' 'buf_V_1_load' <Predicate = (!icmp_ln155)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_4 : Operation 50 [2/2] (2.32ns)   --->   "%buf_V_2_load = load i8 %buf_V_2_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 50 'load' 'buf_V_2_load' <Predicate = (!icmp_ln155)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_4 : Operation 51 [2/2] (2.32ns)   --->   "%buf_V_3_load = load i8 %buf_V_3_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 51 'load' 'buf_V_3_load' <Predicate = (!icmp_ln155)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_4 : Operation 52 [2/2] (2.32ns)   --->   "%buf_V_4_load = load i8 %buf_V_4_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 52 'load' 'buf_V_4_load' <Predicate = (!icmp_ln155)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_4 : Operation 53 [2/2] (2.32ns)   --->   "%buf_V_5_load = load i8 %buf_V_5_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 53 'load' 'buf_V_5_load' <Predicate = (!icmp_ln155)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_4 : Operation 54 [2/2] (2.32ns)   --->   "%buf_V_6_load = load i8 %buf_V_6_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 54 'load' 'buf_V_6_load' <Predicate = (!icmp_ln155)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_4 : Operation 55 [2/2] (2.32ns)   --->   "%buf_V_7_load = load i8 %buf_V_7_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 55 'load' 'buf_V_7_load' <Predicate = (!icmp_ln155)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_4 : Operation 56 [1/1] (0.00ns)   --->   "%empty_44 = wait i32 @_ssdm_op_Wait"   --->   Operation 56 'wait' 'empty_44' <Predicate = (!icmp_ln155)> <Delay = 0.00>
+ST_4 : Operation 57 [1/1] (1.91ns)   --->   "%add_ln156 = add i8 %select_ln155, i8 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 57 'add' 'add_ln156' <Predicate = (!icmp_ln155)> <Delay = 1.91> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 58 [1/1] (0.00ns)   --->   "%empty_42 = wait i32 @_ssdm_op_Wait"   --->   Operation 58 'wait' 'empty_42' <Predicate = (icmp_ln155)> <Delay = 0.00>
+ST_4 : Operation 59 [2/2] (0.00ns)   --->   "%call_ln0 = call void @StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8, i3 %buf_V, i3 %buf_V_1, i3 %buf_V_2, i3 %buf_V_3, i3 %buf_V_4, i3 %buf_V_5, i3 %buf_V_6, i3 %buf_V_7, i24 %out_V"   --->   Operation 59 'call' 'call_ln0' <Predicate = (icmp_ln155)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 60 [1/1] (1.58ns)   --->   "%store_ln154 = store i8 %yp_2, i8 %yp" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154]   --->   Operation 60 'store' 'store_ln154' <Predicate = (icmp_ln155)> <Delay = 1.58>
+
+State 5 <SV = 4> <Delay = 2.32>
+ST_5 : Operation 61 [1/2] (2.32ns)   --->   "%buf_V_load = load i8 %buf_V_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 61 'load' 'buf_V_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_5 : Operation 62 [1/2] (2.32ns)   --->   "%buf_V_1_load = load i8 %buf_V_1_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 62 'load' 'buf_V_1_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_5 : Operation 63 [1/2] (2.32ns)   --->   "%buf_V_2_load = load i8 %buf_V_2_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 63 'load' 'buf_V_2_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_5 : Operation 64 [1/2] (2.32ns)   --->   "%buf_V_3_load = load i8 %buf_V_3_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 64 'load' 'buf_V_3_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_5 : Operation 65 [1/2] (2.32ns)   --->   "%buf_V_4_load = load i8 %buf_V_4_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 65 'load' 'buf_V_4_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_5 : Operation 66 [1/2] (2.32ns)   --->   "%buf_V_5_load = load i8 %buf_V_5_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 66 'load' 'buf_V_5_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_5 : Operation 67 [1/2] (2.32ns)   --->   "%buf_V_6_load = load i8 %buf_V_6_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 67 'load' 'buf_V_6_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_5 : Operation 68 [1/2] (2.32ns)   --->   "%buf_V_7_load = load i8 %buf_V_7_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 68 'load' 'buf_V_7_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+
+State 6 <SV = 5> <Delay = 6.02>
+ST_6 : Operation 69 [2/2] (6.02ns)   --->   "%call_ln168 = call void @StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6, i3 %buf_V_7_load, i3 %buf_V_6_load, i3 %buf_V_5_load, i3 %buf_V_4_load, i3 %buf_V_3_load, i3 %buf_V_2_load, i3 %buf_V_1_load, i3 %buf_V_load, i3 %buf_V_7, i8 %select_ln155, i3 %buf_V_6, i3 %buf_V_5, i3 %buf_V_4, i3 %buf_V_3, i3 %buf_V_2, i3 %buf_V_1, i3 %buf_V, i24 %in0_V" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 69 'call' 'call_ln168' <Predicate = true> <Delay = 6.02> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 7 <SV = 6> <Delay = 0.00>
+ST_7 : Operation 70 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @VITIS_LOOP_155_4_VITIS_LOOP_156_5_str"   --->   Operation 70 'specloopname' 'specloopname_ln0' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 71 [1/1] (0.00ns)   --->   "%empty_43 = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 416, i64 416, i64 416"   --->   Operation 71 'speclooptripcount' 'empty_43' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 72 [1/1] (0.00ns)   --->   "%specloopname_ln156 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 72 'specloopname' 'specloopname_ln156' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 73 [1/2] (0.00ns)   --->   "%call_ln168 = call void @StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6, i3 %buf_V_7_load, i3 %buf_V_6_load, i3 %buf_V_5_load, i3 %buf_V_4_load, i3 %buf_V_3_load, i3 %buf_V_2_load, i3 %buf_V_1_load, i3 %buf_V_load, i3 %buf_V_7, i8 %select_ln155, i3 %buf_V_6, i3 %buf_V_5, i3 %buf_V_4, i3 %buf_V_3, i3 %buf_V_2, i3 %buf_V_1, i3 %buf_V, i24 %in0_V" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168]   --->   Operation 73 'call' 'call_ln168' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_7 : Operation 74 [1/1] (0.00ns)   --->   "%br_ln156 = br void %VITIS_LOOP_158_6" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156]   --->   Operation 74 'br' 'br_ln156' <Predicate = true> <Delay = 0.00>
+
+State 8 <SV = 4> <Delay = 2.32>
+ST_8 : Operation 75 [1/2] (2.32ns)   --->   "%call_ln0 = call void @StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8, i3 %buf_V, i3 %buf_V_1, i3 %buf_V_2, i3 %buf_V_3, i3 %buf_V_4, i3 %buf_V_5, i3 %buf_V_6, i3 %buf_V_7, i24 %out_V"   --->   Operation 75 'call' 'call_ln0' <Predicate = true> <Delay = 2.32> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_8 : Operation 76 [1/1] (0.00ns)   --->   "%br_ln154 = br void %VITIS_LOOP_155_4" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154]   --->   Operation 76 'br' 'br_ln154' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 1.59ns
+The critical path consists of the following:
+	'alloca' operation ('yp') [3]  (0 ns)
+	'store' operation ('store_ln154', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154) of constant 0 on local variable 'yp' [15]  (1.59 ns)
+
+ <State 2>: 0ns
+The critical path consists of the following:
+
+ <State 3>: 1.92ns
+The critical path consists of the following:
+	'load' operation ('yp', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154) on local variable 'yp' [18]  (0 ns)
+	'add' operation ('yp', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154) [21]  (1.92 ns)
+
+ <State 4>: 5.12ns
+The critical path consists of the following:
+	'phi' operation ('xp', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156) with incoming values : ('add_ln156', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156) [28]  (0 ns)
+	'icmp' operation ('icmp_ln156', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156) [35]  (1.55 ns)
+	'select' operation ('select_ln155', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:155) [36]  (1.25 ns)
+	'getelementptr' operation ('buf_V_addr', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156) [39]  (0 ns)
+	'load' operation ('buf_V_load', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168) on array 'buf.V', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145 [47]  (2.32 ns)
+
+ <State 5>: 2.32ns
+The critical path consists of the following:
+	'load' operation ('buf_V_load', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168) on array 'buf.V', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145 [47]  (2.32 ns)
+
+ <State 6>: 6.02ns
+The critical path consists of the following:
+	'call' operation ('call_ln168', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168) to 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6' [56]  (6.02 ns)
+
+ <State 7>: 0ns
+The critical path consists of the following:
+
+ <State 8>: 2.32ns
+The critical path consists of the following:
+	'call' operation ('call_ln0') to 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8' [61]  (2.32 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

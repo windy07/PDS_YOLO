@@ -1,0 +1,882 @@
+
+
+================================================================
+== Synthesis Summary Report of 'MVAU_hls_8'
+================================================================
++ General Information: 
+    * Date:           Fri Nov  8 14:16:29 2024
+    * Version:        2022.2 (Build 3670227 on Oct 13 2022)
+    * Project:        project_MVAU_hls_8
+    * Solution:       sol1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +----------------------------------------+--------+-------+---------+-----------+----------+---------+--------+----------+------+--------+-----------+------------+-----+
+    |                 Modules                |  Issue |       | Latency |  Latency  | Iteration|         |  Trip  |          |      |        |           |            |     |
+    |                 & Loops                |  Type  | Slack | (cycles)|    (ns)   |  Latency | Interval|  Count | Pipelined| BRAM |   DSP  |     FF    |     LUT    | URAM|
+    +----------------------------------------+--------+-------+---------+-----------+----------+---------+--------+----------+------+--------+-----------+------------+-----+
+    |+ MVAU_hls_8                            |  Timing|  -0.29|   316382|  3.164e+06|         -|   316383|       -|        no|     -|  6 (2%)|  7886 (7%)|  9034 (16%)|    -|
+    | + Matrix_Vector_Activate_Stream_Batch  |  Timing|  -0.29|   316379|  3.164e+06|         -|   316379|       -|        no|     -|  6 (2%)|  7881 (7%)|  8989 (16%)|    -|
+    |  o VITIS_LOOP_249_1                    |       -|   7.30|   316377|  3.164e+06|        11|        1|  316368|  yes(flp)|     -|       -|          -|           -|    -|
+    +----------------------------------------+--------+-------+---------+-----------+----------+---------+--------+----------+------+--------+-----------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AXIS
++-----------+---------------+-------+--------+--------+
+| Interface | Register Mode | TDATA | TREADY | TVALID |
++-----------+---------------+-------+--------+--------+
+| in0_V     | both          | 32    | 1      | 1      |
+| out_V     | both          | 8     | 1      | 1      |
+| weights_V | both          | 72    | 1      | 1      |
++-----------+---------------+-------+--------+--------+
+
+* TOP LEVEL CONTROL
++-----------+--------------+----------+
+| Interface | Type         | Ports    |
++-----------+--------------+----------+
+| ap_clk    | clock        | ap_clk   |
+| ap_rst_n  | reset        | ap_rst_n |
+| ap_ctrl   | ap_ctrl_none |          |
++-----------+--------------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++-----------+-----------+-------------------------+
+| Argument  | Direction | Datatype                |
++-----------+-----------+-------------------------+
+| in0_V     | in        | stream<ap_uint<27>, 0>& |
+| weights_V | in        | stream<ap_uint<72>, 0>& |
+| out_V     | out       | stream<ap_uint<8>, 0>&  |
++-----------+-----------+-------------------------+
+
+* SW-to-HW Mapping
++-----------+--------------+-----------+
+| Argument  | HW Interface | HW Type   |
++-----------+--------------+-----------+
+| in0_V     | in0_V        | interface |
+| weights_V | weights_V    | interface |
+| out_V     | out_V        | interface |
++-----------+--------------+-----------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++----------------------------------------+-----+--------+---------------+-----+--------+---------+
+| Name                                   | DSP | Pragma | Variable      | Op  | Impl   | Latency |
++----------------------------------------+-----+--------+---------------+-----+--------+---------+
+| + MVAU_hls_8                           | 6   |        |               |     |        |         |
+|  + Matrix_Vector_Activate_Stream_Batch | 6   |        |               |     |        |         |
+|    i_2_fu_4828_p2                      | -   |        | i_2           | add | fabric | 0       |
+|    mac_muladd_8s_3ns_11s_12_4_1_U5     | 1   |        | ret_V         | mul | dsp48  | 3       |
+|    mul_8s_3ns_11_1_1_U2                | -   |        | ret_V_1       | mul | auto   | 0       |
+|    mac_muladd_8s_3ns_12s_13_4_1_U8     | 1   |        | ret_V_2       | mul | dsp48  | 3       |
+|    mul_8s_3ns_11_1_1_U3                | -   |        | ret_V_3       | mul | auto   | 0       |
+|    mac_muladd_8s_3ns_11s_12_4_1_U6     | 1   |        | ret_V_4       | mul | dsp48  | 3       |
+|    mul_8s_3ns_11_1_1_U4                | -   |        | ret_V_5       | mul | auto   | 0       |
+|    mac_muladd_8s_3ns_19s_19_4_1_U10    | 1   |        | ret_V_6       | mul | dsp48  | 3       |
+|    mac_muladd_8s_3ns_12s_13_4_1_U9     | 1   |        | ret_V_7       | mul | dsp48  | 3       |
+|    mac_muladd_8s_3ns_11s_12_4_1_U7     | 1   |        | ret_V_8       | mul | dsp48  | 3       |
+|    mac_muladd_8s_3ns_19s_19_4_1_U10    | 1   |        | add_ln840     | add | dsp48  | 3       |
+|    mac_muladd_8s_3ns_11s_12_4_1_U6     | 1   |        | add_ln840_1   | add | dsp48  | 3       |
+|    mac_muladd_8s_3ns_12s_13_4_1_U9     | 1   |        | add_ln840_2   | add | dsp48  | 3       |
+|    mac_muladd_8s_3ns_11s_12_4_1_U5     | 1   |        | add_ln840_4   | add | dsp48  | 3       |
+|    mac_muladd_8s_3ns_11s_12_4_1_U7     | 1   |        | add_ln840_5   | add | dsp48  | 3       |
+|    mac_muladd_8s_3ns_12s_13_4_1_U8     | 1   |        | add_ln840_6   | add | dsp48  | 3       |
+|    add_ln840_7_fu_6233_p2              | -   |        | add_ln840_7   | add | fabric | 0       |
+|    sf_2_fu_5988_p2                     | -   |        | sf_2          | add | fabric | 0       |
+|    add_ln840_9_fu_11767_p2             | -   |        | add_ln840_9   | add | fabric | 0       |
+|    add_ln840_10_fu_11777_p2            | -   |        | add_ln840_10  | add | fabric | 0       |
+|    add_ln840_11_fu_11783_p2            | -   |        | add_ln840_11  | add | fabric | 0       |
+|    add_ln840_12_fu_11793_p2            | -   |        | add_ln840_12  | add | fabric | 0       |
+|    add_ln840_13_fu_11803_p2            | -   |        | add_ln840_13  | add | fabric | 0       |
+|    add_ln840_15_fu_10524_p2            | -   |        | add_ln840_15  | add | fabric | 0       |
+|    add_ln840_16_fu_10530_p2            | -   |        | add_ln840_16  | add | fabric | 0       |
+|    add_ln840_17_fu_11825_p2            | -   |        | add_ln840_17  | add | fabric | 0       |
+|    add_ln840_18_fu_10536_p2            | -   |        | add_ln840_18  | add | fabric | 0       |
+|    add_ln840_19_fu_10542_p2            | -   |        | add_ln840_19  | add | fabric | 0       |
+|    add_ln840_20_fu_11841_p2            | -   |        | add_ln840_20  | add | fabric | 0       |
+|    add_ln840_21_fu_11851_p2            | -   |        | add_ln840_21  | add | fabric | 0       |
+|    add_ln840_23_fu_11867_p2            | -   |        | add_ln840_23  | add | fabric | 0       |
+|    add_ln840_24_fu_11877_p2            | -   |        | add_ln840_24  | add | fabric | 0       |
+|    add_ln840_25_fu_11887_p2            | -   |        | add_ln840_25  | add | fabric | 0       |
+|    add_ln840_26_fu_11897_p2            | -   |        | add_ln840_26  | add | fabric | 0       |
+|    add_ln840_27_fu_11907_p2            | -   |        | add_ln840_27  | add | fabric | 0       |
+|    add_ln840_28_fu_11917_p2            | -   |        | add_ln840_28  | add | fabric | 0       |
+|    add_ln840_29_fu_11927_p2            | -   |        | add_ln840_29  | add | fabric | 0       |
+|    add_ln840_30_fu_11937_p2            | -   |        | add_ln840_30  | add | fabric | 0       |
+|    add_ln840_31_fu_11947_p2            | -   |        | add_ln840_31  | add | fabric | 0       |
+|    add_ln840_32_fu_11957_p2            | -   |        | add_ln840_32  | add | fabric | 0       |
+|    add_ln840_33_fu_11967_p2            | -   |        | add_ln840_33  | add | fabric | 0       |
+|    add_ln840_34_fu_11977_p2            | -   |        | add_ln840_34  | add | fabric | 0       |
+|    add_ln840_35_fu_11987_p2            | -   |        | add_ln840_35  | add | fabric | 0       |
+|    add_ln840_36_fu_11997_p2            | -   |        | add_ln840_36  | add | fabric | 0       |
+|    add_ln840_37_fu_12007_p2            | -   |        | add_ln840_37  | add | fabric | 0       |
+|    add_ln840_39_fu_10548_p2            | -   |        | add_ln840_39  | add | fabric | 0       |
+|    add_ln840_40_fu_10554_p2            | -   |        | add_ln840_40  | add | fabric | 0       |
+|    add_ln840_41_fu_12019_p2            | -   |        | add_ln840_41  | add | fabric | 0       |
+|    add_ln840_42_fu_10560_p2            | -   |        | add_ln840_42  | add | fabric | 0       |
+|    add_ln840_43_fu_10566_p2            | -   |        | add_ln840_43  | add | fabric | 0       |
+|    add_ln840_44_fu_12035_p2            | -   |        | add_ln840_44  | add | fabric | 0       |
+|    add_ln840_45_fu_12045_p2            | -   |        | add_ln840_45  | add | fabric | 0       |
+|    add_ln840_46_fu_10572_p2            | -   |        | add_ln840_46  | add | fabric | 0       |
+|    add_ln840_47_fu_10578_p2            | -   |        | add_ln840_47  | add | fabric | 0       |
+|    add_ln840_48_fu_12061_p2            | -   |        | add_ln840_48  | add | fabric | 0       |
+|    add_ln840_49_fu_10584_p2            | -   |        | add_ln840_49  | add | fabric | 0       |
+|    add_ln840_50_fu_10590_p2            | -   |        | add_ln840_50  | add | fabric | 0       |
+|    add_ln840_51_fu_12077_p2            | -   |        | add_ln840_51  | add | fabric | 0       |
+|    add_ln840_52_fu_12087_p2            | -   |        | add_ln840_52  | add | fabric | 0       |
+|    add_ln840_53_fu_12097_p2            | -   |        | add_ln840_53  | add | fabric | 0       |
+|    add_ln840_54_fu_10596_p2            | -   |        | add_ln840_54  | add | fabric | 0       |
+|    add_ln840_55_fu_10602_p2            | -   |        | add_ln840_55  | add | fabric | 0       |
+|    add_ln840_56_fu_12113_p2            | -   |        | add_ln840_56  | add | fabric | 0       |
+|    add_ln840_57_fu_10608_p2            | -   |        | add_ln840_57  | add | fabric | 0       |
+|    add_ln840_58_fu_10614_p2            | -   |        | add_ln840_58  | add | fabric | 0       |
+|    add_ln840_59_fu_12129_p2            | -   |        | add_ln840_59  | add | fabric | 0       |
+|    add_ln840_60_fu_12139_p2            | -   |        | add_ln840_60  | add | fabric | 0       |
+|    add_ln840_61_fu_10620_p2            | -   |        | add_ln840_61  | add | fabric | 0       |
+|    add_ln840_62_fu_10626_p2            | -   |        | add_ln840_62  | add | fabric | 0       |
+|    add_ln840_63_fu_12155_p2            | -   |        | add_ln840_63  | add | fabric | 0       |
+|    add_ln840_64_fu_10632_p2            | -   |        | add_ln840_64  | add | fabric | 0       |
+|    add_ln840_65_fu_10638_p2            | -   |        | add_ln840_65  | add | fabric | 0       |
+|    add_ln840_66_fu_12171_p2            | -   |        | add_ln840_66  | add | fabric | 0       |
+|    add_ln840_67_fu_12181_p2            | -   |        | add_ln840_67  | add | fabric | 0       |
+|    add_ln840_68_fu_12191_p2            | -   |        | add_ln840_68  | add | fabric | 0       |
+|    add_ln840_69_fu_12201_p2            | -   |        | add_ln840_69  | add | fabric | 0       |
+|    add_ln840_71_fu_10644_p2            | -   |        | add_ln840_71  | add | fabric | 0       |
+|    add_ln840_72_fu_10650_p2            | -   |        | add_ln840_72  | add | fabric | 0       |
+|    add_ln840_73_fu_12213_p2            | -   |        | add_ln840_73  | add | fabric | 0       |
+|    add_ln840_74_fu_10656_p2            | -   |        | add_ln840_74  | add | fabric | 0       |
+|    add_ln840_75_fu_10662_p2            | -   |        | add_ln840_75  | add | fabric | 0       |
+|    add_ln840_76_fu_12229_p2            | -   |        | add_ln840_76  | add | fabric | 0       |
+|    add_ln840_77_fu_12239_p2            | -   |        | add_ln840_77  | add | fabric | 0       |
+|    add_ln840_78_fu_10668_p2            | -   |        | add_ln840_78  | add | fabric | 0       |
+|    add_ln840_79_fu_10674_p2            | -   |        | add_ln840_79  | add | fabric | 0       |
+|    add_ln840_80_fu_12255_p2            | -   |        | add_ln840_80  | add | fabric | 0       |
+|    add_ln840_81_fu_10680_p2            | -   |        | add_ln840_81  | add | fabric | 0       |
+|    add_ln840_82_fu_10686_p2            | -   |        | add_ln840_82  | add | fabric | 0       |
+|    add_ln840_83_fu_12271_p2            | -   |        | add_ln840_83  | add | fabric | 0       |
+|    add_ln840_84_fu_12281_p2            | -   |        | add_ln840_84  | add | fabric | 0       |
+|    add_ln840_85_fu_12291_p2            | -   |        | add_ln840_85  | add | fabric | 0       |
+|    add_ln840_86_fu_10692_p2            | -   |        | add_ln840_86  | add | fabric | 0       |
+|    add_ln840_87_fu_10698_p2            | -   |        | add_ln840_87  | add | fabric | 0       |
+|    add_ln840_88_fu_12307_p2            | -   |        | add_ln840_88  | add | fabric | 0       |
+|    add_ln840_89_fu_10704_p2            | -   |        | add_ln840_89  | add | fabric | 0       |
+|    add_ln840_90_fu_10710_p2            | -   |        | add_ln840_90  | add | fabric | 0       |
+|    add_ln840_91_fu_12323_p2            | -   |        | add_ln840_91  | add | fabric | 0       |
+|    add_ln840_92_fu_12333_p2            | -   |        | add_ln840_92  | add | fabric | 0       |
+|    add_ln840_93_fu_10716_p2            | -   |        | add_ln840_93  | add | fabric | 0       |
+|    add_ln840_94_fu_10722_p2            | -   |        | add_ln840_94  | add | fabric | 0       |
+|    add_ln840_95_fu_12349_p2            | -   |        | add_ln840_95  | add | fabric | 0       |
+|    add_ln840_96_fu_10728_p2            | -   |        | add_ln840_96  | add | fabric | 0       |
+|    add_ln840_97_fu_10734_p2            | -   |        | add_ln840_97  | add | fabric | 0       |
+|    add_ln840_98_fu_12365_p2            | -   |        | add_ln840_98  | add | fabric | 0       |
+|    add_ln840_99_fu_12375_p2            | -   |        | add_ln840_99  | add | fabric | 0       |
+|    add_ln840_100_fu_12385_p2           | -   |        | add_ln840_100 | add | fabric | 0       |
+|    add_ln840_101_fu_12395_p2           | -   |        | add_ln840_101 | add | fabric | 0       |
+|    add_ln840_102_fu_10740_p2           | -   |        | add_ln840_102 | add | fabric | 0       |
+|    add_ln840_103_fu_10746_p2           | -   |        | add_ln840_103 | add | fabric | 0       |
+|    add_ln840_104_fu_12407_p2           | -   |        | add_ln840_104 | add | fabric | 0       |
+|    add_ln840_105_fu_10752_p2           | -   |        | add_ln840_105 | add | fabric | 0       |
+|    add_ln840_106_fu_10758_p2           | -   |        | add_ln840_106 | add | fabric | 0       |
+|    add_ln840_107_fu_12423_p2           | -   |        | add_ln840_107 | add | fabric | 0       |
+|    add_ln840_108_fu_12433_p2           | -   |        | add_ln840_108 | add | fabric | 0       |
+|    add_ln840_109_fu_10764_p2           | -   |        | add_ln840_109 | add | fabric | 0       |
+|    add_ln840_110_fu_10770_p2           | -   |        | add_ln840_110 | add | fabric | 0       |
+|    add_ln840_111_fu_12449_p2           | -   |        | add_ln840_111 | add | fabric | 0       |
+|    add_ln840_112_fu_10776_p2           | -   |        | add_ln840_112 | add | fabric | 0       |
+|    add_ln840_113_fu_10782_p2           | -   |        | add_ln840_113 | add | fabric | 0       |
+|    add_ln840_114_fu_12465_p2           | -   |        | add_ln840_114 | add | fabric | 0       |
+|    add_ln840_115_fu_12475_p2           | -   |        | add_ln840_115 | add | fabric | 0       |
+|    add_ln840_116_fu_12485_p2           | -   |        | add_ln840_116 | add | fabric | 0       |
+|    add_ln840_117_fu_10788_p2           | -   |        | add_ln840_117 | add | fabric | 0       |
+|    add_ln840_118_fu_10794_p2           | -   |        | add_ln840_118 | add | fabric | 0       |
+|    add_ln840_119_fu_12501_p2           | -   |        | add_ln840_119 | add | fabric | 0       |
+|    add_ln840_120_fu_10800_p2           | -   |        | add_ln840_120 | add | fabric | 0       |
+|    add_ln840_121_fu_10806_p2           | -   |        | add_ln840_121 | add | fabric | 0       |
+|    add_ln840_122_fu_12517_p2           | -   |        | add_ln840_122 | add | fabric | 0       |
+|    add_ln840_123_fu_12527_p2           | -   |        | add_ln840_123 | add | fabric | 0       |
+|    add_ln840_124_fu_10812_p2           | -   |        | add_ln840_124 | add | fabric | 0       |
+|    add_ln840_125_fu_10818_p2           | -   |        | add_ln840_125 | add | fabric | 0       |
+|    add_ln840_126_fu_12543_p2           | -   |        | add_ln840_126 | add | fabric | 0       |
+|    add_ln840_127_fu_10824_p2           | -   |        | add_ln840_127 | add | fabric | 0       |
+|    add_ln840_128_fu_10830_p2           | -   |        | add_ln840_128 | add | fabric | 0       |
+|    add_ln840_129_fu_12559_p2           | -   |        | add_ln840_129 | add | fabric | 0       |
+|    add_ln840_130_fu_12569_p2           | -   |        | add_ln840_130 | add | fabric | 0       |
+|    add_ln840_131_fu_12579_p2           | -   |        | add_ln840_131 | add | fabric | 0       |
+|    add_ln840_132_fu_12589_p2           | -   |        | add_ln840_132 | add | fabric | 0       |
+|    add_ln840_133_fu_13527_p2           | -   |        | add_ln840_133 | add | fabric | 0       |
+|    add_ln840_137_fu_10848_p2           | -   |        | add_ln840_137 | add | fabric | 0       |
+|    add_ln840_138_fu_10854_p2           | -   |        | add_ln840_138 | add | fabric | 0       |
+|    add_ln840_141_fu_12620_p2           | -   |        | add_ln840_141 | add | fabric | 0       |
+|    add_ln840_142_fu_12630_p2           | -   |        | add_ln840_142 | add | fabric | 0       |
+|    add_ln840_143_fu_12640_p2           | -   |        | add_ln840_143 | add | fabric | 0       |
+|    add_ln840_144_fu_12650_p2           | -   |        | add_ln840_144 | add | fabric | 0       |
+|    add_ln840_145_fu_12660_p2           | -   |        | add_ln840_145 | add | fabric | 0       |
+|    add_ln840_146_fu_12670_p2           | -   |        | add_ln840_146 | add | fabric | 0       |
+|    add_ln840_149_fu_12692_p2           | -   |        | add_ln840_149 | add | fabric | 0       |
+|    add_ln840_150_fu_12702_p2           | -   |        | add_ln840_150 | add | fabric | 0       |
+|    add_ln840_151_fu_12712_p2           | -   |        | add_ln840_151 | add | fabric | 0       |
+|    add_ln840_152_fu_12722_p2           | -   |        | add_ln840_152 | add | fabric | 0       |
+|    add_ln840_153_fu_12732_p2           | -   |        | add_ln840_153 | add | fabric | 0       |
+|    add_ln840_154_fu_12742_p2           | -   |        | add_ln840_154 | add | fabric | 0       |
+|    add_ln840_155_fu_12752_p2           | -   |        | add_ln840_155 | add | fabric | 0       |
+|    add_ln840_156_fu_12758_p2           | -   |        | add_ln840_156 | add | fabric | 0       |
+|    add_ln840_157_fu_12768_p2           | -   |        | add_ln840_157 | add | fabric | 0       |
+|    add_ln840_158_fu_12778_p2           | -   |        | add_ln840_158 | add | fabric | 0       |
+|    add_ln840_159_fu_12788_p2           | -   |        | add_ln840_159 | add | fabric | 0       |
+|    add_ln840_160_fu_12798_p2           | -   |        | add_ln840_160 | add | fabric | 0       |
+|    add_ln840_161_fu_12808_p2           | -   |        | add_ln840_161 | add | fabric | 0       |
+|    add_ln840_162_fu_12818_p2           | -   |        | add_ln840_162 | add | fabric | 0       |
+|    add_ln840_165_fu_12824_p2           | -   |        | add_ln840_165 | add | fabric | 0       |
+|    add_ln840_166_fu_12834_p2           | -   |        | add_ln840_166 | add | fabric | 0       |
+|    add_ln840_167_fu_12844_p2           | -   |        | add_ln840_167 | add | fabric | 0       |
+|    add_ln840_168_fu_12854_p2           | -   |        | add_ln840_168 | add | fabric | 0       |
+|    add_ln840_169_fu_12864_p2           | -   |        | add_ln840_169 | add | fabric | 0       |
+|    add_ln840_170_fu_12874_p2           | -   |        | add_ln840_170 | add | fabric | 0       |
+|    add_ln840_171_fu_12884_p2           | -   |        | add_ln840_171 | add | fabric | 0       |
+|    add_ln840_172_fu_12894_p2           | -   |        | add_ln840_172 | add | fabric | 0       |
+|    add_ln840_173_fu_12904_p2           | -   |        | add_ln840_173 | add | fabric | 0       |
+|    add_ln840_174_fu_12914_p2           | -   |        | add_ln840_174 | add | fabric | 0       |
+|    add_ln840_175_fu_12924_p2           | -   |        | add_ln840_175 | add | fabric | 0       |
+|    add_ln840_176_fu_12934_p2           | -   |        | add_ln840_176 | add | fabric | 0       |
+|    add_ln840_177_fu_12944_p2           | -   |        | add_ln840_177 | add | fabric | 0       |
+|    add_ln840_178_fu_12954_p2           | -   |        | add_ln840_178 | add | fabric | 0       |
+|    add_ln840_179_fu_12964_p2           | -   |        | add_ln840_179 | add | fabric | 0       |
+|    add_ln840_180_fu_12970_p2           | -   |        | add_ln840_180 | add | fabric | 0       |
+|    add_ln840_181_fu_12980_p2           | -   |        | add_ln840_181 | add | fabric | 0       |
+|    add_ln840_182_fu_12990_p2           | -   |        | add_ln840_182 | add | fabric | 0       |
+|    add_ln840_183_fu_13000_p2           | -   |        | add_ln840_183 | add | fabric | 0       |
+|    add_ln840_184_fu_13010_p2           | -   |        | add_ln840_184 | add | fabric | 0       |
+|    add_ln840_185_fu_13020_p2           | -   |        | add_ln840_185 | add | fabric | 0       |
+|    add_ln840_186_fu_13030_p2           | -   |        | add_ln840_186 | add | fabric | 0       |
+|    add_ln840_187_fu_13040_p2           | -   |        | add_ln840_187 | add | fabric | 0       |
+|    add_ln840_188_fu_13050_p2           | -   |        | add_ln840_188 | add | fabric | 0       |
+|    add_ln840_189_fu_13060_p2           | -   |        | add_ln840_189 | add | fabric | 0       |
+|    add_ln840_190_fu_13070_p2           | -   |        | add_ln840_190 | add | fabric | 0       |
+|    add_ln840_191_fu_13080_p2           | -   |        | add_ln840_191 | add | fabric | 0       |
+|    add_ln840_192_fu_13090_p2           | -   |        | add_ln840_192 | add | fabric | 0       |
+|    add_ln840_193_fu_13100_p2           | -   |        | add_ln840_193 | add | fabric | 0       |
+|    add_ln840_194_fu_13110_p2           | -   |        | add_ln840_194 | add | fabric | 0       |
+|    add_ln840_197_fu_10860_p2           | -   |        | add_ln840_197 | add | fabric | 0       |
+|    add_ln840_198_fu_10866_p2           | -   |        | add_ln840_198 | add | fabric | 0       |
+|    add_ln840_199_fu_13122_p2           | -   |        | add_ln840_199 | add | fabric | 0       |
+|    add_ln840_200_fu_10872_p2           | -   |        | add_ln840_200 | add | fabric | 0       |
+|    add_ln840_201_fu_10878_p2           | -   |        | add_ln840_201 | add | fabric | 0       |
+|    add_ln840_202_fu_13138_p2           | -   |        | add_ln840_202 | add | fabric | 0       |
+|    add_ln840_203_fu_13148_p2           | -   |        | add_ln840_203 | add | fabric | 0       |
+|    add_ln840_204_fu_10884_p2           | -   |        | add_ln840_204 | add | fabric | 0       |
+|    add_ln840_205_fu_10890_p2           | -   |        | add_ln840_205 | add | fabric | 0       |
+|    add_ln840_206_fu_13164_p2           | -   |        | add_ln840_206 | add | fabric | 0       |
+|    add_ln840_207_fu_10896_p2           | -   |        | add_ln840_207 | add | fabric | 0       |
+|    add_ln840_208_fu_10902_p2           | -   |        | add_ln840_208 | add | fabric | 0       |
+|    add_ln840_209_fu_13180_p2           | -   |        | add_ln840_209 | add | fabric | 0       |
+|    add_ln840_210_fu_13190_p2           | -   |        | add_ln840_210 | add | fabric | 0       |
+|    add_ln840_211_fu_13200_p2           | -   |        | add_ln840_211 | add | fabric | 0       |
+|    add_ln840_212_fu_10908_p2           | -   |        | add_ln840_212 | add | fabric | 0       |
+|    add_ln840_213_fu_10914_p2           | -   |        | add_ln840_213 | add | fabric | 0       |
+|    add_ln840_214_fu_13216_p2           | -   |        | add_ln840_214 | add | fabric | 0       |
+|    add_ln840_215_fu_10920_p2           | -   |        | add_ln840_215 | add | fabric | 0       |
+|    add_ln840_216_fu_10926_p2           | -   |        | add_ln840_216 | add | fabric | 0       |
+|    add_ln840_217_fu_13232_p2           | -   |        | add_ln840_217 | add | fabric | 0       |
+|    add_ln840_218_fu_13242_p2           | -   |        | add_ln840_218 | add | fabric | 0       |
+|    add_ln840_219_fu_10932_p2           | -   |        | add_ln840_219 | add | fabric | 0       |
+|    add_ln840_220_fu_10938_p2           | -   |        | add_ln840_220 | add | fabric | 0       |
+|    add_ln840_221_fu_13258_p2           | -   |        | add_ln840_221 | add | fabric | 0       |
+|    add_ln840_222_fu_10944_p2           | -   |        | add_ln840_222 | add | fabric | 0       |
+|    add_ln840_223_fu_10950_p2           | -   |        | add_ln840_223 | add | fabric | 0       |
+|    add_ln840_224_fu_13274_p2           | -   |        | add_ln840_224 | add | fabric | 0       |
+|    add_ln840_225_fu_13284_p2           | -   |        | add_ln840_225 | add | fabric | 0       |
+|    add_ln840_226_fu_13294_p2           | -   |        | add_ln840_226 | add | fabric | 0       |
+|    add_ln840_227_fu_13304_p2           | -   |        | add_ln840_227 | add | fabric | 0       |
+|    add_ln840_228_fu_10956_p2           | -   |        | add_ln840_228 | add | fabric | 0       |
+|    add_ln840_229_fu_10962_p2           | -   |        | add_ln840_229 | add | fabric | 0       |
+|    add_ln840_230_fu_13316_p2           | -   |        | add_ln840_230 | add | fabric | 0       |
+|    add_ln840_231_fu_10968_p2           | -   |        | add_ln840_231 | add | fabric | 0       |
+|    add_ln840_232_fu_10974_p2           | -   |        | add_ln840_232 | add | fabric | 0       |
+|    add_ln840_233_fu_13332_p2           | -   |        | add_ln840_233 | add | fabric | 0       |
+|    add_ln840_234_fu_13342_p2           | -   |        | add_ln840_234 | add | fabric | 0       |
+|    add_ln840_235_fu_10980_p2           | -   |        | add_ln840_235 | add | fabric | 0       |
+|    add_ln840_236_fu_10986_p2           | -   |        | add_ln840_236 | add | fabric | 0       |
+|    add_ln840_237_fu_13358_p2           | -   |        | add_ln840_237 | add | fabric | 0       |
+|    add_ln840_238_fu_10992_p2           | -   |        | add_ln840_238 | add | fabric | 0       |
+|    add_ln840_239_fu_10998_p2           | -   |        | add_ln840_239 | add | fabric | 0       |
+|    add_ln840_240_fu_13374_p2           | -   |        | add_ln840_240 | add | fabric | 0       |
+|    add_ln840_241_fu_13384_p2           | -   |        | add_ln840_241 | add | fabric | 0       |
+|    add_ln840_242_fu_13394_p2           | -   |        | add_ln840_242 | add | fabric | 0       |
+|    add_ln840_243_fu_11004_p2           | -   |        | add_ln840_243 | add | fabric | 0       |
+|    add_ln840_244_fu_11010_p2           | -   |        | add_ln840_244 | add | fabric | 0       |
+|    add_ln840_245_fu_13410_p2           | -   |        | add_ln840_245 | add | fabric | 0       |
+|    add_ln840_246_fu_11016_p2           | -   |        | add_ln840_246 | add | fabric | 0       |
+|    add_ln840_247_fu_11022_p2           | -   |        | add_ln840_247 | add | fabric | 0       |
+|    add_ln840_248_fu_13426_p2           | -   |        | add_ln840_248 | add | fabric | 0       |
+|    add_ln840_249_fu_13436_p2           | -   |        | add_ln840_249 | add | fabric | 0       |
+|    add_ln840_250_fu_11028_p2           | -   |        | add_ln840_250 | add | fabric | 0       |
+|    add_ln840_251_fu_11034_p2           | -   |        | add_ln840_251 | add | fabric | 0       |
+|    add_ln840_252_fu_13452_p2           | -   |        | add_ln840_252 | add | fabric | 0       |
+|    add_ln840_253_fu_11040_p2           | -   |        | add_ln840_253 | add | fabric | 0       |
+|    add_ln840_254_fu_11046_p2           | -   |        | add_ln840_254 | add | fabric | 0       |
+|    add_ln840_255_fu_13468_p2           | -   |        | add_ln840_255 | add | fabric | 0       |
+|    add_ln840_256_fu_13478_p2           | -   |        | add_ln840_256 | add | fabric | 0       |
+|    add_ln840_257_fu_13488_p2           | -   |        | add_ln840_257 | add | fabric | 0       |
+|    add_ln840_258_fu_13498_p2           | -   |        | add_ln840_258 | add | fabric | 0       |
+|    nf_fu_6005_p2                       | -   |        | nf            | add | fabric | 0       |
++----------------------------------------+-----+--------+---------------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
++----------------------------------------+------+------+--------+------------------+---------+------+---------+
+| Name                                   | BRAM | URAM | Pragma | Variable         | Storage | Impl | Latency |
++----------------------------------------+------+------+--------+------------------+---------+------+---------+
+| + MVAU_hls_8                           | 0    | 0    |        |                  |         |      |         |
+|  + Matrix_Vector_Activate_Stream_Batch | 0    | 0    |        |                  |         |      |         |
+|    p_ZL7threshs_0_U                    | -    | -    |        | p_ZL7threshs_0   | rom_1p  | auto | 1       |
+|    p_ZL7threshs_1_U                    | -    | -    |        | p_ZL7threshs_1   | rom_1p  | auto | 1       |
+|    p_ZL7threshs_2_U                    | -    | -    |        | p_ZL7threshs_2   | rom_1p  | auto | 1       |
+|    p_ZL7threshs_3_U                    | -    | -    |        | p_ZL7threshs_3   | rom_1p  | auto | 1       |
+|    p_ZL7threshs_4_U                    | -    | -    |        | p_ZL7threshs_4   | rom_1p  | auto | 1       |
+|    p_ZL7threshs_5_U                    | -    | -    |        | p_ZL7threshs_5   | rom_1p  | auto | 1       |
+|    p_ZL7threshs_6_U                    | -    | -    |        | p_ZL7threshs_6   | rom_1p  | auto | 1       |
+|    p_ZL7threshs_7_U                    | -    | -    |        | p_ZL7threshs_7   | rom_1p  | auto | 1       |
+|    p_ZL7threshs_8_U                    | -    | -    |        | p_ZL7threshs_8   | rom_1p  | auto | 1       |
+|    p_ZL7threshs_9_U                    | -    | -    |        | p_ZL7threshs_9   | rom_1p  | auto | 1       |
+|    p_ZL7threshs_10_U                   | -    | -    |        | p_ZL7threshs_10  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_11_U                   | -    | -    |        | p_ZL7threshs_11  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_12_U                   | -    | -    |        | p_ZL7threshs_12  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_13_U                   | -    | -    |        | p_ZL7threshs_13  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_14_U                   | -    | -    |        | p_ZL7threshs_14  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_15_U                   | -    | -    |        | p_ZL7threshs_15  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_16_U                   | -    | -    |        | p_ZL7threshs_16  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_17_U                   | -    | -    |        | p_ZL7threshs_17  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_18_U                   | -    | -    |        | p_ZL7threshs_18  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_19_U                   | -    | -    |        | p_ZL7threshs_19  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_20_U                   | -    | -    |        | p_ZL7threshs_20  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_21_U                   | -    | -    |        | p_ZL7threshs_21  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_22_U                   | -    | -    |        | p_ZL7threshs_22  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_23_U                   | -    | -    |        | p_ZL7threshs_23  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_24_U                   | -    | -    |        | p_ZL7threshs_24  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_25_U                   | -    | -    |        | p_ZL7threshs_25  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_26_U                   | -    | -    |        | p_ZL7threshs_26  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_27_U                   | -    | -    |        | p_ZL7threshs_27  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_28_U                   | -    | -    |        | p_ZL7threshs_28  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_29_U                   | -    | -    |        | p_ZL7threshs_29  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_30_U                   | -    | -    |        | p_ZL7threshs_30  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_31_U                   | -    | -    |        | p_ZL7threshs_31  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_32_U                   | -    | -    |        | p_ZL7threshs_32  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_33_U                   | -    | -    |        | p_ZL7threshs_33  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_34_U                   | -    | -    |        | p_ZL7threshs_34  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_35_U                   | -    | -    |        | p_ZL7threshs_35  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_36_U                   | -    | -    |        | p_ZL7threshs_36  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_37_U                   | -    | -    |        | p_ZL7threshs_37  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_38_U                   | -    | -    |        | p_ZL7threshs_38  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_39_U                   | -    | -    |        | p_ZL7threshs_39  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_40_U                   | -    | -    |        | p_ZL7threshs_40  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_41_U                   | -    | -    |        | p_ZL7threshs_41  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_42_U                   | -    | -    |        | p_ZL7threshs_42  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_43_U                   | -    | -    |        | p_ZL7threshs_43  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_44_U                   | -    | -    |        | p_ZL7threshs_44  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_45_U                   | -    | -    |        | p_ZL7threshs_45  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_46_U                   | -    | -    |        | p_ZL7threshs_46  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_47_U                   | -    | -    |        | p_ZL7threshs_47  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_48_U                   | -    | -    |        | p_ZL7threshs_48  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_49_U                   | -    | -    |        | p_ZL7threshs_49  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_50_U                   | -    | -    |        | p_ZL7threshs_50  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_51_U                   | -    | -    |        | p_ZL7threshs_51  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_52_U                   | -    | -    |        | p_ZL7threshs_52  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_53_U                   | -    | -    |        | p_ZL7threshs_53  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_54_U                   | -    | -    |        | p_ZL7threshs_54  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_55_U                   | -    | -    |        | p_ZL7threshs_55  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_56_U                   | -    | -    |        | p_ZL7threshs_56  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_57_U                   | -    | -    |        | p_ZL7threshs_57  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_58_U                   | -    | -    |        | p_ZL7threshs_58  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_59_U                   | -    | -    |        | p_ZL7threshs_59  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_60_U                   | -    | -    |        | p_ZL7threshs_60  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_61_U                   | -    | -    |        | p_ZL7threshs_61  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_62_U                   | -    | -    |        | p_ZL7threshs_62  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_63_U                   | -    | -    |        | p_ZL7threshs_63  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_64_U                   | -    | -    |        | p_ZL7threshs_64  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_65_U                   | -    | -    |        | p_ZL7threshs_65  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_66_U                   | -    | -    |        | p_ZL7threshs_66  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_67_U                   | -    | -    |        | p_ZL7threshs_67  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_68_U                   | -    | -    |        | p_ZL7threshs_68  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_69_U                   | -    | -    |        | p_ZL7threshs_69  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_70_U                   | -    | -    |        | p_ZL7threshs_70  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_71_U                   | -    | -    |        | p_ZL7threshs_71  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_72_U                   | -    | -    |        | p_ZL7threshs_72  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_73_U                   | -    | -    |        | p_ZL7threshs_73  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_74_U                   | -    | -    |        | p_ZL7threshs_74  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_75_U                   | -    | -    |        | p_ZL7threshs_75  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_76_U                   | -    | -    |        | p_ZL7threshs_76  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_77_U                   | -    | -    |        | p_ZL7threshs_77  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_78_U                   | -    | -    |        | p_ZL7threshs_78  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_79_U                   | -    | -    |        | p_ZL7threshs_79  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_80_U                   | -    | -    |        | p_ZL7threshs_80  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_81_U                   | -    | -    |        | p_ZL7threshs_81  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_82_U                   | -    | -    |        | p_ZL7threshs_82  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_83_U                   | -    | -    |        | p_ZL7threshs_83  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_84_U                   | -    | -    |        | p_ZL7threshs_84  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_85_U                   | -    | -    |        | p_ZL7threshs_85  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_86_U                   | -    | -    |        | p_ZL7threshs_86  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_87_U                   | -    | -    |        | p_ZL7threshs_87  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_88_U                   | -    | -    |        | p_ZL7threshs_88  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_89_U                   | -    | -    |        | p_ZL7threshs_89  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_90_U                   | -    | -    |        | p_ZL7threshs_90  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_91_U                   | -    | -    |        | p_ZL7threshs_91  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_92_U                   | -    | -    |        | p_ZL7threshs_92  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_93_U                   | -    | -    |        | p_ZL7threshs_93  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_94_U                   | -    | -    |        | p_ZL7threshs_94  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_95_U                   | -    | -    |        | p_ZL7threshs_95  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_96_U                   | -    | -    |        | p_ZL7threshs_96  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_97_U                   | -    | -    |        | p_ZL7threshs_97  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_98_U                   | -    | -    |        | p_ZL7threshs_98  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_99_U                   | -    | -    |        | p_ZL7threshs_99  | rom_1p  | auto | 1       |
+|    p_ZL7threshs_100_U                  | -    | -    |        | p_ZL7threshs_100 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_101_U                  | -    | -    |        | p_ZL7threshs_101 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_102_U                  | -    | -    |        | p_ZL7threshs_102 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_103_U                  | -    | -    |        | p_ZL7threshs_103 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_104_U                  | -    | -    |        | p_ZL7threshs_104 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_105_U                  | -    | -    |        | p_ZL7threshs_105 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_106_U                  | -    | -    |        | p_ZL7threshs_106 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_107_U                  | -    | -    |        | p_ZL7threshs_107 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_108_U                  | -    | -    |        | p_ZL7threshs_108 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_109_U                  | -    | -    |        | p_ZL7threshs_109 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_110_U                  | -    | -    |        | p_ZL7threshs_110 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_111_U                  | -    | -    |        | p_ZL7threshs_111 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_112_U                  | -    | -    |        | p_ZL7threshs_112 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_113_U                  | -    | -    |        | p_ZL7threshs_113 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_114_U                  | -    | -    |        | p_ZL7threshs_114 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_115_U                  | -    | -    |        | p_ZL7threshs_115 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_116_U                  | -    | -    |        | p_ZL7threshs_116 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_117_U                  | -    | -    |        | p_ZL7threshs_117 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_118_U                  | -    | -    |        | p_ZL7threshs_118 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_119_U                  | -    | -    |        | p_ZL7threshs_119 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_120_U                  | -    | -    |        | p_ZL7threshs_120 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_121_U                  | -    | -    |        | p_ZL7threshs_121 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_122_U                  | -    | -    |        | p_ZL7threshs_122 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_123_U                  | -    | -    |        | p_ZL7threshs_123 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_124_U                  | -    | -    |        | p_ZL7threshs_124 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_125_U                  | -    | -    |        | p_ZL7threshs_125 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_126_U                  | -    | -    |        | p_ZL7threshs_126 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_127_U                  | -    | -    |        | p_ZL7threshs_127 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_128_U                  | -    | -    |        | p_ZL7threshs_128 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_129_U                  | -    | -    |        | p_ZL7threshs_129 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_130_U                  | -    | -    |        | p_ZL7threshs_130 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_131_U                  | -    | -    |        | p_ZL7threshs_131 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_132_U                  | -    | -    |        | p_ZL7threshs_132 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_133_U                  | -    | -    |        | p_ZL7threshs_133 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_134_U                  | -    | -    |        | p_ZL7threshs_134 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_135_U                  | -    | -    |        | p_ZL7threshs_135 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_136_U                  | -    | -    |        | p_ZL7threshs_136 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_137_U                  | -    | -    |        | p_ZL7threshs_137 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_138_U                  | -    | -    |        | p_ZL7threshs_138 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_139_U                  | -    | -    |        | p_ZL7threshs_139 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_140_U                  | -    | -    |        | p_ZL7threshs_140 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_141_U                  | -    | -    |        | p_ZL7threshs_141 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_142_U                  | -    | -    |        | p_ZL7threshs_142 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_143_U                  | -    | -    |        | p_ZL7threshs_143 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_144_U                  | -    | -    |        | p_ZL7threshs_144 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_145_U                  | -    | -    |        | p_ZL7threshs_145 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_146_U                  | -    | -    |        | p_ZL7threshs_146 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_147_U                  | -    | -    |        | p_ZL7threshs_147 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_148_U                  | -    | -    |        | p_ZL7threshs_148 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_149_U                  | -    | -    |        | p_ZL7threshs_149 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_150_U                  | -    | -    |        | p_ZL7threshs_150 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_151_U                  | -    | -    |        | p_ZL7threshs_151 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_152_U                  | -    | -    |        | p_ZL7threshs_152 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_153_U                  | -    | -    |        | p_ZL7threshs_153 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_154_U                  | -    | -    |        | p_ZL7threshs_154 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_155_U                  | -    | -    |        | p_ZL7threshs_155 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_156_U                  | -    | -    |        | p_ZL7threshs_156 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_157_U                  | -    | -    |        | p_ZL7threshs_157 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_158_U                  | -    | -    |        | p_ZL7threshs_158 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_159_U                  | -    | -    |        | p_ZL7threshs_159 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_160_U                  | -    | -    |        | p_ZL7threshs_160 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_161_U                  | -    | -    |        | p_ZL7threshs_161 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_162_U                  | -    | -    |        | p_ZL7threshs_162 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_163_U                  | -    | -    |        | p_ZL7threshs_163 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_164_U                  | -    | -    |        | p_ZL7threshs_164 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_165_U                  | -    | -    |        | p_ZL7threshs_165 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_166_U                  | -    | -    |        | p_ZL7threshs_166 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_167_U                  | -    | -    |        | p_ZL7threshs_167 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_168_U                  | -    | -    |        | p_ZL7threshs_168 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_169_U                  | -    | -    |        | p_ZL7threshs_169 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_170_U                  | -    | -    |        | p_ZL7threshs_170 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_171_U                  | -    | -    |        | p_ZL7threshs_171 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_172_U                  | -    | -    |        | p_ZL7threshs_172 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_173_U                  | -    | -    |        | p_ZL7threshs_173 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_174_U                  | -    | -    |        | p_ZL7threshs_174 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_175_U                  | -    | -    |        | p_ZL7threshs_175 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_176_U                  | -    | -    |        | p_ZL7threshs_176 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_177_U                  | -    | -    |        | p_ZL7threshs_177 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_178_U                  | -    | -    |        | p_ZL7threshs_178 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_179_U                  | -    | -    |        | p_ZL7threshs_179 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_180_U                  | -    | -    |        | p_ZL7threshs_180 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_181_U                  | -    | -    |        | p_ZL7threshs_181 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_182_U                  | -    | -    |        | p_ZL7threshs_182 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_183_U                  | -    | -    |        | p_ZL7threshs_183 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_184_U                  | -    | -    |        | p_ZL7threshs_184 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_185_U                  | -    | -    |        | p_ZL7threshs_185 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_186_U                  | -    | -    |        | p_ZL7threshs_186 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_187_U                  | -    | -    |        | p_ZL7threshs_187 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_188_U                  | -    | -    |        | p_ZL7threshs_188 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_189_U                  | -    | -    |        | p_ZL7threshs_189 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_190_U                  | -    | -    |        | p_ZL7threshs_190 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_191_U                  | -    | -    |        | p_ZL7threshs_191 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_192_U                  | -    | -    |        | p_ZL7threshs_192 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_193_U                  | -    | -    |        | p_ZL7threshs_193 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_194_U                  | -    | -    |        | p_ZL7threshs_194 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_195_U                  | -    | -    |        | p_ZL7threshs_195 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_196_U                  | -    | -    |        | p_ZL7threshs_196 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_197_U                  | -    | -    |        | p_ZL7threshs_197 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_198_U                  | -    | -    |        | p_ZL7threshs_198 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_199_U                  | -    | -    |        | p_ZL7threshs_199 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_200_U                  | -    | -    |        | p_ZL7threshs_200 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_201_U                  | -    | -    |        | p_ZL7threshs_201 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_202_U                  | -    | -    |        | p_ZL7threshs_202 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_203_U                  | -    | -    |        | p_ZL7threshs_203 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_204_U                  | -    | -    |        | p_ZL7threshs_204 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_205_U                  | -    | -    |        | p_ZL7threshs_205 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_206_U                  | -    | -    |        | p_ZL7threshs_206 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_207_U                  | -    | -    |        | p_ZL7threshs_207 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_208_U                  | -    | -    |        | p_ZL7threshs_208 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_209_U                  | -    | -    |        | p_ZL7threshs_209 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_210_U                  | -    | -    |        | p_ZL7threshs_210 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_211_U                  | -    | -    |        | p_ZL7threshs_211 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_212_U                  | -    | -    |        | p_ZL7threshs_212 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_213_U                  | -    | -    |        | p_ZL7threshs_213 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_214_U                  | -    | -    |        | p_ZL7threshs_214 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_215_U                  | -    | -    |        | p_ZL7threshs_215 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_216_U                  | -    | -    |        | p_ZL7threshs_216 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_217_U                  | -    | -    |        | p_ZL7threshs_217 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_218_U                  | -    | -    |        | p_ZL7threshs_218 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_219_U                  | -    | -    |        | p_ZL7threshs_219 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_220_U                  | -    | -    |        | p_ZL7threshs_220 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_221_U                  | -    | -    |        | p_ZL7threshs_221 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_222_U                  | -    | -    |        | p_ZL7threshs_222 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_223_U                  | -    | -    |        | p_ZL7threshs_223 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_224_U                  | -    | -    |        | p_ZL7threshs_224 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_225_U                  | -    | -    |        | p_ZL7threshs_225 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_226_U                  | -    | -    |        | p_ZL7threshs_226 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_227_U                  | -    | -    |        | p_ZL7threshs_227 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_228_U                  | -    | -    |        | p_ZL7threshs_228 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_229_U                  | -    | -    |        | p_ZL7threshs_229 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_230_U                  | -    | -    |        | p_ZL7threshs_230 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_231_U                  | -    | -    |        | p_ZL7threshs_231 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_232_U                  | -    | -    |        | p_ZL7threshs_232 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_233_U                  | -    | -    |        | p_ZL7threshs_233 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_234_U                  | -    | -    |        | p_ZL7threshs_234 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_235_U                  | -    | -    |        | p_ZL7threshs_235 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_236_U                  | -    | -    |        | p_ZL7threshs_236 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_237_U                  | -    | -    |        | p_ZL7threshs_237 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_238_U                  | -    | -    |        | p_ZL7threshs_238 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_239_U                  | -    | -    |        | p_ZL7threshs_239 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_240_U                  | -    | -    |        | p_ZL7threshs_240 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_241_U                  | -    | -    |        | p_ZL7threshs_241 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_242_U                  | -    | -    |        | p_ZL7threshs_242 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_243_U                  | -    | -    |        | p_ZL7threshs_243 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_244_U                  | -    | -    |        | p_ZL7threshs_244 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_245_U                  | -    | -    |        | p_ZL7threshs_245 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_246_U                  | -    | -    |        | p_ZL7threshs_246 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_247_U                  | -    | -    |        | p_ZL7threshs_247 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_248_U                  | -    | -    |        | p_ZL7threshs_248 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_249_U                  | -    | -    |        | p_ZL7threshs_249 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_250_U                  | -    | -    |        | p_ZL7threshs_250 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_251_U                  | -    | -    |        | p_ZL7threshs_251 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_252_U                  | -    | -    |        | p_ZL7threshs_252 | rom_1p  | auto | 1       |
+|    p_ZL7threshs_253_U                  | -    | -    |        | p_ZL7threshs_253 | rom_1p  | auto | 1       |
++----------------------------------------+------+------+--------+------------------+---------+------+---------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------------+---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| Type            | Options                                           | Location                                                                                                                                 |
++-----------------+---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:145 in init                                                              |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:163 in activate                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:180 in thresholdactivation<ta, compare>                                  |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:185 in activate                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:208 in init                                                              |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:214 in activate                                                          |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:217 in activate                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:247 in init                                                              |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:252 in activate                                                          |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:296 in thresholding_batch                                                |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:302 in thresholding_batch                                                |
+| array_partition | variable=internal_thr.m_thresholds complete dim=0 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:352 in thresholding_stream_batch, internal_thr.m_thresholds              |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:358 in thresholding_stream_batch                                         |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:371 in thresholding_stream_batch                                         |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:376 in thresholding_stream_batch                                         |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/convlayer.h:113 in convlayer_batch                                                       |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/convlayer.h:198 in convlayer_batch_tmr                                                   |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/convlayer.h:284 in convlayer_batch_mmv                                                   |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/dma.h:141 in mem2stream                                                                  |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/dma.h:154 in stream2mem                                                                  |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/dma.h:224 in genparamstream                                                              |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:62 in xnormul                                                              |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:67 in operator*                                                            |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:72 in operator*                                                            |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:80 in binary                                                               |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:89 in operator*                                                            |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:97 in operator*                                                            |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:102 in operator*                                                           |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:116 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:122 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:138 in container<tv>                                                       |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:143 in operator[]                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:147 in operator[]                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:151 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:155 in operator const type-parameter-1-0 &                                 |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:163 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:168 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:173 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:204 in container<tv>                                                       |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:207 in container<tv>                                                       |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:211 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:215 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:220 in operator[]                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:224 in operator const type-parameter-1-0 &                                 |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:232 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:237 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:242 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:261 in container<tv>                                                       |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:264 in container<tv>                                                       |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:267 in container<tv>                                                       |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:271 in operator const type-parameter-1-0 &                                 |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:275 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:279 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:284 in operator[]                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:292 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:297 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:302 in operator()                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:89 in mul                                                                        |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:114 in mul                                                                       |
+| bind_op         | variable=res op=mul impl=fabric                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:116 in mul, res                                                                  |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:140 in mul                                                                       |
+| bind_op         | variable=res op=mul impl=dsp                      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:142 in mul, res                                                                  |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:165 in mac                                                                       |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:168 in mac                                                                       |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:192 in mac                                                                       |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:195 in mac                                                                       |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:202 in mac                                                                       |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:74 in streamingmaxpool                                                         |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:83 in streamingmaxpool                                                         |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:91 in streamingmaxpool                                                         |
+| array_partition | variable=buf complete dim=2                       | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:146 in streamingmaxpool_precision, buf                                         |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:149 in streamingmaxpool_precision                                              |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:159 in streamingmaxpool_precision                                              |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:162 in streamingmaxpool_precision                                              |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:176 in streamingmaxpool_precision                                              |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:210 in streamingmaxpool_precision_batch                                        |
+| array_partition | variable=buf complete dim=2                       | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:255 in streamingmaxpool_precision_1d, buf                                      |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:258 in streamingmaxpool_precision_1d                                           |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:260 in streamingmaxpool_precision_1d                                           |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:272 in streamingmaxpool_precision_1d                                           |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:275 in streamingmaxpool_precision_1d                                           |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:288 in streamingmaxpool_precision_1d                                           |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:290 in streamingmaxpool_precision_1d                                           |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:302 in streamingmaxpool_precision_1d                                           |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:331 in streamingmaxpool_precision_batch_1d                                     |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:370 in relu_batch                                                              |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:373 in relu_batch                                                              |
+| bind_storage    | variable=accumulators type=RAM_2P impl=LUTRAM     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:415 in accpool_batch, accumulators                                             |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:421 in accpool_batch                                                           |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:425 in accpool_batch                                                           |
+| array_partition | variable=topval complete dim=1                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:477 in labelselect_batch, topval                                               |
+| array_partition | variable=toplabels complete dim=1                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:479 in labelselect_batch, toplabels                                            |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:484 in labelselect_batch                                                       |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:489 in labelselect_batch                                                       |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:492 in labelselect_batch                                                       |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:501 in labelselect_batch                                                       |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:508 in labelselect_batch                                                       |
+| array_partition | variable=accu complete dim=0                      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:570 in pool_batch, accu                                                        |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:576 in pool_batch                                                              |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:583 in pool_batch                                                              |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:590 in pool_batch                                                              |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:599 in pool_batch                                                              |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mmv.hpp:53 in operator[]                                                                 |
+| array_partition | variable=inputBuf complete dim=0                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:110 in matrix_vector_activate_batch, inputBuf                                   |
+| array_partition | variable=accu complete dim=0                      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:114 in matrix_vector_activate_batch, accu                                       |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:124 in matrix_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:140 in matrix_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:142 in matrix_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:151 in matrix_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:165 in matrix_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:167 in matrix_vector_activate_batch                                             |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:232 in matrix_vector_activate_stream_batch, inputBuf                            |
+| array_partition | variable=accu complete dim=0                      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:235 in matrix_vector_activate_stream_batch, accu                                |
+| array_partition | variable=w.m_weights complete dim=0               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:238 in matrix_vector_activate_stream_batch, w.m_weights                         |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:250 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:267 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:274 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:281 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:294 in matrix_vector_activate_stream_batch                                      |
+| bind_storage    | variable=inputBuf type=RAM_2P                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:74 in memory_resource, inputBuf                                          |
+| bind_storage    | variable=inputBuf type=RAM_S2P impl=BRAM          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:95 in memory_resource, inputBuf                                          |
+| bind_storage    | variable=inputBuf type=RAM_S2P impl=URAM          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:116 in memory_resource, inputBuf                                         |
+| bind_storage    | variable=inputBuf type=RAM_S2P impl=LUTRAM        | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:137 in memory_resource, inputBuf                                         |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:177 in convolutioninputgenerator, inputBuf                               |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:192 in convolutioninputgenerator                                         |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:243 in convolutioninputgenerator, inputBuf                               |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:244 in convolutioninputgenerator, inputBuf                               |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:254 in convolutioninputgenerator, current_block_write                    |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:308 in convolutioninputgenerator_mmv, inputBuf                           |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:309 in convolutioninputgenerator_mmv, inputBuf                           |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:310 in convolutioninputgenerator_mmv, inputBuf                           |
+| array_partition | variable=inputBuf complete dim=2                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:311 in convolutioninputgenerator_mmv, inputBuf                           |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:326 in convolutioninputgenerator_mmv                                     |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:333 in convolutioninputgenerator_mmv                                     |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:359 in convolutioninputgenerator_mmv                                     |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:392 in convolutioninputgenerator_mmv                                     |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:394 in convolutioninputgenerator_mmv, inputBuf                           |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:395 in convolutioninputgenerator_mmv, inputBuf                           |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:406 in convolutioninputgenerator_mmv, current_block_write                |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:466 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:467 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:468 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:476 in convolutioninputgenerator_kernel_stride, current_block_write      |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:479 in convolutioninputgenerator_kernel_stride                           |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:544 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:545 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:554 in convolutioninputgenerator_kernel_stride, current_block_write      |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:610 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:611 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:612 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| array_partition | variable=inputBuf complete dim=2                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:613 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:628 in convolutioninputgenerator_kernel_stride_mmv, current_block_write  |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:631 in convolutioninputgenerator_kernel_stride_mmv                       |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:638 in convolutioninputgenerator_kernel_stride_mmv                       |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:672 in convolutioninputgenerator_kernel_stride_mmv                       |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:705 in convolutioninputgenerator_kernel_stride_mmv                       |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:716 in convolutioninputgenerator_kernel_stride_mmv, current_block_write  |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:767 in convolutioninputgenerator_dws, inputBuf                           |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:782 in convolutioninputgenerator_dws                                     |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:833 in convolutioninputgenerator_dws, inputBuf                           |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:834 in convolutioninputgenerator_dws, inputBuf                           |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:844 in convolutioninputgenerator_dws, current_block_write                |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:903 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:904 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:905 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:915 in convolutioninputgenerator_kernel_stride_dws                       |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:917 in convolutioninputgenerator_kernel_stride_dws, current_block_write  |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:983 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:984 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:993 in convolutioninputgenerator_kernel_stride_dws, current_block_write  |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1048 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1049 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1050 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| array_partition | variable=inputBuf complete dim=2                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1051 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1066 in convolutioninputgenerator_dws_mmv                                |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1073 in convolutioninputgenerator_dws_mmv                                |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1099 in convolutioninputgenerator_dws_mmv                                |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1132 in convolutioninputgenerator_dws_mmv                                |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1134 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1135 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1146 in convolutioninputgenerator_dws_mmv, current_block_write           |
+| performance     | target_ti=IFMDim*IFMDim*IFMChannels/SIMD          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1191 in convolutioninputgenerator_2d_kernel1                             |
+| pipeline        | style=flp II=IFMChannels/SIMD                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1198 in convolutioninputgenerator_2d_kernel1                             |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1245 in convolutioninputgenerator_1d_kernel1                             |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1300 in convolutioninputgenerator_nonsquare, inputBuf                    |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1315 in convolutioninputgenerator_nonsquare                              |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1366 in convolutioninputgenerator_nonsquare, inputBuf                    |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1367 in convolutioninputgenerator_nonsquare, inputBuf                    |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1377 in convolutioninputgenerator_nonsquare, current_block_write         |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1434 in convolutioninputgenerator_nonsquare_dws, inputBuf                |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1449 in convolutioninputgenerator_nonsquare_dws                          |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1500 in convolutioninputgenerator_nonsquare_dws, inputBuf                |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1501 in convolutioninputgenerator_nonsquare_dws, inputBuf                |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1511 in convolutioninputgenerator_nonsquare_dws, current_block_write     |
+| array_partition | variable=inputBuf complete dim=1                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1575 in convolutioninputgenerator_nonsquare_dilated, inputBuf            |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1590 in convolutioninputgenerator_nonsquare_dilated                      |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1642 in convolutioninputgenerator_nonsquare_dilated, inputBuf            |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1643 in convolutioninputgenerator_nonsquare_dilated, inputBuf            |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1653 in convolutioninputgenerator_nonsquare_dilated, current_block_write |
+| array_partition | variable=inputBuf complete                        | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1710 in convolutioninputgenerator_1d_parallel, inputBuf                  |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1718 in convolutioninputgenerator_1d_parallel                            |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1739 in convolutioninputgenerator_1d_parallel                            |
+| dependence      | variable=inputBuf intra false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1760 in convolutioninputgenerator_1d_parallel, inputBuf                  |
+| dependence      | variable=inputBuf inter false                     | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1761 in convolutioninputgenerator_1d_parallel, inputBuf                  |
+| dependence      | variable=current_block_write intra false          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1768 in convolutioninputgenerator_1d_parallel, current_block_write       |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1824 in convolutioninputgenerator_1d_dws_naive                           |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1908 in convolutioninputgenerator_1d                                     |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1984 in convolutioninputgenerator_1d_dws                                 |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:2063 in convolutioninputgenerator_1d_dws_stride                          |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:77 in streamlimiter                                                        |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:160 in sameresize                                                          |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:234 in streamingcast                                                       |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:280 in fmpadding_nonsquare                                                 |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:374 in fmpadding                                                           |
+| pipeline        | II=1 style=flp                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:457 in fmpadding_pixel_nonsquare                                           |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:527 in streamingdatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:547 in streamingdatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:558 in streamingdatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:667 in duplicatestreams                                                    |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:725 in addstreams                                                          |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:730 in addstreams                                                          |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:799 in addstreamslayer_batch                                               |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:846 in multichandatawidthconverter_batch                                   |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:853 in multichandatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:869 in multichandatawidthconverter_batch                                   |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:875 in multichandatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:887 in multichandatawidthconverter_batch                                   |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:891 in multichandatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:927 in flattenmultichandata                                                |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:931 in flattenmultichandata                                                |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:958 in packmultichandata                                                   |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:962 in packmultichandata                                                   |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:1051 in qdma2stream_batch                                                  |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:1074 in stream2qdma_batch                                                  |
+| array_partition | variable=red_ch_index complete dim=0              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:82 in tmrcheck, red_ch_index                                                |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:91 in tmrcheck                                                              |
+| array_partition | variable=numerrors complete dim=0                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:99 in tmrcheck, numerrors                                                   |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:103 in tmrcheck                                                             |
+| array_partition | variable=compute complete dim=0                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:129 in tmrcheck, compute                                                    |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:132 in tmrcheck                                                             |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp:86 in upsamplenearestneighbour                                              |
+| pipeline        | II=1 style=flp                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp:175 in upsamplenearestneighbour_1d                                          |
+| array_partition | variable=accu complete dim=0                      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:101 in vector_vector_activate_batch, accu                                       |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:110 in vector_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:117 in vector_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:126 in vector_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:147 in vector_vector_activate_batch                                             |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:149 in vector_vector_activate_batch                                             |
+| array_partition | variable=accu complete dim=0                      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:216 in vector_vector_activate_stream_batch, accu                                |
+| pipeline        | style=flp II=1                                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:226 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:233 in vector_vector_activate_stream_batch                                      |
+| array_partition | variable=w.m_weights complete dim=0               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:242 in vector_vector_activate_stream_batch, w.m_weights                         |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:244 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:249 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:270 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:272 in vector_vector_activate_stream_batch                                      |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:83 in tileindex                                                              |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:88 in operator[]                                                             |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:95 in weights                                                                |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:127 in tileindex                                                             |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:132 in operator[]                                                            |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:135 in operator[]                                                            |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:145 in weights                                                               |
+| inline          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:157 in operator[]                                                            |
+| unroll          |                                                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:160 in operator[]                                                            |
+| interface       | axis port=in0_V                                   | top_MVAU_hls_8.cpp:31 in mvau_hls_8, in0_V                                                                                               |
+| interface       | axis port=out_V                                   | top_MVAU_hls_8.cpp:32 in mvau_hls_8, out_V                                                                                               |
+| interface       | ap_ctrl_none port=return                          | top_MVAU_hls_8.cpp:33 in mvau_hls_8, return                                                                                              |
+| interface       | axis port=weights_V                               | top_MVAU_hls_8.cpp:34 in mvau_hls_8, weights_V                                                                                           |
+| array_partition | variable=threshs.m_thresholds complete dim=1      | top_MVAU_hls_8.cpp:35 in mvau_hls_8, threshs.m_thresholds                                                                                |
+| array_partition | variable=threshs.m_thresholds complete dim=3      | top_MVAU_hls_8.cpp:36 in mvau_hls_8, threshs.m_thresholds                                                                                |
++-----------------+---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+
+

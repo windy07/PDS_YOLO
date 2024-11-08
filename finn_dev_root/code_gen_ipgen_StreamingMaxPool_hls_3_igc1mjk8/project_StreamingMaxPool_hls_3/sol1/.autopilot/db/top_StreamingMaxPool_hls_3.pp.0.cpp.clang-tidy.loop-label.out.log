@@ -1,0 +1,976 @@
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:1457:7: warning: Added loop label VITIS_LOOP_1211_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1211_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:1457:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:2431:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:2431:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:2445:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:2445:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:2459:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:2459:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:4070:7: warning: Added loop label VITIS_LOOP_1245_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1245_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:4070:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:34518:4: warning: Added loop label VITIS_LOOP_134_1:   [xilinx-label-all-loops]
+   for(unsigned int i=0; i<SIMD; i++) {
+   ^~~
+   VITIS_LOOP_134_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:34518:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:34543:5: warning: Added loop label VITIS_LOOP_159_1:   [xilinx-label-all-loops]
+    for(unsigned int i=0; i<SIMD; i++) {
+    ^~~
+    VITIS_LOOP_159_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:34543:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:34968:3: warning: Added loop label VITIS_LOOP_76_1:   [xilinx-label-all-loops]
+  for (unsigned int i = 0; i < NumTotal; i++) {
+  ^~~
+  VITIS_LOOP_76_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:34968:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:34984:3: warning: Added loop label VITIS_LOOP_108_1:   [xilinx-label-all-loops]
+  for (unsigned int rep = 0; rep < numReps; rep++) {
+  ^~~
+  VITIS_LOOP_108_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:34984:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35016:2: warning: Added loop label VITIS_LOOP_158_1:   [xilinx-label-all-loops]
+ for(unsigned int y = 0; y<OutputDim; y++){
+ ^~~
+ VITIS_LOOP_158_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35016:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35017:3: warning: Added loop label VITIS_LOOP_159_2:   [xilinx-label-all-loops]
+  for(unsigned int x=0; x < OutputDim; x++){
+  ^~~
+  VITIS_LOOP_159_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35017:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35048:2: warning: Added loop label VITIS_LOOP_209_1:   [xilinx-label-all-loops]
+ for (unsigned int rep = 0; rep < numReps; rep++) {
+ ^~~
+ VITIS_LOOP_209_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35048:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35056:3: warning: Added loop label VITIS_LOOP_233_1:   [xilinx-label-all-loops]
+  for(unsigned int i = 0; i < numReps; i++) {
+  ^~~
+  VITIS_LOOP_233_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35056:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35080:2: warning: Added loop label VITIS_LOOP_277_1:   [xilinx-label-all-loops]
+ for(unsigned y = 0; y < OutputDim_y; y++) {
+ ^~~
+ VITIS_LOOP_277_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35080:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35081:3: warning: Added loop label VITIS_LOOP_278_2:   [xilinx-label-all-loops]
+  for(unsigned x = 0; x < OutputDim_x; x++) {
+  ^~~
+  VITIS_LOOP_278_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35081:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35082:4: warning: Added loop label VITIS_LOOP_279_3:   [xilinx-label-all-loops]
+   for(unsigned sf = 0; sf < Folding; sf++) {
+   ^~~
+   VITIS_LOOP_279_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35082:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35115:2: warning: Added loop label VITIS_LOOP_333_1:   [xilinx-label-all-loops]
+ for (unsigned int rep = 0; rep < numReps; rep++) {
+ ^~~
+ VITIS_LOOP_333_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35115:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35159:2: warning: Added loop label VITIS_LOOP_415_1:   [xilinx-label-all-loops]
+ for (unsigned int rep = 0; rep < numReps; rep++) {
+ ^~~
+ VITIS_LOOP_415_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35159:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35181:2: warning: Added loop label VITIS_LOOP_453_1:   [xilinx-label-all-loops]
+ for(int unsigned y = 0; y < OutputDim_y; y++) {
+ ^~~
+ VITIS_LOOP_453_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35181:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35183:3: warning: Added loop label VITIS_LOOP_455_2:   [xilinx-label-all-loops]
+  for(int unsigned x = 0; x < OutputDim_x; x++) {
+  ^~~
+  VITIS_LOOP_455_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35183:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35184:4: warning: Added loop label VITIS_LOOP_456_3:   [xilinx-label-all-loops]
+   for(int unsigned sf = 0; sf < Folding; sf++) {
+   ^~~
+   VITIS_LOOP_456_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35184:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35224:5: warning: Added loop label VITIS_LOOP_526_1:   [xilinx-label-all-loops]
+    for (unsigned int t = 0; t < totalIters; t++) {
+    ^~~
+    VITIS_LOOP_526_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35224:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35244:5: warning: Added loop label VITIS_LOOP_546_2:   [xilinx-label-all-loops]
+    for (unsigned int i = 0; i < NumInWords * numReps; i++) {
+    ^~~
+    VITIS_LOOP_546_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35244:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35255:5: warning: Added loop label VITIS_LOOP_557_3:   [xilinx-label-all-loops]
+    for (unsigned int t = 0; t < totalIters; t++) {
+    ^~~
+    VITIS_LOOP_557_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35255:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35295:7: warning: Added loop label VITIS_LOOP_611_1:   [xilinx-label-all-loops]
+      for (; offset <= (InWidth-OutWidth) ; offset+=OutWidth){
+      ^~~
+      VITIS_LOOP_611_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35295:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35313:7: warning: Added loop label VITIS_LOOP_629_2:   [xilinx-label-all-loops]
+      for (; offset <= (OutWidth-InWidth); offset+=InWidth){
+      ^~~
+      VITIS_LOOP_629_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35313:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35336:2: warning: Added loop label VITIS_LOOP_666_1:   [xilinx-label-all-loops]
+ for (unsigned int i = 0; i < NumTotal; i++) {
+ ^~~
+ VITIS_LOOP_666_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35336:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35350:2: warning: Added loop label VITIS_LOOP_694_1:   [xilinx-label-all-loops]
+ for (unsigned int image = 0; image < numReps; image++) {
+ ^~~
+ VITIS_LOOP_694_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35350:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35364:3: warning: Added loop label VITIS_LOOP_724_1:   [xilinx-label-all-loops]
+  for (unsigned int i = 0; i < NumTotal; i++) {
+  ^~~
+  VITIS_LOOP_724_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35364:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35369:5: warning: Added loop label VITIS_LOOP_729_2:   [xilinx-label-all-loops]
+    for (unsigned int j = 0; j < NumChannels; j++) {
+    ^~~
+    VITIS_LOOP_729_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35369:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35388:3: warning: Added loop label VITIS_LOOP_767_1:   [xilinx-label-all-loops]
+  for (unsigned int image = 0; image < numReps; image++) {
+  ^~~
+  VITIS_LOOP_767_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35388:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35429:3: warning: Added loop label VITIS_LOOP_845_1:   [xilinx-label-all-loops]
+  for (unsigned int t = 0; t < totalIters; t++) {
+  ^~~
+  VITIS_LOOP_845_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35429:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35436:4: warning: Added loop label VITIS_LOOP_852_2:   [xilinx-label-all-loops]
+   for(unsigned int v = 0; v < NumVecs; v++) {
+   ^~~
+   VITIS_LOOP_852_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35436:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35452:3: warning: Added loop label VITIS_LOOP_868_3:   [xilinx-label-all-loops]
+  for (unsigned int i = 0; i < NumInWords * numReps; i++) {
+  ^~~
+  VITIS_LOOP_868_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35452:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35458:4: warning: Added loop label VITIS_LOOP_874_4:   [xilinx-label-all-loops]
+   for(unsigned int v=0; v < NumVecs; v++) {
+   ^~~
+   VITIS_LOOP_874_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35458:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35470:3: warning: Added loop label VITIS_LOOP_886_5:   [xilinx-label-all-loops]
+  for (unsigned int t = 0; t < totalIters; t++) {
+  ^~~
+  VITIS_LOOP_886_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35470:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35474:4: warning: Added loop label VITIS_LOOP_890_6:   [xilinx-label-all-loops]
+   for(unsigned int v = 0; v < NumVecs; v++) {
+   ^~~
+   VITIS_LOOP_890_6: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35474:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35496:2: warning: Added loop label VITIS_LOOP_926_1:   [xilinx-label-all-loops]
+ for(unsigned int r = 0; r < numReps; r++) {
+ ^~~
+ VITIS_LOOP_926_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35496:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35500:3: warning: Added loop label VITIS_LOOP_930_2:   [xilinx-label-all-loops]
+  for(unsigned int v = 0; v < NumChannels; v++) {
+  ^~~
+  VITIS_LOOP_930_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35500:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35514:2: warning: Added loop label VITIS_LOOP_957_1:   [xilinx-label-all-loops]
+ for(unsigned int r = 0; r < numReps; r++) {
+ ^~~
+ VITIS_LOOP_957_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35514:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35518:3: warning: Added loop label VITIS_LOOP_961_2:   [xilinx-label-all-loops]
+  for(unsigned int v = 0; v < NumChannels; v++) {
+  ^~~
+  VITIS_LOOP_961_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35518:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35593:2: warning: Added loop label VITIS_LOOP_1049_1:   [xilinx-label-all-loops]
+ for (unsigned int image = 0; image < numReps; image++) {
+ ^~~
+ VITIS_LOOP_1049_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35593:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35594:3: warning: Added loop label VITIS_LOOP_1050_2:   [xilinx-label-all-loops]
+  for (unsigned int word = 0; word < NumTotal; word++) {
+  ^~~
+  VITIS_LOOP_1050_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35594:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35603:2: warning: Added loop label VITIS_LOOP_1072_1:   [xilinx-label-all-loops]
+ for (unsigned int image = 0; image < numReps; image++) {
+ ^~~
+ VITIS_LOOP_1072_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35603:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35604:3: warning: Added loop label VITIS_LOOP_1073_2:   [xilinx-label-all-loops]
+  for (unsigned int word = 0; word < NumTotal; word++) {
+  ^~~
+  VITIS_LOOP_1073_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35604:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35633:5: warning: Added loop label VITIS_LOOP_113_1:   [xilinx-label-all-loops]
+    while (rep != numReps) {
+    ^~~~~
+    VITIS_LOOP_113_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35633:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35647:3: warning: Added loop label VITIS_LOOP_140_1:   [xilinx-label-all-loops]
+  for (unsigned int i = 0; i < numWords; i++) {
+  ^~~
+  VITIS_LOOP_140_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35647:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35660:3: warning: Added loop label VITIS_LOOP_153_1:   [xilinx-label-all-loops]
+  for (unsigned int i = 0; i < numWords; i++) {
+  ^~~
+  VITIS_LOOP_153_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35660:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35673:3: warning: Added loop label VITIS_LOOP_166_1:   [xilinx-label-all-loops]
+  while (rep != numReps) {
+  ^~~~~
+  VITIS_LOOP_166_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35673:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35694:3: warning: Added loop label VITIS_LOOP_187_1:   [xilinx-label-all-loops]
+  while (rep != numReps) {
+  ^~~~~
+  VITIS_LOOP_187_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35694:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35716:3: warning: Added loop label VITIS_LOOP_222_1:   [xilinx-label-all-loops]
+  for (unsigned rep = 0; rep < numReps; rep++) {
+  ^~~
+  VITIS_LOOP_222_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35716:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35717:5: warning: Added loop label VITIS_LOOP_223_2:   [xilinx-label-all-loops]
+    for (unsigned tile = 0; tile < TILES; tile++) {
+    ^~~
+    VITIS_LOOP_223_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35717:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35721:7: warning: Added loop label VITIS_LOOP_227_3:   [xilinx-label-all-loops]
+      for (unsigned pe = 0; pe < PE; pe++) {
+      ^~~
+      VITIS_LOOP_227_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:35721:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45189:3: warning: Added loop label VITIS_LOOP_93_1:   [xilinx-label-all-loops]
+  while(!log.empty()){
+  ^~~~~
+  VITIS_LOOP_93_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45189:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45195:3: warning: Added loop label VITIS_LOOP_99_2:   [xilinx-label-all-loops]
+  while(!tmp_stream.empty()){
+  ^~~~~
+  VITIS_LOOP_99_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45195:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45206:49: error: Invalid Directive: for current device, RAM_2P +  is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=inputBuf type=RAM_2P
+                                                ^
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45211:49: error: Invalid Directive: for current device, RAM_S2P + BRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=inputBuf type=RAM_S2P impl=BRAM
+                                                ^
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45216:49: error: Invalid Directive: for current device, RAM_S2P + URAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=inputBuf type=RAM_S2P impl=URAM
+                                                ^
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45221:49: error: Invalid Directive: for current device, RAM_S2P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS BIND_STORAGE variable=inputBuf type=RAM_S2P impl=LUTRAM
+                                                ^
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45255:3: warning: Added loop label VITIS_LOOP_190_1:   [xilinx-label-all-loops]
+  for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+  ^~~
+  VITIS_LOOP_190_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45255:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45256:5: warning: Added loop label VITIS_LOOP_191_2:   [xilinx-label-all-loops]
+    for (unsigned int i = 0; i < baseIter; i++) {
+    ^~~
+    VITIS_LOOP_191_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45256:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45369:2: warning: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+ for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+ ^~~
+ VITIS_LOOP_324_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45369:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45370:3: warning: Added loop label VITIS_LOOP_325_2:   [xilinx-label-all-loops]
+  for (unsigned int i = 0; i < baseIter; i++) {
+  ^~~
+  VITIS_LOOP_325_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45370:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45376:5: warning: Added loop label VITIS_LOOP_331_3:   [xilinx-label-all-loops]
+    for(unsigned int v = 0; v < MMV; v++)
+    ^~~
+    VITIS_LOOP_331_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45376:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45403:6: warning: Added loop label VITIS_LOOP_358_4:   [xilinx-label-all-loops]
+     for(unsigned int v = 0; v < MMV; v++) {
+     ^~~
+     VITIS_LOOP_358_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45403:6: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45436:6: warning: Added loop label VITIS_LOOP_391_5:   [xilinx-label-all-loops]
+     for(unsigned int v = 0; v < MMV; v++) {
+     ^~~
+     VITIS_LOOP_391_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45436:6: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45497:1: warning: Added loop label VITIS_LOOP_473_1:   [xilinx-label-all-loops]
+for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+^~~
+VITIS_LOOP_473_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45497:1: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45502:3: warning: Added loop label VITIS_LOOP_478_2:   [xilinx-label-all-loops]
+  for (unsigned int i = 0; i < baseIter; i++) {
+  ^~~
+  VITIS_LOOP_478_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45502:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45628:1: warning: Added loop label VITIS_LOOP_625_1:   [xilinx-label-all-loops]
+for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+^~~
+VITIS_LOOP_625_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45628:1: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45633:3: warning: Added loop label VITIS_LOOP_630_2:   [xilinx-label-all-loops]
+  for (unsigned int i = 0; i < baseIter; i++) {
+  ^~~
+  VITIS_LOOP_630_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45633:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45639:5: warning: Added loop label VITIS_LOOP_636_3:   [xilinx-label-all-loops]
+    for(unsigned int v = 0; v < MMV; v++)
+    ^~~
+    VITIS_LOOP_636_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45639:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45674:4: warning: Added loop label VITIS_LOOP_671_4:   [xilinx-label-all-loops]
+   for(unsigned int v = 0; v < MMV; v++) {
+   ^~~
+   VITIS_LOOP_671_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45674:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45707:5: warning: Added loop label VITIS_LOOP_704_5:   [xilinx-label-all-loops]
+    for(unsigned int v = 0; v < MMV; v++) {
+    ^~~
+    VITIS_LOOP_704_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45707:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45763:3: warning: Added loop label VITIS_LOOP_780_1:   [xilinx-label-all-loops]
+  for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+  ^~~
+  VITIS_LOOP_780_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45763:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45764:5: warning: Added loop label VITIS_LOOP_781_2:   [xilinx-label-all-loops]
+    for (unsigned int i = 0; i < baseIter; i++) {
+    ^~~
+    VITIS_LOOP_781_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45764:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45872:3: warning: Added loop label VITIS_LOOP_910_1:   [xilinx-label-all-loops]
+  for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+  ^~~
+  VITIS_LOOP_910_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45872:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45876:7: warning: Added loop label VITIS_LOOP_914_2:   [xilinx-label-all-loops]
+      for (unsigned int i = 0; i < baseIter; i++) {
+      ^~~
+      VITIS_LOOP_914_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:45876:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46005:2: warning: Added loop label VITIS_LOOP_1064_1:   [xilinx-label-all-loops]
+ for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+ ^~~
+ VITIS_LOOP_1064_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46005:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46006:3: warning: Added loop label VITIS_LOOP_1065_2:   [xilinx-label-all-loops]
+  for (unsigned int i = 0; i < baseIter; i++) {
+  ^~~
+  VITIS_LOOP_1065_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46006:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46012:5: warning: Added loop label VITIS_LOOP_1071_3:   [xilinx-label-all-loops]
+    for(unsigned int v = 0; v < MMV; v++)
+    ^~~
+    VITIS_LOOP_1071_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46012:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46039:6: warning: Added loop label VITIS_LOOP_1098_4:   [xilinx-label-all-loops]
+     for(unsigned int v = 0; v < MMV; v++) {
+     ^~~
+     VITIS_LOOP_1098_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46039:6: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46072:6: warning: Added loop label VITIS_LOOP_1131_5:   [xilinx-label-all-loops]
+     for(unsigned int v = 0; v < MMV; v++) {
+     ^~~
+     VITIS_LOOP_1131_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46072:6: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46114:2: warning: Added loop label VITIS_LOOP_1190_1:   [xilinx-label-all-loops]
+ for (unsigned int im=0; im<numReps; im++) {
+ ^~~
+ VITIS_LOOP_1190_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46114:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46117:3: warning: Added loop label VITIS_LOOP_1193_2:   [xilinx-label-all-loops]
+  for (unsigned int y = 0; y < IFMDim; y++) {
+  ^~~
+  VITIS_LOOP_1193_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46117:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46121:4: warning: Added loop label VITIS_LOOP_1197_3:   [xilinx-label-all-loops]
+   for (unsigned int x = 0; x < IFMDim; x++) {
+   ^~~
+   VITIS_LOOP_1197_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46121:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46125:5: warning: Added loop label VITIS_LOOP_1201_4:   [xilinx-label-all-loops]
+    for (unsigned int count_simd = 0; count_simd < MULTIPLYING_FACTOR; count_simd++) {
+    ^~~
+    VITIS_LOOP_1201_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46125:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46148:2: warning: Added loop label VITIS_LOOP_1239_1:   [xilinx-label-all-loops]
+ for (unsigned int im=0; im<numReps; im++) {
+ ^~~
+ VITIS_LOOP_1239_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46148:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46150:3: warning: Added loop label VITIS_LOOP_1241_2:   [xilinx-label-all-loops]
+  for (unsigned int x = 0; x < IFMDim; x++) {
+  ^~~
+  VITIS_LOOP_1241_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46150:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46153:4: warning: Added loop label VITIS_LOOP_1244_3:   [xilinx-label-all-loops]
+   for (unsigned int count_simd = 0; count_simd < IFMChannels/SIMD; count_simd++) {
+   ^~~
+   VITIS_LOOP_1244_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46153:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46199:3: warning: Added loop label VITIS_LOOP_1313_1:   [xilinx-label-all-loops]
+  for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+  ^~~
+  VITIS_LOOP_1313_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46199:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46200:5: warning: Added loop label VITIS_LOOP_1314_2:   [xilinx-label-all-loops]
+    for (unsigned int i = 0; i < baseIter; i++) {
+    ^~~
+    VITIS_LOOP_1314_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46200:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46311:3: warning: Added loop label VITIS_LOOP_1447_1:   [xilinx-label-all-loops]
+  for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+  ^~~
+  VITIS_LOOP_1447_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46311:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46312:5: warning: Added loop label VITIS_LOOP_1448_2:   [xilinx-label-all-loops]
+    for (unsigned int i = 0; i < baseIter; i++) {
+    ^~~
+    VITIS_LOOP_1448_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46312:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46427:3: warning: Added loop label VITIS_LOOP_1588_1:   [xilinx-label-all-loops]
+  for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+  ^~~
+  VITIS_LOOP_1588_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46427:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46428:5: warning: Added loop label VITIS_LOOP_1589_2:   [xilinx-label-all-loops]
+    for (unsigned int i = 0; i < baseIter; i++) {
+    ^~~
+    VITIS_LOOP_1589_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46428:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46534:3: warning: Added loop label VITIS_LOOP_1716_1:   [xilinx-label-all-loops]
+  for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+  ^~~
+  VITIS_LOOP_1716_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46534:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46535:5: warning: Added loop label VITIS_LOOP_1717_2:   [xilinx-label-all-loops]
+    for (unsigned int i = 0; i < baseIter; i++) {
+    ^~~
+    VITIS_LOOP_1717_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46535:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46555:9: warning: Added loop label VITIS_LOOP_1737_3:   [xilinx-label-all-loops]
+        for(int k_y=0; k_y<ConvKernelDim; k_y++)
+        ^~~
+        VITIS_LOOP_1737_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46555:9: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46621:3: warning: Added loop label VITIS_LOOP_1822_1:   [xilinx-label-all-loops]
+  for (unsigned int count_image = 0; count_image < numReps; count_image++) {
+  ^~~
+  VITIS_LOOP_1822_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46621:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46622:5: warning: Added loop label VITIS_LOOP_1823_2:   [xilinx-label-all-loops]
+    for (unsigned int i = 0; i < baseIter; i++) {
+    ^~~
+    VITIS_LOOP_1823_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46622:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46682:2: warning: Added loop label VITIS_LOOP_1901_1:   [xilinx-label-all-loops]
+ for(unsigned count_image = 0; count_image < numReps; count_image++) {
+ ^~~
+ VITIS_LOOP_1901_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46682:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46688:3: warning: Added loop label VITIS_LOOP_1907_2:   [xilinx-label-all-loops]
+  for(unsigned i = 0; i < 1+OUTPUT_SIZE; i++) {
+  ^~~
+  VITIS_LOOP_1907_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46688:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46741:2: warning: Added loop label VITIS_LOOP_1977_1:   [xilinx-label-all-loops]
+ for(unsigned count_image = 0; count_image < numReps; count_image++) {
+ ^~~
+ VITIS_LOOP_1977_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46741:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46747:3: warning: Added loop label VITIS_LOOP_1983_2:   [xilinx-label-all-loops]
+  for(unsigned i = 0; i < 1 + READ_CYCLES + OUTPUT_SIZE; i++) {
+  ^~~
+  VITIS_LOOP_1983_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46747:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46801:2: warning: Added loop label VITIS_LOOP_2055_1:   [xilinx-label-all-loops]
+ for(unsigned count_image = 0; count_image < numReps; count_image++) {
+ ^~~
+ VITIS_LOOP_2055_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46801:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46808:3: warning: Added loop label VITIS_LOOP_2062_2:   [xilinx-label-all-loops]
+  for(unsigned i = 0; i < 1 + READ_CYCLES + OUTPUT_SIZE; i++) {
+  ^~~
+  VITIS_LOOP_2062_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:46808:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47108:3: warning: Added loop label VITIS_LOOP_73_1:   [xilinx-label-all-loops]
+  for(unsigned int i = 0; i < ImgDim / PoolDim; i++) {
+  ^~~
+  VITIS_LOOP_73_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47108:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47113:3: warning: Added loop label VITIS_LOOP_78_2:   [xilinx-label-all-loops]
+  for (unsigned int yp = 0; yp < ImgDim / PoolDim; yp++) {
+  ^~~
+  VITIS_LOOP_78_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47113:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47114:5: warning: Added loop label VITIS_LOOP_79_3:   [xilinx-label-all-loops]
+    for (unsigned int ky = 0; ky < PoolDim; ky++) {
+    ^~~
+    VITIS_LOOP_79_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47114:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47115:7: warning: Added loop label VITIS_LOOP_80_4:   [xilinx-label-all-loops]
+      for (unsigned int xp = 0; xp < ImgDim / PoolDim; xp++) {
+      ^~~
+      VITIS_LOOP_80_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47115:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47117:9: warning: Added loop label VITIS_LOOP_82_5:   [xilinx-label-all-loops]
+        for (unsigned int kx = 0; kx < PoolDim; kx++) {
+        ^~~
+        VITIS_LOOP_82_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47117:9: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47125:5: warning: Added loop label VITIS_LOOP_90_6:   [xilinx-label-all-loops]
+    for (unsigned int outpix = 0; outpix < ImgDim / PoolDim; outpix++) {
+    ^~~
+    VITIS_LOOP_90_6: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47125:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47137:3: warning: Added loop label VITIS_LOOP_116_1:   [xilinx-label-all-loops]
+  for (unsigned int rep = 0; rep < numReps; rep++) {
+  ^~~
+  VITIS_LOOP_116_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47137:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47151:2: warning: Added loop label VITIS_LOOP_147_1:   [xilinx-label-all-loops]
+ for(unsigned int i = 0; i < ImgDim / PoolDim; i++) {
+ ^~~
+ VITIS_LOOP_147_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47151:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47152:5: warning: Added loop label VITIS_LOOP_148_2:   [xilinx-label-all-loops]
+    for(unsigned int ch = 0; ch<NumChannels; ch++){
+    ^~~
+    VITIS_LOOP_148_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47152:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47158:3: warning: Added loop label VITIS_LOOP_154_3:   [xilinx-label-all-loops]
+  for (unsigned int yp = 0; yp < ImgDim / PoolDim; yp++) {
+  ^~~
+  VITIS_LOOP_154_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47158:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47159:5: warning: Added loop label VITIS_LOOP_155_4:   [xilinx-label-all-loops]
+    for (unsigned int ky = 0; ky < PoolDim; ky++) {
+    ^~~
+    VITIS_LOOP_155_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47159:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47160:7: warning: Added loop label VITIS_LOOP_156_5:   [xilinx-label-all-loops]
+      for (unsigned int xp = 0; xp < ImgDim / PoolDim; xp++) {
+      ^~~
+      VITIS_LOOP_156_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47160:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47162:9: warning: Added loop label VITIS_LOOP_158_6:   [xilinx-label-all-loops]
+        for (unsigned int kx = 0; kx < PoolDim; kx++) {
+        ^~~
+        VITIS_LOOP_158_6: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47162:9: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47165:11: warning: Added loop label VITIS_LOOP_161_7:   [xilinx-label-all-loops]
+          for(unsigned int ch = 0; ch<NumChannels; ch++){
+          ^~~
+          VITIS_LOOP_161_7: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47165:11: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47178:5: warning: Added loop label VITIS_LOOP_174_8:   [xilinx-label-all-loops]
+    for (unsigned int outpix = 0; outpix < ImgDim / PoolDim; outpix++) {
+    ^~~
+    VITIS_LOOP_174_8: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47178:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47179:7: warning: Added loop label VITIS_LOOP_175_9:   [xilinx-label-all-loops]
+      for(unsigned int ch = 0; ch < NumChannels; ch++){
+      ^~~
+      VITIS_LOOP_175_9: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47179:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47203:3: warning: Added loop label VITIS_LOOP_216_1:   [xilinx-label-all-loops]
+  for (unsigned int rep = 0; rep < numReps; rep++) {
+  ^~~
+  VITIS_LOOP_216_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47203:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47225:2: warning: Added loop label VITIS_LOOP_257_1:   [xilinx-label-all-loops]
+ for(unsigned int ch = 0; ch < NF; ch++){
+ ^~~
+ VITIS_LOOP_257_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47225:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47227:2: warning: Added loop label VITIS_LOOP_259_2:   [xilinx-label-all-loops]
+ for(unsigned int p = 0; p < PE; p++){
+ ^~~
+ VITIS_LOOP_259_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47227:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47235:3: warning: Added loop label VITIS_LOOP_267_3:   [xilinx-label-all-loops]
+  for (unsigned int xp = 0; xp < OutputSize; xp++) {
+  ^~~
+  VITIS_LOOP_267_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47235:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47237:5: warning: Added loop label VITIS_LOOP_269_4:   [xilinx-label-all-loops]
+    for (unsigned int kx = 0; kx < PoolDim; kx++) {
+    ^~~
+    VITIS_LOOP_269_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47237:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47239:9: warning: Added loop label VITIS_LOOP_271_5:   [xilinx-label-all-loops]
+        for (unsigned int ch = 0; ch < NF; ch++){
+        ^~~
+        VITIS_LOOP_271_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47239:9: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47242:11: warning: Added loop label VITIS_LOOP_274_6:   [xilinx-label-all-loops]
+          for(unsigned int p = 0; p < PE; p++){
+          ^~~
+          VITIS_LOOP_274_6: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47242:11: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47255:5: warning: Added loop label VITIS_LOOP_287_7:   [xilinx-label-all-loops]
+    for(unsigned int ch = 0; ch < NF; ch++){
+    ^~~
+    VITIS_LOOP_287_7: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47255:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47257:2: warning: Added loop label VITIS_LOOP_289_8:   [xilinx-label-all-loops]
+ for(unsigned int p = 0; p < PE; p++){
+ ^~~
+ VITIS_LOOP_289_8: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47257:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47269:3: warning: Added loop label VITIS_LOOP_301_9:   [xilinx-label-all-loops]
+  for (unsigned int r = 0; r < REMAINDER_PIXELS*NF; r++){
+  ^~~
+  VITIS_LOOP_301_9: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47269:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47282:2: warning: Added loop label VITIS_LOOP_332_1:   [xilinx-label-all-loops]
+ for (unsigned int rep = 0; rep < numReps; rep++) {
+ ^~~
+ VITIS_LOOP_332_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47282:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47302:5: warning: Added loop label VITIS_LOOP_367_1:   [xilinx-label-all-loops]
+    for(unsigned int reps=0; reps<numReps; reps++){
+    ^~~
+    VITIS_LOOP_367_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47302:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47303:9: warning: Added loop label VITIS_LOOP_368_2:   [xilinx-label-all-loops]
+        for(unsigned int pixel=0; pixel<ImgDim*ImgDim; pixel++){
+        ^~~
+        VITIS_LOOP_368_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47303:9: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47304:7: warning: Added loop label VITIS_LOOP_369_3:   [xilinx-label-all-loops]
+      for(unsigned int fold=0; fold<NumChannels/PECount; fold++){
+      ^~~
+      VITIS_LOOP_369_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47304:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47307:9: warning: Added loop label VITIS_LOOP_372_4:   [xilinx-label-all-loops]
+        for(unsigned int pe=0; pe<PECount; pe++){
+        ^~~
+        VITIS_LOOP_372_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47307:9: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47336:53: error: Invalid Directive: for current device, RAM_2P + LUTRAM is invalid combination for BIND_STORAGE's option 'type + impl' [clang-diagnostic-error]
+#pragma HLS bind_storage variable=accumulators type=RAM_2P impl=LUTRAM
+                                                    ^
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47339:2: warning: Added loop label VITIS_LOOP_418_1:   [xilinx-label-all-loops]
+ for(unsigned int reps=0; reps<numReps; reps++){
+ ^~~
+ VITIS_LOOP_418_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47339:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47340:9: warning: Added loop label VITIS_LOOP_419_2:   [xilinx-label-all-loops]
+        for(unsigned int pixel=0; pixel<ImgDim*ImgDim; pixel++){
+        ^~~
+        VITIS_LOOP_419_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47340:9: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47341:7: warning: Added loop label VITIS_LOOP_420_3:   [xilinx-label-all-loops]
+      for(unsigned int fold=0; fold<NumChannels/PECount; fold++){
+      ^~~
+      VITIS_LOOP_420_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47341:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47345:9: warning: Added loop label VITIS_LOOP_424_4:   [xilinx-label-all-loops]
+        for(unsigned int pe=0; pe<PECount; pe++){
+        ^~~
+        VITIS_LOOP_424_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47345:9: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47356:5: warning: Added loop label VITIS_LOOP_435_5:   [xilinx-label-all-loops]
+    for (unsigned int fold = 0; fold < NumChannels / PECount; fold++)
+    ^~~
+    VITIS_LOOP_435_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47356:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47385:2: warning: Added loop label VITIS_LOOP_481_1:   [xilinx-label-all-loops]
+ for(unsigned int reps=0; reps<numReps; reps++){
+ ^~~
+ VITIS_LOOP_481_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47385:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47387:5: warning: Added loop label VITIS_LOOP_483_2:   [xilinx-label-all-loops]
+    for(unsigned int topx=0; topx<NumTop; topx++){
+    ^~~
+    VITIS_LOOP_483_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47387:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47392:5: warning: Added loop label VITIS_LOOP_488_3:   [xilinx-label-all-loops]
+    for(unsigned int block=0; block<(NumClasses/PECount); block++){
+    ^~~
+    VITIS_LOOP_488_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47392:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47395:7: warning: Added loop label VITIS_LOOP_491_4:   [xilinx-label-all-loops]
+      for(unsigned int elem=0; elem<PECount; elem++){
+      ^~~
+      VITIS_LOOP_491_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47395:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47404:9: warning: Added loop label VITIS_LOOP_500_5:   [xilinx-label-all-loops]
+        for(unsigned i = 0; i < NumTop; i++) {
+        ^~~
+        VITIS_LOOP_500_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47404:9: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47411:9: warning: Added loop label VITIS_LOOP_507_6:   [xilinx-label-all-loops]
+        for(unsigned i = 0; i < NumTop; i++) {
+        ^~~
+        VITIS_LOOP_507_6: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47411:9: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47431:5: warning: Added loop label VITIS_LOOP_527_7:   [xilinx-label-all-loops]
+    for(unsigned int topx = 0; topx < NumTop; topx++){
+    ^~~
+    VITIS_LOOP_527_7: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47431:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47457:3: warning: Added loop label VITIS_LOOP_575_1:   [xilinx-label-all-loops]
+  for(unsigned i = 0; i < reps * TOTAL_FOLD; i++) {
+  ^~~
+  VITIS_LOOP_575_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47457:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47464:7: warning: Added loop label VITIS_LOOP_582_2:   [xilinx-label-all-loops]
+      for(unsigned pe = 0; pe < PE; pe++) {
+      ^~~
+      VITIS_LOOP_582_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47464:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47471:5: warning: Added loop label VITIS_LOOP_589_3:   [xilinx-label-all-loops]
+    for(unsigned pe = 0; pe < PE; pe++) {
+    ^~~
+    VITIS_LOOP_589_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47471:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47480:7: warning: Added loop label VITIS_LOOP_598_4:   [xilinx-label-all-loops]
+      for(unsigned pe = 0; pe < PE; pe++) {
+      ^~~
+      VITIS_LOOP_598_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47480:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47514:9: error: Invalid Directive: for current device, mul + fabric is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLS BIND_OP variable=res op=mul impl=fabric
+        ^
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47522:9: error: Invalid Directive: for current device, mul + dsp is invalid combination for bind_op [clang-diagnostic-error]
+#pragma HLS BIND_OP variable=res op=mul impl=dsp
+        ^
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47530:3: warning: Added loop label VITIS_LOOP_167_1:   [xilinx-label-all-loops]
+  for(unsigned i = 0; i < N; i++) {
+  ^~~
+  VITIS_LOOP_167_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47530:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47541:3: warning: Added loop label VITIS_LOOP_194_1:   [xilinx-label-all-loops]
+  for(unsigned i = 0; i < N; i++) {
+  ^~~
+  VITIS_LOOP_194_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47541:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47589:3: warning: Added loop label VITIS_LOOP_123_1:   [xilinx-label-all-loops]
+  for(unsigned i = 0; i < reps * TOTAL_FOLD; i++) {
+  ^~~
+  VITIS_LOOP_123_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47589:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47605:7: warning: Added loop label VITIS_LOOP_139_2:   [xilinx-label-all-loops]
+      for(unsigned pe = 0; pe < PE; pe++) {
+      ^~~
+      VITIS_LOOP_139_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47605:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47607:2: warning: Added loop label VITIS_LOOP_141_3:   [xilinx-label-all-loops]
+ for(unsigned mmv = 0; mmv < MMV; mmv++) {
+ ^~~
+ VITIS_LOOP_141_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47607:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47616:5: warning: Added loop label VITIS_LOOP_150_4:   [xilinx-label-all-loops]
+    for(unsigned pe = 0; pe < PE; pe++) {
+    ^~~
+    VITIS_LOOP_150_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47616:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47619:7: warning: Added loop label VITIS_LOOP_153_5:   [xilinx-label-all-loops]
+      for (unsigned mmv = 0; mmv < MMV; mmv++){
+      ^~~
+      VITIS_LOOP_153_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47619:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47630:7: warning: Added loop label VITIS_LOOP_164_6:   [xilinx-label-all-loops]
+      for (unsigned pe = 0; pe < PE; pe++) {
+      ^~~
+      VITIS_LOOP_164_6: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47630:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47632:2: warning: Added loop label VITIS_LOOP_166_7:   [xilinx-label-all-loops]
+ for (unsigned mmv = 0; mmv < MMV; mmv++){
+ ^~~
+ VITIS_LOOP_166_7: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47632:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47687:3: warning: Added loop label VITIS_LOOP_249_1:   [xilinx-label-all-loops]
+  for(unsigned i = 0; i < reps * TOTAL_FOLD; i++) {
+  ^~~
+  VITIS_LOOP_249_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47687:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47704:5: warning: Added loop label VITIS_LOOP_266_2:   [xilinx-label-all-loops]
+    for (unsigned pe = 0; pe < PE; pe++) {
+    ^~~
+    VITIS_LOOP_266_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47704:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47711:7: warning: Added loop label VITIS_LOOP_273_3:   [xilinx-label-all-loops]
+      for(unsigned pe = 0; pe < PE; pe++) {
+      ^~~
+      VITIS_LOOP_273_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47711:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47718:5: warning: Added loop label VITIS_LOOP_280_4:   [xilinx-label-all-loops]
+    for(unsigned pe = 0; pe < PE; pe++) {
+    ^~~
+    VITIS_LOOP_280_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47718:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47731:7: warning: Added loop label VITIS_LOOP_293_5:   [xilinx-label-all-loops]
+      for (unsigned pe = 0; pe < PE; pe++) {
+      ^~~
+      VITIS_LOOP_293_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47731:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47770:5: warning: Added loop label VITIS_LOOP_90_1:   [xilinx-label-all-loops]
+    for(unsigned int pos = 0; pos < (OFMDim * OFMDim); pos++){
+    ^~~
+    VITIS_LOOP_90_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47770:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47782:2: warning: Added loop label VITIS_LOOP_102_2:   [xilinx-label-all-loops]
+ for(unsigned int i = 0; i < NUM_RED; i++){
+ ^~~
+ VITIS_LOOP_102_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47782:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47790:13: warning: Added loop label VITIS_LOOP_110_3:   [xilinx-label-all-loops]
+            for(unsigned int y = 0; y < REDF; y++){
+            ^~~
+            VITIS_LOOP_110_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47790:13: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47791:17: warning: Added loop label VITIS_LOOP_111_4:   [xilinx-label-all-loops]
+                for(unsigned int x = y+1; x < REDF; x++){
+                ^~~
+                VITIS_LOOP_111_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47791:17: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47811:2: warning: Added loop label VITIS_LOOP_131_5:   [xilinx-label-all-loops]
+ for(unsigned int k = 0; k < OFMChannels; k++){
+ ^~~
+ VITIS_LOOP_131_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47811:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47815:13: warning: Added loop label VITIS_LOOP_135_6:   [xilinx-label-all-loops]
+            for(unsigned int i = 0; i < NUM_RED; i++){
+            ^~~
+            VITIS_LOOP_135_6: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47815:13: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47856:5: warning: Added loop label VITIS_LOOP_199_1:   [xilinx-label-all-loops]
+    for (unsigned int rep = 0; rep < numReps; rep++) {
+    ^~~
+    VITIS_LOOP_199_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:47856:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48044:3: warning: Added loop label VITIS_LOOP_109_1:   [xilinx-label-all-loops]
+  for(unsigned i = 0; i < reps * TOTAL_FOLD; i++) {
+  ^~~
+  VITIS_LOOP_109_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48044:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48050:7: warning: Added loop label VITIS_LOOP_115_2:   [xilinx-label-all-loops]
+      for(unsigned pe = 0; pe < PE; pe++) {
+      ^~~
+      VITIS_LOOP_115_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48050:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48051:9: warning: Added loop label VITIS_LOOP_116_3:   [xilinx-label-all-loops]
+        for(unsigned mmv = 0; mmv < MMV; mmv++) {
+        ^~~
+        VITIS_LOOP_116_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48051:9: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48060:5: warning: Added loop label VITIS_LOOP_125_4:   [xilinx-label-all-loops]
+    for(unsigned pe = 0; pe < PE; pe++) {
+    ^~~
+    VITIS_LOOP_125_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48060:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48065:7: warning: Added loop label VITIS_LOOP_130_5:   [xilinx-label-all-loops]
+      for(unsigned int simd = 0; simd < SIMD; simd++) {
+      ^~~
+      VITIS_LOOP_130_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48065:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48070:7: warning: Added loop label VITIS_LOOP_135_6:   [xilinx-label-all-loops]
+      for (unsigned mmv = 0; mmv < MMV; mmv++){
+      ^~~
+      VITIS_LOOP_135_6: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48070:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48081:7: warning: Added loop label VITIS_LOOP_146_7:   [xilinx-label-all-loops]
+      for (unsigned pe = 0; pe < PE; pe++) {
+      ^~~
+      VITIS_LOOP_146_7: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48081:7: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48083:2: warning: Added loop label VITIS_LOOP_148_8:   [xilinx-label-all-loops]
+ for (unsigned mmv = 0; mmv < MMV; mmv++){
+ ^~~
+ VITIS_LOOP_148_8: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48083:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48130:2: warning: Added loop label VITIS_LOOP_225_1:   [xilinx-label-all-loops]
+ for(unsigned i = 0; i < reps * TOTAL_FOLD; i++) {
+ ^~~
+ VITIS_LOOP_225_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48130:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48136:4: warning: Added loop label VITIS_LOOP_231_2:   [xilinx-label-all-loops]
+   for(unsigned pe = 0; pe < PE; pe++) {
+   ^~~
+   VITIS_LOOP_231_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48136:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48137:5: warning: Added loop label VITIS_LOOP_232_3:   [xilinx-label-all-loops]
+    for(unsigned mmv = 0; mmv < MMV; mmv++) {
+    ^~~
+    VITIS_LOOP_232_3: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48137:5: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48148:2: warning: Added loop label VITIS_LOOP_243_4:   [xilinx-label-all-loops]
+ for(unsigned pe = 0; pe < PE; pe++) {
+ ^~~
+ VITIS_LOOP_243_4: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48148:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48153:3: warning: Added loop label VITIS_LOOP_248_5:   [xilinx-label-all-loops]
+  for(unsigned pe = 0; pe < PE; pe++) {
+  ^~~
+  VITIS_LOOP_248_5: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48153:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48158:4: warning: Added loop label VITIS_LOOP_253_6:   [xilinx-label-all-loops]
+   for(unsigned int simd = 0; simd < SIMD; simd++) {
+   ^~~
+   VITIS_LOOP_253_6: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48158:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48163:4: warning: Added loop label VITIS_LOOP_258_7:   [xilinx-label-all-loops]
+   for(unsigned mmv = 0; mmv < MMV; mmv++) {
+   ^~~
+   VITIS_LOOP_258_7: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48163:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48174:4: warning: Added loop label VITIS_LOOP_269_8:   [xilinx-label-all-loops]
+   for(unsigned pe = 0; pe < PE; pe++) {
+   ^~~
+   VITIS_LOOP_269_8: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48174:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48176:2: warning: Added loop label VITIS_LOOP_271_9:   [xilinx-label-all-loops]
+ for(unsigned mmv = 0; mmv < MMV; mmv++) {
+ ^~~
+ VITIS_LOOP_271_9: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48176:2: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48219:3: warning: Added loop label VITIS_LOOP_84_1:   [xilinx-label-all-loops]
+  for (unsigned int y = 0; y < OFMDim; y++) {
+  ^~~
+  VITIS_LOOP_84_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48219:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48220:4: warning: Added loop label VITIS_LOOP_85_2:   [xilinx-label-all-loops]
+   for (unsigned int x = 0; x < OFMDim; x++) {
+   ^~~
+   VITIS_LOOP_85_2: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48220:4: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48264:3: warning: Added loop label VITIS_LOOP_142_1:   [xilinx-label-all-loops]
+  for (unsigned int rep = 0; rep < numReps; rep++) {
+  ^~~
+  VITIS_LOOP_142_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48264:3: note: FIX-IT applied suggested code changes
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48285:2: warning: Added loop label VITIS_LOOP_174_1:   [xilinx-label-all-loops]
+ for(unsigned i = 0; i < OFMDim; i++) {
+ ^~~
+ VITIS_LOOP_174_1: 
+/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/.autopilot/db/top_StreamingMaxPool_hls_3.pp.0.cpp:48285:2: note: FIX-IT applied suggested code changes

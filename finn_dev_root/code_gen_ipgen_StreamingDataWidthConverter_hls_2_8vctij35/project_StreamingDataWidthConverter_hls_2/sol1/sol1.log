@@ -1,0 +1,87 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vivado' configuration: config_interface -m_axi_latency=0
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1510] Running: config_compile -disable_unroll_code_size_check -pipeline_style flp 
+WARNING: [XFORM 203-506] Disable code size check when do loop unroll.
+WARNING: [HLS 200-643] The 'config_compile -disable_unroll_code_size_check' hidden command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_rtl -module_auto_prefix 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection none 
+INFO: [HLS 200-1510] Running: create_clock -period 10.0 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0.02 seconds. Elapsed time: 10.04 seconds; current allocated memory: 754.027 MB.
+INFO: [HLS 200-10] Analyzing design file '/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/top_StreamingDataWidthConverter_hls_2.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 9.33 seconds. CPU system time: 0.83 seconds. Elapsed time: 10.18 seconds; current allocated memory: 761.863 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.43 seconds. CPU system time: 0.64 seconds. Elapsed time: 5.11 seconds; current allocated memory: 761.863 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 761.863 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 764.020 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 766.938 MB.
+WARNING: [HLS 200-805] An internal stream 'intermediate' (/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/top_StreamingDataWidthConverter_hls_2.cpp:23) with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+INFO: [XFORM 203-712] Applying dataflow to function 'StreamingDataWidthConverter_hls_2' (/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/top_StreamingDataWidthConverter_hls_2.cpp:17), detected/extracted 2 process function(s): 
+	 'StreamingDataWidthConverter_Batch<39u, 312u, 2704u>'
+	 'StreamingDataWidthConverter_Batch<312u, 24u, 338u>'.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 791.168 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 804.418 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'StreamingDataWidthConverter_hls_2' ...
+WARNING: [SYN 201-103] Legalizing function name 'StreamingDataWidthConverter_Batch<39u, 312u, 2704u>' to 'StreamingDataWidthConverter_Batch_39u_312u_2704u_s'.
+WARNING: [SYN 201-103] Legalizing function name 'StreamingDataWidthConverter_Batch<312u, 24u, 338u>' to 'StreamingDataWidthConverter_Batch_312u_24u_338u_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingDataWidthConverter_Batch_39u_312u_2704u_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_557_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'VITIS_LOOP_557_3'
+WARNING: [HLS 200-871] Estimated clock period (7.591ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'StreamingDataWidthConverter_Batch_39u_312u_2704u_s' consists of the following:	'alloca' operation ('i') [4]  (0 ns)
+	'load' operation ('i_load', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:564) on local variable 'i' [20]  (0 ns)
+	'add' operation ('i', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:564) [26]  (2.55 ns)
+	'icmp' operation ('icmp_ln566', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:566) [27]  (2.47 ns)
+	blocking operation 2.57 ns on control path)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.12 seconds; current allocated memory: 804.418 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 804.418 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingDataWidthConverter_Batch_312u_24u_338u_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_526_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'VITIS_LOOP_526_1'
+WARNING: [HLS 200-871] Estimated clock period (7.311ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'StreamingDataWidthConverter_Batch_312u_24u_338u_s' consists of the following:	'alloca' operation ('o') [4]  (0 ns)
+	'load' operation ('o', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:538) on local variable 'o' [13]  (0 ns)
+	'add' operation ('o', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:538) [34]  (2.55 ns)
+	'icmp' operation ('icmp_ln540', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:540) [35]  (2.47 ns)
+	'select' operation ('o', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:540) [36]  (0.698 ns)
+	'store' operation ('o_write_ln526', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:526) of variable 'o', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:540 on local variable 'o' [38]  (1.59 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 804.418 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 804.418 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingDataWidthConverter_hls_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 804.418 MB.

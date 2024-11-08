@@ -1,0 +1,67 @@
+<pragmas>
+<pragma file="/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/top_StreamingDataWidthConverter_hls_0.cpp" line="22" pragmaType="dataflow" parentfunction="StreamingDataWidthConverter_hls_0" disable_start_propagation="1"/>
+<pragma file="/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/top_StreamingDataWidthConverter_hls_0.cpp" line="19" pragmaType="interface" parentfunction="StreamingDataWidthConverter_hls_0" mode="axis" port="in0_V" register="0" register_mode="both" name="" depth="-1"/>
+<pragma file="/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/top_StreamingDataWidthConverter_hls_0.cpp" line="20" pragmaType="interface" parentfunction="StreamingDataWidthConverter_hls_0" mode="axis" port="out_V" register="0" register_mode="both" name="" depth="-1"/>
+<pragma file="/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/top_StreamingDataWidthConverter_hls_0.cpp" line="21" pragmaType="interface" parentfunction="StreamingDataWidthConverter_hls_0" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1084" pragmaType="inline" parentfunction="ap_int_base<108, false>::operator()(int, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<27>::ap_uint<108, false>(ap_range_ref<108, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1045" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1693" pragmaType="inline" parentfunction="ap_int_base<108, false>::RType<108, false>::arg1 operator>><108, false>(ap_int_base<108, false> const&, unsigned int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<27>::ap_uint<108>(ap_uint<108> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<27>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1693" pragmaType="inline" parentfunction="ap_int_base<27, false>::RType<27, false>::arg1 operator>><27, false>(ap_int_base<27, false> const&, unsigned int)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1084" pragmaType="inline" parentfunction="ap_int_base<27, false>::operator()(int, int)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="185" pragmaType="inline" parentfunction="ap_int_base<27, false>::ap_int_base<108, false>(ap_int_base<108, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="523" pragmaType="inline" parentfunction="_ZN8ssdm_intILi27ELb0EEC2EDq27_j" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="303" pragmaType="inline" parentfunction="ap_range_ref<27, false>::ap_range_ref(ap_int_base<27, false>*, int, int)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="214" pragmaType="inline" parentfunction="ap_int_base<27, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<27>::ap_uint<27, false>(ap_int_base<27, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowCsim" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="214" pragmaType="inline" parentfunction="ap_int_base<108, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<108>::ap_uint<108, false>(ap_int_base<108, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="523" pragmaType="inline" parentfunction="_ZN8ssdm_intILi108ELb0EEC2EDq108_j" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="357" pragmaType="inline" parentfunction="ap_int_base<27, false>::ap_int_base<108, false>(ap_range_ref<108, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="0" pragmaType="inline" parentfunction="ssdm_int<108, false>::ssdm_int()" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="626" pragmaType="inline" parentfunction="get" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="175" pragmaType="inline" parentfunction="ap_int_base<108, false>::ap_int_base()" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1045" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="303" pragmaType="inline" parentfunction="ap_range_ref<108, false>::ap_range_ref(ap_int_base<108, false>*, int, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<108>::ap_uint()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<12>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1084" pragmaType="inline" parentfunction="ap_int_base<12, false>::operator()(int, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<108>::ap_uint<12, false>(ap_range_ref<12, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1693" pragmaType="inline" parentfunction="ap_int_base<12, false>::RType<12, false>::arg1 operator>><12, false>(ap_int_base<12, false> const&, unsigned int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<108>::ap_uint<12>(ap_uint<12> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="185" pragmaType="inline" parentfunction="ap_int_base<108, false>::ap_int_base<12, false>(ap_int_base<12, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="214" pragmaType="inline" parentfunction="ap_int_base<12, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<12>::ap_uint<12, false>(ap_int_base<12, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="523" pragmaType="inline" parentfunction="_ZN8ssdm_intILi12ELb0EEC2EDq12_j" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="357" pragmaType="inline" parentfunction="ap_int_base<108, false>::ap_int_base<12, false>(ap_range_ref<12, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="626" pragmaType="inline" parentfunction="get" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="175" pragmaType="inline" parentfunction="ap_int_base<12, false>::ap_int_base()" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="0" pragmaType="inline" parentfunction="ap_range_ref<27, false>& ap_range_ref<27, false>::operator=<108, false>(ap_int_base<108, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1045" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="303" pragmaType="inline" parentfunction="ap_range_ref<12, false>::ap_range_ref(ap_int_base<12, false>*, int, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<12>::ap_uint()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h" line="527" pragmaType="pipeline" parentfunction="StreamingDataWidthConverter_Batch" off="0" ii="1" rewind="0" style="flp"/>
+<pragma file="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h" line="547" pragmaType="pipeline" parentfunction="StreamingDataWidthConverter_Batch" off="0" ii="1" rewind="0" style="flp"/>
+<pragma file="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h" line="558" pragmaType="pipeline" parentfunction="StreamingDataWidthConverter_Batch" off="0" ii="1" rewind="0" style="flp"/>
+<pragma file="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h" line="527" pragmaType="pipeline" parentfunction="StreamingDataWidthConverter_Batch" off="0" ii="1" rewind="0" style="flp"/>
+<pragma file="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h" line="547" pragmaType="pipeline" parentfunction="StreamingDataWidthConverter_Batch" off="0" ii="1" rewind="0" style="flp"/>
+<pragma file="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h" line="558" pragmaType="pipeline" parentfunction="StreamingDataWidthConverter_Batch" off="0" ii="1" rewind="0" style="flp"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<108>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="0" pragmaType="inline" parentfunction="ssdm_int<27, false>::ssdm_int()" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="0" pragmaType="inline" parentfunction="ap_range_ref<108, false>& ap_range_ref<108, false>::operator=<12, false>(ap_int_base<12, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowCsim" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="0" pragmaType="inline" parentfunction="ssdm_int<12, false>::ssdm_int()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::stream<ap_uint<108>, 0>::stream(char const*)" off="0" region="0" recursive="0"/>
+</pragmas>

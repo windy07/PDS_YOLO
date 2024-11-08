@@ -1,0 +1,31 @@
+{
+	"version": "1.0",
+	"modules": {
+		"StreamingDataWidthConverter_hls_2": {
+			"proto_instances": {
+				"StreamingDataWidthConverter_Batch_312u_24u_338u_U0/StreamingDataWidthConverter_Batch_312u_24u_338u_U0_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_CONTINUE": { "actual": "ap_continue"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"StreamingDataWidthConverter_Batch_39u_312u_2704u_U0/StreamingDataWidthConverter_Batch_39u_312u_2704u_U0_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_CONTINUE": { "actual": "ap_continue"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,336 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s'" level="0">
+<item name = "Date">Fri Nov  8 14:17:32 2024
+</item>
+<item name = "Version">2022.2 (Build 3670227 on Oct 13 2022)</item>
+<item name = "Project">project_StreamingMaxPool_hls_3</item>
+<item name = "Solution">sol1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 6.021 ns, 2.70 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">11652, 11652, 0.117 ms, 0.117 ms, 11652, 11652, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_594">StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1, 28, 28, 0.280 us, 0.280 us, 28, 28, no</column>
+<column name="grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_662">StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8, 28, 28, 0.280 us, 0.280 us, 28, 28, no</column>
+<column name="grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_700">StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6, 4, 4, 40.000 ns, 40.000 ns, 4, 4, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_154_3">11622, 11622, 447, -, -, 26, no</column>
+<column name=" + VITIS_LOOP_155_4_VITIS_LOOP_156_5">416, 416, 8, -, -, 52, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 75, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, -, 118, 1128, -</column>
+<column name="Memory">0, -, 96, 64, 0</column>
+<column name="Multiplexer">-, -, -, 2964, -</column>
+<column name="Register">-, -, 144, -, -</column>
+<specialColumn name="Available">280, 220, 106400, 53200, 0</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, ~0, 7, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_594">StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1, 0, 0, 7, 49, 0</column>
+<column name="grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_700">StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6, 0, 0, 100, 994, 0</column>
+<column name="grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_662">StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8, 0, 0, 11, 85, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+<column name="buf_V_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_1_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_2_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_3_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_4_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_5_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_6_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_7_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_8_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_9_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_10_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_11_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_12_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_13_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_14_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_15_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_16_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_17_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_18_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_19_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_20_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_21_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_22_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_23_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_24_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_25_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_26_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_27_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_28_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_29_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_30_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+<column name="buf_V_31_U">StreamingMaxPool_Precision_52u_2u_32u_ap_uint_3_0_96_s_buf_V_RAM_AUTO_1R1W, 0, 3, 2, 0, 26, 3, 1, 78</column>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="add_ln155_fu_797_p2">+, 0, 0, 14, 6, 1</column>
+<column name="add_ln156_fu_853_p2">+, 0, 0, 13, 5, 1</column>
+<column name="yp_2_fu_785_p2">+, 0, 0, 13, 5, 1</column>
+<column name="grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_662_out_V_TREADY">and, 0, 0, 2, 1, 1</column>
+<column name="icmp_ln154_fu_779_p2">icmp, 0, 0, 9, 5, 4</column>
+<column name="icmp_ln155_fu_791_p2">icmp, 0, 0, 10, 6, 5</column>
+<column name="icmp_ln156_fu_803_p2">icmp, 0, 0, 9, 5, 4</column>
+<column name="select_ln155_fu_809_p3">select, 0, 0, 5, 1, 1</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">48, 9, 1, 9</column>
+<column name="buf_V_10_address0">25, 5, 5, 25</column>
+<column name="buf_V_10_ce0">25, 5, 1, 5</column>
+<column name="buf_V_10_d0">20, 4, 3, 12</column>
+<column name="buf_V_10_we0">20, 4, 1, 4</column>
+<column name="buf_V_11_address0">25, 5, 5, 25</column>
+<column name="buf_V_11_ce0">25, 5, 1, 5</column>
+<column name="buf_V_11_d0">20, 4, 3, 12</column>
+<column name="buf_V_11_we0">20, 4, 1, 4</column>
+<column name="buf_V_12_address0">25, 5, 5, 25</column>
+<column name="buf_V_12_ce0">25, 5, 1, 5</column>
+<column name="buf_V_12_d0">20, 4, 3, 12</column>
+<column name="buf_V_12_we0">20, 4, 1, 4</column>
+<column name="buf_V_13_address0">25, 5, 5, 25</column>
+<column name="buf_V_13_ce0">25, 5, 1, 5</column>
+<column name="buf_V_13_d0">20, 4, 3, 12</column>
+<column name="buf_V_13_we0">20, 4, 1, 4</column>
+<column name="buf_V_14_address0">25, 5, 5, 25</column>
+<column name="buf_V_14_ce0">25, 5, 1, 5</column>
+<column name="buf_V_14_d0">20, 4, 3, 12</column>
+<column name="buf_V_14_we0">20, 4, 1, 4</column>
+<column name="buf_V_15_address0">25, 5, 5, 25</column>
+<column name="buf_V_15_ce0">25, 5, 1, 5</column>
+<column name="buf_V_15_d0">20, 4, 3, 12</column>
+<column name="buf_V_15_we0">20, 4, 1, 4</column>
+<column name="buf_V_16_address0">25, 5, 5, 25</column>
+<column name="buf_V_16_ce0">25, 5, 1, 5</column>
+<column name="buf_V_16_d0">20, 4, 3, 12</column>
+<column name="buf_V_16_we0">20, 4, 1, 4</column>
+<column name="buf_V_17_address0">25, 5, 5, 25</column>
+<column name="buf_V_17_ce0">25, 5, 1, 5</column>
+<column name="buf_V_17_d0">20, 4, 3, 12</column>
+<column name="buf_V_17_we0">20, 4, 1, 4</column>
+<column name="buf_V_18_address0">25, 5, 5, 25</column>
+<column name="buf_V_18_ce0">25, 5, 1, 5</column>
+<column name="buf_V_18_d0">20, 4, 3, 12</column>
+<column name="buf_V_18_we0">20, 4, 1, 4</column>
+<column name="buf_V_19_address0">25, 5, 5, 25</column>
+<column name="buf_V_19_ce0">25, 5, 1, 5</column>
+<column name="buf_V_19_d0">20, 4, 3, 12</column>
+<column name="buf_V_19_we0">20, 4, 1, 4</column>
+<column name="buf_V_1_address0">25, 5, 5, 25</column>
+<column name="buf_V_1_ce0">25, 5, 1, 5</column>
+<column name="buf_V_1_d0">20, 4, 3, 12</column>
+<column name="buf_V_1_we0">20, 4, 1, 4</column>
+<column name="buf_V_20_address0">25, 5, 5, 25</column>
+<column name="buf_V_20_ce0">25, 5, 1, 5</column>
+<column name="buf_V_20_d0">20, 4, 3, 12</column>
+<column name="buf_V_20_we0">20, 4, 1, 4</column>
+<column name="buf_V_21_address0">25, 5, 5, 25</column>
+<column name="buf_V_21_ce0">25, 5, 1, 5</column>
+<column name="buf_V_21_d0">20, 4, 3, 12</column>
+<column name="buf_V_21_we0">20, 4, 1, 4</column>
+<column name="buf_V_22_address0">25, 5, 5, 25</column>
+<column name="buf_V_22_ce0">25, 5, 1, 5</column>
+<column name="buf_V_22_d0">20, 4, 3, 12</column>
+<column name="buf_V_22_we0">20, 4, 1, 4</column>
+<column name="buf_V_23_address0">25, 5, 5, 25</column>
+<column name="buf_V_23_ce0">25, 5, 1, 5</column>
+<column name="buf_V_23_d0">20, 4, 3, 12</column>
+<column name="buf_V_23_we0">20, 4, 1, 4</column>
+<column name="buf_V_24_address0">25, 5, 5, 25</column>
+<column name="buf_V_24_ce0">25, 5, 1, 5</column>
+<column name="buf_V_24_d0">20, 4, 3, 12</column>
+<column name="buf_V_24_we0">20, 4, 1, 4</column>
+<column name="buf_V_25_address0">25, 5, 5, 25</column>
+<column name="buf_V_25_ce0">25, 5, 1, 5</column>
+<column name="buf_V_25_d0">20, 4, 3, 12</column>
+<column name="buf_V_25_we0">20, 4, 1, 4</column>
+<column name="buf_V_26_address0">25, 5, 5, 25</column>
+<column name="buf_V_26_ce0">25, 5, 1, 5</column>
+<column name="buf_V_26_d0">20, 4, 3, 12</column>
+<column name="buf_V_26_we0">20, 4, 1, 4</column>
+<column name="buf_V_27_address0">25, 5, 5, 25</column>
+<column name="buf_V_27_ce0">25, 5, 1, 5</column>
+<column name="buf_V_27_d0">20, 4, 3, 12</column>
+<column name="buf_V_27_we0">20, 4, 1, 4</column>
+<column name="buf_V_28_address0">25, 5, 5, 25</column>
+<column name="buf_V_28_ce0">25, 5, 1, 5</column>
+<column name="buf_V_28_d0">20, 4, 3, 12</column>
+<column name="buf_V_28_we0">20, 4, 1, 4</column>
+<column name="buf_V_29_address0">25, 5, 5, 25</column>
+<column name="buf_V_29_ce0">25, 5, 1, 5</column>
+<column name="buf_V_29_d0">20, 4, 3, 12</column>
+<column name="buf_V_29_we0">20, 4, 1, 4</column>
+<column name="buf_V_2_address0">25, 5, 5, 25</column>
+<column name="buf_V_2_ce0">25, 5, 1, 5</column>
+<column name="buf_V_2_d0">20, 4, 3, 12</column>
+<column name="buf_V_2_we0">20, 4, 1, 4</column>
+<column name="buf_V_30_address0">25, 5, 5, 25</column>
+<column name="buf_V_30_ce0">25, 5, 1, 5</column>
+<column name="buf_V_30_d0">20, 4, 3, 12</column>
+<column name="buf_V_30_we0">20, 4, 1, 4</column>
+<column name="buf_V_31_address0">25, 5, 5, 25</column>
+<column name="buf_V_31_ce0">25, 5, 1, 5</column>
+<column name="buf_V_31_d0">20, 4, 3, 12</column>
+<column name="buf_V_31_we0">20, 4, 1, 4</column>
+<column name="buf_V_3_address0">25, 5, 5, 25</column>
+<column name="buf_V_3_ce0">25, 5, 1, 5</column>
+<column name="buf_V_3_d0">20, 4, 3, 12</column>
+<column name="buf_V_3_we0">20, 4, 1, 4</column>
+<column name="buf_V_4_address0">25, 5, 5, 25</column>
+<column name="buf_V_4_ce0">25, 5, 1, 5</column>
+<column name="buf_V_4_d0">20, 4, 3, 12</column>
+<column name="buf_V_4_we0">20, 4, 1, 4</column>
+<column name="buf_V_5_address0">25, 5, 5, 25</column>
+<column name="buf_V_5_ce0">25, 5, 1, 5</column>
+<column name="buf_V_5_d0">20, 4, 3, 12</column>
+<column name="buf_V_5_we0">20, 4, 1, 4</column>
+<column name="buf_V_6_address0">25, 5, 5, 25</column>
+<column name="buf_V_6_ce0">25, 5, 1, 5</column>
+<column name="buf_V_6_d0">20, 4, 3, 12</column>
+<column name="buf_V_6_we0">20, 4, 1, 4</column>
+<column name="buf_V_7_address0">25, 5, 5, 25</column>
+<column name="buf_V_7_ce0">25, 5, 1, 5</column>
+<column name="buf_V_7_d0">20, 4, 3, 12</column>
+<column name="buf_V_7_we0">20, 4, 1, 4</column>
+<column name="buf_V_8_address0">25, 5, 5, 25</column>
+<column name="buf_V_8_ce0">25, 5, 1, 5</column>
+<column name="buf_V_8_d0">20, 4, 3, 12</column>
+<column name="buf_V_8_we0">20, 4, 1, 4</column>
+<column name="buf_V_9_address0">25, 5, 5, 25</column>
+<column name="buf_V_9_ce0">25, 5, 1, 5</column>
+<column name="buf_V_9_d0">20, 4, 3, 12</column>
+<column name="buf_V_9_we0">20, 4, 1, 4</column>
+<column name="buf_V_address0">25, 5, 5, 25</column>
+<column name="buf_V_ce0">25, 5, 1, 5</column>
+<column name="buf_V_d0">20, 4, 3, 12</column>
+<column name="buf_V_we0">20, 4, 1, 4</column>
+<column name="in0_V_TREADY">9, 2, 1, 2</column>
+<column name="indvar_flatten_reg_572">9, 2, 6, 12</column>
+<column name="xp_reg_583">9, 2, 5, 10</column>
+<column name="yp_fu_56">9, 2, 5, 10</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="add_ln155_reg_881">6, 0, 6, 0</column>
+<column name="add_ln156_reg_1051">5, 0, 5, 0</column>
+<column name="ap_CS_fsm">8, 0, 8, 0</column>
+<column name="buf_V_10_load_reg_1106">3, 0, 3, 0</column>
+<column name="buf_V_11_load_reg_1111">3, 0, 3, 0</column>
+<column name="buf_V_12_load_reg_1116">3, 0, 3, 0</column>
+<column name="buf_V_13_load_reg_1121">3, 0, 3, 0</column>
+<column name="buf_V_14_load_reg_1126">3, 0, 3, 0</column>
+<column name="buf_V_15_load_reg_1131">3, 0, 3, 0</column>
+<column name="buf_V_16_load_reg_1136">3, 0, 3, 0</column>
+<column name="buf_V_17_load_reg_1141">3, 0, 3, 0</column>
+<column name="buf_V_18_load_reg_1146">3, 0, 3, 0</column>
+<column name="buf_V_19_load_reg_1151">3, 0, 3, 0</column>
+<column name="buf_V_1_load_reg_1061">3, 0, 3, 0</column>
+<column name="buf_V_20_load_reg_1156">3, 0, 3, 0</column>
+<column name="buf_V_21_load_reg_1161">3, 0, 3, 0</column>
+<column name="buf_V_22_load_reg_1166">3, 0, 3, 0</column>
+<column name="buf_V_23_load_reg_1171">3, 0, 3, 0</column>
+<column name="buf_V_24_load_reg_1176">3, 0, 3, 0</column>
+<column name="buf_V_25_load_reg_1181">3, 0, 3, 0</column>
+<column name="buf_V_26_load_reg_1186">3, 0, 3, 0</column>
+<column name="buf_V_27_load_reg_1191">3, 0, 3, 0</column>
+<column name="buf_V_28_load_reg_1196">3, 0, 3, 0</column>
+<column name="buf_V_29_load_reg_1201">3, 0, 3, 0</column>
+<column name="buf_V_2_load_reg_1066">3, 0, 3, 0</column>
+<column name="buf_V_30_load_reg_1206">3, 0, 3, 0</column>
+<column name="buf_V_31_load_reg_1211">3, 0, 3, 0</column>
+<column name="buf_V_3_load_reg_1071">3, 0, 3, 0</column>
+<column name="buf_V_4_load_reg_1076">3, 0, 3, 0</column>
+<column name="buf_V_5_load_reg_1081">3, 0, 3, 0</column>
+<column name="buf_V_6_load_reg_1086">3, 0, 3, 0</column>
+<column name="buf_V_7_load_reg_1091">3, 0, 3, 0</column>
+<column name="buf_V_8_load_reg_1096">3, 0, 3, 0</column>
+<column name="buf_V_9_load_reg_1101">3, 0, 3, 0</column>
+<column name="buf_V_load_reg_1056">3, 0, 3, 0</column>
+<column name="grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_594_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_700_ap_start_reg">1, 0, 1, 0</column>
+<column name="grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_662_ap_start_reg">1, 0, 1, 0</column>
+<column name="indvar_flatten_reg_572">6, 0, 6, 0</column>
+<column name="select_ln155_reg_886">5, 0, 5, 0</column>
+<column name="xp_reg_583">5, 0, 5, 0</column>
+<column name="yp_2_reg_873">5, 0, 5, 0</column>
+<column name="yp_fu_56">5, 0, 5, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, StreamingMaxPool_Precision&lt;52u, 2u, 32u, ap_uint&lt;3&gt;, 0, 96&gt;, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, StreamingMaxPool_Precision&lt;52u, 2u, 32u, ap_uint&lt;3&gt;, 0, 96&gt;, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, StreamingMaxPool_Precision&lt;52u, 2u, 32u, ap_uint&lt;3&gt;, 0, 96&gt;, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, StreamingMaxPool_Precision&lt;52u, 2u, 32u, ap_uint&lt;3&gt;, 0, 96&gt;, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, StreamingMaxPool_Precision&lt;52u, 2u, 32u, ap_uint&lt;3&gt;, 0, 96&gt;, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, StreamingMaxPool_Precision&lt;52u, 2u, 32u, ap_uint&lt;3&gt;, 0, 96&gt;, return value</column>
+<column name="in0_V_TDATA">in, 96, axis, in0_V, pointer</column>
+<column name="in0_V_TVALID">in, 1, axis, in0_V, pointer</column>
+<column name="in0_V_TREADY">out, 1, axis, in0_V, pointer</column>
+<column name="out_V_TDATA">out, 96, axis, out_V, pointer</column>
+<column name="out_V_TVALID">out, 1, axis, out_V, pointer</column>
+<column name="out_V_TREADY">in, 1, axis, out_V, pointer</column>
+</table>
+</item>
+</section>
+</profile>

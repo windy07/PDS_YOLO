@@ -1,0 +1,1758 @@
+---
+MainSourceFile:  /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          56513
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          264145
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          264588
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          265032
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          527570
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_1:  '
+    FileOffset:      134
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1650624
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_1:  '
+    FileOffset:      159
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1651199
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_76_1:  '
+    FileOffset:      76
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1664507
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_76_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1664976
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_1:  '
+    FileOffset:      158
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1666042
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_2:  '
+    FileOffset:      159
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1666087
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_1:  '
+    FileOffset:      209
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1666815
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_233_1:  '
+    FileOffset:      233
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1667148
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_233_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_277_1:  '
+    FileOffset:      277
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1667782
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_277_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_278_2:  '
+    FileOffset:      278
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1667828
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_278_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_279_3:  '
+    FileOffset:      279
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1667875
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_279_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_1:  '
+    FileOffset:      333
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1668647
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1669706
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_453_1:  '
+    FileOffset:      453
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1670350
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_453_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_455_2:  '
+    FileOffset:      455
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1670426
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_455_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_456_3:  '
+    FileOffset:      456
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1670477
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_456_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_526_1:  '
+    FileOffset:      526
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1671733
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_526_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_546_2:  '
+    FileOffset:      546
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1672072
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_546_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_557_3:  '
+    FileOffset:      557
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1672407
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_557_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_611_1:  '
+    FileOffset:      611
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1673468
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_611_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_629_2:  '
+    FileOffset:      629
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1674003
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_629_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_666_1:  '
+    FileOffset:      666
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1674701
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_666_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_694_1:  '
+    FileOffset:      694
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1675161
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_694_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_724_1:  '
+    FileOffset:      724
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1675717
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_724_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_729_2:  '
+    FileOffset:      729
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1675957
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_729_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_767_1:  '
+    FileOffset:      767
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1676755
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_767_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_845_1:  '
+    FileOffset:      845
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1678834
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_845_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_852_2:  '
+    FileOffset:      852
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1678996
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_852_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_868_3:  '
+    FileOffset:      868
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1679261
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_868_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_874_4:  '
+    FileOffset:      874
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1679448
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_874_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_886_5:  '
+    FileOffset:      886
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1679743
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_886_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_890_6:  '
+    FileOffset:      890
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1679880
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_890_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_926_1:  '
+    FileOffset:      926
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1680422
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_926_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_930_2:  '
+    FileOffset:      930
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1680598
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_930_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_957_1:  '
+    FileOffset:      957
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1681029
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_957_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_961_2:  '
+    FileOffset:      961
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1681201
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_961_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1049_1:  '
+    FileOffset:      1049
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1683249
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1049_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1050_2:  '
+    FileOffset:      1050
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1683308
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1050_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1072_1:  '
+    FileOffset:      1072
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1683701
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1072_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1073_2:  '
+    FileOffset:      1073
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1683760
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1073_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_1:  '
+    FileOffset:      113
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1685194
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_140_1:  '
+    FileOffset:      140
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1685804
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_140_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_1:  '
+    FileOffset:      153
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1686221
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_1:  '
+    FileOffset:      166
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1686621
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1687186
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_1:  '
+    FileOffset:      222
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1687760
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_223_2:  '
+    FileOffset:      223
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1687811
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_223_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_227_3:  '
+    FileOffset:      227
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1687935
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_227_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1960322
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_99_2:  '
+    FileOffset:      99
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1960478
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_99_2: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P +  is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      74
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      137
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_1:  '
+    FileOffset:      190
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1963036
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_191_2:  '
+    FileOffset:      191
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1963115
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_191_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1967487
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_2:  '
+    FileOffset:      325
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1967564
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_331_3:  '
+    FileOffset:      331
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1967776
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_331_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_358_4:  '
+    FileOffset:      358
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1968623
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_358_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_391_5:  '
+    FileOffset:      391
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1969475
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_391_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1971787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_478_2:  '
+    FileOffset:      478
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1972068
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_478_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_625_1:  '
+    FileOffset:      625
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1976370
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_625_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_630_2:  '
+    FileOffset:      630
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1976651
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_630_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_636_3:  '
+    FileOffset:      636
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1976842
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_636_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_671_4:  '
+    FileOffset:      671
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1977961
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_671_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_5:  '
+    FileOffset:      704
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1978759
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_780_1:  '
+    FileOffset:      780
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1980834
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_780_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_781_2:  '
+    FileOffset:      781
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1980913
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_781_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_910_1:  '
+    FileOffset:      910
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1985149
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_910_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_2:  '
+    FileOffset:      914
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1985383
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1064_1:  '
+    FileOffset:      1064
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1990778
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1064_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1065_2:  '
+    FileOffset:      1065
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1990855
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1065_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1071_3:  '
+    FileOffset:      1071
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1991067
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1071_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1098_4:  '
+    FileOffset:      1098
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1991914
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1098_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_5:  '
+    FileOffset:      1131
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1992766
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1190_1:  '
+    FileOffset:      1190
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1994047
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1193_2:  '
+    FileOffset:      1193
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1994197
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1193_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1197_3:  '
+    FileOffset:      1197
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1994424
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1197_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1201_4:  '
+    FileOffset:      1201
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1994661
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1201_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1239_1:  '
+    FileOffset:      1239
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1995408
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1239_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1241_2:  '
+    FileOffset:      1241
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1995494
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1241_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1244_3:  '
+    FileOffset:      1244
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1995680
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1244_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1313_1:  '
+    FileOffset:      1313
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1997528
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1313_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1314_2:  '
+    FileOffset:      1314
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          1997607
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1314_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1447_1:  '
+    FileOffset:      1447
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2001855
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1447_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1448_2:  '
+    FileOffset:      1448
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2001934
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1448_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_1:  '
+    FileOffset:      1588
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2006172
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1589_2:  '
+    FileOffset:      1589
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2006251
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1589_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1716_1:  '
+    FileOffset:      1716
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2009988
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1716_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1717_2:  '
+    FileOffset:      1717
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2010067
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1717_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1737_3:  '
+    FileOffset:      1737
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2010552
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1737_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1822_1:  '
+    FileOffset:      1822
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2012631
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1822_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1823_2:  '
+    FileOffset:      1823
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2012710
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1823_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1901_1:  '
+    FileOffset:      1901
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2014744
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1901_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1907_2:  '
+    FileOffset:      1907
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2014967
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1907_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1977_1:  '
+    FileOffset:      1977
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2016588
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1977_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1983_2:  '
+    FileOffset:      1983
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2016775
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1983_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2055_1:  '
+    FileOffset:      2055
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2018411
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2055_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2062_2:  '
+    FileOffset:      2062
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2018621
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2062_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2025808
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_2:  '
+    FileOffset:      78
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2025900
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_79_3:  '
+    FileOffset:      79
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2025961
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_79_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_4:  '
+    FileOffset:      80
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2026015
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_5:  '
+    FileOffset:      82
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2026118
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_6:  '
+    FileOffset:      90
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2026279
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_1:  '
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2026726
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_147_1:  '
+    FileOffset:      147
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2027308
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_147_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_2:  '
+    FileOffset:      148
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2027365
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_154_3:  '
+    FileOffset:      154
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2027510
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_154_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_4:  '
+    FileOffset:      155
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2027571
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_5:  '
+    FileOffset:      156
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2027625
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_6:  '
+    FileOffset:      158
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2027691
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_161_7:  '
+    FileOffset:      161
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2027809
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_161_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_8:  '
+    FileOffset:      174
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2028220
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_175_9:  '
+    FileOffset:      175
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2028295
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_175_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_216_1:  '
+    FileOffset:      216
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2029457
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_216_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_257_1:  '
+    FileOffset:      257
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2030509
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_257_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_259_2:  '
+    FileOffset:      259
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2030587
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_259_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_267_3:  '
+    FileOffset:      267
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2030761
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_267_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_4:  '
+    FileOffset:      269
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2030817
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_271_5:  '
+    FileOffset:      271
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2030908
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_271_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_274_6:  '
+    FileOffset:      274
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2031020
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_274_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_287_7:  '
+    FileOffset:      287
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2031433
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_287_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_8:  '
+    FileOffset:      289
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2031511
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_9:  '
+    FileOffset:      301
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2031806
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_332_1:  '
+    FileOffset:      332
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2032345
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_332_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2032985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_368_2:  '
+    FileOffset:      368
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2033041
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_368_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_3:  '
+    FileOffset:      369
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2033104
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_372_4:  '
+    FileOffset:      372
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2033227
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_372_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      415
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2034249
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_2:  '
+    FileOffset:      419
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2034305
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_3:  '
+    FileOffset:      420
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2034368
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_424_4:  '
+    FileOffset:      424
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2034563
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_424_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_435_5:  '
+    FileOffset:      435
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2035007
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_435_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_481_1:  '
+    FileOffset:      481
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2035782
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_481_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_483_2:  '
+    FileOffset:      483
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2035860
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_483_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_488_3:  '
+    FileOffset:      488
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2035994
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_488_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_491_4:  '
+    FileOffset:      491
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2036157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_491_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_500_5:  '
+    FileOffset:      500
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2036417
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_500_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_6:  '
+    FileOffset:      507
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2036551
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_527_7:  '
+    FileOffset:      527
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2036908
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_527_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_575_1:  '
+    FileOffset:      575
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2037624
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_575_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_582_2:  '
+    FileOffset:      582
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2037782
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_582_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_589_3:  '
+    FileOffset:      589
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2037943
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_589_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_598_4:  '
+    FileOffset:      598
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2038151
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_598_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
+    FileOffset:      142
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_1:  '
+    FileOffset:      167
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2039833
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_194_1:  '
+    FileOffset:      194
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2040156
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_194_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_1:  '
+    FileOffset:      123
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2041341
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_2:  '
+    FileOffset:      139
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2041593
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_3:  '
+    FileOffset:      141
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2041651
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_150_4:  '
+    FileOffset:      150
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2041827
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_150_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_5:  '
+    FileOffset:      153
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2041927
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_6:  '
+    FileOffset:      164
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2042196
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_7:  '
+    FileOffset:      166
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2042255
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_1:  '
+    FileOffset:      249
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2043541
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_2:  '
+    FileOffset:      266
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2043804
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_3:  '
+    FileOffset:      273
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2043966
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_280_4:  '
+    FileOffset:      280
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2044083
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_280_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_5:  '
+    FileOffset:      293
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2044385
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_1:  '
+    FileOffset:      90
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2045484
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_2:  '
+    FileOffset:      102
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2045801
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2045946
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_111_4:  '
+    FileOffset:      111
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2046002
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_111_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_131_5:  '
+    FileOffset:      131
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2046829
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_6:  '
+    FileOffset:      135
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2046925
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_1:  '
+    FileOffset:      199
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2048233
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_1:  '
+    FileOffset:      109
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2055807
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_115_2:  '
+    FileOffset:      115
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2055954
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_115_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_3:  '
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2056000
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_125_4:  '
+    FileOffset:      125
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2056176
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_125_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_130_5:  '
+    FileOffset:      130
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2056323
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_130_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_6:  '
+    FileOffset:      135
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2056619
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_146_7:  '
+    FileOffset:      146
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2056890
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_146_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_8:  '
+    FileOffset:      148
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2056949
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_225_1:  '
+    FileOffset:      225
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2057994
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_225_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_231_2:  '
+    FileOffset:      231
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2058134
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_231_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_232_3:  '
+    FileOffset:      232
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2058176
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_232_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_4:  '
+    FileOffset:      243
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2058459
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_5:  '
+    FileOffset:      248
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2058596
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_6:  '
+    FileOffset:      253
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2058737
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_7:  '
+    FileOffset:      258
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2058980
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_8:  '
+    FileOffset:      269
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2059234
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_271_9:  '
+    FileOffset:      271
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2059292
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_271_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2060676
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_85_2:  '
+    FileOffset:      85
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2060723
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_85_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_142_1:  '
+    FileOffset:      142
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2061699
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_142_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_1:  '
+    FileOffset:      174
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_2.pp.0.cpp
+        Offset:          2062347
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_1: '
+...

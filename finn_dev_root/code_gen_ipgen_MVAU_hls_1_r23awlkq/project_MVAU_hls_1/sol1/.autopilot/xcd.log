@@ -1,0 +1,25 @@
+Fri Nov  8 14:17:44 2024: Running xcd server. This server was NOT built by gradle, but presumably rdi.
+Fri Nov  8 14:17:44 2024: Server was asked to start on port: '42495'
+Fri Nov  8 14:17:44 2024: Server is using token UUID: '3d2adbd1-03a6-4fbc-9a9c-5b462cbcf14d'
+Fri Nov  8 14:17:44 2024: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+Fri Nov  8 14:17:44 2024: Attempting to start server on port '42495'
+Fri Nov  8 14:17:44 2024: XCD main fifo: created main fifo '/tmp/xcdmain3d2adbd1-03a6-4fbc-9a9c-5b462cbcf14d', fd read = 12
+Fri Nov  8 14:17:44 2024: Running Dispatch Server
+Fri Nov  8 14:17:44 2024: Version 2.2.0
+Fri Nov  8 14:17:51 2024: Dispatch Server: Accepted socket connection from client
+Fri Nov  8 14:17:51 2024: Starting Socket connection
+Fri Nov  8 14:17:51 2024: EXCHANGE_TOKEN received, server token: 3d2adbd1-03a6-4fbc-9a9c-5b462cbcf14d, passed token: 3d2adbd1-03a6-4fbc-9a9c-5b462cbcf14d
+Fri Nov  8 14:17:51 2024: SESSION_MGR: creating session with session uuid: '617c7f71-ce09-4fe5-ab66-f9a9fc3d4eb4' and name 'vitis_hls'
+Fri Nov  8 14:17:51 2024: KERNEL_SVC: creating session with uuid: '617c7f71-ce09-4fe5-ab66-f9a9fc3d4eb4' and name 'vitis_hls'
+Fri Nov  8 14:17:51 2024: GUIDANCE_SMGR: creating guidance session with uuid: '617c7f71-ce09-4fe5-ab66-f9a9fc3d4eb4' and name 'vitis_hls'
+Fri Nov  8 14:18:46 2024: STOP_SERVER received, server token: 3d2adbd1-03a6-4fbc-9a9c-5b462cbcf14d, passed token: 3d2adbd1-03a6-4fbc-9a9c-5b462cbcf14d
+Fri Nov  8 14:18:46 2024: Socket received request to stop server.
+Fri Nov  8 14:18:46 2024: Dispatch Server: do_await_stop
+Fri Nov  8 14:18:46 2024: Dispatch Server: stopping mainFifo_
+Fri Nov  8 14:18:46 2024: XCD main fifo: Stopping
+Fri Nov  8 14:18:46 2024: XCD main fifo: do_read error code: Operation canceled
+Fri Nov  8 14:18:46 2024: XCD main fifo: bytes_transferred: 0
+Fri Nov  8 14:18:46 2024: SERVER: destructor for server bound to port 42495
+Fri Nov  8 14:18:46 2024: XCD main fifo: Good unlink of /tmp/xcdmain3d2adbd1-03a6-4fbc-9a9c-5b462cbcf14d
+Fri Nov  8 14:18:46 2024: Server exiting with status 0.
+Fri Nov  8 14:18:46 2024: Closing log file.

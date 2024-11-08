@@ -1,0 +1,137 @@
+
+
+================================================================
+== Vitis HLS Report for 'MVAU_hls_8'
+================================================================
+* Date:           Fri Nov  8 14:16:00 2024
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        project_MVAU_hls_8
+* Solution:       sol1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.591 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+--------+--------+---------+
+    |  Latency (cycles) |  Latency (absolute) |     Interval    | Pipeline|
+    |   min   |   max   |    min   |    max   |   min  |   max  |   Type  |
+    +---------+---------+----------+----------+--------+--------+---------+
+    |   316382|   316382|  3.164 ms|  3.164 ms|  316383|  316383|       no|
+    +---------+---------+----------+----------+--------+--------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 4
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 1.58>
+ST_2 : Operation 5 [2/2] (1.58ns)   --->   "%call_ln37 = call void @Matrix_Vector_Activate_Stream_Batch, i32 %in0_V, i8 %out_V, i72 %weights_V, i18 %p_ZL7threshs_0, i18 %p_ZL7threshs_1, i18 %p_ZL7threshs_2, i18 %p_ZL7threshs_3, i18 %p_ZL7threshs_4, i18 %p_ZL7threshs_5, i18 %p_ZL7threshs_6, i18 %p_ZL7threshs_7, i18 %p_ZL7threshs_8, i18 %p_ZL7threshs_9, i18 %p_ZL7threshs_10, i18 %p_ZL7threshs_11, i18 %p_ZL7threshs_12, i18 %p_ZL7threshs_13, i18 %p_ZL7threshs_14, i18 %p_ZL7threshs_15, i18 %p_ZL7threshs_16, i18 %p_ZL7threshs_17, i18 %p_ZL7threshs_18, i18 %p_ZL7threshs_19, i18 %p_ZL7threshs_20, i18 %p_ZL7threshs_21, i18 %p_ZL7threshs_22, i18 %p_ZL7threshs_23, i18 %p_ZL7threshs_24, i18 %p_ZL7threshs_25, i18 %p_ZL7threshs_26, i18 %p_ZL7threshs_27, i18 %p_ZL7threshs_28, i18 %p_ZL7threshs_29, i18 %p_ZL7threshs_30, i18 %p_ZL7threshs_31, i18 %p_ZL7threshs_32, i18 %p_ZL7threshs_33, i18 %p_ZL7threshs_34, i18 %p_ZL7threshs_35, i18 %p_ZL7threshs_36, i18 %p_ZL7threshs_37, i18 %p_ZL7threshs_38, i18 %p_ZL7threshs_39, i18 %p_ZL7threshs_40, i18 %p_ZL7threshs_41, i18 %p_ZL7threshs_42, i18 %p_ZL7threshs_43, i18 %p_ZL7threshs_44, i18 %p_ZL7threshs_45, i18 %p_ZL7threshs_46, i18 %p_ZL7threshs_47, i18 %p_ZL7threshs_48, i18 %p_ZL7threshs_49, i18 %p_ZL7threshs_50, i18 %p_ZL7threshs_51, i18 %p_ZL7threshs_52, i18 %p_ZL7threshs_53, i18 %p_ZL7threshs_54, i18 %p_ZL7threshs_55, i17 %p_ZL7threshs_56, i17 %p_ZL7threshs_57, i17 %p_ZL7threshs_58, i17 %p_ZL7threshs_59, i17 %p_ZL7threshs_60, i17 %p_ZL7threshs_61, i17 %p_ZL7threshs_62, i17 %p_ZL7threshs_63, i17 %p_ZL7threshs_64, i17 %p_ZL7threshs_65, i17 %p_ZL7threshs_66, i17 %p_ZL7threshs_67, i17 %p_ZL7threshs_68, i17 %p_ZL7threshs_69, i17 %p_ZL7threshs_70, i17 %p_ZL7threshs_71, i17 %p_ZL7threshs_72, i17 %p_ZL7threshs_73, i17 %p_ZL7threshs_74, i17 %p_ZL7threshs_75, i17 %p_ZL7threshs_76, i17 %p_ZL7threshs_77, i17 %p_ZL7threshs_78, i17 %p_ZL7threshs_79, i17 %p_ZL7threshs_80, i17 %p_ZL7threshs_81, i17 %p_ZL7threshs_82, i17 %p_ZL7threshs_83, i17 %p_ZL7threshs_84, i17 %p_ZL7threshs_85, i17 %p_ZL7threshs_86, i17 %p_ZL7threshs_87, i17 %p_ZL7threshs_88, i17 %p_ZL7threshs_89, i17 %p_ZL7threshs_90, i17 %p_ZL7threshs_91, i16 %p_ZL7threshs_92, i16 %p_ZL7threshs_93, i16 %p_ZL7threshs_94, i16 %p_ZL7threshs_95, i16 %p_ZL7threshs_96, i16 %p_ZL7threshs_97, i16 %p_ZL7threshs_98, i16 %p_ZL7threshs_99, i16 %p_ZL7threshs_100, i16 %p_ZL7threshs_101, i16 %p_ZL7threshs_102, i16 %p_ZL7threshs_103, i16 %p_ZL7threshs_104, i16 %p_ZL7threshs_105, i16 %p_ZL7threshs_106, i16 %p_ZL7threshs_107, i16 %p_ZL7threshs_108, i15 %p_ZL7threshs_109, i15 %p_ZL7threshs_110, i15 %p_ZL7threshs_111, i15 %p_ZL7threshs_112, i15 %p_ZL7threshs_113, i15 %p_ZL7threshs_114, i15 %p_ZL7threshs_115, i15 %p_ZL7threshs_116, i15 %p_ZL7threshs_117, i14 %p_ZL7threshs_118, i14 %p_ZL7threshs_119, i14 %p_ZL7threshs_120, i14 %p_ZL7threshs_121, i14 %p_ZL7threshs_122, i13 %p_ZL7threshs_123, i13 %p_ZL7threshs_124, i12 %p_ZL7threshs_125, i10 %p_ZL7threshs_126, i7 %p_ZL7threshs_127, i11 %p_ZL7threshs_128, i12 %p_ZL7threshs_129, i11 %p_ZL7threshs_130, i13 %p_ZL7threshs_131, i13 %p_ZL7threshs_132, i13 %p_ZL7threshs_133, i12 %p_ZL7threshs_134, i10 %p_ZL7threshs_135, i14 %p_ZL7threshs_136, i14 %p_ZL7threshs_137, i14 %p_ZL7threshs_138, i14 %p_ZL7threshs_139, i13 %p_ZL7threshs_140, i13 %p_ZL7threshs_141, i13 %p_ZL7threshs_142, i12 %p_ZL7threshs_143, i10 %p_ZL7threshs_144, i15 %p_ZL7threshs_145, i15 %p_ZL7threshs_146, i15 %p_ZL7threshs_147, i15 %p_ZL7threshs_148, i15 %p_ZL7threshs_149, i15 %p_ZL7threshs_150, i15 %p_ZL7threshs_151, i15 %p_ZL7threshs_152, i15 %p_ZL7threshs_153, i14 %p_ZL7threshs_154, i14 %p_ZL7threshs_155, i14 %p_ZL7threshs_156, i14 %p_ZL7threshs_157, i13 %p_ZL7threshs_158, i13 %p_ZL7threshs_159, i12 %p_ZL7threshs_160, i11 %p_ZL7threshs_161, i16 %p_ZL7threshs_162, i16 %p_ZL7threshs_163, i16 %p_ZL7threshs_164, i16 %p_ZL7threshs_165, i16 %p_ZL7threshs_166, i16 %p_ZL7threshs_167, i16 %p_ZL7threshs_168, i16 %p_ZL7threshs_169, i16 %p_ZL7threshs_170, i16 %p_ZL7threshs_171, i16 %p_ZL7threshs_172, i16 %p_ZL7threshs_173, i16 %p_ZL7threshs_174, i16 %p_ZL7threshs_175, i16 %p_ZL7threshs_176, i16 %p_ZL7threshs_177, i16 %p_ZL7threshs_178, i16 %p_ZL7threshs_179, i15 %p_ZL7threshs_180, i15 %p_ZL7threshs_181, i15 %p_ZL7threshs_182, i15 %p_ZL7threshs_183, i15 %p_ZL7threshs_184, i15 %p_ZL7threshs_185, i15 %p_ZL7threshs_186, i15 %p_ZL7threshs_187, i15 %p_ZL7threshs_188, i14 %p_ZL7threshs_189, i14 %p_ZL7threshs_190, i14 %p_ZL7threshs_191, i14 %p_ZL7threshs_192, i13 %p_ZL7threshs_193, i13 %p_ZL7threshs_194, i13 %p_ZL7threshs_195, i12 %p_ZL7threshs_196, i12 %p_ZL7threshs_197, i17 %p_ZL7threshs_198, i17 %p_ZL7threshs_199, i17 %p_ZL7threshs_200, i17 %p_ZL7threshs_201, i17 %p_ZL7threshs_202, i17 %p_ZL7threshs_203, i17 %p_ZL7threshs_204, i17 %p_ZL7threshs_205, i17 %p_ZL7threshs_206, i17 %p_ZL7threshs_207, i17 %p_ZL7threshs_208, i17 %p_ZL7threshs_209, i17 %p_ZL7threshs_210, i17 %p_ZL7threshs_211, i17 %p_ZL7threshs_212, i17 %p_ZL7threshs_213, i17 %p_ZL7threshs_214, i17 %p_ZL7threshs_215, i17 %p_ZL7threshs_216, i17 %p_ZL7threshs_217, i17 %p_ZL7threshs_218, i17 %p_ZL7threshs_219, i17 %p_ZL7threshs_220, i17 %p_ZL7threshs_221, i17 %p_ZL7threshs_222, i17 %p_ZL7threshs_223, i17 %p_ZL7threshs_224, i17 %p_ZL7threshs_225, i17 %p_ZL7threshs_226, i17 %p_ZL7threshs_227, i17 %p_ZL7threshs_228, i17 %p_ZL7threshs_229, i17 %p_ZL7threshs_230, i17 %p_ZL7threshs_231, i17 %p_ZL7threshs_232, i16 %p_ZL7threshs_233, i16 %p_ZL7threshs_234, i16 %p_ZL7threshs_235, i16 %p_ZL7threshs_236, i16 %p_ZL7threshs_237, i16 %p_ZL7threshs_238, i16 %p_ZL7threshs_239, i16 %p_ZL7threshs_240, i16 %p_ZL7threshs_241, i16 %p_ZL7threshs_242, i16 %p_ZL7threshs_243, i16 %p_ZL7threshs_244, i16 %p_ZL7threshs_245, i16 %p_ZL7threshs_246, i16 %p_ZL7threshs_247, i16 %p_ZL7threshs_248, i16 %p_ZL7threshs_249, i16 %p_ZL7threshs_250, i15 %p_ZL7threshs_251, i15 %p_ZL7threshs_252, i15 %p_ZL7threshs_253" [/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_8_p121gcnq/top_MVAU_hls_8.cpp:37]   --->   Operation 5 'call' 'call_ln37' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 7.24>
+ST_3 : Operation 6 [1/2] (7.24ns)   --->   "%call_ln37 = call void @Matrix_Vector_Activate_Stream_Batch, i32 %in0_V, i8 %out_V, i72 %weights_V, i18 %p_ZL7threshs_0, i18 %p_ZL7threshs_1, i18 %p_ZL7threshs_2, i18 %p_ZL7threshs_3, i18 %p_ZL7threshs_4, i18 %p_ZL7threshs_5, i18 %p_ZL7threshs_6, i18 %p_ZL7threshs_7, i18 %p_ZL7threshs_8, i18 %p_ZL7threshs_9, i18 %p_ZL7threshs_10, i18 %p_ZL7threshs_11, i18 %p_ZL7threshs_12, i18 %p_ZL7threshs_13, i18 %p_ZL7threshs_14, i18 %p_ZL7threshs_15, i18 %p_ZL7threshs_16, i18 %p_ZL7threshs_17, i18 %p_ZL7threshs_18, i18 %p_ZL7threshs_19, i18 %p_ZL7threshs_20, i18 %p_ZL7threshs_21, i18 %p_ZL7threshs_22, i18 %p_ZL7threshs_23, i18 %p_ZL7threshs_24, i18 %p_ZL7threshs_25, i18 %p_ZL7threshs_26, i18 %p_ZL7threshs_27, i18 %p_ZL7threshs_28, i18 %p_ZL7threshs_29, i18 %p_ZL7threshs_30, i18 %p_ZL7threshs_31, i18 %p_ZL7threshs_32, i18 %p_ZL7threshs_33, i18 %p_ZL7threshs_34, i18 %p_ZL7threshs_35, i18 %p_ZL7threshs_36, i18 %p_ZL7threshs_37, i18 %p_ZL7threshs_38, i18 %p_ZL7threshs_39, i18 %p_ZL7threshs_40, i18 %p_ZL7threshs_41, i18 %p_ZL7threshs_42, i18 %p_ZL7threshs_43, i18 %p_ZL7threshs_44, i18 %p_ZL7threshs_45, i18 %p_ZL7threshs_46, i18 %p_ZL7threshs_47, i18 %p_ZL7threshs_48, i18 %p_ZL7threshs_49, i18 %p_ZL7threshs_50, i18 %p_ZL7threshs_51, i18 %p_ZL7threshs_52, i18 %p_ZL7threshs_53, i18 %p_ZL7threshs_54, i18 %p_ZL7threshs_55, i17 %p_ZL7threshs_56, i17 %p_ZL7threshs_57, i17 %p_ZL7threshs_58, i17 %p_ZL7threshs_59, i17 %p_ZL7threshs_60, i17 %p_ZL7threshs_61, i17 %p_ZL7threshs_62, i17 %p_ZL7threshs_63, i17 %p_ZL7threshs_64, i17 %p_ZL7threshs_65, i17 %p_ZL7threshs_66, i17 %p_ZL7threshs_67, i17 %p_ZL7threshs_68, i17 %p_ZL7threshs_69, i17 %p_ZL7threshs_70, i17 %p_ZL7threshs_71, i17 %p_ZL7threshs_72, i17 %p_ZL7threshs_73, i17 %p_ZL7threshs_74, i17 %p_ZL7threshs_75, i17 %p_ZL7threshs_76, i17 %p_ZL7threshs_77, i17 %p_ZL7threshs_78, i17 %p_ZL7threshs_79, i17 %p_ZL7threshs_80, i17 %p_ZL7threshs_81, i17 %p_ZL7threshs_82, i17 %p_ZL7threshs_83, i17 %p_ZL7threshs_84, i17 %p_ZL7threshs_85, i17 %p_ZL7threshs_86, i17 %p_ZL7threshs_87, i17 %p_ZL7threshs_88, i17 %p_ZL7threshs_89, i17 %p_ZL7threshs_90, i17 %p_ZL7threshs_91, i16 %p_ZL7threshs_92, i16 %p_ZL7threshs_93, i16 %p_ZL7threshs_94, i16 %p_ZL7threshs_95, i16 %p_ZL7threshs_96, i16 %p_ZL7threshs_97, i16 %p_ZL7threshs_98, i16 %p_ZL7threshs_99, i16 %p_ZL7threshs_100, i16 %p_ZL7threshs_101, i16 %p_ZL7threshs_102, i16 %p_ZL7threshs_103, i16 %p_ZL7threshs_104, i16 %p_ZL7threshs_105, i16 %p_ZL7threshs_106, i16 %p_ZL7threshs_107, i16 %p_ZL7threshs_108, i15 %p_ZL7threshs_109, i15 %p_ZL7threshs_110, i15 %p_ZL7threshs_111, i15 %p_ZL7threshs_112, i15 %p_ZL7threshs_113, i15 %p_ZL7threshs_114, i15 %p_ZL7threshs_115, i15 %p_ZL7threshs_116, i15 %p_ZL7threshs_117, i14 %p_ZL7threshs_118, i14 %p_ZL7threshs_119, i14 %p_ZL7threshs_120, i14 %p_ZL7threshs_121, i14 %p_ZL7threshs_122, i13 %p_ZL7threshs_123, i13 %p_ZL7threshs_124, i12 %p_ZL7threshs_125, i10 %p_ZL7threshs_126, i7 %p_ZL7threshs_127, i11 %p_ZL7threshs_128, i12 %p_ZL7threshs_129, i11 %p_ZL7threshs_130, i13 %p_ZL7threshs_131, i13 %p_ZL7threshs_132, i13 %p_ZL7threshs_133, i12 %p_ZL7threshs_134, i10 %p_ZL7threshs_135, i14 %p_ZL7threshs_136, i14 %p_ZL7threshs_137, i14 %p_ZL7threshs_138, i14 %p_ZL7threshs_139, i13 %p_ZL7threshs_140, i13 %p_ZL7threshs_141, i13 %p_ZL7threshs_142, i12 %p_ZL7threshs_143, i10 %p_ZL7threshs_144, i15 %p_ZL7threshs_145, i15 %p_ZL7threshs_146, i15 %p_ZL7threshs_147, i15 %p_ZL7threshs_148, i15 %p_ZL7threshs_149, i15 %p_ZL7threshs_150, i15 %p_ZL7threshs_151, i15 %p_ZL7threshs_152, i15 %p_ZL7threshs_153, i14 %p_ZL7threshs_154, i14 %p_ZL7threshs_155, i14 %p_ZL7threshs_156, i14 %p_ZL7threshs_157, i13 %p_ZL7threshs_158, i13 %p_ZL7threshs_159, i12 %p_ZL7threshs_160, i11 %p_ZL7threshs_161, i16 %p_ZL7threshs_162, i16 %p_ZL7threshs_163, i16 %p_ZL7threshs_164, i16 %p_ZL7threshs_165, i16 %p_ZL7threshs_166, i16 %p_ZL7threshs_167, i16 %p_ZL7threshs_168, i16 %p_ZL7threshs_169, i16 %p_ZL7threshs_170, i16 %p_ZL7threshs_171, i16 %p_ZL7threshs_172, i16 %p_ZL7threshs_173, i16 %p_ZL7threshs_174, i16 %p_ZL7threshs_175, i16 %p_ZL7threshs_176, i16 %p_ZL7threshs_177, i16 %p_ZL7threshs_178, i16 %p_ZL7threshs_179, i15 %p_ZL7threshs_180, i15 %p_ZL7threshs_181, i15 %p_ZL7threshs_182, i15 %p_ZL7threshs_183, i15 %p_ZL7threshs_184, i15 %p_ZL7threshs_185, i15 %p_ZL7threshs_186, i15 %p_ZL7threshs_187, i15 %p_ZL7threshs_188, i14 %p_ZL7threshs_189, i14 %p_ZL7threshs_190, i14 %p_ZL7threshs_191, i14 %p_ZL7threshs_192, i13 %p_ZL7threshs_193, i13 %p_ZL7threshs_194, i13 %p_ZL7threshs_195, i12 %p_ZL7threshs_196, i12 %p_ZL7threshs_197, i17 %p_ZL7threshs_198, i17 %p_ZL7threshs_199, i17 %p_ZL7threshs_200, i17 %p_ZL7threshs_201, i17 %p_ZL7threshs_202, i17 %p_ZL7threshs_203, i17 %p_ZL7threshs_204, i17 %p_ZL7threshs_205, i17 %p_ZL7threshs_206, i17 %p_ZL7threshs_207, i17 %p_ZL7threshs_208, i17 %p_ZL7threshs_209, i17 %p_ZL7threshs_210, i17 %p_ZL7threshs_211, i17 %p_ZL7threshs_212, i17 %p_ZL7threshs_213, i17 %p_ZL7threshs_214, i17 %p_ZL7threshs_215, i17 %p_ZL7threshs_216, i17 %p_ZL7threshs_217, i17 %p_ZL7threshs_218, i17 %p_ZL7threshs_219, i17 %p_ZL7threshs_220, i17 %p_ZL7threshs_221, i17 %p_ZL7threshs_222, i17 %p_ZL7threshs_223, i17 %p_ZL7threshs_224, i17 %p_ZL7threshs_225, i17 %p_ZL7threshs_226, i17 %p_ZL7threshs_227, i17 %p_ZL7threshs_228, i17 %p_ZL7threshs_229, i17 %p_ZL7threshs_230, i17 %p_ZL7threshs_231, i17 %p_ZL7threshs_232, i16 %p_ZL7threshs_233, i16 %p_ZL7threshs_234, i16 %p_ZL7threshs_235, i16 %p_ZL7threshs_236, i16 %p_ZL7threshs_237, i16 %p_ZL7threshs_238, i16 %p_ZL7threshs_239, i16 %p_ZL7threshs_240, i16 %p_ZL7threshs_241, i16 %p_ZL7threshs_242, i16 %p_ZL7threshs_243, i16 %p_ZL7threshs_244, i16 %p_ZL7threshs_245, i16 %p_ZL7threshs_246, i16 %p_ZL7threshs_247, i16 %p_ZL7threshs_248, i16 %p_ZL7threshs_249, i16 %p_ZL7threshs_250, i15 %p_ZL7threshs_251, i15 %p_ZL7threshs_252, i15 %p_ZL7threshs_253" [/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_8_p121gcnq/top_MVAU_hls_8.cpp:37]   --->   Operation 6 'call' 'call_ln37' <Predicate = true> <Delay = 7.24> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 7 [1/1] (0.00ns)   --->   "%spectopmodule_ln25 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_2" [/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_8_p121gcnq/top_MVAU_hls_8.cpp:25]   --->   Operation 7 'spectopmodule' 'spectopmodule_ln25' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln25 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_3, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0" [/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_8_p121gcnq/top_MVAU_hls_8.cpp:25]   --->   Operation 8 'specinterface' 'specinterface_ln25' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %in0_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 10 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %in0_V"   --->   Operation 10 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 11 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i72 %weights_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 11 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 12 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i72 %weights_V"   --->   Operation 12 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 13 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %out_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 13 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 14 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i8 %out_V"   --->   Operation 14 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 15 [1/1] (0.00ns)   --->   "%ret_ln39 = ret" [/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_8_p121gcnq/top_MVAU_hls_8.cpp:39]   --->   Operation 15 'ret' 'ret_ln39' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 0ns
+The critical path consists of the following:
+
+ <State 2>: 1.59ns
+The critical path consists of the following:
+	'call' operation ('call_ln37', /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_8_p121gcnq/top_MVAU_hls_8.cpp:37) to 'Matrix_Vector_Activate_Stream_Batch' [266]  (1.59 ns)
+
+ <State 3>: 7.25ns
+The critical path consists of the following:
+	'call' operation ('call_ln37', /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_8_p121gcnq/top_MVAU_hls_8.cpp:37) to 'Matrix_Vector_Activate_Stream_Batch' [266]  (7.25 ns)
+
+ <State 4>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

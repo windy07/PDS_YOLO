@@ -1,0 +1,1812 @@
+---
+MainSourceFile:  /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          56421
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          264053
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          264496
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          264940
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          527478
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_1:  '
+    FileOffset:      134
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1650532
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_1:  '
+    FileOffset:      159
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1651107
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_76_1:  '
+    FileOffset:      76
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1664415
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_76_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1664884
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_1:  '
+    FileOffset:      158
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1665950
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_2:  '
+    FileOffset:      159
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1665995
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_1:  '
+    FileOffset:      209
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1666723
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_233_1:  '
+    FileOffset:      233
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1667056
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_233_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_277_1:  '
+    FileOffset:      277
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1667690
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_277_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_278_2:  '
+    FileOffset:      278
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1667736
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_278_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_279_3:  '
+    FileOffset:      279
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1667783
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_279_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_1:  '
+    FileOffset:      333
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1668555
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1669614
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_453_1:  '
+    FileOffset:      453
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1670258
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_453_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_455_2:  '
+    FileOffset:      455
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1670334
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_455_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_456_3:  '
+    FileOffset:      456
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1670385
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_456_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_526_1:  '
+    FileOffset:      526
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1671641
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_526_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_546_2:  '
+    FileOffset:      546
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1671980
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_546_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_557_3:  '
+    FileOffset:      557
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1672315
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_557_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_611_1:  '
+    FileOffset:      611
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1673376
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_611_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_629_2:  '
+    FileOffset:      629
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1673911
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_629_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_666_1:  '
+    FileOffset:      666
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1674609
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_666_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_694_1:  '
+    FileOffset:      694
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1675069
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_694_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_724_1:  '
+    FileOffset:      724
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1675625
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_724_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_729_2:  '
+    FileOffset:      729
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1675865
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_729_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_767_1:  '
+    FileOffset:      767
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1676663
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_767_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_845_1:  '
+    FileOffset:      845
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1678742
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_845_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_852_2:  '
+    FileOffset:      852
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1678904
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_852_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_868_3:  '
+    FileOffset:      868
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1679169
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_868_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_874_4:  '
+    FileOffset:      874
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1679356
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_874_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_886_5:  '
+    FileOffset:      886
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1679651
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_886_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_890_6:  '
+    FileOffset:      890
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1679788
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_890_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_926_1:  '
+    FileOffset:      926
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1680330
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_926_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_930_2:  '
+    FileOffset:      930
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1680506
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_930_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_957_1:  '
+    FileOffset:      957
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1680937
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_957_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_961_2:  '
+    FileOffset:      961
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1681109
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_961_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1049_1:  '
+    FileOffset:      1049
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1683157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1049_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1050_2:  '
+    FileOffset:      1050
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1683216
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1050_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1072_1:  '
+    FileOffset:      1072
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1683609
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1072_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1073_2:  '
+    FileOffset:      1073
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1683668
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1073_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_1:  '
+    FileOffset:      113
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1685102
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_140_1:  '
+    FileOffset:      140
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1685712
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_140_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_1:  '
+    FileOffset:      153
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1686129
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_1:  '
+    FileOffset:      166
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1686529
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1687094
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_1:  '
+    FileOffset:      222
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1687668
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_223_2:  '
+    FileOffset:      223
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1687719
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_223_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_227_3:  '
+    FileOffset:      227
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1687843
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_227_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1960230
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_99_2:  '
+    FileOffset:      99
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1960386
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_99_2: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P +  is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      74
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      137
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_1:  '
+    FileOffset:      190
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1962944
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_191_2:  '
+    FileOffset:      191
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1963023
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_191_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1967395
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_2:  '
+    FileOffset:      325
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1967472
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_331_3:  '
+    FileOffset:      331
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1967684
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_331_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_358_4:  '
+    FileOffset:      358
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1968531
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_358_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_391_5:  '
+    FileOffset:      391
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1969383
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_391_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1971695
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_478_2:  '
+    FileOffset:      478
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1971976
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_478_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_625_1:  '
+    FileOffset:      625
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1976278
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_625_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_630_2:  '
+    FileOffset:      630
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1976559
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_630_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_636_3:  '
+    FileOffset:      636
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1976750
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_636_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_671_4:  '
+    FileOffset:      671
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1977869
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_671_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_5:  '
+    FileOffset:      704
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1978667
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_780_1:  '
+    FileOffset:      780
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1980742
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_780_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_781_2:  '
+    FileOffset:      781
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1980821
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_781_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_910_1:  '
+    FileOffset:      910
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1985057
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_910_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_2:  '
+    FileOffset:      914
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1985291
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1064_1:  '
+    FileOffset:      1064
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1990686
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1064_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1065_2:  '
+    FileOffset:      1065
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1990763
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1065_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1071_3:  '
+    FileOffset:      1071
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1990975
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1071_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1098_4:  '
+    FileOffset:      1098
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1991822
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1098_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_5:  '
+    FileOffset:      1131
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1992674
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1190_1:  '
+    FileOffset:      1190
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1993955
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1193_2:  '
+    FileOffset:      1193
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1994105
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1193_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1197_3:  '
+    FileOffset:      1197
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1994332
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1197_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1201_4:  '
+    FileOffset:      1201
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1994569
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1201_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1239_1:  '
+    FileOffset:      1239
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1995316
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1239_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1241_2:  '
+    FileOffset:      1241
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1995402
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1241_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1244_3:  '
+    FileOffset:      1244
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1995588
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1244_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1313_1:  '
+    FileOffset:      1313
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1997436
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1313_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1314_2:  '
+    FileOffset:      1314
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          1997515
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1314_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1447_1:  '
+    FileOffset:      1447
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2001763
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1447_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1448_2:  '
+    FileOffset:      1448
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2001842
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1448_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_1:  '
+    FileOffset:      1588
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2006080
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1589_2:  '
+    FileOffset:      1589
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2006159
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1589_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1716_1:  '
+    FileOffset:      1716
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2009896
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1716_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1717_2:  '
+    FileOffset:      1717
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2009975
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1717_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1737_3:  '
+    FileOffset:      1737
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2010460
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1737_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1822_1:  '
+    FileOffset:      1822
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2012539
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1822_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1823_2:  '
+    FileOffset:      1823
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2012618
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1823_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1901_1:  '
+    FileOffset:      1901
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2014652
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1901_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1907_2:  '
+    FileOffset:      1907
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2014875
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1907_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1977_1:  '
+    FileOffset:      1977
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2016496
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1977_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1983_2:  '
+    FileOffset:      1983
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2016683
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1983_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2055_1:  '
+    FileOffset:      2055
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2018319
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2055_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2062_2:  '
+    FileOffset:      2062
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2018529
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2062_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2025716
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_2:  '
+    FileOffset:      78
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2025808
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_79_3:  '
+    FileOffset:      79
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2025869
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_79_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_4:  '
+    FileOffset:      80
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2025923
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_5:  '
+    FileOffset:      82
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2026026
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_6:  '
+    FileOffset:      90
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2026187
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_1:  '
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2026634
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_147_1:  '
+    FileOffset:      147
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2027216
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_147_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_2:  '
+    FileOffset:      148
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2027273
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_154_3:  '
+    FileOffset:      154
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2027418
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_154_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_4:  '
+    FileOffset:      155
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2027479
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_5:  '
+    FileOffset:      156
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2027533
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_6:  '
+    FileOffset:      158
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2027599
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_161_7:  '
+    FileOffset:      161
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2027717
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_161_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_8:  '
+    FileOffset:      174
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2028128
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_175_9:  '
+    FileOffset:      175
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2028203
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_175_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_216_1:  '
+    FileOffset:      216
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2029365
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_216_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_257_1:  '
+    FileOffset:      257
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2030417
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_257_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_259_2:  '
+    FileOffset:      259
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2030495
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_259_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_267_3:  '
+    FileOffset:      267
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2030669
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_267_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_4:  '
+    FileOffset:      269
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2030725
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_271_5:  '
+    FileOffset:      271
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2030816
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_271_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_274_6:  '
+    FileOffset:      274
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2030928
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_274_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_287_7:  '
+    FileOffset:      287
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2031341
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_287_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_8:  '
+    FileOffset:      289
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2031419
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_9:  '
+    FileOffset:      301
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2031714
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_332_1:  '
+    FileOffset:      332
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2032253
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_332_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2032893
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_368_2:  '
+    FileOffset:      368
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2032949
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_368_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_3:  '
+    FileOffset:      369
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2033012
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_372_4:  '
+    FileOffset:      372
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2033135
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_372_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      415
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2034157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_2:  '
+    FileOffset:      419
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2034213
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_3:  '
+    FileOffset:      420
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2034276
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_424_4:  '
+    FileOffset:      424
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2034471
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_424_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_435_5:  '
+    FileOffset:      435
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2034915
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_435_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_481_1:  '
+    FileOffset:      481
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2035690
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_481_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_483_2:  '
+    FileOffset:      483
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2035768
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_483_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_488_3:  '
+    FileOffset:      488
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2035902
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_488_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_491_4:  '
+    FileOffset:      491
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2036065
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_491_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_500_5:  '
+    FileOffset:      500
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2036325
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_500_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_6:  '
+    FileOffset:      507
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2036459
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_527_7:  '
+    FileOffset:      527
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2036816
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_527_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_575_1:  '
+    FileOffset:      575
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2037532
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_575_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_582_2:  '
+    FileOffset:      582
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2037690
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_582_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_589_3:  '
+    FileOffset:      589
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2037851
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_589_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_598_4:  '
+    FileOffset:      598
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2038059
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_598_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
+    FileOffset:      142
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_1:  '
+    FileOffset:      167
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2039741
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_194_1:  '
+    FileOffset:      194
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2040064
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_194_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_1:  '
+    FileOffset:      123
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2041249
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_2:  '
+    FileOffset:      139
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2041501
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_3:  '
+    FileOffset:      141
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2041559
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_150_4:  '
+    FileOffset:      150
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2041735
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_150_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_5:  '
+    FileOffset:      153
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2041835
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_6:  '
+    FileOffset:      164
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2042104
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_7:  '
+    FileOffset:      166
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2042163
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_1:  '
+    FileOffset:      249
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2043449
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_2:  '
+    FileOffset:      266
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2043712
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_3:  '
+    FileOffset:      273
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2043874
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_280_4:  '
+    FileOffset:      280
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2043991
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_280_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_5:  '
+    FileOffset:      293
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2044293
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_1:  '
+    FileOffset:      90
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2045392
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_2:  '
+    FileOffset:      102
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2045709
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2045854
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_111_4:  '
+    FileOffset:      111
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2045910
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_111_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_131_5:  '
+    FileOffset:      131
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2046737
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_6:  '
+    FileOffset:      135
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2046833
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_1:  '
+    FileOffset:      199
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2048141
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_1:  '
+    FileOffset:      109
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2055715
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_115_2:  '
+    FileOffset:      115
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2055862
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_115_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_3:  '
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2055908
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_125_4:  '
+    FileOffset:      125
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2056084
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_125_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_130_5:  '
+    FileOffset:      130
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2056231
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_130_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_6:  '
+    FileOffset:      135
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2056527
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_146_7:  '
+    FileOffset:      146
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2056798
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_146_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_8:  '
+    FileOffset:      148
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2056857
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_225_1:  '
+    FileOffset:      225
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2057902
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_225_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_231_2:  '
+    FileOffset:      231
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2058042
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_231_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_232_3:  '
+    FileOffset:      232
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2058084
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_232_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_4:  '
+    FileOffset:      243
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2058367
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_5:  '
+    FileOffset:      248
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2058504
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_6:  '
+    FileOffset:      253
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2058645
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_7:  '
+    FileOffset:      258
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2058888
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_8:  '
+    FileOffset:      269
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2059142
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_271_9:  '
+    FileOffset:      271
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2059200
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_271_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2060584
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_85_2:  '
+    FileOffset:      85
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2060631
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_85_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_142_1:  '
+    FileOffset:      142
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2061607
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_142_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_1:  '
+    FileOffset:      174
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2062255
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_216_1:  '
+    FileOffset:      216
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2178943
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_216_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_1:  '
+    FileOffset:      295
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2180127
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_300_2:  '
+    FileOffset:      300
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2180304
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_300_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_356_1:  '
+    FileOffset:      356
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2181259
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_356_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_2:  '
+    FileOffset:      369
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2181603
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_374_3:  '
+    FileOffset:      374
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/.autopilot/db/top_MVAU_hls_3.pp.0.cpp
+        Offset:          2181728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_374_3: '
+...

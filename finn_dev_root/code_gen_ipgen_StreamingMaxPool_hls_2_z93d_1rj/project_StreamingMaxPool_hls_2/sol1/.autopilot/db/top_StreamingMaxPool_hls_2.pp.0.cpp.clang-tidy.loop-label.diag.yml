@@ -1,0 +1,1758 @@
+---
+MainSourceFile:  /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          56469
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          264101
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          264544
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          264988
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          527526
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_1:  '
+    FileOffset:      134
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1650580
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_1:  '
+    FileOffset:      159
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1651155
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_76_1:  '
+    FileOffset:      76
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1664463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_76_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1664932
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_1:  '
+    FileOffset:      158
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1665998
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_2:  '
+    FileOffset:      159
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1666043
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_1:  '
+    FileOffset:      209
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1666771
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_233_1:  '
+    FileOffset:      233
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1667104
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_233_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_277_1:  '
+    FileOffset:      277
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1667738
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_277_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_278_2:  '
+    FileOffset:      278
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1667784
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_278_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_279_3:  '
+    FileOffset:      279
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1667831
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_279_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_333_1:  '
+    FileOffset:      333
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1668603
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_333_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_415_1:  '
+    FileOffset:      415
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1669662
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_415_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_453_1:  '
+    FileOffset:      453
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1670306
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_453_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_455_2:  '
+    FileOffset:      455
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1670382
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_455_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_456_3:  '
+    FileOffset:      456
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1670433
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_456_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_526_1:  '
+    FileOffset:      526
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1671689
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_526_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_546_2:  '
+    FileOffset:      546
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1672028
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_546_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_557_3:  '
+    FileOffset:      557
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1672363
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_557_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_611_1:  '
+    FileOffset:      611
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1673424
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_611_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_629_2:  '
+    FileOffset:      629
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1673959
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_629_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_666_1:  '
+    FileOffset:      666
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1674657
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_666_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_694_1:  '
+    FileOffset:      694
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1675117
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_694_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_724_1:  '
+    FileOffset:      724
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1675673
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_724_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_729_2:  '
+    FileOffset:      729
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1675913
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_729_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_767_1:  '
+    FileOffset:      767
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1676711
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_767_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_845_1:  '
+    FileOffset:      845
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1678790
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_845_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_852_2:  '
+    FileOffset:      852
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1678952
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_852_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_868_3:  '
+    FileOffset:      868
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1679217
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_868_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_874_4:  '
+    FileOffset:      874
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1679404
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_874_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_886_5:  '
+    FileOffset:      886
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1679699
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_886_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_890_6:  '
+    FileOffset:      890
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1679836
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_890_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_926_1:  '
+    FileOffset:      926
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1680378
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_926_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_930_2:  '
+    FileOffset:      930
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1680554
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_930_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_957_1:  '
+    FileOffset:      957
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1680985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_957_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_961_2:  '
+    FileOffset:      961
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1681157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_961_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1049_1:  '
+    FileOffset:      1049
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1683205
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1049_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1050_2:  '
+    FileOffset:      1050
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1683264
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1050_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1072_1:  '
+    FileOffset:      1072
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1683657
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1072_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1073_2:  '
+    FileOffset:      1073
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1683716
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1073_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_113_1:  '
+    FileOffset:      113
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1685150
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_113_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_140_1:  '
+    FileOffset:      140
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1685760
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_140_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_1:  '
+    FileOffset:      153
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1686177
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_1:  '
+    FileOffset:      166
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1686577
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_1:  '
+    FileOffset:      187
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1687142
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_222_1:  '
+    FileOffset:      222
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1687716
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_222_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_223_2:  '
+    FileOffset:      223
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1687767
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_223_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_227_3:  '
+    FileOffset:      227
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/dma.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1687891
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_227_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1960278
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_99_2:  '
+    FileOffset:      99
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/utils.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1960434
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_99_2: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P +  is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      74
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + BRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + URAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_S2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      137
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_1:  '
+    FileOffset:      190
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1962992
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_191_2:  '
+    FileOffset:      191
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1963071
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_191_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1967443
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_2:  '
+    FileOffset:      325
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1967520
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_331_3:  '
+    FileOffset:      331
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1967732
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_331_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_358_4:  '
+    FileOffset:      358
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1968579
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_358_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_391_5:  '
+    FileOffset:      391
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1969431
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_391_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_473_1:  '
+    FileOffset:      473
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1971743
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_473_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_478_2:  '
+    FileOffset:      478
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1972024
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_478_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_625_1:  '
+    FileOffset:      625
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1976326
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_625_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_630_2:  '
+    FileOffset:      630
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1976607
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_630_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_636_3:  '
+    FileOffset:      636
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1976798
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_636_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_671_4:  '
+    FileOffset:      671
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1977917
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_671_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_5:  '
+    FileOffset:      704
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1978715
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_780_1:  '
+    FileOffset:      780
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1980790
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_780_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_781_2:  '
+    FileOffset:      781
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1980869
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_781_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_910_1:  '
+    FileOffset:      910
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1985105
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_910_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_2:  '
+    FileOffset:      914
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1985339
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1064_1:  '
+    FileOffset:      1064
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1990734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1064_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1065_2:  '
+    FileOffset:      1065
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1990811
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1065_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1071_3:  '
+    FileOffset:      1071
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1991023
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1071_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1098_4:  '
+    FileOffset:      1098
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1991870
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1098_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_5:  '
+    FileOffset:      1131
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1992722
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1190_1:  '
+    FileOffset:      1190
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1994003
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1193_2:  '
+    FileOffset:      1193
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1994153
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1193_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1197_3:  '
+    FileOffset:      1197
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1994380
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1197_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1201_4:  '
+    FileOffset:      1201
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1994617
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1201_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1239_1:  '
+    FileOffset:      1239
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1995364
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1239_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1241_2:  '
+    FileOffset:      1241
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1995450
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1241_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1244_3:  '
+    FileOffset:      1244
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1995636
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1244_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1313_1:  '
+    FileOffset:      1313
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1997484
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1313_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1314_2:  '
+    FileOffset:      1314
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          1997563
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1314_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1447_1:  '
+    FileOffset:      1447
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2001811
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1447_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1448_2:  '
+    FileOffset:      1448
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2001890
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1448_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_1:  '
+    FileOffset:      1588
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2006128
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1589_2:  '
+    FileOffset:      1589
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2006207
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1589_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1716_1:  '
+    FileOffset:      1716
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2009944
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1716_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1717_2:  '
+    FileOffset:      1717
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2010023
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1717_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1737_3:  '
+    FileOffset:      1737
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2010508
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1737_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1822_1:  '
+    FileOffset:      1822
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2012587
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1822_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1823_2:  '
+    FileOffset:      1823
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2012666
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1823_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1901_1:  '
+    FileOffset:      1901
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2014700
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1901_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1907_2:  '
+    FileOffset:      1907
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2014923
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1907_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1977_1:  '
+    FileOffset:      1977
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2016544
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1977_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1983_2:  '
+    FileOffset:      1983
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2016731
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1983_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2055_1:  '
+    FileOffset:      2055
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2018367
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2055_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2062_2:  '
+    FileOffset:      2062
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2018577
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2062_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_73_1:  '
+    FileOffset:      73
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2025764
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_73_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_2:  '
+    FileOffset:      78
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2025856
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_79_3:  '
+    FileOffset:      79
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2025917
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_79_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_80_4:  '
+    FileOffset:      80
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2025971
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_80_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_5:  '
+    FileOffset:      82
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2026074
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_6:  '
+    FileOffset:      90
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2026235
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_1:  '
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2026682
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_147_1:  '
+    FileOffset:      147
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2027264
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_147_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_2:  '
+    FileOffset:      148
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2027321
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_154_3:  '
+    FileOffset:      154
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2027466
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_154_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_4:  '
+    FileOffset:      155
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2027527
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_5:  '
+    FileOffset:      156
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2027581
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_6:  '
+    FileOffset:      158
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2027647
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_161_7:  '
+    FileOffset:      161
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2027765
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_161_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_8:  '
+    FileOffset:      174
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2028176
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_175_9:  '
+    FileOffset:      175
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2028251
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_175_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_216_1:  '
+    FileOffset:      216
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2029413
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_216_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_257_1:  '
+    FileOffset:      257
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2030465
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_257_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_259_2:  '
+    FileOffset:      259
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2030543
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_259_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_267_3:  '
+    FileOffset:      267
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2030717
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_267_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_4:  '
+    FileOffset:      269
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2030773
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_271_5:  '
+    FileOffset:      271
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2030864
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_271_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_274_6:  '
+    FileOffset:      274
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2030976
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_274_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_287_7:  '
+    FileOffset:      287
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2031389
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_287_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_8:  '
+    FileOffset:      289
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2031467
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_9:  '
+    FileOffset:      301
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2031762
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_332_1:  '
+    FileOffset:      332
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2032301
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_332_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2032941
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_368_2:  '
+    FileOffset:      368
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2032997
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_368_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_3:  '
+    FileOffset:      369
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2033060
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_372_4:  '
+    FileOffset:      372
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2033183
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_372_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, RAM_2P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      415
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_418_1:  '
+    FileOffset:      418
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2034205
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_418_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_419_2:  '
+    FileOffset:      419
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2034261
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_419_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_420_3:  '
+    FileOffset:      420
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2034324
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_420_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_424_4:  '
+    FileOffset:      424
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2034519
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_424_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_435_5:  '
+    FileOffset:      435
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2034963
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_435_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_481_1:  '
+    FileOffset:      481
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2035738
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_481_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_483_2:  '
+    FileOffset:      483
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2035816
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_483_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_488_3:  '
+    FileOffset:      488
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2035950
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_488_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_491_4:  '
+    FileOffset:      491
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2036113
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_491_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_500_5:  '
+    FileOffset:      500
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2036373
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_500_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_507_6:  '
+    FileOffset:      507
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2036507
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_507_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_527_7:  '
+    FileOffset:      527
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2036864
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_527_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_575_1:  '
+    FileOffset:      575
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2037580
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_575_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_582_2:  '
+    FileOffset:      582
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2037738
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_582_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_589_3:  '
+    FileOffset:      589
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2037899
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_589_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_598_4:  '
+    FileOffset:      598
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2038107
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_598_4: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + fabric is invalid combination for bind_op'
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, mul + dsp is invalid combination for bind_op'
+    FileOffset:      142
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_1:  '
+    FileOffset:      167
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2039789
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_194_1:  '
+    FileOffset:      194
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2040112
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_194_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_1:  '
+    FileOffset:      123
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2041297
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_2:  '
+    FileOffset:      139
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2041549
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_141_3:  '
+    FileOffset:      141
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2041607
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_141_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_150_4:  '
+    FileOffset:      150
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2041783
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_150_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_5:  '
+    FileOffset:      153
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2041883
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_164_6:  '
+    FileOffset:      164
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2042152
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_164_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_166_7:  '
+    FileOffset:      166
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2042211
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_166_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_1:  '
+    FileOffset:      249
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2043497
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_2:  '
+    FileOffset:      266
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2043760
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_3:  '
+    FileOffset:      273
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2043922
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_280_4:  '
+    FileOffset:      280
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2044039
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_280_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_5:  '
+    FileOffset:      293
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2044341
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_1:  '
+    FileOffset:      90
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2045440
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_102_2:  '
+    FileOffset:      102
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2045757
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_102_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2045902
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_111_4:  '
+    FileOffset:      111
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2045958
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_111_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_131_5:  '
+    FileOffset:      131
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2046785
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_131_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_6:  '
+    FileOffset:      135
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2046881
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_1:  '
+    FileOffset:      199
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2048189
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_1:  '
+    FileOffset:      109
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2055763
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_115_2:  '
+    FileOffset:      115
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2055910
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_115_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_3:  '
+    FileOffset:      116
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2055956
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_125_4:  '
+    FileOffset:      125
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2056132
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_125_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_130_5:  '
+    FileOffset:      130
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2056279
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_130_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_6:  '
+    FileOffset:      135
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2056575
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_146_7:  '
+    FileOffset:      146
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2056846
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_146_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_8:  '
+    FileOffset:      148
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2056905
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_225_1:  '
+    FileOffset:      225
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2057950
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_225_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_231_2:  '
+    FileOffset:      231
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2058090
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_231_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_232_3:  '
+    FileOffset:      232
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2058132
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_232_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_4:  '
+    FileOffset:      243
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2058415
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_5:  '
+    FileOffset:      248
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2058552
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_6:  '
+    FileOffset:      253
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2058693
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_7:  '
+    FileOffset:      258
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2058936
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_8:  '
+    FileOffset:      269
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2059190
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_271_9:  '
+    FileOffset:      271
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2059248
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_271_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2060632
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_85_2:  '
+    FileOffset:      85
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2060679
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_85_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_142_1:  '
+    FileOffset:      142
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2061655
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_142_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_174_1:  '
+    FileOffset:      174
+    FilePath:        /media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp
+    Replacements:    
+      - FilePath:        /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/.autopilot/db/top_StreamingMaxPool_hls_2.pp.0.cpp
+        Offset:          2062303
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_174_1: '
+...

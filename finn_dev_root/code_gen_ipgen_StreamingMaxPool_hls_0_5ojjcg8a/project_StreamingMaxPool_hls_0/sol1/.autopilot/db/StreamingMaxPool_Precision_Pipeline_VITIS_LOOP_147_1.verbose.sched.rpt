@@ -1,0 +1,147 @@
+
+
+================================================================
+== Vitis HLS Report for 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1'
+================================================================
+* Date:           Fri Nov  8 14:18:51 2024
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        project_StreamingMaxPool_hls_0
+* Solution:       sol1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  3.873 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |      210|      210|  2.100 us|  2.100 us|  210|  210|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_147_1  |      208|      208|         1|          1|          1|   208|  yes(flp)|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 1
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.87>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%i = alloca i32 1"   --->   Operation 4 'alloca' 'i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (1.58ns)   --->   "%store_ln0 = store i8 0, i8 %i"   --->   Operation 5 'store' 'store_ln0' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%br_ln0 = br void %for.inc"   --->   Operation 6 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%i_1 = load i8 %i" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147]   --->   Operation 7 'load' 'i_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 8 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (1.55ns)   --->   "%icmp_ln147 = icmp_eq  i8 %i_1, i8 208" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147]   --->   Operation 9 'icmp' 'icmp_ln147' <Predicate = true> <Delay = 1.55> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.55> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 208, i64 208, i64 208"   --->   Operation 10 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (1.91ns)   --->   "%add_ln147 = add i8 %i_1, i8 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147]   --->   Operation 11 'add' 'add_ln147' <Predicate = true> <Delay = 1.91> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%br_ln147 = br i1 %icmp_ln147, void %for.inc.split, void %VITIS_LOOP_155_4.preheader.exitStub" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147]   --->   Operation 12 'br' 'br_ln147' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%i_cast = zext i8 %i_1" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147]   --->   Operation 13 'zext' 'i_cast' <Predicate = (!icmp_ln147)> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%specloopname_ln147 = specloopname void @_ssdm_op_SpecLoopName, void @empty_8" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147]   --->   Operation 14 'specloopname' 'specloopname_ln147' <Predicate = (!icmp_ln147)> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%buf_V_addr = getelementptr i3 %buf_V, i64 0, i64 %i_cast" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 15 'getelementptr' 'buf_V_addr' <Predicate = (!icmp_ln147)> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (2.32ns)   --->   "%store_ln150 = store i3 0, i8 %buf_V_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 16 'store' 'store_ln150' <Predicate = (!icmp_ln147)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%buf_V_1_addr = getelementptr i3 %buf_V_1, i64 0, i64 %i_cast" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 17 'getelementptr' 'buf_V_1_addr' <Predicate = (!icmp_ln147)> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (2.32ns)   --->   "%store_ln150 = store i3 0, i8 %buf_V_1_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 18 'store' 'store_ln150' <Predicate = (!icmp_ln147)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%buf_V_2_addr = getelementptr i3 %buf_V_2, i64 0, i64 %i_cast" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 19 'getelementptr' 'buf_V_2_addr' <Predicate = (!icmp_ln147)> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (2.32ns)   --->   "%store_ln150 = store i3 0, i8 %buf_V_2_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 20 'store' 'store_ln150' <Predicate = (!icmp_ln147)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%buf_V_3_addr = getelementptr i3 %buf_V_3, i64 0, i64 %i_cast" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 21 'getelementptr' 'buf_V_3_addr' <Predicate = (!icmp_ln147)> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (2.32ns)   --->   "%store_ln150 = store i3 0, i8 %buf_V_3_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 22 'store' 'store_ln150' <Predicate = (!icmp_ln147)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%buf_V_4_addr = getelementptr i3 %buf_V_4, i64 0, i64 %i_cast" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 23 'getelementptr' 'buf_V_4_addr' <Predicate = (!icmp_ln147)> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (2.32ns)   --->   "%store_ln150 = store i3 0, i8 %buf_V_4_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 24 'store' 'store_ln150' <Predicate = (!icmp_ln147)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%buf_V_5_addr = getelementptr i3 %buf_V_5, i64 0, i64 %i_cast" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 25 'getelementptr' 'buf_V_5_addr' <Predicate = (!icmp_ln147)> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (2.32ns)   --->   "%store_ln150 = store i3 0, i8 %buf_V_5_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 26 'store' 'store_ln150' <Predicate = (!icmp_ln147)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%buf_V_6_addr = getelementptr i3 %buf_V_6, i64 0, i64 %i_cast" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 27 'getelementptr' 'buf_V_6_addr' <Predicate = (!icmp_ln147)> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (2.32ns)   --->   "%store_ln150 = store i3 0, i8 %buf_V_6_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 28 'store' 'store_ln150' <Predicate = (!icmp_ln147)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%buf_V_7_addr = getelementptr i3 %buf_V_7, i64 0, i64 %i_cast" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 29 'getelementptr' 'buf_V_7_addr' <Predicate = (!icmp_ln147)> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (2.32ns)   --->   "%store_ln150 = store i3 0, i8 %buf_V_7_addr" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150]   --->   Operation 30 'store' 'store_ln150' <Predicate = (!icmp_ln147)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 3> <Depth = 208> <RAM>
+ST_1 : Operation 31 [1/1] (1.58ns)   --->   "%store_ln147 = store i8 %add_ln147, i8 %i" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147]   --->   Operation 31 'store' 'store_ln147' <Predicate = (!icmp_ln147)> <Delay = 1.58>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%br_ln147 = br void %for.inc" [/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147]   --->   Operation 32 'br' 'br_ln147' <Predicate = (!icmp_ln147)> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 33 'ret' 'ret_ln0' <Predicate = (icmp_ln147)> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 3.87ns
+The critical path consists of the following:
+	'alloca' operation ('i') [9]  (0 ns)
+	'load' operation ('i', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147) on local variable 'i' [13]  (0 ns)
+	'add' operation ('add_ln147', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147) [17]  (1.92 ns)
+	'store' operation ('store_ln147', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147) of variable 'add_ln147', /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147 on local variable 'i' [38]  (1.59 ns)
+	blocking operation 0.37 ns on control path)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

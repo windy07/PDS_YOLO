@@ -1,0 +1,1047 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:678:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:692:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h:706:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:83:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TileIndex" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:88:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:95:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="weights" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:127:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TileIndex" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:132:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:135:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:145:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="weights" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:157:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:160:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mmv.hpp:53:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:76:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_user_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:80:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_id_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:84:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_dest_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:114:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_strb_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:118:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_user_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:122:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_id_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:126:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_dest_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:132:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:136:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_keep" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:140:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_last" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:145:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:149:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_keep" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:153:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_last" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:157:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="keep_all" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:163:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:167:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:171:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:176:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:181:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:185:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:220:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:227:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:235:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:245:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:256:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:266:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:281:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:317:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:324:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:332:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:342:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:353:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:363:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_axi_sdata.h:379:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:77:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamLimiter" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:160:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="SameResize" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:234:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingCast" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:280:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="FMPadding_nonsquare" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:374:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="FMPadding" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:457:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="FMPadding_Pixel_Nonsquare" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1 style=flp" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:527:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingDataWidthConverter_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:547:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingDataWidthConverter_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:558:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingDataWidthConverter_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:667:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="DuplicateStreams" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:725:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AddStreams" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:730:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AddStreams" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:799:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AddStreamsLayer_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:846:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MultiChanDataWidthConverter_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:853:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MultiChanDataWidthConverter_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:869:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MultiChanDataWidthConverter_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:875:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MultiChanDataWidthConverter_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:887:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MultiChanDataWidthConverter_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:891:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MultiChanDataWidthConverter_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:927:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="FlattenMultiChanData" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:931:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="FlattenMultiChanData" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:958:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="PackMultiChanData" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:962:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="PackMultiChanData" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:1051:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Qdma2Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:1074:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Stream2Qdma_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/dma.h:141:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Mem2Stream" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/dma.h:154:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Stream2Mem" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/dma.h:224:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="GenParamStream" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:74:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="memory_resource" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf type=RAM_2P" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:95:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="memory_resource" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf type=RAM_S2P impl=BRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:116:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="memory_resource" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf type=RAM_S2P impl=URAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:137:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="memory_resource" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf type=RAM_S2P impl=LUTRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:177:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:192:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:243:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:244:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:254:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:308:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:309:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:310:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:311:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:326:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:333:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_MMV" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:359:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_MMV" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:392:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_MMV" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:394:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:395:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:406:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:466:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:467:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:468:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:476:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:479:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:544:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:545:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:554:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:610:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:611:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:612:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:613:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:628:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:631:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:638:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_MMV" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:672:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_MMV" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:705:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_MMV" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:716:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:767:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:782:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:833:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:834:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:844:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:903:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:904:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:905:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:915:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:917:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:983:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:984:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:993:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_kernel_stride_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1048:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_dws_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1049:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_dws_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1050:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_dws_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1051:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_dws_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1066:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_dws_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1073:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_dws_MMV" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1099:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_dws_MMV" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1132:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_dws_MMV" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1134:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_dws_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1135:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_dws_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1146:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_dws_MMV" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1191:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_2D_kernel1" ARG_PragmaIsValid="1" ARG_PragmaOptions="target_ti=IFMDim*IFMDim*IFMChannels/SIMD" ARG_PragmaType="performance" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1198:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_2D_kernel1" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=IFMChannels/SIMD" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1245:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_1D_kernel1" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1300:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1315:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1366:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1367:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1377:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1434:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1449:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1500:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1501:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1511:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1575:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare_Dilated" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1590:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare_Dilated" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1642:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare_Dilated" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1643:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare_Dilated" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1653:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_NonSquare_Dilated" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1710:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_1D_parallel" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1718:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_1D_parallel" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1739:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_1D_parallel" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1760:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_1D_parallel" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1761:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_1D_parallel" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf inter false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1768:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="deprecated" ARG_PragmaFunction="ConvolutionInputGenerator_1D_parallel" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=current_block_write intra false" ARG_PragmaType="dependence" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1824:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_1D_dws_naive" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1908:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_1D" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1984:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_1D_dws" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:2063:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvolutionInputGenerator_1D_dws_stride" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:62:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="XnorMul" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:67:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:72:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:80:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Binary" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:89:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:97:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:102:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator*" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:116:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:122:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:138:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Container&lt;TV&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:143:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:147:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:151:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:155:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator const type-parameter-1-0 &amp;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:163:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:168:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:173:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:204:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Container&lt;TV&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:207:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Container&lt;TV&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:211:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:215:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:220:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:224:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator const type-parameter-1-0 &amp;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:232:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:237:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:242:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:261:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Container&lt;TV&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:264:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Container&lt;TV&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:267:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Container&lt;TV&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:271:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator const type-parameter-1-0 &amp;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:275:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:279:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:284:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator[]" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:292:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:297:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:302:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator()" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:74:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:83:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:91:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:146:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:149:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:159:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:162:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:176:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:210:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:255:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision_1d" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=buf complete dim=2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:258:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision_1d" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:260:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision_1d" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:272:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision_1d" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:275:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision_1d" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:288:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision_1d" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:290:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision_1d" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:302:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision_1d" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:331:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="StreamingMaxPool_Precision_Batch_1d" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:370:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ReLU_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:373:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ReLU_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:415:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AccPool_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=accumulators type=RAM_2P impl=LUTRAM" ARG_PragmaType="bind_storage" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:421:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AccPool_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:425:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="AccPool_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:477:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LabelSelect_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=topval complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:479:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LabelSelect_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=toplabels complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:484:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LabelSelect_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:489:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LabelSelect_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:492:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LabelSelect_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:501:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LabelSelect_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:508:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="LabelSelect_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:570:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pool_batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=accu complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:576:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pool_batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:583:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pool_batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:590:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pool_batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:599:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Pool_batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:89:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mul" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:114:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mul" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:116:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mul" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=res op=mul impl=fabric" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:140:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mul" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:142:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mul" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=res op=mul impl=dsp" ARG_PragmaType="bind_op" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:165:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mac" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:168:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mac" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:192:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mac" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:195:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mac" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:202:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="mac" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:110:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:114:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=accu complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:124:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:140:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:142:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:151:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:165:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:167:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:232:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=inputBuf complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:235:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=accu complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:238:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=w.m_weights complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:250:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:267:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:274:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:281:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:294:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Matrix_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:82:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TMRCheck" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=red_ch_index complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:91:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TMRCheck" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:99:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TMRCheck" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=numerrors complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:103:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TMRCheck" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:129:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TMRCheck" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=compute complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:132:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="TMRCheck" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/convlayer.h:113:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvLayer_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/convlayer.h:198:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvLayer_Batch_TMR" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/convlayer.h:284:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ConvLayer_Batch_MMV" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:101:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=accu complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:110:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:117:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:126:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:147:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:149:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:216:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=accu complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:226:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:233:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:242:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=w.m_weights complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:244:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:249:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:270:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:272:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Vector_Vector_Activate_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp:86:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="UpsampleNearestNeighbour" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp:175:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="UpsampleNearestNeighbour_1D" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1 style=flp" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:145:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="init" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:163:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="activate" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:180:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="ThresholdActivation&lt;TA, Compare&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:185:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="activate" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:208:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="init" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:214:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="activate" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:217:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="activate" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:247:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="init" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:252:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="activate" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:296:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Thresholding_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:302:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Thresholding_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:352:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Thresholding_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=internal_thr.m_thresholds complete dim=0" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:358:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Thresholding_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaOptions="style=flp II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:371:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Thresholding_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:376:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="Thresholding_Stream_Batch" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/hls_syn_MVAU_hls_1.tcl:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="MVAU_hls_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=MVAU_hls_1" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/top_MVAU_hls_1.cpp:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MVAU_hls_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=in0_V" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/top_MVAU_hls_1.cpp:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MVAU_hls_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=out_V" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/top_MVAU_hls_1.cpp:33:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MVAU_hls_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/top_MVAU_hls_1.cpp:34:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MVAU_hls_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=weights_V" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/top_MVAU_hls_1.cpp:35:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MVAU_hls_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=threshs.m_thresholds complete dim=1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/top_MVAU_hls_1.cpp:36:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MVAU_hls_1" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=threshs.m_thresholds complete dim=3" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:243:9" msg_body="Inlining function 'Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt;::Container(ap_uint&lt;27&gt; const&amp;)' into 'Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt; Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::operator()&lt;ap_uint&lt;27&gt; &gt;(ap_uint&lt;27&gt; const&amp;, unsigned int) const'">
+        <args Callee="Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt;::Container(ap_uint&lt;27&gt; const&amp;)" Caller="Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt; Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::operator()&lt;ap_uint&lt;27&gt; &gt;(ap_uint&lt;27&gt; const&amp;, unsigned int) const"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:169:19" msg_body="Inlining function 'Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt;::operator()(unsigned int, unsigned int) const' into 'ap_int&lt;15&gt; mac&lt;9u, ap_int&lt;15&gt;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt;, ap_resource_dflt&gt;(ap_int&lt;15&gt; const&amp;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt; const&amp;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt; const&amp;, ap_resource_dflt const&amp;, unsigned int)'">
+        <args Callee="Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt;::operator()(unsigned int, unsigned int) const" Caller="ap_int&lt;15&gt; mac&lt;9u, ap_int&lt;15&gt;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt;, ap_resource_dflt&gt;(ap_int&lt;15&gt; const&amp;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt; const&amp;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt; const&amp;, ap_resource_dflt const&amp;, unsigned int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:169:9" msg_body="Inlining function 'decltype((fp) * (fp0)) mul&lt;ap_int&lt;8&gt;, ap_uint&lt;3&gt; &gt;(ap_int&lt;8&gt; const&amp;, ap_uint&lt;3&gt; const&amp;, ap_resource_dflt const&amp;)' into 'ap_int&lt;15&gt; mac&lt;9u, ap_int&lt;15&gt;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt;, ap_resource_dflt&gt;(ap_int&lt;15&gt; const&amp;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt; const&amp;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt; const&amp;, ap_resource_dflt const&amp;, unsigned int)'">
+        <args Callee="decltype((fp) * (fp0)) mul&lt;ap_int&lt;8&gt;, ap_uint&lt;3&gt; &gt;(ap_int&lt;8&gt; const&amp;, ap_uint&lt;3&gt; const&amp;, ap_resource_dflt const&amp;)" Caller="ap_int&lt;15&gt; mac&lt;9u, ap_int&lt;15&gt;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt;, ap_resource_dflt&gt;(ap_int&lt;15&gt; const&amp;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt; const&amp;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt; const&amp;, ap_resource_dflt const&amp;, unsigned int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:298:17" msg_body="Inlining function 'Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;24&gt; &gt;::operator ap_uint&lt;24&gt; const&amp;() const' into 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;24&gt; &gt;::operator ap_uint&lt;24&gt; const&amp;() const" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:295:2" msg_body="Inlining function 'Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;24&gt; &gt;::operator()(unsigned int, unsigned int, bool) const' into 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;24&gt; &gt;::operator()(unsigned int, unsigned int, bool) const" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:295:31" msg_body="Inlining function 'ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;::activate(unsigned int, unsigned int, ap_int&lt;15&gt; const&amp;) const' into 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;::activate(unsigned int, unsigned int, ap_int&lt;15&gt; const&amp;) const" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:285:21" msg_body="Inlining function 'ap_int&lt;15&gt; mac&lt;9u, ap_int&lt;15&gt;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt;, ap_resource_dflt&gt;(ap_int&lt;15&gt; const&amp;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt; const&amp;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt; const&amp;, ap_resource_dflt const&amp;, unsigned int)' into 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="ap_int&lt;15&gt; mac&lt;9u, ap_int&lt;15&gt;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt;, ap_resource_dflt&gt;(ap_int&lt;15&gt; const&amp;, std::array&lt;ap_int&lt;8&gt;, 9ul&gt; const&amp;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt; const&amp;, ap_resource_dflt const&amp;, unsigned int)" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:283:24" msg_body="Inlining function 'std::array&lt;ap_int&lt;8&gt;, 9ul&gt; const&amp; Identity::operator()&lt;std::array&lt;ap_int&lt;8&gt;, 9ul&gt; &gt;(std::array&lt;ap_int&lt;8&gt;, 9ul&gt; const&amp;) const' into 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="std::array&lt;ap_int&lt;8&gt;, 9ul&gt; const&amp; Identity::operator()&lt;std::array&lt;ap_int&lt;8&gt;, 9ul&gt; &gt;(std::array&lt;ap_int&lt;8&gt;, 9ul&gt; const&amp;) const" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:283:35" msg_body="Inlining function 'Weights_Tile&lt;9u, ap_int&lt;8&gt;, 8u&gt;::operator[](unsigned int) const' into 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="Weights_Tile&lt;9u, ap_int&lt;8&gt;, 8u&gt;::operator[](unsigned int) const" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:275:27" msg_body="Inlining function 'ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;::init(unsigned int, unsigned int) const' into 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;::init(unsigned int, unsigned int) const" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:282:19" msg_body="Inlining function 'Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt; Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::operator()&lt;ap_uint&lt;27&gt; &gt;(ap_uint&lt;27&gt; const&amp;, unsigned int) const' into 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::Container&lt;ap_uint&lt;27&gt; &gt; Slice&lt;ap_uint&lt;3&gt;, 3u&gt;::operator()&lt;ap_uint&lt;27&gt; &gt;(ap_uint&lt;27&gt; const&amp;, unsigned int) const" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-377" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:238:9" msg_body="Adding 'w' into disaggregation list because there's array-partition pragma applied on the struct field">
+        <args Name="w"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-377" msg_severity="INFO" msg_loc="/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/top_MVAU_hls_1.cpp:36:9" msg_body="Adding 'threshs' into disaggregation list because there's array-partition pragma applied on the struct field">
+        <args Name="threshs"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-377" msg_severity="INFO" msg_loc="/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/top_MVAU_hls_1.cpp:35:9" msg_body="Adding 'threshs' into disaggregation list because there's array-partition pragma applied on the struct field">
+        <args Name="threshs"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-210" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:237:30" msg_body="Disaggregating variable 'w'">
+        <args Name="w"/>
+    </msg>
+    <msg msg_groups="PRAGMA_DISAGGREGATE" msg_id="214-210" msg_severity="INFO" msg_loc="/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/thresh.h:1:0" msg_body="Disaggregating variable 'threshs'">
+        <args Name="threshs"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:266:23" msg_body="Loop 'VITIS_LOOP_266_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_266_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:273:25" msg_body="Loop 'VITIS_LOOP_273_3' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_273_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:280:23" msg_body="Loop 'VITIS_LOOP_280_4' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_280_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:159:23" msg_body="Loop 'VITIS_LOOP_159_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_159_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:167:21" msg_body="Loop 'VITIS_LOOP_167_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_167_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:293:25" msg_body="Loop 'VITIS_LOOP_293_5' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_293_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:216:20" msg_body="Loop 'VITIS_LOOP_216_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_216_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0" msg_body="Unrolling loop 'VITIS_LOOP_266_2' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:266:23) in function 'Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:266:23" LoopName="VITIS_LOOP_266_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0" msg_body="Unrolling loop 'VITIS_LOOP_273_3' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:273:25) in function 'Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:273:25" LoopName="VITIS_LOOP_273_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0" msg_body="Unrolling loop 'VITIS_LOOP_280_4' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:280:23) in function 'Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:280:23" LoopName="VITIS_LOOP_280_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0" msg_body="Unrolling loop 'VITIS_LOOP_167_1' (/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:167:21) in function 'Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;' completely with a factor of 9">
+        <args Factor="9" LoopLoc="/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:167:21" LoopName="VITIS_LOOP_167_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0" msg_body="Unrolling loop 'VITIS_LOOP_159_1' (/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:159:23) in function 'Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;' completely with a factor of 9">
+        <args Factor="9" LoopLoc="/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:159:23" LoopName="VITIS_LOOP_159_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0" msg_body="Unrolling loop 'VITIS_LOOP_293_5' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:293:25) in function 'Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;' completely with a factor of 8">
+        <args Factor="8" LoopLoc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:293:25" LoopName="VITIS_LOOP_293_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0" msg_body="Unrolling loop 'VITIS_LOOP_216_1' (/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:216:20) in function 'Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;' completely with a factor of 7">
+        <args Factor="7" LoopLoc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:216:20" LoopName="VITIS_LOOP_216_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/array:186:0" msg_body="Inlining function 'std::__array_traits&lt;ap_int&lt;8&gt;, 9ul&gt;::_S_ref(ap_int&lt;8&gt; const (&amp;) [9], unsigned long)' into 'std::array&lt;ap_int&lt;8&gt;, 9ul&gt;::operator[](unsigned long)'">
+        <args Callee="std::__array_traits&lt;ap_int&lt;8&gt;, 9ul&gt;::_S_ref(ap_int&lt;8&gt; const (&amp;) [9], unsigned long)" Caller="std::array&lt;ap_int&lt;8&gt;, 9ul&gt;::operator[](unsigned long)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/media/clr/XIlinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/array:190:0" msg_body="Inlining function 'std::__array_traits&lt;ap_int&lt;8&gt;, 9ul&gt;::_S_ref(ap_int&lt;8&gt; const (&amp;) [9], unsigned long)' into 'std::array&lt;ap_int&lt;8&gt;, 9ul&gt;::operator[](unsigned long) const'">
+        <args Callee="std::__array_traits&lt;ap_int&lt;8&gt;, 9ul&gt;::_S_ref(ap_int&lt;8&gt; const (&amp;) [9], unsigned long)" Caller="std::array&lt;ap_int&lt;8&gt;, 9ul&gt;::operator[](unsigned long) const"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0" msg_body="Inlining function 'std::array&lt;ap_int&lt;8&gt;, 9ul&gt;::operator[](unsigned long)' into 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="std::array&lt;ap_int&lt;8&gt;, 9ul&gt;::operator[](unsigned long)" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0" msg_body="Inlining function 'std::array&lt;ap_int&lt;8&gt;, 9ul&gt;::operator[](unsigned long) const' into 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="std::array&lt;ap_int&lt;8&gt;, 9ul&gt;::operator[](unsigned long) const" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/thresh.h:1:0" msg_body="Applying array_partition to '_ZL7threshs': Complete partitioning on dimension 1. Complete partitioning on dimension 3.">
+        <args Dim="islist 1 3" Mode="islist Complete Complete" UOName="_ZL7threshs"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:231:6" msg_body="Applying array_partition to 'inputBuf': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="inputBuf"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:234:33" msg_body="Applying array_partition to 'accu': Complete partitioning on dimension 1. Complete partitioning on dimension 2.">
+        <args Dim="islist 1 2" Mode="islist Complete Complete" UOName="accu"/>
+    </msg>
+    <msg msg_groups="AUTOMATION" msg_id="214-364" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:217:14" msg_body="Automatically inlining function 'ap_uint&lt;3&gt; Caster&lt;ap_uint&lt;3&gt; &gt;::cast&lt;3&gt;(ap_int&lt;3&gt; const&amp;)' to improve effectiveness of pipeline pragma in function 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="ap_uint&lt;3&gt; Caster&lt;ap_uint&lt;3&gt; &gt;::cast&lt;3&gt;(ap_int&lt;3&gt; const&amp;)" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+    <msg msg_groups="AUTOMATION" msg_id="214-364" msg_severity="INFO" msg_loc="/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:218:10" msg_body="Automatically inlining function 'comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt;::operator()(ap_int&lt;15&gt; const&amp;, ap_int&lt;15&gt; const&amp;) const' to improve effectiveness of pipeline pragma in function 'void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)'">
+        <args Callee="comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt;::operator()(ap_int&lt;15&gt; const&amp;, ap_int&lt;15&gt; const&amp;) const" Caller="void Matrix_Vector_Activate_Stream_Batch&lt;72u, 16u, 9u, 8u, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Slice&lt;ap_uint&lt;3&gt;, 3u&gt;, Identity, ap_int&lt;8&gt;, ap_uint&lt;27&gt;, ap_uint&lt;24&gt;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt;, ap_resource_dflt&gt;(hls::stream&lt;ap_uint&lt;27&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;24&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;((8u) * (9u)) * (ap_int&lt;8&gt;::width)&gt;, 0&gt;&amp;, ThresholdsActivation&lt;2u, 8u, 7u, ap_int&lt;15&gt;, ap_uint&lt;3&gt;, 0, comp::less_equal&lt;ap_int&lt;15&gt;, ap_int&lt;15&gt; &gt; &gt; const&amp;, int, ap_resource_dflt const&amp;)"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

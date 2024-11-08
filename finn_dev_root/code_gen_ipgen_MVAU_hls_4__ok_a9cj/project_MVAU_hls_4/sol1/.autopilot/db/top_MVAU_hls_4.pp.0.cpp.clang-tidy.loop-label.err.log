@@ -1,0 +1,5 @@
+7 errors generated.
+Error while processing /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_4__ok_a9cj/project_MVAU_hls_4/sol1/.autopilot/db/top_MVAU_hls_4.pp.0.cpp.
+clang-tidy applied 197 of 197 suggested fixes.
+Suppressed 200 warnings (200 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.

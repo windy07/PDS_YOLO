@@ -1,0 +1,137 @@
+
+
+================================================================
+== Vitis HLS Report for 'MVAU_hls_7'
+================================================================
+* Date:           Fri Nov  8 14:15:40 2024
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        project_MVAU_hls_7
+* Solution:       sol1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  8.175 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+--------+--------+---------+
+    |  Latency (cycles) |  Latency (absolute) |     Interval    | Pipeline|
+    |   min   |   max   |    min   |    max   |   min  |   max  |   Type  |
+    +---------+---------+----------+----------+--------+--------+---------+
+    |   246075|   246075|  2.461 ms|  2.461 ms|  246076|  246076|       no|
+    +---------+---------+----------+----------+--------+--------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 4
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 0.00>
+
+State 2 <SV = 1> <Delay = 1.58>
+ST_2 : Operation 5 [2/2] (1.58ns)   --->   "%call_ln37 = call void @Matrix_Vector_Activate_Stream_Batch, i32 %in0_V, i16 %out_V, i288 %weights_V, i15 %p_ZL7threshs_0_0, i16 %p_ZL7threshs_0_1, i16 %p_ZL7threshs_0_2, i15 %p_ZL7threshs_0_3, i15 %p_ZL7threshs_0_4, i15 %p_ZL7threshs_0_5, i15 %p_ZL7threshs_0_6, i15 %p_ZL7threshs_1_0, i16 %p_ZL7threshs_1_1, i15 %p_ZL7threshs_1_2, i15 %p_ZL7threshs_1_3, i15 %p_ZL7threshs_1_4, i15 %p_ZL7threshs_1_5, i15 %p_ZL7threshs_1_6, i13 %p_ZL7threshs_2_0, i13 %p_ZL7threshs_2_1, i14 %p_ZL7threshs_2_2, i14 %p_ZL7threshs_2_3, i14 %p_ZL7threshs_2_4, i14 %p_ZL7threshs_2_5, i15 %p_ZL7threshs_2_6, i15 %p_ZL7threshs_3_0, i15 %p_ZL7threshs_3_1, i16 %p_ZL7threshs_3_2, i15 %p_ZL7threshs_3_3, i15 %p_ZL7threshs_3_4, i15 %p_ZL7threshs_3_5, i15 %p_ZL7threshs_3_6" [/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_7_urf094np/top_MVAU_hls_7.cpp:37]   --->   Operation 5 'call' 'call_ln37' <Predicate = true> <Delay = 1.58> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 8.17>
+ST_3 : Operation 6 [1/2] (8.17ns)   --->   "%call_ln37 = call void @Matrix_Vector_Activate_Stream_Batch, i32 %in0_V, i16 %out_V, i288 %weights_V, i15 %p_ZL7threshs_0_0, i16 %p_ZL7threshs_0_1, i16 %p_ZL7threshs_0_2, i15 %p_ZL7threshs_0_3, i15 %p_ZL7threshs_0_4, i15 %p_ZL7threshs_0_5, i15 %p_ZL7threshs_0_6, i15 %p_ZL7threshs_1_0, i16 %p_ZL7threshs_1_1, i15 %p_ZL7threshs_1_2, i15 %p_ZL7threshs_1_3, i15 %p_ZL7threshs_1_4, i15 %p_ZL7threshs_1_5, i15 %p_ZL7threshs_1_6, i13 %p_ZL7threshs_2_0, i13 %p_ZL7threshs_2_1, i14 %p_ZL7threshs_2_2, i14 %p_ZL7threshs_2_3, i14 %p_ZL7threshs_2_4, i14 %p_ZL7threshs_2_5, i15 %p_ZL7threshs_2_6, i15 %p_ZL7threshs_3_0, i15 %p_ZL7threshs_3_1, i16 %p_ZL7threshs_3_2, i15 %p_ZL7threshs_3_3, i15 %p_ZL7threshs_3_4, i15 %p_ZL7threshs_3_5, i15 %p_ZL7threshs_3_6" [/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_7_urf094np/top_MVAU_hls_7.cpp:37]   --->   Operation 6 'call' 'call_ln37' <Predicate = true> <Delay = 8.17> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 7 [1/1] (0.00ns)   --->   "%spectopmodule_ln25 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_2" [/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_7_urf094np/top_MVAU_hls_7.cpp:25]   --->   Operation 7 'spectopmodule' 'spectopmodule_ln25' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln25 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_3, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0" [/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_7_urf094np/top_MVAU_hls_7.cpp:25]   --->   Operation 8 'specinterface' 'specinterface_ln25' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %in0_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 10 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %in0_V"   --->   Operation 10 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 11 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i288 %weights_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 11 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 12 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i288 %weights_V"   --->   Operation 12 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 13 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i16 %out_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 13 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 14 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i16 %out_V"   --->   Operation 14 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 15 [1/1] (0.00ns)   --->   "%ret_ln39 = ret" [/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_7_urf094np/top_MVAU_hls_7.cpp:39]   --->   Operation 15 'ret' 'ret_ln39' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 0ns
+The critical path consists of the following:
+
+ <State 2>: 1.59ns
+The critical path consists of the following:
+	'call' operation ('call_ln37', /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_7_urf094np/top_MVAU_hls_7.cpp:37) to 'Matrix_Vector_Activate_Stream_Batch' [40]  (1.59 ns)
+
+ <State 3>: 8.18ns
+The critical path consists of the following:
+	'call' operation ('call_ln37', /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_7_urf094np/top_MVAU_hls_7.cpp:37) to 'Matrix_Vector_Activate_Stream_Batch' [40]  (8.18 ns)
+
+ <State 4>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -1,0 +1,748 @@
+INFO-FLOW: Workspace /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1 opened at Fri Nov 08 14:17:58 +0000 2024
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vivado' config_interface -m_axi_latency=0 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vivado' configuration: config_interface -m_axi_latency=0
+Execute     config_interface -m_axi_latency=0 
+Command   open_solution done; 0.11 sec.
+Execute   set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+Execute     create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: /media/clr/XIlinx/Vitis_HLS/2022.2/lib/lnx64.o/libxv_hlsvwrap.so
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /media/clr/XIlinx/Vivado/2022.2/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command     create_platform done; 2.62 sec.
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/saxilite.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/util.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command     ap_source done; 0.13 sec.
+Execute     ap_part_info -name xc7z020-clg400-1 -data info 
+Execute     config_compile -quiet -complex-mul-dsp=0 
+Command   set_part done; 2.78 sec.
+Execute   config_compile -disable_unroll_code_size_check -pipeline_style flp 
+INFO: [HLS 200-1510] Running: config_compile -disable_unroll_code_size_check -pipeline_style flp 
+WARNING: [XFORM 203-506] Disable code size check when do loop unroll.
+WARNING: [HLS 200-643] The 'config_compile -disable_unroll_code_size_check' hidden command is deprecated and will be removed in a future release.
+Execute   config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+Execute   config_rtl -module_auto_prefix 
+INFO: [HLS 200-1510] Running: config_rtl -module_auto_prefix 
+Execute   config_rtl -deadlock_detection none 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection none 
+Execute   create_clock -period 10.0 -name default 
+INFO: [HLS 200-1510] Running: create_clock -period 10.0 -name default 
+Execute     ap_set_clock -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute   csynth_design 
+INFO: [HLS 200-1510] Running: csynth_design 
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 10.04 seconds; current allocated memory: 754.012 MB.
+INFO: [HLS 200-10] Analyzing design file '/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/top_StreamingMaxPool_hls_1.cpp' ... 
+INFO-FLOW: Compiling one TU...
+INFO-FLOW: Handling /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/top_StreamingMaxPool_hls_1.cpp as C++
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+Execute       ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/top_StreamingMaxPool_hls_1.cpp -foptimization-record-file=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -gcc-toolchain /media/clr/XIlinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0 -fhls -fno-exceptions -E -std=c++14 -I/media/clr/XIlinx/finn/deps/finn-hlslib -I/media/clr/XIlinx/finn/custom_hls -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot -I /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp -hls-platform-db-name=/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.cpp.clang.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.cpp.clang.err.log 
+Command       ap_eval done; 0.22 sec.
+INFO-FLOW: Done: GCC PP 39 time: 0.2 seconds per iteration
+Execute       set_directive_top StreamingMaxPool_hls_1 -name=StreamingMaxPool_hls_1 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+INFO-FLOW: Source syntax check for synthesis
+Execute       ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp -hls-platform-db-name=/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/clang.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/clang.err.log 
+Command       ap_eval done; 0.83 sec.
+Execute       clang_tidy xilinx-systemc-detector -desc systemc-detector /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp std=c++14 -target fpga  -directive=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/.systemc_flag -fix-errors /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp -- -std=c++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.87 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma -desc directive2pragma /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp std=c++14 -target fpga  -directive=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/all.directive.json -fix-errors /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp -- -std=c++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 1.23 sec.
+Execute       clang_tidy xilinx-remove-assert -desc remove-assert /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp std=c++14 -target fpga  
+INFO-FLOW: exec /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-remove-assert -fix-errors /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp -- -std=c++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.73 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 2 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
+Execute       clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp std=c++14 -target fpga  
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp -- -std=c++14 -target fpga -fhls -ferror-limit=0 > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp.clang-tidy.loop-label.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp.clang-tidy.loop-label.err.log 
+Command         ap_eval done; 3.12 sec.
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
+Command       clang_tidy done; 4.04 sec.
+Execute       ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp -- -std=c++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp.xilinx-dataflow-lawyer.err.log 
+Command       ap_eval done; 0.72 sec.
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: compiling source code to llvm bc
+Execute       ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp -std=c++14 -I/media/clr/XIlinx/finn/deps/finn-hlslib -I/media/clr/XIlinx/finn/custom_hls -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot -I /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.bc -hls-platform-db-name=/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp.clang.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.pp.0.cpp.clang.err.log 
+Command       ap_eval done; 0.9 sec.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 9.29 seconds. CPU system time: 0.73 seconds. Elapsed time: 10.07 seconds; current allocated memory: 761.113 MB.
+INFO-FLOW: Linking Debug ...
+INFO-FLOW: Linking dut bc code.
+Execute       run_link_or_opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.0.bc -args  "/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.g.bc"  
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top_StreamingMaxPool_hls_1.g.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.0.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log 
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.1.lower.bc -args /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.1.lower.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log 
+INFO-FLOW: 
+INFO-FLOW: Linking math bc lib
+Execute       run_link_or_opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.2.m1.bc -args /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.1.lower.bc -only-needed /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libhlsm_39.bc /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libhlsmc++_39.bc 
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.1.lower.bc -only-needed /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libhlsm_39.bc /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libhlsmc++_39.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.2.m1.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log 
+Command         ap_eval done; 3.14 sec.
+INFO-FLOW: 
+Command       run_link_or_opt done; 3.14 sec.
+Execute       run_link_or_opt -opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.3.fpc.bc -args /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=StreamingMaxPool_hls_1 -reflow-float-conversion 
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=StreamingMaxPool_hls_1 -reflow-float-conversion -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.3.fpc.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log 
+Command         ap_eval done; 1.18 sec.
+INFO-FLOW: 
+Command       run_link_or_opt done; 1.18 sec.
+Execute       run_link_or_opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.4.m2.bc -args /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libfloatconversion_39.bc 
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libfloatconversion_39.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.4.m2.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log 
+Command         ap_eval done; 0.11 sec.
+INFO-FLOW: 
+Command       run_link_or_opt done; 0.11 sec.
+Execute       run_link_or_opt -opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.5.gdce.bc -args /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=StreamingMaxPool_hls_1 
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=StreamingMaxPool_hls_1 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.5.gdce.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log 
+INFO-FLOW: 
+Execute       send_msg_by_id INFO @200-777@%s Vivado 
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+Execute       is_m_axi_addr64 
+INFO-FLOW: Doing LTO.
+Execute       ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.0.bc.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=StreamingMaxPool_hls_1 -mllvm -hls-db-dir -mllvm /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=slave -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -assume-maxi-align=1 -mllvm -reflow-pipeline-style-llvm-setting=1 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-array-partition=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-assume-no-address-wrap=true -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -default-clock-period=10 -x ir /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.5.gdce.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.lto.bc -hls-platform-db-name=/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.0.bc.clang.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.ld.0.bc.clang.err.log 
+Command       ap_eval done; 0.47 sec.
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_161_7' is marked as complete unroll implied by the pipeline pragma (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:161:29)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_161_7' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:161:29) in function 'StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>' completely with a factor of 8 (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:142:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_175_9' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:175:25) in function 'StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>' completely with a factor of 8 (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:142:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_148_2' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:148:23) in function 'StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>' completely with a factor of 8 (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:142:0)
+INFO: [HLS 214-248] Applying array_partition to 'buf': Complete partitioning on dimension 2. (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145:11)
+INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/kernel.internal.xml
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.59 seconds. CPU system time: 0.56 seconds. Elapsed time: 5.15 seconds; current allocated memory: 761.113 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 761.113 MB.
+Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute         cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+INFO-FLOW: Running Standard Transforms...
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top StreamingMaxPool_hls_1 -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -auto-shift-reg-idiom -promote-dbg-pointer -norm-name /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.0.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 766.418 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute         transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.1.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.2.prechk.bc -f 
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute         transform -syn-check /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.2.prechk.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.2.bc -f -phase syn-check 
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 773.625 MB.
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.g.1.bc to /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute         transform -hls -tmp /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db -interface-port-rename -directive-preproc -mem2reg -dse -dce -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -directive-preproc -mem2reg -dse -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -scalar-auto-dep-elim -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -prepare-dynamic-array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -scalar-auto-dep-elim -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -accesses-merge -function-inline -complex-op-raise -inst-simplify -globaldce -func-legal -dce -loop-bound -arraycheck -bitwidthmin2 -bitwidthmin2 -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -duplicate-dataflow-processes -check-dataflow-syntax -legalize-stream-variable -globaldce -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -hls-dead-arg-elim -deadargelim -directive-preproc -canonicalize-dataflow -dce -globaldce -scalar-preprocessing -scalar-propagation2 -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -hls-display -norm-name /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.o.1.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.o.1.tmp.bc -f 
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_147_1' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147) in function 'StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_174_8' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:174) in function 'StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>' automatically.
+INFO-FLOW: Presyn 2...
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.o.1.tmp.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.16 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.18 seconds; current allocated memory: 802.609 MB.
+INFO-FLOW: Building ssdm...
+Execute         transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -load-elim -read-loop-dep -loop-simplify -loop-extract-inner -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -validate-dataflow -inst-clarity -bitwidth -dump-loop-dep-to-ir -check-all-ssdm -cdfg-build /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.o.2.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_156_5' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156:43) in function 'StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>' the outer loop is not a perfect loop.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_155_4' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:155:41) in function 'StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>'.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_154_3' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154:39) in function 'StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>' more than one sub loop.
+INFO: [HLS 200-472] Inferring partial write operation for 'buf.V' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:150:13)
+INFO: [HLS 200-472] Inferring partial write operation for 'buf.V' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:168:27)
+INFO: [HLS 200-472] Inferring partial write operation for 'buf.V' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:181:25)
+Command         transform done; 0.12 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.12 seconds; current allocated memory: 834.438 MB.
+INFO-FLOW: Finish building internal data model.
+Command       opt_and_import_c done; 0.46 sec.
+Command     elaborate done; 15.68 sec.
+Execute     ap_eval exec zip -j /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
+Execute     autosyn -from_csynth_design=1 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'StreamingMaxPool_hls_1' ...
+Execute       ap_set_top_model StreamingMaxPool_hls_1 
+WARNING: [SYN 201-103] Legalizing function name 'StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>' to 'StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s'.
+Execute       get_model_list StreamingMaxPool_hls_1 -filter all-wo-channel -topdown 
+Execute       preproc_iomode -model StreamingMaxPool_hls_1 
+Execute       preproc_iomode -model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> 
+Execute       preproc_iomode -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+Execute       preproc_iomode -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+Execute       preproc_iomode -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+Execute       get_model_list StreamingMaxPool_hls_1 -filter all-wo-channel 
+INFO-FLOW: Model list for configure: StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 {StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>} StreamingMaxPool_hls_1
+INFO-FLOW: Configuring Module : StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 ...
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+Execute       apply_spec_resource_limit StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+INFO-FLOW: Configuring Module : StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 ...
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+Execute       apply_spec_resource_limit StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+INFO-FLOW: Configuring Module : StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 ...
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+Execute       apply_spec_resource_limit StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+INFO-FLOW: Configuring Module : StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> ...
+Execute       set_default_model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> 
+Execute       apply_spec_resource_limit StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> 
+INFO-FLOW: Configuring Module : StreamingMaxPool_hls_1 ...
+Execute       set_default_model StreamingMaxPool_hls_1 
+Execute       apply_spec_resource_limit StreamingMaxPool_hls_1 
+INFO-FLOW: Model list for preprocess: StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 {StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>} StreamingMaxPool_hls_1
+INFO-FLOW: Preprocessing Module: StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 ...
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+Execute       cdfg_preprocess -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+Execute       rtl_gen_preprocess StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+INFO-FLOW: Preprocessing Module: StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 ...
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+Execute       cdfg_preprocess -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+Execute       rtl_gen_preprocess StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+INFO-FLOW: Preprocessing Module: StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 ...
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+Execute       cdfg_preprocess -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+Execute       rtl_gen_preprocess StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+INFO-FLOW: Preprocessing Module: StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> ...
+Execute       set_default_model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> 
+Execute       cdfg_preprocess -model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> 
+Execute       rtl_gen_preprocess StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> 
+INFO-FLOW: Preprocessing Module: StreamingMaxPool_hls_1 ...
+Execute       set_default_model StreamingMaxPool_hls_1 
+Execute       cdfg_preprocess -model StreamingMaxPool_hls_1 
+Execute       rtl_gen_preprocess StreamingMaxPool_hls_1 
+INFO-FLOW: Model list for synthesis: StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 {StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>} StreamingMaxPool_hls_1
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+Execute       schedule -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_147_1'.
+WARNING: [HLS 200-1843] Loop 'VITIS_LOOP_147_1' will not be implemented as Flushable(/Unaligned) Pipeline as it has been scheduled as a sequential circuit (II == depth). Changing pipeline style specification to 'style=stp'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_147_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.1 seconds; current allocated memory: 835.215 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.verbose.sched.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.sched.adb -f 
+INFO-FLOW: Finish scheduling StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+Execute       bind -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 835.215 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.verbose.bind.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.bind.adb -f 
+INFO-FLOW: Finish binding StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+Execute       schedule -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_158_6'.
+WARNING: [HLS 200-1843] Loop 'VITIS_LOOP_158_6' will not be implemented as Flushable(/Unaligned) Pipeline as it has been scheduled as a sequential circuit (II == depth). Changing pipeline style specification to 'style=stp'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, loop 'VITIS_LOOP_158_6'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 836.418 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.verbose.sched.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.sched.adb -f 
+INFO-FLOW: Finish scheduling StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+Execute       bind -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 836.418 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.verbose.bind.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.bind.adb -f 
+INFO-FLOW: Finish binding StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+Execute       schedule -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_174_8'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_174_8'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.14 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 836.418 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.verbose.sched.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.sched.adb -f 
+INFO-FLOW: Finish scheduling StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.
+Execute       set_default_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+Execute       bind -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 836.418 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.verbose.bind.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.bind.adb -f 
+INFO-FLOW: Finish binding StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> 
+Execute       schedule -model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 836.934 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s.verbose.sched.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s.sched.adb -f 
+INFO-FLOW: Finish scheduling StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>.
+Execute       set_default_model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> 
+Execute       bind -model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0 seconds. Elapsed time: 0.12 seconds; current allocated memory: 836.934 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s.verbose.bind.rpt 
+Execute         AP::get_flow_target_display_name
+Command       syn_report done; 0.14 sec.
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s.bind.adb -f 
+INFO-FLOW: Finish binding StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingMaxPool_hls_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model StreamingMaxPool_hls_1 
+Execute       schedule -model StreamingMaxPool_hls_1 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.17 seconds. CPU system time: 0 seconds. Elapsed time: 0.17 seconds; current allocated memory: 836.934 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.verbose.sched.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.sched.adb -f 
+INFO-FLOW: Finish scheduling StreamingMaxPool_hls_1.
+Execute       set_default_model StreamingMaxPool_hls_1 
+Execute       bind -model StreamingMaxPool_hls_1 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 836.934 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.verbose.bind.rpt 
+Execute         AP::get_flow_target_display_name
+Command       syn_report done; 0.12 sec.
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.bind.adb -f 
+INFO-FLOW: Finish binding StreamingMaxPool_hls_1.
+Execute       get_model_list StreamingMaxPool_hls_1 -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute       rtl_gen_preprocess StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+Execute       rtl_gen_preprocess StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+Execute       rtl_gen_preprocess StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+Execute       rtl_gen_preprocess StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> 
+Execute       rtl_gen_preprocess StreamingMaxPool_hls_1 
+INFO-FLOW: Model list for RTL generation: StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 {StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>} StreamingMaxPool_hls_1
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 -top_prefix StreamingMaxPool_hls_1_ -sub_prefix StreamingMaxPool_hls_1_ -mg_file /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.14 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 836.934 MB.
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute       gen_rtl StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 -style xilinx -f -lang vhdl -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/vhdl/StreamingMaxPool_hls_1_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+Execute       gen_rtl StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 -style xilinx -f -lang vlog -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/verilog/StreamingMaxPool_hls_1_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+Execute       syn_report -csynth -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       syn_report -rtlxml -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_csynth.xml 
+Execute       syn_report -verbosereport -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.verbose.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 -f -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.adb 
+Execute       db_write -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 -bindview -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 -p /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 -top_prefix StreamingMaxPool_hls_1_ -sub_prefix StreamingMaxPool_hls_1_ -mg_file /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 837.727 MB.
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute       gen_rtl StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 -style xilinx -f -lang vhdl -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/vhdl/StreamingMaxPool_hls_1_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+Execute       gen_rtl StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 -style xilinx -f -lang vlog -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/verilog/StreamingMaxPool_hls_1_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+Execute       syn_report -csynth -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       syn_report -rtlxml -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_csynth.xml 
+Execute       syn_report -verbosereport -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.verbose.rpt 
+Execute         AP::get_flow_target_display_name
+Command       syn_report done; 0.12 sec.
+Execute       db_write -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 -f -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.adb 
+Execute       db_write -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 -bindview -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 -p /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 -top_prefix StreamingMaxPool_hls_1_ -sub_prefix StreamingMaxPool_hls_1_ -mg_file /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.29 seconds. CPU system time: 0 seconds. Elapsed time: 0.3 seconds; current allocated memory: 839.777 MB.
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute       gen_rtl StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 -style xilinx -f -lang vhdl -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/vhdl/StreamingMaxPool_hls_1_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+Execute       gen_rtl StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 -style xilinx -f -lang vlog -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/verilog/StreamingMaxPool_hls_1_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+Execute       syn_report -csynth -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       syn_report -rtlxml -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_csynth.xml 
+Execute       syn_report -verbosereport -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.verbose.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 -f -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.adb 
+Execute       db_write -model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 -bindview -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 -p /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> -top_prefix StreamingMaxPool_hls_1_ -sub_prefix StreamingMaxPool_hls_1_ -mg_file /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s'.
+INFO: [RTMG 210-278] Implementing memory 'StreamingMaxPool_hls_1_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_buf_V_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 841.570 MB.
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute       gen_rtl StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> -style xilinx -f -lang vhdl -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/vhdl/StreamingMaxPool_hls_1_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s 
+Execute       gen_rtl StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> -style xilinx -f -lang vlog -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/verilog/StreamingMaxPool_hls_1_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s 
+Execute       syn_report -csynth -model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       syn_report -rtlxml -model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_csynth.xml 
+Execute       syn_report -verbosereport -model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s.verbose.rpt 
+Execute         AP::get_flow_target_display_name
+Command       syn_report done; 0.16 sec.
+Execute       db_write -model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> -f -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s.adb 
+Execute       db_write -model StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> -bindview -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24> -p /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingMaxPool_hls_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model StreamingMaxPool_hls_1 -top_prefix  -sub_prefix StreamingMaxPool_hls_1_ -mg_file /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.compgen.tcl 
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'StreamingMaxPool_hls_1/in0_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'StreamingMaxPool_hls_1/out_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'StreamingMaxPool_hls_1' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingMaxPool_hls_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.26 seconds. CPU system time: 0 seconds. Elapsed time: 0.27 seconds; current allocated memory: 842.895 MB.
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute       gen_rtl StreamingMaxPool_hls_1 -istop -style xilinx -f -lang vhdl -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/vhdl/StreamingMaxPool_hls_1 
+Execute       gen_rtl StreamingMaxPool_hls_1 -istop -style xilinx -f -lang vlog -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/verilog/StreamingMaxPool_hls_1 
+Execute       syn_report -csynth -model StreamingMaxPool_hls_1 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/StreamingMaxPool_hls_1_csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       syn_report -rtlxml -model StreamingMaxPool_hls_1 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/StreamingMaxPool_hls_1_csynth.xml 
+Execute       syn_report -verbosereport -model StreamingMaxPool_hls_1 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.verbose.rpt 
+Execute         AP::get_flow_target_display_name
+Command       syn_report done; 0.13 sec.
+Execute       db_write -model StreamingMaxPool_hls_1 -f -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.adb 
+Execute       db_write -model StreamingMaxPool_hls_1 -bindview -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info StreamingMaxPool_hls_1 -p /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1 
+Execute       export_constraint_db -f -tool general -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.constraint.tcl 
+Execute       syn_report -designview -model StreamingMaxPool_hls_1 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.design.xml 
+Command       syn_report done; 0.11 sec.
+Execute       syn_report -csynthDesign -model StreamingMaxPool_hls_1 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       syn_report -wcfg -model StreamingMaxPool_hls_1 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1_dataflow_ana.wcfg 
+Execute       syn_report -protoinst -model StreamingMaxPool_hls_1 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.protoinst 
+Execute       sc_get_clocks StreamingMaxPool_hls_1 
+Execute       sc_get_portdomain StreamingMaxPool_hls_1 
+INFO-FLOW: Model list for RTL component generation: StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 {StreamingMaxPool_Precision<208u, 2u, 8u, ap_uint<3>, 0, 24>} StreamingMaxPool_hls_1
+INFO-FLOW: Handling components in module [StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1] ... 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.compgen.tcl 
+INFO-FLOW: Found component StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init.
+INFO-FLOW: Append model StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+INFO-FLOW: Handling components in module [StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6] ... 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.compgen.tcl 
+INFO-FLOW: Found component StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init.
+INFO-FLOW: Append model StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+INFO-FLOW: Handling components in module [StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8] ... 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.compgen.tcl 
+INFO-FLOW: Found component StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init.
+INFO-FLOW: Append model StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+INFO-FLOW: Handling components in module [StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s] ... 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s.compgen.tcl 
+INFO-FLOW: Found component StreamingMaxPool_hls_1_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_buf_V_RAM_AUTO_1R1W.
+INFO-FLOW: Append model StreamingMaxPool_hls_1_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_buf_V_RAM_AUTO_1R1W
+INFO-FLOW: Handling components in module [StreamingMaxPool_hls_1] ... 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.compgen.tcl 
+INFO-FLOW: Found component StreamingMaxPool_hls_1_regslice_both.
+INFO-FLOW: Append model StreamingMaxPool_hls_1_regslice_both
+INFO-FLOW: Found component StreamingMaxPool_hls_1_regslice_both.
+INFO-FLOW: Append model StreamingMaxPool_hls_1_regslice_both
+INFO-FLOW: Append model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1
+INFO-FLOW: Append model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6
+INFO-FLOW: Append model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8
+INFO-FLOW: Append model StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s
+INFO-FLOW: Append model StreamingMaxPool_hls_1
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init StreamingMaxPool_hls_1_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_buf_V_RAM_AUTO_1R1W StreamingMaxPool_hls_1_regslice_both StreamingMaxPool_hls_1_regslice_both StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s StreamingMaxPool_hls_1
+INFO-FLOW: Generating /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/autopilot.rtl.models.txt file...
+INFO-FLOW: To file: write model StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+INFO-FLOW: To file: write model StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+INFO-FLOW: To file: write model StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+INFO-FLOW: To file: write model StreamingMaxPool_hls_1_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_buf_V_RAM_AUTO_1R1W
+INFO-FLOW: To file: write model StreamingMaxPool_hls_1_regslice_both
+INFO-FLOW: To file: write model StreamingMaxPool_hls_1_regslice_both
+INFO-FLOW: To file: write model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1
+INFO-FLOW: To file: write model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6
+INFO-FLOW: To file: write model StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8
+INFO-FLOW: To file: write model StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s
+INFO-FLOW: To file: write model StreamingMaxPool_hls_1
+INFO-FLOW: Generating /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/autopilot.rtl.models.tcl file...
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate_csynth_design
+INFO-FLOW: DBG:PUTS: read_platform_lib /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/common.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/interface.gen 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/util.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.12 sec.
+INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::generate_ip_cores gen_sim_model='1' gen_fp_models='0' gen_for_export='0' dstSCDir='' dstVhdlDir='/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/vhdl' dstVlogDir='/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/vlog' tclDir='/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db' modelList='StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+StreamingMaxPool_hls_1_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_buf_V_RAM_AUTO_1R1W
+StreamingMaxPool_hls_1_regslice_both
+StreamingMaxPool_hls_1_regslice_both
+StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1
+StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6
+StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8
+StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s
+StreamingMaxPool_hls_1
+' expOnly='0'
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.compgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.compgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.compgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s.compgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.compgen.tcl 
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.42 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.44 seconds; current allocated memory: 844.656 MB.
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::create_csynth_xml bind_info_var='bind_info' RtlSubPrefix='StreamingMaxPool_hls_1_' outfile=''
+INFO-FLOW: Running: create_csynth_xml read xml data
+INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml bind info
+INFO-FLOW: No bind nodes found for module_name StreamingMaxPool_hls_1
+INFO-FLOW: Done: create_csynth_xml bind info time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml config info
+INFO-FLOW: Done: create_csynth_xml config info time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml write xml
+INFO-FLOW: Done: create_csynth_xml write xml time: 0 seconds per iteration
+INFO-FLOW: DBG:PUTS:      create_csynth_xml wrote csynth_xml=/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/syn/report/csynth.xml
+INFO-FLOW: DBG:PROC: ::AP::DESIGN_DATA::generate_json generate_bd_files='0' generate_xo_files='0' modelList='StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+StreamingMaxPool_hls_1_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_buf_V_RAM_AUTO_1R1W
+StreamingMaxPool_hls_1_regslice_both
+StreamingMaxPool_hls_1_regslice_both
+StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1
+StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6
+StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8
+StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s
+StreamingMaxPool_hls_1
+' rtl_lang='both' bootstrap_tcl='false' outdir='' outfilename=''
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top-io-be.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.compgen.dataonly.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.tbgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.tbgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.tbgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s.tbgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.constraint.tcl 
+Execute       sc_get_clocks StreamingMaxPool_hls_1 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::add_csynth_report_sections bind_info_dict='adapter_nodes {} report_dict {TOPINST StreamingMaxPool_hls_1 MODULE2INSTS {StreamingMaxPool_hls_1 StreamingMaxPool_hls_1 StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s grp_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_fu_28 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_210 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_230 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_244} INST2MODULE {StreamingMaxPool_hls_1 StreamingMaxPool_hls_1 grp_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_fu_28 StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_210 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_230 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_244 StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6} INSTDATA {StreamingMaxPool_hls_1 {DEPTH 1 CHILDREN grp_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_fu_28} grp_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_fu_28 {DEPTH 2 CHILDREN {grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_210 grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_230 grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_244}} grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1_fu_210 {DEPTH 3 CHILDREN {}} grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8_fu_230 {DEPTH 3 CHILDREN {}} grp_StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6_fu_244 {DEPTH 3 CHILDREN {}}} MODULEDATA {StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1 {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln147_fu_174_p2 SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:147 VARIABLE add_ln147 LOOP VITIS_LOOP_147_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}}} AREA {DSP 0 BRAM 0 URAM 0}} StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6 {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME kx_2_fu_372_p2 SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:158 VARIABLE kx_2 LOOP VITIS_LOOP_158_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}}} AREA {DSP 0 BRAM 0 URAM 0}} StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8 {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln174_fu_195_p2 SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:174 VARIABLE add_ln174 LOOP VITIS_LOOP_174_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}}} AREA {DSP 0 BRAM 0 URAM 0}} StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s {BINDINFO {{BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE ram_1p PRAGMA {} RTLNAME buf_V_U SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145 VARIABLE buf_V LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_storage ram_1p}} {BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE ram_1p PRAGMA {} RTLNAME buf_V_1_U SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145 VARIABLE buf_V_1 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_storage ram_1p}} {BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE ram_1p PRAGMA {} RTLNAME buf_V_2_U SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145 VARIABLE buf_V_2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_storage ram_1p}} {BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE ram_1p PRAGMA {} RTLNAME buf_V_3_U SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145 VARIABLE buf_V_3 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_storage ram_1p}} {BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE ram_1p PRAGMA {} RTLNAME buf_V_4_U SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145 VARIABLE buf_V_4 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_storage ram_1p}} {BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE ram_1p PRAGMA {} RTLNAME buf_V_5_U SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145 VARIABLE buf_V_5 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_storage ram_1p}} {BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE ram_1p PRAGMA {} RTLNAME buf_V_6_U SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145 VARIABLE buf_V_6 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_storage ram_1p}} {BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE ram_1p PRAGMA {} RTLNAME buf_V_7_U SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145 VARIABLE buf_V_7 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_storage ram_1p}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME yp_2_fu_281_p2 SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:154 VARIABLE yp_2 LOOP VITIS_LOOP_154_3 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln155_fu_293_p2 SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:155 VARIABLE add_ln155 LOOP VITIS_LOOP_155_4_VITIS_LOOP_156_5 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln156_fu_325_p2 SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:156 VARIABLE add_ln156 LOOP VITIS_LOOP_155_4_VITIS_LOOP_156_5 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}}} AREA {DSP 0 BRAM 0 URAM 0}} StreamingMaxPool_hls_1 {AREA {DSP 0 BRAM 0 URAM 0}}}}'
+INFO-FLOW: DBG:PUTS:      update_csynth_reports json2rpt_hw_sw_interfaces
+INFO-FLOW: Running: gen_csynth_sec_pragma
+INFO-FLOW: Done: gen_csynth_sec_pragma time: 0.1 seconds per iteration
+INFO-FLOW: DBG:PUTS:      update_csynth_reports wrote xml
+INFO-FLOW: DBG:PUTS:      update_csynth_reports appended to csynth rpt file
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.46 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.48 seconds; current allocated memory: 849.648 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for StreamingMaxPool_hls_1.
+INFO: [VLOG 209-307] Generating Verilog RTL for StreamingMaxPool_hls_1.
+Execute       syn_report -model StreamingMaxPool_hls_1 -printsummary 
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 166.10 MHz
+Command     autosyn done; 2.65 sec.
+Command   csynth_design done; 18.38 sec.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 16.87 seconds. CPU system time: 1.44 seconds. Elapsed time: 18.38 seconds; current allocated memory: 95.715 MB.
+Execute   export_design -format ip_catalog 
+INFO: [HLS 200-1510] Running: export_design -format ip_catalog 
+Execute     config_export -format=ip_catalog 
+INFO-FLOW: DBG:PUTS: export_design_wrap: -format ip_catalog -rtl verilog
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS:   auto_impl: pack: -export -rtl verilog
+INFO-FLOW: DBG:PROC: ::AESL_AUTOIMPL::auto_impl args='-export -rtl verilog'
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS: automg_wrap -export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate args='-export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag'
+INFO-FLOW: DBG:PUTS:     auto_generate -export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS: read_platform_lib /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/common.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/interface.gen 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/saxilite.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/util.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command     ap_source done; 0.12 sec.
+INFO-FLOW: DBG:PUTS:       initCTypeInfo top_module=StreamingMaxPool_hls_1 xml_exists=0
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+INFO-FLOW: DBG:PUTS:       cosim_export_main adding deadlock detection to StreamingMaxPool_hls_1
+INFO-FLOW: DBG:PUTS: Skipping loadAnalyze_DB, #g_database=2
+INFO-FLOW: DBG:PUTS:       generate_json generate_bd_files=0 generate_xo_files=false #modelList=11 #gSsdmPorts=0
+INFO-FLOW: DBG:PROC: ::AP::DESIGN_DATA::generate_json generate_bd_files='0' generate_xo_files='false' modelList='StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+StreamingMaxPool_hls_1_flow_control_loop_pipe_sequential_init
+StreamingMaxPool_hls_1_StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s_buf_V_RAM_AUTO_1R1W
+StreamingMaxPool_hls_1_regslice_both
+StreamingMaxPool_hls_1_regslice_both
+StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1
+StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6
+StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8
+StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s
+StreamingMaxPool_hls_1
+' rtl_lang='vlog' bootstrap_tcl='false' outdir='' outfilename=''
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/top-io-be.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.compgen.dataonly.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_147_1.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_158_6.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_Pipeline_VITIS_LOOP_174_8.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_Precision_208u_2u_8u_ap_uint_3_0_24_s.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.constraint.tcl 
+Execute     sc_get_clocks StreamingMaxPool_hls_1 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+INFO-FLOW: DBG:PUTS:       cosim_export_main adding deadlock detection to StreamingMaxPool_hls_1
+INFO-FLOW: DBG:PUTS:       generate_ip_script #gSsdmPorts=0 g_lang=vlog is_sdaccel=false is_sdsoc=true xo_file=
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS:       generate_top_info
+INFO-FLOW: DBG:PUTS:       prepArgInfo -> loadAnalyze_DB top_module=StreamingMaxPool_hls_1
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.constraint.tcl 
+INFO-FLOW: DBG:PUTS:       generate_ipi_example_script
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+INFO-FLOW: DBG:PUTS:       generate_syn_sh
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS:       generate_imp_constraints
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.constraint.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/StreamingMaxPool_hls_1.tbgen.tcl 
+INFO-FLOW: DBG:PUTS:       delete-temp-dirs (skipped for debug)
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+INFO-FLOW: DBG:PUTS: read_platform_lib /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/common.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/interface.gen 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/saxilite.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/util.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command     ap_source done; 0.12 sec.
+INFO-FLOW: DBG:PUTS:     IP package: exec /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/impl/ip/pack.sh
+INFO-FLOW: DBG:PUTS:     IP package: success /tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/impl/ip/pack.sh
+Execute     send_msg_by_id INFO @200-802@%s project_StreamingMaxPool_hls_1/sol1/impl/export.zip 
+INFO: [HLS 200-802] Generated output file project_StreamingMaxPool_hls_1/sol1/impl/export.zip
+Command   export_design done; 20.35 sec.
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 17.45 seconds. CPU system time: 1.22 seconds. Elapsed time: 20.35 seconds; current allocated memory: 6.176 MB.
+Execute   cleanup_all 

@@ -1,0 +1,28 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <name>
+        <value string="sol1"/>
+    </name>
+    <project>
+        <value string="project_MVAU_hls_2"/>
+    </project>
+    <flowTarget value="vivado"/>
+    <config>
+        <config_interface m_axi_latency="0" m_axi_addr64="1"/>
+        <config_compile complex-mul-dsp="0" disable_unroll_code_size_check="1" pipeline_style="flp"/>
+        <config_rtl module_auto_prefix="1" deadlock_detection="none"/>
+        <config_export format="ip_catalog"/>
+    </config>
+    <targetInfo>
+        <TargetInfo value="xc7z020:-clg400:-1"/>
+    </targetInfo>
+    <libraryList>
+        <library value="xilinx/zynq/zynq" name="DefaultPlatform"/>
+    </libraryList>
+    <clockList>
+        <clock name="default" period="10.0" default="false"/>
+    </clockList>
+    <ExportDesign askAgain="true" evaluate="false" rtl="verilog" formatName="ip_catalog">
+        <Format formatName="ip_catalog" description="" vendor="" library="" ipname="MVAU_hls_2" version="" display_name="" taxonomy=""/>
+    </ExportDesign>
+</AutoPilot:solution>
+

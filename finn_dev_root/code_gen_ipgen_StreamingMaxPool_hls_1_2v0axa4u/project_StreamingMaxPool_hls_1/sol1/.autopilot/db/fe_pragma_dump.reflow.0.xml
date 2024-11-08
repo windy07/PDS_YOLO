@@ -1,0 +1,33 @@
+<pragmas>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<3>::ap_uint()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<3>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<24>::ap_uint()" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<3>::ap_uint<24, false>(ap_range_ref<24, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1034" pragmaType="inline" parentfunction="bool ap_int_base<3, false>::operator><3, false>(ap_int_base<3, false> const&) const" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="write" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="185" pragmaType="inline" parentfunction="ap_int_base<24, false>::ap_int_base<3, false>(ap_int_base<3, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="523" pragmaType="inline" parentfunction="_ZN8ssdm_intILi24ELb0EEC2EDq24_j" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="523" pragmaType="inline" parentfunction="_ZN8ssdm_intILi3ELb0EEC2EDq3_j" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="175" pragmaType="inline" parentfunction="ap_int_base<3, false>::ap_int_base()" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="357" pragmaType="inline" parentfunction="ap_int_base<3, false>::ap_int_base<24, false>(ap_range_ref<24, false> const&)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="0" pragmaType="inline" parentfunction="ssdm_int<24, false>::ssdm_int()" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="626" pragmaType="inline" parentfunction="get" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="175" pragmaType="inline" parentfunction="ap_int_base<24, false>::ap_int_base()" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1045" pragmaType="inline" parentfunction="range" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="303" pragmaType="inline" parentfunction="ap_range_ref<24, false>::ap_range_ref(ap_int_base<24, false>*, int, int)" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h" line="176" pragmaType="unroll" parentfunction="StreamingMaxPool_Precision" factor="-1" skip_exit_check="0"/>
+<pragma file="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h" line="159" pragmaType="pipeline" parentfunction="StreamingMaxPool_Precision" off="0" ii="1" rewind="0" style="flp"/>
+<pragma file="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h" line="162" pragmaType="unroll" parentfunction="StreamingMaxPool_Precision" factor="-1" skip_exit_check="0"/>
+<pragma file="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h" line="149" pragmaType="unroll" parentfunction="StreamingMaxPool_Precision" factor="-1" skip_exit_check="0"/>
+<pragma file="/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h" line="146" pragmaType="array_partition" parentfunction="StreamingMaxPool_Precision" dim="2" factor="0" mode="complete" dynamic="0" variable="buf"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="1084" pragmaType="inline" parentfunction="ap_int_base<24, false>::operator()(int, int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="read" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h" line="214" pragmaType="inline" parentfunction="ap_int_base<3, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/top_StreamingMaxPool_hls_1.cpp" line="18" pragmaType="interface" parentfunction="StreamingMaxPool_hls_1" mode="axis" port="in0_V" register="0" register_mode="both" name="" depth="-1"/>
+<pragma file="/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/top_StreamingMaxPool_hls_1.cpp" line="19" pragmaType="interface" parentfunction="StreamingMaxPool_hls_1" mode="axis" port="out_V" register="0" register_mode="both" name="" depth="-1"/>
+<pragma file="/tmp/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/top_StreamingMaxPool_hls_1.cpp" line="20" pragmaType="interface" parentfunction="StreamingMaxPool_hls_1" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_common.h" line="0" pragmaType="inline" parentfunction="ssdm_int<3, false>::ssdm_int()" off="0" region="0" recursive="0"/>
+<pragma file="/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h" line="0" pragmaType="inline" parentfunction="ap_range_ref<24, false>& ap_range_ref<24, false>::operator=<3, false>(ap_int_base<3, false> const&)" off="0" region="0" recursive="0"/>
+</pragmas>

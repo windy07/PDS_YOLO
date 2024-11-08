@@ -1,0 +1,361 @@
+
+
+================================================================
+== Synthesis Summary Report of 'StreamingDataWidthConverter_hls_1'
+================================================================
++ General Information: 
+    * Date:           Fri Nov  8 14:19:45 2024
+    * Version:        2022.2 (Build 3670227 on Oct 13 2022)
+    * Project:        project_StreamingDataWidthConverter_hls_1
+    * Solution:       sol1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg400-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------------------------------------------------+--------+-------+---------+-----------+----------+---------+--------+----------+------+----+-----------+-----------+-----+
+    |                        Modules                        |  Issue |       | Latency |  Latency  | Iteration|         |  Trip  |          |      |    |           |           |     |
+    |                        & Loops                        |  Type  | Slack | (cycles)|    (ns)   |  Latency | Interval|  Count | Pipelined| BRAM | DSP|     FF    |    LUT    | URAM|
+    +-------------------------------------------------------+--------+-------+---------+-----------+----------+---------+--------+----------+------+----+-----------+-----------+-----+
+    |+ StreamingDataWidthConverter_hls_1*                   |  Timing|  -0.29|   194692|  1.947e+06|         -|   194691|       -|  dataflow|     -|   -|  298 (~0%)|   582 (1%)|    -|
+    | + StreamingDataWidthConverter_Batch_6u_54u_194688u_s  |  Timing|  -0.29|   194690|  1.947e+06|         -|   194690|       -|        no|     -|   -|  112 (~0%)|  223 (~0%)|    -|
+    |  o VITIS_LOOP_557_3                                   |       -|   7.30|   194688|  1.947e+06|         2|        1|  194688|  yes(flp)|     -|   -|          -|          -|    -|
+    | + StreamingDataWidthConverter_Batch_54u_27u_21632u_s  |  Timing|  -0.01|    43267|  4.327e+05|         -|    43267|       -|        no|     -|   -|   87 (~0%)|  291 (~0%)|    -|
+    |  o VITIS_LOOP_526_1                                   |       -|   7.30|    43265|  4.326e+05|         3|        1|   43264|  yes(flp)|     -|   -|          -|          -|    -|
+    +-------------------------------------------------------+--------+-------+---------+-----------+----------+---------+--------+----------+------+----+-----------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AXIS
++-----------+---------------+-------+--------+--------+
+| Interface | Register Mode | TDATA | TREADY | TVALID |
++-----------+---------------+-------+--------+--------+
+| in0_V     | both          | 8     | 1      | 1      |
+| out_V     | both          | 32    | 1      | 1      |
++-----------+---------------+-------+--------+--------+
+
+* TOP LEVEL CONTROL
++-----------+--------------+----------+
+| Interface | Type         | Ports    |
++-----------+--------------+----------+
+| ap_clk    | clock        | ap_clk   |
+| ap_rst_n  | reset        | ap_rst_n |
+| ap_ctrl   | ap_ctrl_none |          |
++-----------+--------------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+-------------------------+
+| Argument | Direction | Datatype                |
++----------+-----------+-------------------------+
+| in0_V    | in        | stream<ap_uint<6>, 0>&  |
+| out_V    | out       | stream<ap_uint<27>, 0>& |
++----------+-----------+-------------------------+
+
+* SW-to-HW Mapping
++----------+--------------+-----------+
+| Argument | HW Interface | HW Type   |
++----------+--------------+-----------+
+| in0_V    | in0_V        | interface |
+| out_V    | out_V        | interface |
++----------+--------------+-----------+
+
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------------------------------------+-----+--------+----------+-----+--------+---------+
+| Name                                                  | DSP | Pragma | Variable | Op  | Impl   | Latency |
++-------------------------------------------------------+-----+--------+----------+-----+--------+---------+
+| + StreamingDataWidthConverter_hls_1                   | 0   |        |          |     |        |         |
+|  + StreamingDataWidthConverter_Batch_6u_54u_194688u_s | 0   |        |          |     |        |         |
+|    t_2_fu_105_p2                                      | -   |        | t_2      | add | fabric | 0       |
+|    i_1_fu_118_p2                                      | -   |        | i_1      | add | fabric | 0       |
+|  + StreamingDataWidthConverter_Batch_54u_27u_21632u_s | 0   |        |          |     |        |         |
+|    t_4_fu_112_p2                                      | -   |        | t_4      | add | fabric | 0       |
+|    o_4_fu_124_p2                                      | -   |        | o_4      | add | fabric | 0       |
++-------------------------------------------------------+-----+--------+----------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
++-------------------------------------+------+------+--------+--------------+---------+------+---------+
+| Name                                | BRAM | URAM | Pragma | Variable     | Storage | Impl | Latency |
++-------------------------------------+------+------+--------+--------------+---------+------+---------+
+| + StreamingDataWidthConverter_hls_1 | 0    | 0    |        |              |         |      |         |
+|   intermediate_U                    | -    | -    |        | intermediate | fifo    | srl  | 0       |
++-------------------------------------+------+------+--------+--------------+---------+------+---------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------------+-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| Type            | Options                                       | Location                                                                                                                                 |
++-----------------+-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/convlayer.h:113 in convlayer_batch                                                       |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/convlayer.h:198 in convlayer_batch_tmr                                                   |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/convlayer.h:284 in convlayer_batch_mmv                                                   |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/dma.h:141 in mem2stream                                                                  |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/dma.h:154 in stream2mem                                                                  |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/dma.h:224 in genparamstream                                                              |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:62 in xnormul                                                              |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:67 in operator*                                                            |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:72 in operator*                                                            |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:80 in binary                                                               |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:89 in operator*                                                            |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:97 in operator*                                                            |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:102 in operator*                                                           |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:116 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:122 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:138 in container<tv>                                                       |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:143 in operator[]                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:147 in operator[]                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:151 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:155 in operator const type-parameter-1-0 &                                 |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:163 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:168 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:173 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:204 in container<tv>                                                       |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:207 in container<tv>                                                       |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:211 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:215 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:220 in operator[]                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:224 in operator const type-parameter-1-0 &                                 |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:232 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:237 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:242 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:261 in container<tv>                                                       |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:264 in container<tv>                                                       |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:267 in container<tv>                                                       |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:271 in operator const type-parameter-1-0 &                                 |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:275 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:279 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:284 in operator[]                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:292 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:297 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:302 in operator()                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:89 in mul                                                                        |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:114 in mul                                                                       |
+| bind_op         | variable=res op=mul impl=fabric               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:116 in mul, res                                                                  |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:140 in mul                                                                       |
+| bind_op         | variable=res op=mul impl=dsp                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:142 in mul, res                                                                  |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:165 in mac                                                                       |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:168 in mac                                                                       |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:192 in mac                                                                       |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:195 in mac                                                                       |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:202 in mac                                                                       |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:74 in streamingmaxpool                                                         |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:83 in streamingmaxpool                                                         |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:91 in streamingmaxpool                                                         |
+| array_partition | variable=buf complete dim=2                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:146 in streamingmaxpool_precision, buf                                         |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:149 in streamingmaxpool_precision                                              |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:159 in streamingmaxpool_precision                                              |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:162 in streamingmaxpool_precision                                              |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:176 in streamingmaxpool_precision                                              |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:210 in streamingmaxpool_precision_batch                                        |
+| array_partition | variable=buf complete dim=2                   | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:255 in streamingmaxpool_precision_1d, buf                                      |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:258 in streamingmaxpool_precision_1d                                           |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:260 in streamingmaxpool_precision_1d                                           |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:272 in streamingmaxpool_precision_1d                                           |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:275 in streamingmaxpool_precision_1d                                           |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:288 in streamingmaxpool_precision_1d                                           |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:290 in streamingmaxpool_precision_1d                                           |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:302 in streamingmaxpool_precision_1d                                           |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:331 in streamingmaxpool_precision_batch_1d                                     |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:370 in relu_batch                                                              |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:373 in relu_batch                                                              |
+| bind_storage    | variable=accumulators type=RAM_2P impl=LUTRAM | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:415 in accpool_batch, accumulators                                             |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:421 in accpool_batch                                                           |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:425 in accpool_batch                                                           |
+| array_partition | variable=topval complete dim=1                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:477 in labelselect_batch, topval                                               |
+| array_partition | variable=toplabels complete dim=1             | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:479 in labelselect_batch, toplabels                                            |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:484 in labelselect_batch                                                       |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:489 in labelselect_batch                                                       |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:492 in labelselect_batch                                                       |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:501 in labelselect_batch                                                       |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:508 in labelselect_batch                                                       |
+| array_partition | variable=accu complete dim=0                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:570 in pool_batch, accu                                                        |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:576 in pool_batch                                                              |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:583 in pool_batch                                                              |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:590 in pool_batch                                                              |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:599 in pool_batch                                                              |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mmv.hpp:53 in operator[]                                                                 |
+| array_partition | variable=inputBuf complete dim=0              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:110 in matrix_vector_activate_batch, inputBuf                                   |
+| array_partition | variable=accu complete dim=0                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:114 in matrix_vector_activate_batch, accu                                       |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:124 in matrix_vector_activate_batch                                             |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:140 in matrix_vector_activate_batch                                             |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:142 in matrix_vector_activate_batch                                             |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:151 in matrix_vector_activate_batch                                             |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:165 in matrix_vector_activate_batch                                             |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:167 in matrix_vector_activate_batch                                             |
+| array_partition | variable=inputBuf complete dim=1              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:232 in matrix_vector_activate_stream_batch, inputBuf                            |
+| array_partition | variable=accu complete dim=0                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:235 in matrix_vector_activate_stream_batch, accu                                |
+| array_partition | variable=w.m_weights complete dim=0           | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:238 in matrix_vector_activate_stream_batch, w.m_weights                         |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:250 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:267 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:274 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:281 in matrix_vector_activate_stream_batch                                      |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:294 in matrix_vector_activate_stream_batch                                      |
+| bind_storage    | variable=inputBuf type=RAM_2P                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:74 in memory_resource, inputBuf                                          |
+| bind_storage    | variable=inputBuf type=RAM_S2P impl=BRAM      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:95 in memory_resource, inputBuf                                          |
+| bind_storage    | variable=inputBuf type=RAM_S2P impl=URAM      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:116 in memory_resource, inputBuf                                         |
+| bind_storage    | variable=inputBuf type=RAM_S2P impl=LUTRAM    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:137 in memory_resource, inputBuf                                         |
+| array_partition | variable=inputBuf complete dim=1              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:177 in convolutioninputgenerator, inputBuf                               |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:192 in convolutioninputgenerator                                         |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:243 in convolutioninputgenerator, inputBuf                               |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:244 in convolutioninputgenerator, inputBuf                               |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:254 in convolutioninputgenerator, current_block_write                    |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:308 in convolutioninputgenerator_mmv, inputBuf                           |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:309 in convolutioninputgenerator_mmv, inputBuf                           |
+| array_partition | variable=inputBuf complete dim=1              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:310 in convolutioninputgenerator_mmv, inputBuf                           |
+| array_partition | variable=inputBuf complete dim=2              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:311 in convolutioninputgenerator_mmv, inputBuf                           |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:326 in convolutioninputgenerator_mmv                                     |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:333 in convolutioninputgenerator_mmv                                     |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:359 in convolutioninputgenerator_mmv                                     |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:392 in convolutioninputgenerator_mmv                                     |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:394 in convolutioninputgenerator_mmv, inputBuf                           |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:395 in convolutioninputgenerator_mmv, inputBuf                           |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:406 in convolutioninputgenerator_mmv, current_block_write                |
+| array_partition | variable=inputBuf complete dim=1              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:466 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:467 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:468 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:476 in convolutioninputgenerator_kernel_stride, current_block_write      |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:479 in convolutioninputgenerator_kernel_stride                           |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:544 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:545 in convolutioninputgenerator_kernel_stride, inputBuf                 |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:554 in convolutioninputgenerator_kernel_stride, current_block_write      |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:610 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:611 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| array_partition | variable=inputBuf complete dim=1              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:612 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| array_partition | variable=inputBuf complete dim=2              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:613 in convolutioninputgenerator_kernel_stride_mmv, inputBuf             |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:628 in convolutioninputgenerator_kernel_stride_mmv, current_block_write  |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:631 in convolutioninputgenerator_kernel_stride_mmv                       |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:638 in convolutioninputgenerator_kernel_stride_mmv                       |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:672 in convolutioninputgenerator_kernel_stride_mmv                       |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:705 in convolutioninputgenerator_kernel_stride_mmv                       |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:716 in convolutioninputgenerator_kernel_stride_mmv, current_block_write  |
+| array_partition | variable=inputBuf complete dim=1              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:767 in convolutioninputgenerator_dws, inputBuf                           |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:782 in convolutioninputgenerator_dws                                     |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:833 in convolutioninputgenerator_dws, inputBuf                           |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:834 in convolutioninputgenerator_dws, inputBuf                           |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:844 in convolutioninputgenerator_dws, current_block_write                |
+| array_partition | variable=inputBuf complete dim=1              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:903 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:904 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:905 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:915 in convolutioninputgenerator_kernel_stride_dws                       |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:917 in convolutioninputgenerator_kernel_stride_dws, current_block_write  |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:983 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:984 in convolutioninputgenerator_kernel_stride_dws, inputBuf             |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:993 in convolutioninputgenerator_kernel_stride_dws, current_block_write  |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1048 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1049 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| array_partition | variable=inputBuf complete dim=1              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1050 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| array_partition | variable=inputBuf complete dim=2              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1051 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1066 in convolutioninputgenerator_dws_mmv                                |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1073 in convolutioninputgenerator_dws_mmv                                |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1099 in convolutioninputgenerator_dws_mmv                                |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1132 in convolutioninputgenerator_dws_mmv                                |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1134 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1135 in convolutioninputgenerator_dws_mmv, inputBuf                      |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1146 in convolutioninputgenerator_dws_mmv, current_block_write           |
+| performance     | target_ti=IFMDim*IFMDim*IFMChannels/SIMD      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1191 in convolutioninputgenerator_2d_kernel1                             |
+| pipeline        | style=flp II=IFMChannels/SIMD                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1198 in convolutioninputgenerator_2d_kernel1                             |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1245 in convolutioninputgenerator_1d_kernel1                             |
+| array_partition | variable=inputBuf complete dim=1              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1300 in convolutioninputgenerator_nonsquare, inputBuf                    |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1315 in convolutioninputgenerator_nonsquare                              |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1366 in convolutioninputgenerator_nonsquare, inputBuf                    |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1367 in convolutioninputgenerator_nonsquare, inputBuf                    |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1377 in convolutioninputgenerator_nonsquare, current_block_write         |
+| array_partition | variable=inputBuf complete dim=1              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1434 in convolutioninputgenerator_nonsquare_dws, inputBuf                |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1449 in convolutioninputgenerator_nonsquare_dws                          |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1500 in convolutioninputgenerator_nonsquare_dws, inputBuf                |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1501 in convolutioninputgenerator_nonsquare_dws, inputBuf                |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1511 in convolutioninputgenerator_nonsquare_dws, current_block_write     |
+| array_partition | variable=inputBuf complete dim=1              | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1575 in convolutioninputgenerator_nonsquare_dilated, inputBuf            |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1590 in convolutioninputgenerator_nonsquare_dilated                      |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1642 in convolutioninputgenerator_nonsquare_dilated, inputBuf            |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1643 in convolutioninputgenerator_nonsquare_dilated, inputBuf            |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1653 in convolutioninputgenerator_nonsquare_dilated, current_block_write |
+| array_partition | variable=inputBuf complete                    | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1710 in convolutioninputgenerator_1d_parallel, inputBuf                  |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1718 in convolutioninputgenerator_1d_parallel                            |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1739 in convolutioninputgenerator_1d_parallel                            |
+| dependence      | variable=inputBuf intra false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1760 in convolutioninputgenerator_1d_parallel, inputBuf                  |
+| dependence      | variable=inputBuf inter false                 | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1761 in convolutioninputgenerator_1d_parallel, inputBuf                  |
+| dependence      | variable=current_block_write intra false      | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1768 in convolutioninputgenerator_1d_parallel, current_block_write       |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1824 in convolutioninputgenerator_1d_dws_naive                           |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1908 in convolutioninputgenerator_1d                                     |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:1984 in convolutioninputgenerator_1d_dws                                 |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/slidingwindow.h:2063 in convolutioninputgenerator_1d_dws_stride                          |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:77 in streamlimiter                                                        |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:160 in sameresize                                                          |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:234 in streamingcast                                                       |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:280 in fmpadding_nonsquare                                                 |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:374 in fmpadding                                                           |
+| pipeline        | II=1 style=flp                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:457 in fmpadding_pixel_nonsquare                                           |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:527 in streamingdatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:547 in streamingdatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:558 in streamingdatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:667 in duplicatestreams                                                    |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:725 in addstreams                                                          |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:730 in addstreams                                                          |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:799 in addstreamslayer_batch                                               |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:846 in multichandatawidthconverter_batch                                   |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:853 in multichandatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:869 in multichandatawidthconverter_batch                                   |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:875 in multichandatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:887 in multichandatawidthconverter_batch                                   |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:891 in multichandatawidthconverter_batch                                   |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:927 in flattenmultichandata                                                |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:931 in flattenmultichandata                                                |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:958 in packmultichandata                                                   |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:962 in packmultichandata                                                   |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:1051 in qdma2stream_batch                                                  |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:1074 in stream2qdma_batch                                                  |
+| array_partition | variable=red_ch_index complete dim=0          | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:82 in tmrcheck, red_ch_index                                                |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:91 in tmrcheck                                                              |
+| array_partition | variable=numerrors complete dim=0             | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:99 in tmrcheck, numerrors                                                   |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:103 in tmrcheck                                                             |
+| array_partition | variable=compute complete dim=0               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:129 in tmrcheck, compute                                                    |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/tmrcheck.hpp:132 in tmrcheck                                                             |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp:86 in upsamplenearestneighbour                                              |
+| pipeline        | II=1 style=flp                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/upsample.hpp:175 in upsamplenearestneighbour_1d                                          |
+| array_partition | variable=accu complete dim=0                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:101 in vector_vector_activate_batch, accu                                       |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:110 in vector_vector_activate_batch                                             |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:117 in vector_vector_activate_batch                                             |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:126 in vector_vector_activate_batch                                             |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:147 in vector_vector_activate_batch                                             |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:149 in vector_vector_activate_batch                                             |
+| array_partition | variable=accu complete dim=0                  | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:216 in vector_vector_activate_stream_batch, accu                                |
+| pipeline        | style=flp II=1                                | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:226 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:233 in vector_vector_activate_stream_batch                                      |
+| array_partition | variable=w.m_weights complete dim=0           | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:242 in vector_vector_activate_stream_batch, w.m_weights                         |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:244 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:249 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:270 in vector_vector_activate_stream_batch                                      |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/vvau.hpp:272 in vector_vector_activate_stream_batch                                      |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:83 in tileindex                                                              |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:88 in operator[]                                                             |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:95 in weights                                                                |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:127 in tileindex                                                             |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:132 in operator[]                                                            |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:135 in operator[]                                                            |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:145 in weights                                                               |
+| inline          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:157 in operator[]                                                            |
+| unroll          |                                               | ../../../media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:160 in operator[]                                                            |
+| interface       | axis port=in0_V                               | top_StreamingDataWidthConverter_hls_1.cpp:19 in streamingdatawidthconverter_hls_1, in0_V                                                 |
+| interface       | axis port=out_V                               | top_StreamingDataWidthConverter_hls_1.cpp:20 in streamingdatawidthconverter_hls_1, out_V                                                 |
+| interface       | ap_ctrl_none port=return                      | top_StreamingDataWidthConverter_hls_1.cpp:21 in streamingdatawidthconverter_hls_1, return                                                |
+| dataflow        | disable_start_propagation                     | top_StreamingDataWidthConverter_hls_1.cpp:22 in streamingdatawidthconverter_hls_1                                                        |
++-----------------+-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+
+

@@ -1,0 +1,81 @@
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h, 
+                   Line: 161, Column: 29 }
+Function:        _Z26StreamingMaxPool_PrecisionILj416ELj2ELj8E7ap_uintILi3EELi0ELi24EEvRN3hls6streamIS0_IXT4_EELi0EEES6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_161_7
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h, 
+                   Line: 142, Column: 0 }
+Function:        _Z26StreamingMaxPool_PrecisionILj416ELj2ELj8E7ap_uintILi3EELi0ELi24EEvRN3hls6streamIS0_IXT4_EELi0EEES6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_161_7
+  - String:          ''' ('
+  - LoopLoc:         '/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:161:29'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'StreamingMaxPool_Precision<416u, 2u, 8u, ap_uint<3>, 0, 24>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h, 
+                   Line: 142, Column: 0 }
+Function:        _Z26StreamingMaxPool_PrecisionILj416ELj2ELj8E7ap_uintILi3EELi0ELi24EEvRN3hls6streamIS0_IXT4_EELi0EEES6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_175_9
+  - String:          ''' ('
+  - LoopLoc:         '/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:175:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'StreamingMaxPool_Precision<416u, 2u, 8u, ap_uint<3>, 0, 24>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h, 
+                   Line: 142, Column: 0 }
+Function:        _Z26StreamingMaxPool_PrecisionILj416ELj2ELj8E7ap_uintILi3EELi0ELi24EEvRN3hls6streamIS0_IXT4_EELi0EEES6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_148_2
+  - String:          ''' ('
+  - LoopLoc:         '/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:148:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          'StreamingMaxPool_Precision<416u, 2u, 8u, ap_uint<3>, 0, 24>'
+  - String:          ''' completely with a factor of '
+  - Factor:          '8'
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h, 
+                   Line: 145, Column: 11 }
+Function:        _Z26StreamingMaxPool_PrecisionILj416ELj2ELj8E7ap_uintILi3EELi0ELi24EEvRN3hls6streamIS0_IXT4_EELi0EEES6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          buf
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '2'
+  - String:          .
+...

@@ -1,0 +1,287 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.2 (64-bit)
+Tool Version Limit: 2019.12
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vivado' configuration: config_interface -m_axi_latency=0
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1510] Running: config_compile -disable_unroll_code_size_check -pipeline_style flp 
+WARNING: [XFORM 203-506] Disable code size check when do loop unroll.
+WARNING: [HLS 200-643] The 'config_compile -disable_unroll_code_size_check' hidden command is deprecated and will be removed in a future release.
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_rtl -module_auto_prefix 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection none 
+INFO: [HLS 200-1510] Running: create_clock -period 10.0 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0.02 seconds. Elapsed time: 10.06 seconds; current allocated memory: 754.055 MB.
+INFO: [HLS 200-10] Analyzing design file '/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_2_ufu323e_/top_MVAU_hls_2.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 10.55 seconds. CPU system time: 0.87 seconds. Elapsed time: 11.47 seconds; current allocated memory: 761.250 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'Slice<ap_uint<3>, 3u>::Container<ap_uint<27> >::Container(ap_uint<27> const&)' into 'Slice<ap_uint<3>, 3u>::Container<ap_uint<27> > Slice<ap_uint<3>, 3u>::operator()<ap_uint<27> >(ap_uint<27> const&, unsigned int) const' (/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:243:9)
+INFO: [HLS 214-131] Inlining function 'Slice<ap_uint<3>, 3u>::Container<ap_uint<27> >::operator()(unsigned int, unsigned int) const' into 'ap_int<16> mac<9u, ap_int<16>, std::array<ap_int<8>, 9ul>, Slice<ap_uint<3>, 3u>::Container<ap_uint<27> >, ap_resource_dflt>(ap_int<16> const&, std::array<ap_int<8>, 9ul> const&, Slice<ap_uint<3>, 3u>::Container<ap_uint<27> > const&, ap_resource_dflt const&, unsigned int)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:169:19)
+INFO: [HLS 214-131] Inlining function 'decltype((fp) * (fp0)) mul<ap_int<8>, ap_uint<3> >(ap_int<8> const&, ap_uint<3> const&, ap_resource_dflt const&)' into 'ap_int<16> mac<9u, ap_int<16>, std::array<ap_int<8>, 9ul>, Slice<ap_uint<3>, 3u>::Container<ap_uint<27> >, ap_resource_dflt>(ap_int<16> const&, std::array<ap_int<8>, 9ul> const&, Slice<ap_uint<3>, 3u>::Container<ap_uint<27> > const&, ap_resource_dflt const&, unsigned int)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:169:9)
+INFO: [HLS 214-131] Inlining function 'Slice<ap_uint<3>, 3u>::Container<ap_uint<24> >::operator ap_uint<24> const&() const' into 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:298:17)
+INFO: [HLS 214-131] Inlining function 'Slice<ap_uint<3>, 3u>::Container<ap_uint<24> >::operator()(unsigned int, unsigned int, bool) const' into 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:295:2)
+INFO: [HLS 214-131] Inlining function 'ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >::activate(unsigned int, unsigned int, ap_int<16> const&) const' into 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:295:31)
+INFO: [HLS 214-131] Inlining function 'ap_int<16> mac<9u, ap_int<16>, std::array<ap_int<8>, 9ul>, Slice<ap_uint<3>, 3u>::Container<ap_uint<27> >, ap_resource_dflt>(ap_int<16> const&, std::array<ap_int<8>, 9ul> const&, Slice<ap_uint<3>, 3u>::Container<ap_uint<27> > const&, ap_resource_dflt const&, unsigned int)' into 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:285:21)
+INFO: [HLS 214-131] Inlining function 'std::array<ap_int<8>, 9ul> const& Identity::operator()<std::array<ap_int<8>, 9ul> >(std::array<ap_int<8>, 9ul> const&) const' into 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:283:24)
+INFO: [HLS 214-131] Inlining function 'Weights_Tile<9u, ap_int<8>, 8u>::operator[](unsigned int) const' into 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:283:35)
+INFO: [HLS 214-131] Inlining function 'ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >::init(unsigned int, unsigned int) const' into 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:275:27)
+INFO: [HLS 214-131] Inlining function 'Slice<ap_uint<3>, 3u>::Container<ap_uint<27> > Slice<ap_uint<3>, 3u>::operator()<ap_uint<27> >(ap_uint<27> const&, unsigned int) const' into 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:282:19)
+INFO: [HLS 214-377] Adding 'w' into disaggregation list because there's array-partition pragma applied on the struct field (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:238:9)
+INFO: [HLS 214-377] Adding 'threshs' into disaggregation list because there's array-partition pragma applied on the struct field (/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_2_ufu323e_/top_MVAU_hls_2.cpp:36:9)
+INFO: [HLS 214-377] Adding 'threshs' into disaggregation list because there's array-partition pragma applied on the struct field (/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_2_ufu323e_/top_MVAU_hls_2.cpp:35:9)
+INFO: [HLS 214-210] Disaggregating variable 'w' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:237:30)
+INFO: [HLS 214-210] Disaggregating variable 'threshs' (/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_2_ufu323e_/thresh.h:1:0)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_266_2' is marked as complete unroll implied by the pipeline pragma (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:266:23)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_273_3' is marked as complete unroll implied by the pipeline pragma (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:273:25)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_280_4' is marked as complete unroll implied by the pipeline pragma (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:280:23)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_159_1' is marked as complete unroll implied by the pipeline pragma (/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:159:23)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_167_1' is marked as complete unroll implied by the pipeline pragma (/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:167:21)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_293_5' is marked as complete unroll implied by the pipeline pragma (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:293:25)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_216_1' is marked as complete unroll implied by the pipeline pragma (/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:216:20)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_266_2' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:266:23) in function 'Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>' completely with a factor of 8 (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_273_3' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:273:25) in function 'Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>' completely with a factor of 8 (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_280_4' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:280:23) in function 'Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>' completely with a factor of 8 (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_167_1' (/media/clr/XIlinx/finn/deps/finn-hlslib/mac.hpp:167:21) in function 'Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>' completely with a factor of 9 (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_159_1' (/media/clr/XIlinx/finn/deps/finn-hlslib/weights.hpp:159:23) in function 'Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>' completely with a factor of 9 (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_293_5' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:293:25) in function 'Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>' completely with a factor of 8 (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_216_1' (/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:216:20) in function 'Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>' completely with a factor of 7 (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-178] Inlining function 'std::__array_traits<ap_int<8>, 9ul>::_S_ref(ap_int<8> const (&) [9], unsigned long)' into 'std::array<ap_int<8>, 9ul>::operator[](unsigned long)' (/media/clr/XIlinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/array:186:0)
+INFO: [HLS 214-178] Inlining function 'std::__array_traits<ap_int<8>, 9ul>::_S_ref(ap_int<8> const (&) [9], unsigned long)' into 'std::array<ap_int<8>, 9ul>::operator[](unsigned long) const' (/media/clr/XIlinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/array:190:0)
+INFO: [HLS 214-178] Inlining function 'std::array<ap_int<8>, 9ul>::operator[](unsigned long)' into 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-178] Inlining function 'std::array<ap_int<8>, 9ul>::operator[](unsigned long) const' into 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:220:0)
+INFO: [HLS 214-248] Applying array_partition to '_ZL7threshs': Complete partitioning on dimension 1. Complete partitioning on dimension 3. (/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_2_ufu323e_/thresh.h:1:0)
+INFO: [HLS 214-248] Applying array_partition to 'inputBuf': Complete partitioning on dimension 1. (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:231:6)
+INFO: [HLS 214-248] Applying array_partition to 'accu': Complete partitioning on dimension 1. Complete partitioning on dimension 2. (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:234:33)
+INFO: [HLS 214-364] Automatically inlining function 'ap_uint<3> Caster<ap_uint<3> >::cast<3>(ap_int<3> const&)' to improve effectiveness of pipeline pragma in function 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/interpret.hpp:217:14)
+INFO: [HLS 214-364] Automatically inlining function 'comp::less_equal<ap_int<16>, ap_int<16> >::operator()(ap_int<16> const&, ap_int<16> const&) const' to improve effectiveness of pipeline pragma in function 'void Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>(hls::stream<ap_uint<27>, 0>&, hls::stream<ap_uint<24>, 0>&, hls::stream<ap_uint<((8u) * (9u)) * (ap_int<8>::width)>, 0>&, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > > const&, int, ap_resource_dflt const&)' (/media/clr/XIlinx/finn/deps/finn-hlslib/activations.hpp:218:10)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 8.76 seconds. CPU system time: 0.73 seconds. Elapsed time: 9.5 seconds; current allocated memory: 763.027 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 763.027 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.11 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.13 seconds; current allocated memory: 774.078 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.18 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.19 seconds; current allocated memory: 784.656 MB.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_7_6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_7_5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_7_4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_7_3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_7_2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_7_1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_7_0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_6_6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_6_5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_6_4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_6_3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_6_2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_6_1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_6_0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_5_6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_5_5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_5_4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_5_3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_5_2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_5_1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_5_0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_4_6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_4_5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_4_4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_4_3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_4_2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_4_1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_4_0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_3_6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_3_5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_3_4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_3_3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_3_2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_3_1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_3_0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_2_6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_2_5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_2_4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_2_3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_2_2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_2_1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_2_0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_1_6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_1_5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_1_4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_1_3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_1_2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_1_1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_1_0' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_0_6' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_0_5' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_0_4' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_0_3' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_0_2' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_0_1' completely based on array size.
+INFO: [XFORM 203-102] Automatically partitioning small array '_ZL7threshs_0_0' completely based on array size.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_7_6' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_7_5' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_7_4' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_7_3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_7_2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_7_1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_7_0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_6_6' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_6_5' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_6_4' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_6_3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_6_2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_6_1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_6_0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_5_6' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_5_5' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_5_4' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_5_3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_5_2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_5_1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_5_0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_4_6' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_4_5' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_4_4' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_4_3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_4_2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_4_1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_4_0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_3_6' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_3_5' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_3_4' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_3_3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_3_2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_3_1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_3_0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_2_6' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_2_5' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_2_4' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_2_3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_2_2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_2_1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_2_0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_1_6' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_1_5' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_1_4' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_1_3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_1_2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_1_1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_1_0' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_0_6' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_0_5' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_0_4' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_0_3' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_0_2' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_0_1' in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array '_ZL7threshs_0_0' in dimension 1 completely.
+INFO: [XFORM 203-11] Balancing expressions in function 'Matrix_Vector_Activate_Stream_Batch<144u, 32u, 9u, 8u, Slice<ap_uint<3>, 3u>, Slice<ap_uint<3>, 3u>, Identity, ap_int<8>, ap_uint<27>, ap_uint<24>, ThresholdsActivation<4u, 8u, 7u, ap_int<16>, ap_uint<3>, 0, comp::less_equal<ap_int<16>, ap_int<16> > >, ap_resource_dflt>' (/media/clr/XIlinx/finn/deps/finn-hlslib/mvau.hpp:218:21)...184 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.61 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.64 seconds; current allocated memory: 820.465 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.22 seconds. CPU system time: 0 seconds. Elapsed time: 0.23 seconds; current allocated memory: 827.000 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'MVAU_hls_2' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Matrix_Vector_Activate_Stream_Batch' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_65) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_71) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_63) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_70) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_67) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_69) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_56) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_62) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_54) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_61) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_58) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_60) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_47) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_53) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_45) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_52) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_49) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_51) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_38) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_44) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_36) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_43) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_40) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_42) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_29) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_35) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_27) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_34) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_31) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_33) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_20) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_26) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_18) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_25) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_22) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_24) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_11) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_17) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_9) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_16) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_13) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_15) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_2) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_8) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_7) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=ret_V_6) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_249_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 8, loop 'VITIS_LOOP_249_1'
+WARNING: [HLS 200-871] Estimated clock period (8.17ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'Matrix_Vector_Activate_Stream_Batch' consists of the following:	'mux' operation ('tmp_1') [578]  (0 ns)
+	'icmp' operation ('icmp_ln1039') [579]  (2.43 ns)
+	'xor' operation ('result.V') [580]  (0.978 ns)
+	'add' operation ('add_ln840_72') [606]  (0 ns)
+	'add' operation ('add_ln840_73') [607]  (2.07 ns)
+	'add' operation ('result.V') [614]  (2.69 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.39 seconds. CPU system time: 0.07 seconds. Elapsed time: 1.47 seconds; current allocated memory: 836.363 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.67 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.68 seconds; current allocated memory: 836.363 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MVAU_hls_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+WARNING: [HLS 200-871] Estimated clock period (8.17ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'MVAU_hls_2' consists of the following:	'call' operation ('_ln37', /tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_2_ufu323e_/top_MVAU_hls_2.cpp:37) to 'Matrix_Vector_Activate_Stream_Batch' [12]  (8.17 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1.2 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.21 seconds; current allocated memory: 836.363 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.33 seconds. CPU system time: 0 seconds. Elapsed time: 0.34 seconds; current allocated memory: 836.363 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Matrix_Vector_Activate_Stream_Batch' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8s_3ns_11s_12_4_1': 24 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8s_3ns_12s_13_4_1': 16 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8s_3ns_16s_16_4_1': 8 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8s_3ns_11_1_1': 24 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mux_164_27_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mux_42_16_1_1': 56 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Matrix_Vector_Activate_Stream_Batch'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 1.12 seconds; current allocated memory: 841.574 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MVAU_hls_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MVAU_hls_2/in0_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'MVAU_hls_2/weights_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'MVAU_hls_2/out_V' to 'axis' (register, both mode).

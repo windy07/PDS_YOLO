@@ -1,0 +1,4 @@
+#!/bin/bash
+export OPT_FAST='-O3 -march=native'
+perl /usr/local/bin/verilator -Wno-fatal -Mdir /tmp/finn_dev_root/verilator_fifosim_bs7f6hxi -y /tmp/finn_dev_root/vivado_stitch_proj_wlkx21xb -y /tmp/finn_dev_root/vivado_stitch_proj_wlkx21xb/pyverilator_vh --CFLAGS --std=c++11 -O3 --x-assign fast --x-initial fast --noassert --cc /media/clr/XIlinx/finn/finn-rtllib/swg/swg_pkg.sv finn_design_wrapper.v /media/clr/XIlinx/Vivado/2022.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv /media/clr/XIlinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv /media/clr/XIlinx/Vivado/2022.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv --top-module finn_design_wrapper --exe verilator_fifosim.cpp --threads 4 -DDISABLE_XPM_ASSERTIONS -DOBSOLETE -DONESPIN --bbox-unsup
+make -j4 -C /tmp/finn_dev_root/verilator_fifosim_bs7f6hxi -f Vfinn_design_wrapper.mk Vfinn_design_wrapper

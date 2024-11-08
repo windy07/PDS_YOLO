@@ -1,0 +1,162 @@
+
+
+================================================================
+== Vitis HLS Report for 'StreamingDataWidthConverter_Batch_39u_312u_2704u_s'
+================================================================
+* Date:           Fri Nov  8 14:19:44 2024
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        project_StreamingDataWidthConverter_hls_2
+* Solution:       sol1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg400-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.591 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     2706|     2706|  27.060 us|  27.060 us|  2706|  2706|       no|
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_557_3  |     2704|     2704|         2|          1|          1|  2704|  yes(flp)|
+        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 1
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 2
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 2, States = { 1 2 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 7.59>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%p_Val2_s = alloca i32 1"   --->   Operation 5 'alloca' 'p_Val2_s' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%i = alloca i32 1"   --->   Operation 6 'alloca' 'i' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%t = alloca i32 1"   --->   Operation 7 'alloca' 't' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i312 %intermediate1, void @empty_2, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i40 %in0_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (1.58ns)   --->   "%store_ln557 = store i12 0, i12 %t" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 10 'store' 'store_ln557' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 11 [1/1] (1.58ns)   --->   "%store_ln557 = store i32 0, i32 %i" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 11 'store' 'store_ln557' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%br_ln557 = br void %for.body28" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 13 'br' 'br_ln557' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%t_1 = load i12 %t" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 14 'load' 't_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (1.99ns)   --->   "%icmp_ln557 = icmp_eq  i12 %t_1, i12 2704" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 15 'icmp' 'icmp_ln557' <Predicate = true> <Delay = 1.99> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.99> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 2704, i64 2704, i64 2704"   --->   Operation 16 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (1.54ns)   --->   "%t_2 = add i12 %t_1, i12 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 17 'add' 't_2' <Predicate = true> <Delay = 1.54> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.54> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%br_ln557 = br i1 %icmp_ln557, void %for.body28.split, void %if.end39" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 18 'br' 'br_ln557' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%i_load = load i32 %i" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:564]   --->   Operation 19 'load' 'i_load' <Predicate = (!icmp_ln557)> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%in0_V_read = read i40 @_ssdm_op_Read.axis.volatile.i40P128A, i40 %in0_V" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:560]   --->   Operation 20 'read' 'in0_V_read' <Predicate = (!icmp_ln557)> <Delay = 0.00> <CoreInst = "axis">   --->   Core 115 'axis' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : >
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%ei_V = trunc i40 %in0_V_read" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:560]   --->   Operation 21 'trunc' 'ei_V' <Predicate = (!icmp_ln557)> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (2.55ns)   --->   "%i_1 = add i32 %i_load, i32 1" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:564]   --->   Operation 22 'add' 'i_1' <Predicate = (!icmp_ln557)> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 23 [1/1] (2.47ns)   --->   "%icmp_ln566 = icmp_eq  i32 %i_1, i32 8" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:566]   --->   Operation 23 'icmp' 'icmp_ln566' <Predicate = (!icmp_ln557)> <Delay = 2.47> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.47> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%br_ln566 = br i1 %icmp_ln566, void %for.body28.split.for.inc35_crit_edge, void %if.then33" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:566]   --->   Operation 24 'br' 'br_ln566' <Predicate = (!icmp_ln557)> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (1.58ns)   --->   "%store_ln566 = store i32 %i_1, i32 %i" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:566]   --->   Operation 25 'store' 'store_ln566' <Predicate = (!icmp_ln557 & !icmp_ln566)> <Delay = 1.58>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%br_ln566 = br void %for.inc35" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:566]   --->   Operation 26 'br' 'br_ln566' <Predicate = (!icmp_ln557 & !icmp_ln566)> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (1.58ns)   --->   "%store_ln569 = store i32 0, i32 %i" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:569]   --->   Operation 27 'store' 'store_ln569' <Predicate = (!icmp_ln557 & icmp_ln566)> <Delay = 1.58>
+ST_1 : Operation 28 [1/1] (1.58ns)   --->   "%store_ln557 = store i12 %t_2, i12 %t" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 28 'store' 'store_ln557' <Predicate = (!icmp_ln557)> <Delay = 1.58>
+
+State 2 <SV = 1> <Delay = 3.63>
+ST_2 : Operation 12 [1/1] (1.58ns)   --->   "%store_ln557 = store i273 0, i273 %p_Val2_s" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 12 'store' 'store_ln557' <Predicate = true> <Delay = 1.58>
+ST_2 : Operation 29 [1/1] (0.00ns)   --->   "%p_Val2_load = load i273 %p_Val2_s"   --->   Operation 29 'load' 'p_Val2_load' <Predicate = (!icmp_ln557)> <Delay = 0.00>
+ST_2 : Operation 30 [1/1] (0.00ns)   --->   "%specpipeline_ln558 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 2, i32 0, i32 0, void @empty_1" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:558]   --->   Operation 30 'specpipeline' 'specpipeline_ln558' <Predicate = (!icmp_ln557)> <Delay = 0.00>
+ST_2 : Operation 31 [1/1] (0.00ns)   --->   "%specloopname_ln556 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:556]   --->   Operation 31 'specloopname' 'specloopname_ln556' <Predicate = (!icmp_ln557)> <Delay = 0.00>
+ST_2 : Operation 32 [1/1] (0.00ns)   --->   "%p_Result_s = bitconcatenate i312 @_ssdm_op_BitConcatenate.i312.i39.i273, i39 %ei_V, i273 %p_Val2_load"   --->   Operation 32 'bitconcatenate' 'p_Result_s' <Predicate = (!icmp_ln557)> <Delay = 0.00>
+ST_2 : Operation 33 [1/1] (3.63ns)   --->   "%write_ln568 = write void @_ssdm_op_Write.ap_fifo.volatile.i312P0A, i312 %intermediate1, i312 %p_Result_s" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:568]   --->   Operation 33 'write' 'write_ln568' <Predicate = (!icmp_ln557 & icmp_ln566)> <Delay = 3.63> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 312> <Depth = 2> <FIFO>
+ST_2 : Operation 34 [1/1] (0.00ns)   --->   "%br_ln569 = br void %for.inc35" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:569]   --->   Operation 34 'br' 'br_ln569' <Predicate = (!icmp_ln557 & icmp_ln566)> <Delay = 0.00>
+ST_2 : Operation 35 [1/1] (0.00ns)   --->   "%p_Val2_load_1 = load i273 %p_Val2_s" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 35 'load' 'p_Val2_load_1' <Predicate = (!icmp_ln557)> <Delay = 0.00>
+ST_2 : Operation 36 [1/1] (0.00ns)   --->   "%tmp = partselect i234 @_ssdm_op_PartSelect.i234.i273.i32.i32, i273 %p_Val2_load_1, i32 39, i32 272" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 36 'partselect' 'tmp' <Predicate = (!icmp_ln557)> <Delay = 0.00>
+ST_2 : Operation 37 [1/1] (0.00ns)   --->   "%trunc_ln = bitconcatenate i273 @_ssdm_op_BitConcatenate.i273.i39.i234, i39 %ei_V, i234 %tmp" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 37 'bitconcatenate' 'trunc_ln' <Predicate = (!icmp_ln557)> <Delay = 0.00>
+ST_2 : Operation 38 [1/1] (1.58ns)   --->   "%store_ln557 = store i273 %trunc_ln, i273 %p_Val2_s" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 38 'store' 'store_ln557' <Predicate = (!icmp_ln557)> <Delay = 1.58>
+ST_2 : Operation 39 [1/1] (0.00ns)   --->   "%br_ln557 = br void %for.body28" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557]   --->   Operation 39 'br' 'br_ln557' <Predicate = (!icmp_ln557)> <Delay = 0.00>
+ST_2 : Operation 40 [1/1] (0.00ns)   --->   "%ret_ln572 = ret" [/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:572]   --->   Operation 40 'ret' 'ret_ln572' <Predicate = (icmp_ln557)> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 7.59ns
+The critical path consists of the following:
+	'alloca' operation ('i') [4]  (0 ns)
+	'load' operation ('i_load', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:564) on local variable 'i' [20]  (0 ns)
+	'add' operation ('i', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:564) [26]  (2.55 ns)
+	'icmp' operation ('icmp_ln566', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:566) [27]  (2.47 ns)
+	blocking operation 2.57 ns on control path)
+
+ <State 2>: 3.63ns
+The critical path consists of the following:
+	'load' operation ('p_Val2_load') on local variable '__Val2__' [19]  (0 ns)
+	fifo write operation ('write_ln568', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:568) on port 'intermediate1' (/media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:568) [33]  (3.63 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

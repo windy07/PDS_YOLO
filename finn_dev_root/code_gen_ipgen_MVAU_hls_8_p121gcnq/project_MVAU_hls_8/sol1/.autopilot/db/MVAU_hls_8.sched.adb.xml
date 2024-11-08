@@ -1,0 +1,216 @@
+<stg><name>MVAU_hls_8</name>
+
+
+<trans_list>
+
+<trans id="16" from="1" to="2">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="17" from="2" to="3">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="18" from="3" to="4">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+</trans_list>
+
+
+
+<state_list>
+
+<state id="1" st_id="1">
+</state>
+
+<state id="2" st_id="2">
+
+<operation id="5" st_id="2" stage="2" lat="2">
+<core></core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="266" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="8" op_3_bw="72" op_4_bw="18" op_5_bw="18" op_6_bw="18" op_7_bw="18" op_8_bw="18" op_9_bw="18" op_10_bw="18" op_11_bw="18" op_12_bw="18" op_13_bw="18" op_14_bw="18" op_15_bw="18" op_16_bw="18" op_17_bw="18" op_18_bw="18" op_19_bw="18" op_20_bw="18" op_21_bw="18" op_22_bw="18" op_23_bw="18" op_24_bw="18" op_25_bw="18" op_26_bw="18" op_27_bw="18" op_28_bw="18" op_29_bw="18" op_30_bw="18" op_31_bw="18" op_32_bw="18" op_33_bw="18" op_34_bw="18" op_35_bw="18" op_36_bw="18" op_37_bw="18" op_38_bw="18" op_39_bw="18" op_40_bw="18" op_41_bw="18" op_42_bw="18" op_43_bw="18" op_44_bw="18" op_45_bw="18" op_46_bw="18" op_47_bw="18" op_48_bw="18" op_49_bw="18" op_50_bw="18" op_51_bw="18" op_52_bw="18" op_53_bw="18" op_54_bw="18" op_55_bw="18" op_56_bw="18" op_57_bw="18" op_58_bw="18" op_59_bw="18" op_60_bw="17" op_61_bw="17" op_62_bw="17" op_63_bw="17" op_64_bw="17" op_65_bw="17" op_66_bw="17" op_67_bw="17" op_68_bw="17" op_69_bw="17" op_70_bw="17" op_71_bw="17" op_72_bw="17" op_73_bw="17" op_74_bw="17" op_75_bw="17" op_76_bw="17" op_77_bw="17" op_78_bw="17" op_79_bw="17" op_80_bw="17" op_81_bw="17" op_82_bw="17" op_83_bw="17" op_84_bw="17" op_85_bw="17" op_86_bw="17" op_87_bw="17" op_88_bw="17" op_89_bw="17" op_90_bw="17" op_91_bw="17" op_92_bw="17" op_93_bw="17" op_94_bw="17" op_95_bw="17" op_96_bw="16" op_97_bw="16" op_98_bw="16" op_99_bw="16" op_100_bw="16" op_101_bw="16" op_102_bw="16" op_103_bw="16" op_104_bw="16" op_105_bw="16" op_106_bw="16" op_107_bw="16" op_108_bw="16" op_109_bw="16" op_110_bw="16" op_111_bw="16" op_112_bw="16" op_113_bw="15" op_114_bw="15" op_115_bw="15" op_116_bw="15" op_117_bw="15" op_118_bw="15" op_119_bw="15" op_120_bw="15" op_121_bw="15" op_122_bw="14" op_123_bw="14" op_124_bw="14" op_125_bw="14" op_126_bw="14" op_127_bw="13" op_128_bw="13" op_129_bw="12" op_130_bw="10" op_131_bw="7" op_132_bw="11" op_133_bw="12" op_134_bw="11" op_135_bw="13" op_136_bw="13" op_137_bw="13" op_138_bw="12" op_139_bw="10" op_140_bw="14" op_141_bw="14" op_142_bw="14" op_143_bw="14" op_144_bw="13" op_145_bw="13" op_146_bw="13" op_147_bw="12" op_148_bw="10" op_149_bw="15" op_150_bw="15" op_151_bw="15" op_152_bw="15" op_153_bw="15" op_154_bw="15" op_155_bw="15" op_156_bw="15" op_157_bw="15" op_158_bw="14" op_159_bw="14" op_160_bw="14" op_161_bw="14" op_162_bw="13" op_163_bw="13" op_164_bw="12" op_165_bw="11" op_166_bw="16" op_167_bw="16" op_168_bw="16" op_169_bw="16" op_170_bw="16" op_171_bw="16" op_172_bw="16" op_173_bw="16" op_174_bw="16" op_175_bw="16" op_176_bw="16" op_177_bw="16" op_178_bw="16" op_179_bw="16" op_180_bw="16" op_181_bw="16" op_182_bw="16" op_183_bw="16" op_184_bw="15" op_185_bw="15" op_186_bw="15" op_187_bw="15" op_188_bw="15" op_189_bw="15" op_190_bw="15" op_191_bw="15" op_192_bw="15" op_193_bw="14" op_194_bw="14" op_195_bw="14" op_196_bw="14" op_197_bw="13" op_198_bw="13" op_199_bw="13" op_200_bw="12" op_201_bw="12" op_202_bw="17" op_203_bw="17" op_204_bw="17" op_205_bw="17" op_206_bw="17" op_207_bw="17" op_208_bw="17" op_209_bw="17" op_210_bw="17" op_211_bw="17" op_212_bw="17" op_213_bw="17" op_214_bw="17" op_215_bw="17" op_216_bw="17" op_217_bw="17" op_218_bw="17" op_219_bw="17" op_220_bw="17" op_221_bw="17" op_222_bw="17" op_223_bw="17" op_224_bw="17" op_225_bw="17" op_226_bw="17" op_227_bw="17" op_228_bw="17" op_229_bw="17" op_230_bw="17" op_231_bw="17" op_232_bw="17" op_233_bw="17" op_234_bw="17" op_235_bw="17" op_236_bw="17" op_237_bw="16" op_238_bw="16" op_239_bw="16" op_240_bw="16" op_241_bw="16" op_242_bw="16" op_243_bw="16" op_244_bw="16" op_245_bw="16" op_246_bw="16" op_247_bw="16" op_248_bw="16" op_249_bw="16" op_250_bw="16" op_251_bw="16" op_252_bw="16" op_253_bw="16" op_254_bw="16" op_255_bw="15" op_256_bw="15" op_257_bw="15">
+<![CDATA[
+entry:8 %call_ln37 = call void @Matrix_Vector_Activate_Stream_Batch, i32 %in0_V, i8 %out_V, i72 %weights_V, i18 %p_ZL7threshs_0, i18 %p_ZL7threshs_1, i18 %p_ZL7threshs_2, i18 %p_ZL7threshs_3, i18 %p_ZL7threshs_4, i18 %p_ZL7threshs_5, i18 %p_ZL7threshs_6, i18 %p_ZL7threshs_7, i18 %p_ZL7threshs_8, i18 %p_ZL7threshs_9, i18 %p_ZL7threshs_10, i18 %p_ZL7threshs_11, i18 %p_ZL7threshs_12, i18 %p_ZL7threshs_13, i18 %p_ZL7threshs_14, i18 %p_ZL7threshs_15, i18 %p_ZL7threshs_16, i18 %p_ZL7threshs_17, i18 %p_ZL7threshs_18, i18 %p_ZL7threshs_19, i18 %p_ZL7threshs_20, i18 %p_ZL7threshs_21, i18 %p_ZL7threshs_22, i18 %p_ZL7threshs_23, i18 %p_ZL7threshs_24, i18 %p_ZL7threshs_25, i18 %p_ZL7threshs_26, i18 %p_ZL7threshs_27, i18 %p_ZL7threshs_28, i18 %p_ZL7threshs_29, i18 %p_ZL7threshs_30, i18 %p_ZL7threshs_31, i18 %p_ZL7threshs_32, i18 %p_ZL7threshs_33, i18 %p_ZL7threshs_34, i18 %p_ZL7threshs_35, i18 %p_ZL7threshs_36, i18 %p_ZL7threshs_37, i18 %p_ZL7threshs_38, i18 %p_ZL7threshs_39, i18 %p_ZL7threshs_40, i18 %p_ZL7threshs_41, i18 %p_ZL7threshs_42, i18 %p_ZL7threshs_43, i18 %p_ZL7threshs_44, i18 %p_ZL7threshs_45, i18 %p_ZL7threshs_46, i18 %p_ZL7threshs_47, i18 %p_ZL7threshs_48, i18 %p_ZL7threshs_49, i18 %p_ZL7threshs_50, i18 %p_ZL7threshs_51, i18 %p_ZL7threshs_52, i18 %p_ZL7threshs_53, i18 %p_ZL7threshs_54, i18 %p_ZL7threshs_55, i17 %p_ZL7threshs_56, i17 %p_ZL7threshs_57, i17 %p_ZL7threshs_58, i17 %p_ZL7threshs_59, i17 %p_ZL7threshs_60, i17 %p_ZL7threshs_61, i17 %p_ZL7threshs_62, i17 %p_ZL7threshs_63, i17 %p_ZL7threshs_64, i17 %p_ZL7threshs_65, i17 %p_ZL7threshs_66, i17 %p_ZL7threshs_67, i17 %p_ZL7threshs_68, i17 %p_ZL7threshs_69, i17 %p_ZL7threshs_70, i17 %p_ZL7threshs_71, i17 %p_ZL7threshs_72, i17 %p_ZL7threshs_73, i17 %p_ZL7threshs_74, i17 %p_ZL7threshs_75, i17 %p_ZL7threshs_76, i17 %p_ZL7threshs_77, i17 %p_ZL7threshs_78, i17 %p_ZL7threshs_79, i17 %p_ZL7threshs_80, i17 %p_ZL7threshs_81, i17 %p_ZL7threshs_82, i17 %p_ZL7threshs_83, i17 %p_ZL7threshs_84, i17 %p_ZL7threshs_85, i17 %p_ZL7threshs_86, i17 %p_ZL7threshs_87, i17 %p_ZL7threshs_88, i17 %p_ZL7threshs_89, i17 %p_ZL7threshs_90, i17 %p_ZL7threshs_91, i16 %p_ZL7threshs_92, i16 %p_ZL7threshs_93, i16 %p_ZL7threshs_94, i16 %p_ZL7threshs_95, i16 %p_ZL7threshs_96, i16 %p_ZL7threshs_97, i16 %p_ZL7threshs_98, i16 %p_ZL7threshs_99, i16 %p_ZL7threshs_100, i16 %p_ZL7threshs_101, i16 %p_ZL7threshs_102, i16 %p_ZL7threshs_103, i16 %p_ZL7threshs_104, i16 %p_ZL7threshs_105, i16 %p_ZL7threshs_106, i16 %p_ZL7threshs_107, i16 %p_ZL7threshs_108, i15 %p_ZL7threshs_109, i15 %p_ZL7threshs_110, i15 %p_ZL7threshs_111, i15 %p_ZL7threshs_112, i15 %p_ZL7threshs_113, i15 %p_ZL7threshs_114, i15 %p_ZL7threshs_115, i15 %p_ZL7threshs_116, i15 %p_ZL7threshs_117, i14 %p_ZL7threshs_118, i14 %p_ZL7threshs_119, i14 %p_ZL7threshs_120, i14 %p_ZL7threshs_121, i14 %p_ZL7threshs_122, i13 %p_ZL7threshs_123, i13 %p_ZL7threshs_124, i12 %p_ZL7threshs_125, i10 %p_ZL7threshs_126, i7 %p_ZL7threshs_127, i11 %p_ZL7threshs_128, i12 %p_ZL7threshs_129, i11 %p_ZL7threshs_130, i13 %p_ZL7threshs_131, i13 %p_ZL7threshs_132, i13 %p_ZL7threshs_133, i12 %p_ZL7threshs_134, i10 %p_ZL7threshs_135, i14 %p_ZL7threshs_136, i14 %p_ZL7threshs_137, i14 %p_ZL7threshs_138, i14 %p_ZL7threshs_139, i13 %p_ZL7threshs_140, i13 %p_ZL7threshs_141, i13 %p_ZL7threshs_142, i12 %p_ZL7threshs_143, i10 %p_ZL7threshs_144, i15 %p_ZL7threshs_145, i15 %p_ZL7threshs_146, i15 %p_ZL7threshs_147, i15 %p_ZL7threshs_148, i15 %p_ZL7threshs_149, i15 %p_ZL7threshs_150, i15 %p_ZL7threshs_151, i15 %p_ZL7threshs_152, i15 %p_ZL7threshs_153, i14 %p_ZL7threshs_154, i14 %p_ZL7threshs_155, i14 %p_ZL7threshs_156, i14 %p_ZL7threshs_157, i13 %p_ZL7threshs_158, i13 %p_ZL7threshs_159, i12 %p_ZL7threshs_160, i11 %p_ZL7threshs_161, i16 %p_ZL7threshs_162, i16 %p_ZL7threshs_163, i16 %p_ZL7threshs_164, i16 %p_ZL7threshs_165, i16 %p_ZL7threshs_166, i16 %p_ZL7threshs_167, i16 %p_ZL7threshs_168, i16 %p_ZL7threshs_169, i16 %p_ZL7threshs_170, i16 %p_ZL7threshs_171, i16 %p_ZL7threshs_172, i16 %p_ZL7threshs_173, i16 %p_ZL7threshs_174, i16 %p_ZL7threshs_175, i16 %p_ZL7threshs_176, i16 %p_ZL7threshs_177, i16 %p_ZL7threshs_178, i16 %p_ZL7threshs_179, i15 %p_ZL7threshs_180, i15 %p_ZL7threshs_181, i15 %p_ZL7threshs_182, i15 %p_ZL7threshs_183, i15 %p_ZL7threshs_184, i15 %p_ZL7threshs_185, i15 %p_ZL7threshs_186, i15 %p_ZL7threshs_187, i15 %p_ZL7threshs_188, i14 %p_ZL7threshs_189, i14 %p_ZL7threshs_190, i14 %p_ZL7threshs_191, i14 %p_ZL7threshs_192, i13 %p_ZL7threshs_193, i13 %p_ZL7threshs_194, i13 %p_ZL7threshs_195, i12 %p_ZL7threshs_196, i12 %p_ZL7threshs_197, i17 %p_ZL7threshs_198, i17 %p_ZL7threshs_199, i17 %p_ZL7threshs_200, i17 %p_ZL7threshs_201, i17 %p_ZL7threshs_202, i17 %p_ZL7threshs_203, i17 %p_ZL7threshs_204, i17 %p_ZL7threshs_205, i17 %p_ZL7threshs_206, i17 %p_ZL7threshs_207, i17 %p_ZL7threshs_208, i17 %p_ZL7threshs_209, i17 %p_ZL7threshs_210, i17 %p_ZL7threshs_211, i17 %p_ZL7threshs_212, i17 %p_ZL7threshs_213, i17 %p_ZL7threshs_214, i17 %p_ZL7threshs_215, i17 %p_ZL7threshs_216, i17 %p_ZL7threshs_217, i17 %p_ZL7threshs_218, i17 %p_ZL7threshs_219, i17 %p_ZL7threshs_220, i17 %p_ZL7threshs_221, i17 %p_ZL7threshs_222, i17 %p_ZL7threshs_223, i17 %p_ZL7threshs_224, i17 %p_ZL7threshs_225, i17 %p_ZL7threshs_226, i17 %p_ZL7threshs_227, i17 %p_ZL7threshs_228, i17 %p_ZL7threshs_229, i17 %p_ZL7threshs_230, i17 %p_ZL7threshs_231, i17 %p_ZL7threshs_232, i16 %p_ZL7threshs_233, i16 %p_ZL7threshs_234, i16 %p_ZL7threshs_235, i16 %p_ZL7threshs_236, i16 %p_ZL7threshs_237, i16 %p_ZL7threshs_238, i16 %p_ZL7threshs_239, i16 %p_ZL7threshs_240, i16 %p_ZL7threshs_241, i16 %p_ZL7threshs_242, i16 %p_ZL7threshs_243, i16 %p_ZL7threshs_244, i16 %p_ZL7threshs_245, i16 %p_ZL7threshs_246, i16 %p_ZL7threshs_247, i16 %p_ZL7threshs_248, i16 %p_ZL7threshs_249, i16 %p_ZL7threshs_250, i15 %p_ZL7threshs_251, i15 %p_ZL7threshs_252, i15 %p_ZL7threshs_253
+
+]]></Node>
+<StgValue><ssdm name="call_ln37"/></StgValue>
+</operation>
+</state>
+
+<state id="3" st_id="3">
+
+<operation id="6" st_id="3" stage="1" lat="2">
+<core></core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="266" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="8" op_3_bw="72" op_4_bw="18" op_5_bw="18" op_6_bw="18" op_7_bw="18" op_8_bw="18" op_9_bw="18" op_10_bw="18" op_11_bw="18" op_12_bw="18" op_13_bw="18" op_14_bw="18" op_15_bw="18" op_16_bw="18" op_17_bw="18" op_18_bw="18" op_19_bw="18" op_20_bw="18" op_21_bw="18" op_22_bw="18" op_23_bw="18" op_24_bw="18" op_25_bw="18" op_26_bw="18" op_27_bw="18" op_28_bw="18" op_29_bw="18" op_30_bw="18" op_31_bw="18" op_32_bw="18" op_33_bw="18" op_34_bw="18" op_35_bw="18" op_36_bw="18" op_37_bw="18" op_38_bw="18" op_39_bw="18" op_40_bw="18" op_41_bw="18" op_42_bw="18" op_43_bw="18" op_44_bw="18" op_45_bw="18" op_46_bw="18" op_47_bw="18" op_48_bw="18" op_49_bw="18" op_50_bw="18" op_51_bw="18" op_52_bw="18" op_53_bw="18" op_54_bw="18" op_55_bw="18" op_56_bw="18" op_57_bw="18" op_58_bw="18" op_59_bw="18" op_60_bw="17" op_61_bw="17" op_62_bw="17" op_63_bw="17" op_64_bw="17" op_65_bw="17" op_66_bw="17" op_67_bw="17" op_68_bw="17" op_69_bw="17" op_70_bw="17" op_71_bw="17" op_72_bw="17" op_73_bw="17" op_74_bw="17" op_75_bw="17" op_76_bw="17" op_77_bw="17" op_78_bw="17" op_79_bw="17" op_80_bw="17" op_81_bw="17" op_82_bw="17" op_83_bw="17" op_84_bw="17" op_85_bw="17" op_86_bw="17" op_87_bw="17" op_88_bw="17" op_89_bw="17" op_90_bw="17" op_91_bw="17" op_92_bw="17" op_93_bw="17" op_94_bw="17" op_95_bw="17" op_96_bw="16" op_97_bw="16" op_98_bw="16" op_99_bw="16" op_100_bw="16" op_101_bw="16" op_102_bw="16" op_103_bw="16" op_104_bw="16" op_105_bw="16" op_106_bw="16" op_107_bw="16" op_108_bw="16" op_109_bw="16" op_110_bw="16" op_111_bw="16" op_112_bw="16" op_113_bw="15" op_114_bw="15" op_115_bw="15" op_116_bw="15" op_117_bw="15" op_118_bw="15" op_119_bw="15" op_120_bw="15" op_121_bw="15" op_122_bw="14" op_123_bw="14" op_124_bw="14" op_125_bw="14" op_126_bw="14" op_127_bw="13" op_128_bw="13" op_129_bw="12" op_130_bw="10" op_131_bw="7" op_132_bw="11" op_133_bw="12" op_134_bw="11" op_135_bw="13" op_136_bw="13" op_137_bw="13" op_138_bw="12" op_139_bw="10" op_140_bw="14" op_141_bw="14" op_142_bw="14" op_143_bw="14" op_144_bw="13" op_145_bw="13" op_146_bw="13" op_147_bw="12" op_148_bw="10" op_149_bw="15" op_150_bw="15" op_151_bw="15" op_152_bw="15" op_153_bw="15" op_154_bw="15" op_155_bw="15" op_156_bw="15" op_157_bw="15" op_158_bw="14" op_159_bw="14" op_160_bw="14" op_161_bw="14" op_162_bw="13" op_163_bw="13" op_164_bw="12" op_165_bw="11" op_166_bw="16" op_167_bw="16" op_168_bw="16" op_169_bw="16" op_170_bw="16" op_171_bw="16" op_172_bw="16" op_173_bw="16" op_174_bw="16" op_175_bw="16" op_176_bw="16" op_177_bw="16" op_178_bw="16" op_179_bw="16" op_180_bw="16" op_181_bw="16" op_182_bw="16" op_183_bw="16" op_184_bw="15" op_185_bw="15" op_186_bw="15" op_187_bw="15" op_188_bw="15" op_189_bw="15" op_190_bw="15" op_191_bw="15" op_192_bw="15" op_193_bw="14" op_194_bw="14" op_195_bw="14" op_196_bw="14" op_197_bw="13" op_198_bw="13" op_199_bw="13" op_200_bw="12" op_201_bw="12" op_202_bw="17" op_203_bw="17" op_204_bw="17" op_205_bw="17" op_206_bw="17" op_207_bw="17" op_208_bw="17" op_209_bw="17" op_210_bw="17" op_211_bw="17" op_212_bw="17" op_213_bw="17" op_214_bw="17" op_215_bw="17" op_216_bw="17" op_217_bw="17" op_218_bw="17" op_219_bw="17" op_220_bw="17" op_221_bw="17" op_222_bw="17" op_223_bw="17" op_224_bw="17" op_225_bw="17" op_226_bw="17" op_227_bw="17" op_228_bw="17" op_229_bw="17" op_230_bw="17" op_231_bw="17" op_232_bw="17" op_233_bw="17" op_234_bw="17" op_235_bw="17" op_236_bw="17" op_237_bw="16" op_238_bw="16" op_239_bw="16" op_240_bw="16" op_241_bw="16" op_242_bw="16" op_243_bw="16" op_244_bw="16" op_245_bw="16" op_246_bw="16" op_247_bw="16" op_248_bw="16" op_249_bw="16" op_250_bw="16" op_251_bw="16" op_252_bw="16" op_253_bw="16" op_254_bw="16" op_255_bw="15" op_256_bw="15" op_257_bw="15">
+<![CDATA[
+entry:8 %call_ln37 = call void @Matrix_Vector_Activate_Stream_Batch, i32 %in0_V, i8 %out_V, i72 %weights_V, i18 %p_ZL7threshs_0, i18 %p_ZL7threshs_1, i18 %p_ZL7threshs_2, i18 %p_ZL7threshs_3, i18 %p_ZL7threshs_4, i18 %p_ZL7threshs_5, i18 %p_ZL7threshs_6, i18 %p_ZL7threshs_7, i18 %p_ZL7threshs_8, i18 %p_ZL7threshs_9, i18 %p_ZL7threshs_10, i18 %p_ZL7threshs_11, i18 %p_ZL7threshs_12, i18 %p_ZL7threshs_13, i18 %p_ZL7threshs_14, i18 %p_ZL7threshs_15, i18 %p_ZL7threshs_16, i18 %p_ZL7threshs_17, i18 %p_ZL7threshs_18, i18 %p_ZL7threshs_19, i18 %p_ZL7threshs_20, i18 %p_ZL7threshs_21, i18 %p_ZL7threshs_22, i18 %p_ZL7threshs_23, i18 %p_ZL7threshs_24, i18 %p_ZL7threshs_25, i18 %p_ZL7threshs_26, i18 %p_ZL7threshs_27, i18 %p_ZL7threshs_28, i18 %p_ZL7threshs_29, i18 %p_ZL7threshs_30, i18 %p_ZL7threshs_31, i18 %p_ZL7threshs_32, i18 %p_ZL7threshs_33, i18 %p_ZL7threshs_34, i18 %p_ZL7threshs_35, i18 %p_ZL7threshs_36, i18 %p_ZL7threshs_37, i18 %p_ZL7threshs_38, i18 %p_ZL7threshs_39, i18 %p_ZL7threshs_40, i18 %p_ZL7threshs_41, i18 %p_ZL7threshs_42, i18 %p_ZL7threshs_43, i18 %p_ZL7threshs_44, i18 %p_ZL7threshs_45, i18 %p_ZL7threshs_46, i18 %p_ZL7threshs_47, i18 %p_ZL7threshs_48, i18 %p_ZL7threshs_49, i18 %p_ZL7threshs_50, i18 %p_ZL7threshs_51, i18 %p_ZL7threshs_52, i18 %p_ZL7threshs_53, i18 %p_ZL7threshs_54, i18 %p_ZL7threshs_55, i17 %p_ZL7threshs_56, i17 %p_ZL7threshs_57, i17 %p_ZL7threshs_58, i17 %p_ZL7threshs_59, i17 %p_ZL7threshs_60, i17 %p_ZL7threshs_61, i17 %p_ZL7threshs_62, i17 %p_ZL7threshs_63, i17 %p_ZL7threshs_64, i17 %p_ZL7threshs_65, i17 %p_ZL7threshs_66, i17 %p_ZL7threshs_67, i17 %p_ZL7threshs_68, i17 %p_ZL7threshs_69, i17 %p_ZL7threshs_70, i17 %p_ZL7threshs_71, i17 %p_ZL7threshs_72, i17 %p_ZL7threshs_73, i17 %p_ZL7threshs_74, i17 %p_ZL7threshs_75, i17 %p_ZL7threshs_76, i17 %p_ZL7threshs_77, i17 %p_ZL7threshs_78, i17 %p_ZL7threshs_79, i17 %p_ZL7threshs_80, i17 %p_ZL7threshs_81, i17 %p_ZL7threshs_82, i17 %p_ZL7threshs_83, i17 %p_ZL7threshs_84, i17 %p_ZL7threshs_85, i17 %p_ZL7threshs_86, i17 %p_ZL7threshs_87, i17 %p_ZL7threshs_88, i17 %p_ZL7threshs_89, i17 %p_ZL7threshs_90, i17 %p_ZL7threshs_91, i16 %p_ZL7threshs_92, i16 %p_ZL7threshs_93, i16 %p_ZL7threshs_94, i16 %p_ZL7threshs_95, i16 %p_ZL7threshs_96, i16 %p_ZL7threshs_97, i16 %p_ZL7threshs_98, i16 %p_ZL7threshs_99, i16 %p_ZL7threshs_100, i16 %p_ZL7threshs_101, i16 %p_ZL7threshs_102, i16 %p_ZL7threshs_103, i16 %p_ZL7threshs_104, i16 %p_ZL7threshs_105, i16 %p_ZL7threshs_106, i16 %p_ZL7threshs_107, i16 %p_ZL7threshs_108, i15 %p_ZL7threshs_109, i15 %p_ZL7threshs_110, i15 %p_ZL7threshs_111, i15 %p_ZL7threshs_112, i15 %p_ZL7threshs_113, i15 %p_ZL7threshs_114, i15 %p_ZL7threshs_115, i15 %p_ZL7threshs_116, i15 %p_ZL7threshs_117, i14 %p_ZL7threshs_118, i14 %p_ZL7threshs_119, i14 %p_ZL7threshs_120, i14 %p_ZL7threshs_121, i14 %p_ZL7threshs_122, i13 %p_ZL7threshs_123, i13 %p_ZL7threshs_124, i12 %p_ZL7threshs_125, i10 %p_ZL7threshs_126, i7 %p_ZL7threshs_127, i11 %p_ZL7threshs_128, i12 %p_ZL7threshs_129, i11 %p_ZL7threshs_130, i13 %p_ZL7threshs_131, i13 %p_ZL7threshs_132, i13 %p_ZL7threshs_133, i12 %p_ZL7threshs_134, i10 %p_ZL7threshs_135, i14 %p_ZL7threshs_136, i14 %p_ZL7threshs_137, i14 %p_ZL7threshs_138, i14 %p_ZL7threshs_139, i13 %p_ZL7threshs_140, i13 %p_ZL7threshs_141, i13 %p_ZL7threshs_142, i12 %p_ZL7threshs_143, i10 %p_ZL7threshs_144, i15 %p_ZL7threshs_145, i15 %p_ZL7threshs_146, i15 %p_ZL7threshs_147, i15 %p_ZL7threshs_148, i15 %p_ZL7threshs_149, i15 %p_ZL7threshs_150, i15 %p_ZL7threshs_151, i15 %p_ZL7threshs_152, i15 %p_ZL7threshs_153, i14 %p_ZL7threshs_154, i14 %p_ZL7threshs_155, i14 %p_ZL7threshs_156, i14 %p_ZL7threshs_157, i13 %p_ZL7threshs_158, i13 %p_ZL7threshs_159, i12 %p_ZL7threshs_160, i11 %p_ZL7threshs_161, i16 %p_ZL7threshs_162, i16 %p_ZL7threshs_163, i16 %p_ZL7threshs_164, i16 %p_ZL7threshs_165, i16 %p_ZL7threshs_166, i16 %p_ZL7threshs_167, i16 %p_ZL7threshs_168, i16 %p_ZL7threshs_169, i16 %p_ZL7threshs_170, i16 %p_ZL7threshs_171, i16 %p_ZL7threshs_172, i16 %p_ZL7threshs_173, i16 %p_ZL7threshs_174, i16 %p_ZL7threshs_175, i16 %p_ZL7threshs_176, i16 %p_ZL7threshs_177, i16 %p_ZL7threshs_178, i16 %p_ZL7threshs_179, i15 %p_ZL7threshs_180, i15 %p_ZL7threshs_181, i15 %p_ZL7threshs_182, i15 %p_ZL7threshs_183, i15 %p_ZL7threshs_184, i15 %p_ZL7threshs_185, i15 %p_ZL7threshs_186, i15 %p_ZL7threshs_187, i15 %p_ZL7threshs_188, i14 %p_ZL7threshs_189, i14 %p_ZL7threshs_190, i14 %p_ZL7threshs_191, i14 %p_ZL7threshs_192, i13 %p_ZL7threshs_193, i13 %p_ZL7threshs_194, i13 %p_ZL7threshs_195, i12 %p_ZL7threshs_196, i12 %p_ZL7threshs_197, i17 %p_ZL7threshs_198, i17 %p_ZL7threshs_199, i17 %p_ZL7threshs_200, i17 %p_ZL7threshs_201, i17 %p_ZL7threshs_202, i17 %p_ZL7threshs_203, i17 %p_ZL7threshs_204, i17 %p_ZL7threshs_205, i17 %p_ZL7threshs_206, i17 %p_ZL7threshs_207, i17 %p_ZL7threshs_208, i17 %p_ZL7threshs_209, i17 %p_ZL7threshs_210, i17 %p_ZL7threshs_211, i17 %p_ZL7threshs_212, i17 %p_ZL7threshs_213, i17 %p_ZL7threshs_214, i17 %p_ZL7threshs_215, i17 %p_ZL7threshs_216, i17 %p_ZL7threshs_217, i17 %p_ZL7threshs_218, i17 %p_ZL7threshs_219, i17 %p_ZL7threshs_220, i17 %p_ZL7threshs_221, i17 %p_ZL7threshs_222, i17 %p_ZL7threshs_223, i17 %p_ZL7threshs_224, i17 %p_ZL7threshs_225, i17 %p_ZL7threshs_226, i17 %p_ZL7threshs_227, i17 %p_ZL7threshs_228, i17 %p_ZL7threshs_229, i17 %p_ZL7threshs_230, i17 %p_ZL7threshs_231, i17 %p_ZL7threshs_232, i16 %p_ZL7threshs_233, i16 %p_ZL7threshs_234, i16 %p_ZL7threshs_235, i16 %p_ZL7threshs_236, i16 %p_ZL7threshs_237, i16 %p_ZL7threshs_238, i16 %p_ZL7threshs_239, i16 %p_ZL7threshs_240, i16 %p_ZL7threshs_241, i16 %p_ZL7threshs_242, i16 %p_ZL7threshs_243, i16 %p_ZL7threshs_244, i16 %p_ZL7threshs_245, i16 %p_ZL7threshs_246, i16 %p_ZL7threshs_247, i16 %p_ZL7threshs_248, i16 %p_ZL7threshs_249, i16 %p_ZL7threshs_250, i15 %p_ZL7threshs_251, i15 %p_ZL7threshs_252, i15 %p_ZL7threshs_253
+
+]]></Node>
+<StgValue><ssdm name="call_ln37"/></StgValue>
+</operation>
+</state>
+
+<state id="4" st_id="4">
+
+<operation id="7" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="258" bw="0" op_0_bw="0" op_1_bw="0">
+<![CDATA[
+entry:0 %spectopmodule_ln25 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_2
+
+]]></Node>
+<StgValue><ssdm name="spectopmodule_ln25"/></StgValue>
+</operation>
+
+<operation id="8" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="259" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:1 %specinterface_ln25 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_3, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln25"/></StgValue>
+</operation>
+
+<operation id="9" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="260" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %in0_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="10" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="261" bw="0" op_0_bw="0" op_1_bw="32">
+<![CDATA[
+entry:3 %specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %in0_V
+
+]]></Node>
+<StgValue><ssdm name="specbitsmap_ln0"/></StgValue>
+</operation>
+
+<operation id="11" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="262" bw="0" op_0_bw="0" op_1_bw="72" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:4 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i72 %weights_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="12" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="263" bw="0" op_0_bw="0" op_1_bw="72">
+<![CDATA[
+entry:5 %specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i72 %weights_V
+
+]]></Node>
+<StgValue><ssdm name="specbitsmap_ln0"/></StgValue>
+</operation>
+
+<operation id="13" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="264" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:6 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i8 %out_V, void @empty, i32 1, i32 1, void @empty_0, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="14" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="265" bw="0" op_0_bw="0" op_1_bw="8">
+<![CDATA[
+entry:7 %specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i8 %out_V
+
+]]></Node>
+<StgValue><ssdm name="specbitsmap_ln0"/></StgValue>
+</operation>
+
+<operation id="15" st_id="4" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="267" bw="0">
+<![CDATA[
+entry:9 %ret_ln39 = ret
+
+]]></Node>
+<StgValue><ssdm name="ret_ln39"/></StgValue>
+</operation>
+</state>
+</state_list>
+
+
+<ports>
+</ports>
+
+
+<dataflows>
+</dataflows>
+
+
+</stg>

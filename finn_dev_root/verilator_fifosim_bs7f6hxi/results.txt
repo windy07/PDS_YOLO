@@ -1,0 +1,5 @@
+N_IN_TXNS	173056
+N_OUT_TXNS	3042
+cycles	736625
+N	1
+latency_cycles	736625

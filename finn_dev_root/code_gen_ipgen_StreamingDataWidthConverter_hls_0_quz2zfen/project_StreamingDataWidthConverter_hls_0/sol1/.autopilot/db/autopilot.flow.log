@@ -1,0 +1,621 @@
+INFO-FLOW: Workspace /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1 opened at Fri Nov 08 14:19:16 +0000 2024
+Execute     send_msg_by_id INFO @200-1505@%s%s default  vivado 
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Execute     send_msg_by_id INFO @200-435@%s%s 'open_solution -flow_target vivado' config_interface -m_axi_latency=0 
+INFO: [HLS 200-435] Setting 'open_solution -flow_target vivado' configuration: config_interface -m_axi_latency=0
+Execute     config_interface -m_axi_latency=0 
+Command   open_solution done; 0.12 sec.
+Execute   set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+Execute     create_platform xc7z020clg400-1 -board  
+DBG:HLSDevice: Trying to load device library: /media/clr/XIlinx/Vitis_HLS/2022.2/lib/lnx64.o/libxv_hlsvwrap.so
+DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: /media/clr/XIlinx/Vivado/2022.2/data/parts/arch.xml
+DBG:HLSDevice: init success
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+Command     create_platform done; 2.57 sec.
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/saxilite.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/util.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command     ap_source done; 0.13 sec.
+Execute     ap_part_info -name xc7z020-clg400-1 -data info 
+Execute     config_compile -quiet -complex-mul-dsp=0 
+Command   set_part done; 2.74 sec.
+Execute   config_compile -disable_unroll_code_size_check -pipeline_style flp 
+INFO: [HLS 200-1510] Running: config_compile -disable_unroll_code_size_check -pipeline_style flp 
+WARNING: [XFORM 203-506] Disable code size check when do loop unroll.
+WARNING: [HLS 200-643] The 'config_compile -disable_unroll_code_size_check' hidden command is deprecated and will be removed in a future release.
+Execute   config_interface -m_axi_addr64 
+INFO: [HLS 200-1510] Running: config_interface -m_axi_addr64 
+Execute   config_rtl -module_auto_prefix 
+INFO: [HLS 200-1510] Running: config_rtl -module_auto_prefix 
+Execute   config_rtl -deadlock_detection none 
+INFO: [HLS 200-1510] Running: config_rtl -deadlock_detection none 
+Execute   create_clock -period 10.0 -name default 
+INFO: [HLS 200-1510] Running: create_clock -period 10.0 -name default 
+Execute     ap_set_clock -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+Execute   csynth_design 
+INFO: [HLS 200-1510] Running: csynth_design 
+Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 10.04 seconds; current allocated memory: 748.090 MB.
+INFO: [HLS 200-10] Analyzing design file '/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/top_StreamingDataWidthConverter_hls_0.cpp' ... 
+INFO-FLOW: Compiling one TU...
+INFO-FLOW: Handling /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/top_StreamingDataWidthConverter_hls_0.cpp as C++
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: Running: GCC PP 39
+INFO-FLOW: Source preprocessing
+Execute       ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/top_StreamingDataWidthConverter_hls_0.cpp -foptimization-record-file=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -gcc-toolchain /media/clr/XIlinx/Vitis_HLS/2022.2/tps/lnx64/gcc-8.3.0 -fhls -fno-exceptions -E -std=c++14 -I/media/clr/XIlinx/finn/deps/finn-hlslib -I/media/clr/XIlinx/finn/custom_hls -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot -I /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp -hls-platform-db-name=/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.cpp.clang.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.cpp.clang.err.log 
+Command       ap_eval done; 0.22 sec.
+INFO-FLOW: Done: GCC PP 39 time: 0.2 seconds per iteration
+Execute       set_directive_top StreamingDataWidthConverter_hls_0 -name=StreamingDataWidthConverter_hls_0 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
+INFO-FLOW: Source syntax check for synthesis
+Execute       ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp -hls-platform-db-name=/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/clang.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/clang.err.log 
+Command       ap_eval done; 0.84 sec.
+Execute       clang_tidy xilinx-systemc-detector -desc systemc-detector /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp std=c++14 -target fpga  -directive=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/.systemc_flag 
+INFO-FLOW: exec /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/.systemc_flag -fix-errors /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp -- -std=c++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.76 sec.
+INFO-FLOW: Running: clang-tidy CDT preprocess 39
+Execute       clang_tidy xilinx-directive2pragma -desc directive2pragma /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp std=c++14 -target fpga  -directive=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/all.directive.json 
+INFO-FLOW: exec /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/all.directive.json -fix-errors /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp -- -std=c++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 1.26 sec.
+Execute       clang_tidy xilinx-remove-assert -desc remove-assert /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp std=c++14 -target fpga  
+INFO-FLOW: exec /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-remove-assert -fix-errors /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp -- -std=c++14 -target fpga -fhls -ferror-limit=0
+Command       clang_tidy done; 0.76 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 2 seconds per iteration
+INFO-FLOW: Calling xilinx-label-all-loops ... 
+INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
+Execute       clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp std=c++14 -target fpga  
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp -- -std=c++14 -target fpga -fhls -ferror-limit=0 > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp.clang-tidy.loop-label.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp.clang-tidy.loop-label.err.log 
+Command         ap_eval done; 3.23 sec.
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
+Command       clang_tidy done; 4.18 sec.
+Execute       ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp -- -std=c++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp.xilinx-dataflow-lawyer.err.log 
+Command       ap_eval done; 0.74 sec.
+Execute       ap_part_info -name xc7z020-clg400-1 -data info 
+INFO-FLOW: compiling source code to llvm bc
+Execute       ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp -std=c++14 -I/media/clr/XIlinx/finn/deps/finn-hlslib -I/media/clr/XIlinx/finn/custom_hls -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot -I /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.bc -hls-platform-db-name=/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp.clang.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.pp.0.cpp.clang.err.log 
+Command       ap_eval done; 0.89 sec.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 9.32 seconds. CPU system time: 0.9 seconds. Elapsed time: 10.23 seconds; current allocated memory: 755.926 MB.
+INFO-FLOW: Linking Debug ...
+INFO-FLOW: Linking dut bc code.
+Execute       run_link_or_opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.0.bc -args  "/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.g.bc"  
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top_StreamingDataWidthConverter_hls_0.g.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.0.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log 
+INFO-FLOW: 
+Execute       run_link_or_opt -opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.1.lower.bc -args /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.1.lower.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log 
+INFO-FLOW: 
+INFO-FLOW: Linking math bc lib
+Execute       run_link_or_opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.2.m1.bc -args /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.1.lower.bc -only-needed /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libhlsm_39.bc /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libhlsmc++_39.bc 
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.1.lower.bc -only-needed /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libhlsm_39.bc /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libhlsmc++_39.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.2.m1.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log 
+Command         ap_eval done; 3.21 sec.
+INFO-FLOW: 
+Command       run_link_or_opt done; 3.22 sec.
+Execute       run_link_or_opt -opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.3.fpc.bc -args /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=StreamingDataWidthConverter_hls_0 -reflow-float-conversion 
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=StreamingDataWidthConverter_hls_0 -reflow-float-conversion -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.3.fpc.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log 
+Command         ap_eval done; 1.18 sec.
+INFO-FLOW: 
+Command       run_link_or_opt done; 1.19 sec.
+Execute       run_link_or_opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.4.m2.bc -args /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libfloatconversion_39.bc 
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/llvm-link /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.3.fpc.bc -only-needed /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/lib/libfloatconversion_39.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.4.m2.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log 
+Command         ap_eval done; 0.11 sec.
+INFO-FLOW: 
+Command       run_link_or_opt done; 0.11 sec.
+Execute       run_link_or_opt -opt -out /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.5.gdce.bc -args /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=StreamingDataWidthConverter_hls_0 
+Execute         ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.5.gdce.bc.opt.diag.yml /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=StreamingDataWidthConverter_hls_0 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.5.gdce.bc > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.5.gdce.bc.opt.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.5.gdce.bc.opt.err.log 
+INFO-FLOW: 
+Execute       send_msg_by_id INFO @200-777@%s Vivado 
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+Execute       is_m_axi_addr64 
+INFO-FLOW: Doing LTO.
+Execute       ap_eval exec -ignorestderr /media/clr/XIlinx/Vitis_HLS/2022.2/lnx64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.0.bc.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fhls -mllvm -hls-top-function-name=StreamingDataWidthConverter_hls_0 -mllvm -hls-db-dir -mllvm /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db -emit-llvm -c -target fpga64-xilinx-none -mllvm -xcl-xmlinfo=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/kernel.internal.xml -mllvm -top-io-mapping-info=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top-io-fe.xml -mllvm -hls-bitcode-version=3.1 -mllvm -reflow-enable-slave-interface-default-setting=true -mllvm -gen-kernel-xml=false -mllvm -default-maxi-offset=slave -mllvm -maxi-latency=0 -mllvm -hls-maxi-data-size-in-bits=8 -mllvm -hls-maxi-max-data-size-in-bits=1024 -mllvm -hls-max-widen-size-in-bits=0 -mllvm -xcl-kernel-max-mem-ports=0 -mllvm -maxi-read-trans=16 -mllvm -maxi-write-trans=16 -mllvm -maxi-read-burst-len=16 -mllvm -maxi-write-burst-len=16 -mllvm -reflow-enable-saxi-64bits=0 -mllvm -reflow-basic-block-instr-threshold=200000 -mllvm -reflow-auto-pipeline-threshold=64 -mllvm -reflow-enable-maxi-auto-id-channel=0 -mllvm -assume-maxi-align=1 -mllvm -reflow-pipeline-style-llvm-setting=1 -mllvm -reflow-enable-dataflow-strict-mode-checking=1 -mllvm -reflow-auto-array-partition-mode=default -mllvm -reflow-enable-auto-array-partition=true -mllvm -reflow-enable-auto-parallel-performance-driven=true -mllvm -reflow-enable-partition-for-automation=true -mllvm -reflow-aggregate-bitwidth-threshold=4096 -mllvm -reflow-assume-no-address-wrap=true -mllvm -hls -mllvm -disable-inlined-alloca-merging=true -mllvm -default-clock-period=10 -x ir /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.5.gdce.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.lto.bc -hls-platform-db-name=/media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/platform.db -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.0.bc.clang.out.log 2> /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.ld.0.bc.clang.err.log 
+Command       ap_eval done; 0.41 sec.
+INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/kernel.internal.xml
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 4.52 seconds. CPU system time: 0.56 seconds. Elapsed time: 5.12 seconds; current allocated memory: 755.926 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 755.926 MB.
+Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
+Execute         cleanup_all_models 
+INFO: [HLS 200-10] Starting code transformations ...
+INFO-FLOW: Running Standard Transforms...
+Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top StreamingDataWidthConverter_hls_0 -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -auto-shift-reg-idiom -promote-dbg-pointer -norm-name /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.0.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.1.bc -f -phase std-opt 
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 758.355 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO-FLOW: Checking Synthesizability 1/2..
+Execute         transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.1.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.2.prechk.bc -f 
+INFO-FLOW: Checking Synthesizability 2/2..
+Execute         transform -syn-check /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.2.prechk.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.2.bc -f -phase syn-check 
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 761.777 MB.
+INFO-FLOW: Compiler optimizing ...
+INFO-FLOW: Share syncheck's 1.bc for syn flow: copy /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.g.1.bc to /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.o.1.bc
+INFO-FLOW: Presyn 1...
+Execute         transform -hls -tmp /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db -interface-port-rename -directive-preproc -mem2reg -dse -dce -scalarrepl -norm-name -deadargelim -mem2reg -instcombine -dce -simplifycfg -auto-rom-infer -dce -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -directive-preproc -mem2reg -dse -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -auto-loop-pipeline -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -auto-loop-unroll -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -array-promote -scalar-auto-dep-elim -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -prepare-dynamic-array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -array-promote -scalar-auto-dep-elim -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -accesses-merge -function-inline -complex-op-raise -inst-simplify -globaldce -func-legal -dce -loop-bound -arraycheck -bitwidthmin2 -bitwidthmin2 -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -loop-stream -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -duplicate-dataflow-processes -check-dataflow-syntax -legalize-stream-variable -globaldce -legalize-global -extract-subproc -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -hls-dead-arg-elim -deadargelim -directive-preproc -canonicalize-dataflow -dce -globaldce -scalar-preprocessing -scalar-propagation2 -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -hls-display -norm-name /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.o.1.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.o.1.tmp.bc -f 
+WARNING: [HLS 200-805] An internal stream 'intermediate' (/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/top_StreamingDataWidthConverter_hls_0.cpp:23) with default size can result in deadlock. Please consider resizing the stream using the directive 'set_directive_stream' or the 'HLS stream' pragma.
+INFO: [XFORM 203-712] Applying dataflow to function 'StreamingDataWidthConverter_hls_0' (/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/top_StreamingDataWidthConverter_hls_0.cpp:17), detected/extracted 2 process function(s): 
+	 'StreamingDataWidthConverter_Batch<12u, 108u, 194688u>'
+	 'StreamingDataWidthConverter_Batch<108u, 27u, 21632u>'.
+INFO-FLOW: Presyn 2...
+Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.o.1.tmp.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.o.2.bc -f -phase presyn 
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.09 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 786.516 MB.
+INFO-FLOW: Building ssdm...
+Execute         transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -load-elim -read-loop-dep -loop-simplify -loop-extract-inner -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -deadargelim -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -validate-dataflow -inst-clarity -bitwidth -dump-loop-dep-to-ir -check-all-ssdm -cdfg-build /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.o.2.bc -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 797.277 MB.
+INFO-FLOW: Finish building internal data model.
+Command       opt_and_import_c done; 0.26 sec.
+Command     elaborate done; 15.61 sec.
+Execute     ap_eval exec zip -j /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
+Execute     autosyn -from_csynth_design=1 
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO-FLOW: Synthesizing C/C++ design ...
+INFO: [HLS 200-10] Synthesizing 'StreamingDataWidthConverter_hls_0' ...
+Execute       ap_set_top_model StreamingDataWidthConverter_hls_0 
+WARNING: [SYN 201-103] Legalizing function name 'StreamingDataWidthConverter_Batch<12u, 108u, 194688u>' to 'StreamingDataWidthConverter_Batch_12u_108u_194688u_s'.
+WARNING: [SYN 201-103] Legalizing function name 'StreamingDataWidthConverter_Batch<108u, 27u, 21632u>' to 'StreamingDataWidthConverter_Batch_108u_27u_21632u_s'.
+Execute       get_model_list StreamingDataWidthConverter_hls_0 -filter all-wo-channel -topdown 
+Execute       preproc_iomode -model StreamingDataWidthConverter_hls_0 
+Execute       preproc_iomode -model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> 
+Execute       preproc_iomode -model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> 
+Execute       get_model_list StreamingDataWidthConverter_hls_0 -filter all-wo-channel 
+INFO-FLOW: Model list for configure: {StreamingDataWidthConverter_Batch<12u, 108u, 194688u>} {StreamingDataWidthConverter_Batch<108u, 27u, 21632u>} StreamingDataWidthConverter_hls_0
+INFO-FLOW: Configuring Module : StreamingDataWidthConverter_Batch<12u, 108u, 194688u> ...
+Execute       set_default_model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> 
+Execute       apply_spec_resource_limit StreamingDataWidthConverter_Batch<12u, 108u, 194688u> 
+INFO-FLOW: Configuring Module : StreamingDataWidthConverter_Batch<108u, 27u, 21632u> ...
+Execute       set_default_model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> 
+Execute       apply_spec_resource_limit StreamingDataWidthConverter_Batch<108u, 27u, 21632u> 
+INFO-FLOW: Configuring Module : StreamingDataWidthConverter_hls_0 ...
+Execute       set_default_model StreamingDataWidthConverter_hls_0 
+Execute       apply_spec_resource_limit StreamingDataWidthConverter_hls_0 
+INFO-FLOW: Model list for preprocess: {StreamingDataWidthConverter_Batch<12u, 108u, 194688u>} {StreamingDataWidthConverter_Batch<108u, 27u, 21632u>} StreamingDataWidthConverter_hls_0
+INFO-FLOW: Preprocessing Module: StreamingDataWidthConverter_Batch<12u, 108u, 194688u> ...
+Execute       set_default_model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> 
+Execute       cdfg_preprocess -model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> 
+Execute       rtl_gen_preprocess StreamingDataWidthConverter_Batch<12u, 108u, 194688u> 
+INFO-FLOW: Preprocessing Module: StreamingDataWidthConverter_Batch<108u, 27u, 21632u> ...
+Execute       set_default_model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> 
+Execute       cdfg_preprocess -model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> 
+Execute       rtl_gen_preprocess StreamingDataWidthConverter_Batch<108u, 27u, 21632u> 
+INFO-FLOW: Preprocessing Module: StreamingDataWidthConverter_hls_0 ...
+Execute       set_default_model StreamingDataWidthConverter_hls_0 
+Execute       cdfg_preprocess -model StreamingDataWidthConverter_hls_0 
+Execute       rtl_gen_preprocess StreamingDataWidthConverter_hls_0 
+INFO-FLOW: Model list for synthesis: {StreamingDataWidthConverter_Batch<12u, 108u, 194688u>} {StreamingDataWidthConverter_Batch<108u, 27u, 21632u>} StreamingDataWidthConverter_hls_0
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingDataWidthConverter_Batch_12u_108u_194688u_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> 
+Execute       schedule -model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_557_3'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'VITIS_LOOP_557_3'
+WARNING: [HLS 200-871] Estimated clock period (7.591ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'StreamingDataWidthConverter_Batch_12u_108u_194688u_s' consists of the following:	'alloca' operation ('i') [4]  (0 ns)
+	'load' operation ('i_load', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:564) on local variable 'i' [20]  (0 ns)
+	'add' operation ('i', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:564) [26]  (2.55 ns)
+	'icmp' operation ('icmp_ln566', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:566) [27]  (2.47 ns)
+	blocking operation 2.57 ns on control path)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.08 seconds; current allocated memory: 798.695 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s.verbose.sched.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s.sched.adb -f 
+INFO-FLOW: Finish scheduling StreamingDataWidthConverter_Batch<12u, 108u, 194688u>.
+Execute       set_default_model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> 
+Execute       bind -model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 798.695 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s.verbose.bind.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s.bind.adb -f 
+INFO-FLOW: Finish binding StreamingDataWidthConverter_Batch<12u, 108u, 194688u>.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingDataWidthConverter_Batch_108u_27u_21632u_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> 
+Execute       schedule -model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_526_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'VITIS_LOOP_526_1'
+WARNING: [HLS 200-871] Estimated clock period (7.311ns) exceeds the target (target clock period: 10ns, clock uncertainty: 2.7ns, effective delay budget: 7.3ns).
+WARNING: [HLS 200-1016] The critical path in module 'StreamingDataWidthConverter_Batch_108u_27u_21632u_s' consists of the following:	'alloca' operation ('o') [4]  (0 ns)
+	'load' operation ('o', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:538) on local variable 'o' [13]  (0 ns)
+	'add' operation ('o', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:538) [35]  (2.55 ns)
+	'icmp' operation ('icmp_ln540', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:540) [36]  (2.47 ns)
+	'select' operation ('o', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:540) [37]  (0.698 ns)
+	'store' operation ('o_write_ln526', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:526) of variable 'o', /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:540 on local variable 'o' [39]  (1.59 ns)
+
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 799.043 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s.verbose.sched.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s.sched.adb -f 
+INFO-FLOW: Finish scheduling StreamingDataWidthConverter_Batch<108u, 27u, 21632u>.
+Execute       set_default_model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> 
+Execute       bind -model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 799.043 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s.verbose.bind.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s.bind.adb -f 
+INFO-FLOW: Finish binding StreamingDataWidthConverter_Batch<108u, 27u, 21632u>.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'StreamingDataWidthConverter_hls_0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       set_default_model StreamingDataWidthConverter_hls_0 
+Execute       schedule -model StreamingDataWidthConverter_hls_0 
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 799.043 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.verbose.sched.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.sched.adb -f 
+INFO-FLOW: Finish scheduling StreamingDataWidthConverter_hls_0.
+Execute       set_default_model StreamingDataWidthConverter_hls_0 
+Execute       bind -model StreamingDataWidthConverter_hls_0 
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 799.043 MB.
+Execute       syn_report -verbosereport -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.verbose.bind.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.bind.adb -f 
+INFO-FLOW: Finish binding StreamingDataWidthConverter_hls_0.
+Execute       get_model_list StreamingDataWidthConverter_hls_0 -filter all-wo-channel 
+INFO-FLOW: Preprocessing for RTLGen ...
+Execute       rtl_gen_preprocess StreamingDataWidthConverter_Batch<12u, 108u, 194688u> 
+Execute       rtl_gen_preprocess StreamingDataWidthConverter_Batch<108u, 27u, 21632u> 
+Execute       rtl_gen_preprocess StreamingDataWidthConverter_hls_0 
+INFO-FLOW: Model list for RTL generation: {StreamingDataWidthConverter_Batch<12u, 108u, 194688u>} {StreamingDataWidthConverter_Batch<108u, 27u, 21632u>} StreamingDataWidthConverter_hls_0
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingDataWidthConverter_Batch_12u_108u_194688u_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> -top_prefix StreamingDataWidthConverter_hls_0_ -sub_prefix StreamingDataWidthConverter_hls_0_ -mg_file /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingDataWidthConverter_Batch_12u_108u_194688u_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 799.043 MB.
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.rtl_wrap.cfg.tcl 
+Execute       gen_rtl StreamingDataWidthConverter_Batch<12u, 108u, 194688u> -style xilinx -f -lang vhdl -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/vhdl/StreamingDataWidthConverter_hls_0_StreamingDataWidthConverter_Batch_12u_108u_194688u_s 
+Execute       gen_rtl StreamingDataWidthConverter_Batch<12u, 108u, 194688u> -style xilinx -f -lang vlog -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/verilog/StreamingDataWidthConverter_hls_0_StreamingDataWidthConverter_Batch_12u_108u_194688u_s 
+Execute       syn_report -csynth -model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/report/StreamingDataWidthConverter_Batch_12u_108u_194688u_s_csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       syn_report -rtlxml -model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/report/StreamingDataWidthConverter_Batch_12u_108u_194688u_s_csynth.xml 
+Execute       syn_report -verbosereport -model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s.verbose.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> -f -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s.adb 
+Execute       db_write -model StreamingDataWidthConverter_Batch<12u, 108u, 194688u> -bindview -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info StreamingDataWidthConverter_Batch<12u, 108u, 194688u> -p /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingDataWidthConverter_Batch_108u_27u_21632u_s' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> -top_prefix StreamingDataWidthConverter_hls_0_ -sub_prefix StreamingDataWidthConverter_hls_0_ -mg_file /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s.compgen.tcl 
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingDataWidthConverter_Batch_108u_27u_21632u_s'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.12 seconds; current allocated memory: 799.863 MB.
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.rtl_wrap.cfg.tcl 
+Execute       gen_rtl StreamingDataWidthConverter_Batch<108u, 27u, 21632u> -style xilinx -f -lang vhdl -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/vhdl/StreamingDataWidthConverter_hls_0_StreamingDataWidthConverter_Batch_108u_27u_21632u_s 
+Execute       gen_rtl StreamingDataWidthConverter_Batch<108u, 27u, 21632u> -style xilinx -f -lang vlog -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/verilog/StreamingDataWidthConverter_hls_0_StreamingDataWidthConverter_Batch_108u_27u_21632u_s 
+Execute       syn_report -csynth -model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/report/StreamingDataWidthConverter_Batch_108u_27u_21632u_s_csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       syn_report -rtlxml -model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/report/StreamingDataWidthConverter_Batch_108u_27u_21632u_s_csynth.xml 
+Execute       syn_report -verbosereport -model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s.verbose.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> -f -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s.adb 
+Execute       db_write -model StreamingDataWidthConverter_Batch<108u, 27u, 21632u> -bindview -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info StreamingDataWidthConverter_Batch<108u, 27u, 21632u> -p /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'StreamingDataWidthConverter_hls_0' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+Execute       create_rtl_model StreamingDataWidthConverter_hls_0 -top_prefix  -sub_prefix StreamingDataWidthConverter_hls_0_ -mg_file /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.compgen.tcl 
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'StreamingDataWidthConverter_hls_0/in0_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'StreamingDataWidthConverter_hls_0/out_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'StreamingDataWidthConverter_hls_0' to 'ap_ctrl_none'.
+WARNING: [HLS 200-656] Deadlocks can occur since process StreamingDataWidthConverter_Batch<12u, 108u, 194688u> is instantiated in a dataflow region with ap_ctrl_none or without start propagation and contains an auto-rewind pipeline.
+WARNING: [HLS 200-656] Deadlocks can occur since process StreamingDataWidthConverter_Batch<108u, 27u, 21632u> is instantiated in a dataflow region with ap_ctrl_none or without start propagation and contains an auto-rewind pipeline.
+WARNING: [HLS 200-656] Deadlocks can occur since process StreamingDataWidthConverter_Batch<12u, 108u, 194688u> is instantiated in a dataflow region with ap_ctrl_none or without start propagation and contains an auto-rewind pipeline.
+INFO: [HLS 200-633] Setting ap_ctrl_none interface for StreamingDataWidthConverter_hls_0
+INFO: [RTGEN 206-100] Finished creating RTL model for 'StreamingDataWidthConverter_hls_0'.
+INFO: [RTMG 210-285] Implementing FIFO 'intermediate_U(StreamingDataWidthConverter_hls_0_fifo_w108_d2_S)' using Shift Registers.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.17 seconds. CPU system time: 0 seconds. Elapsed time: 0.18 seconds; current allocated memory: 800.707 MB.
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.rtl_wrap.cfg.tcl 
+Execute       gen_rtl StreamingDataWidthConverter_hls_0 -istop -style xilinx -f -lang vhdl -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/vhdl/StreamingDataWidthConverter_hls_0 
+Execute       gen_rtl StreamingDataWidthConverter_hls_0 -istop -style xilinx -f -lang vlog -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/verilog/StreamingDataWidthConverter_hls_0 
+Execute       syn_report -csynth -model StreamingDataWidthConverter_hls_0 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/report/StreamingDataWidthConverter_hls_0_csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       syn_report -rtlxml -model StreamingDataWidthConverter_hls_0 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/report/StreamingDataWidthConverter_hls_0_csynth.xml 
+Execute       syn_report -verbosereport -model StreamingDataWidthConverter_hls_0 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.verbose.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       db_write -model StreamingDataWidthConverter_hls_0 -f -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.adb 
+Execute       db_write -model StreamingDataWidthConverter_hls_0 -bindview -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/design.bindinfo.xml 
+Execute       gen_tb_info StreamingDataWidthConverter_hls_0 -p /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0 
+Execute       export_constraint_db -f -tool general -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.constraint.tcl 
+Execute       syn_report -designview -model StreamingDataWidthConverter_hls_0 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.design.xml 
+Execute       syn_report -csynthDesign -model StreamingDataWidthConverter_hls_0 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/report/csynth.rpt 
+Execute         AP::get_flow_target_display_name
+Execute       syn_report -wcfg -model StreamingDataWidthConverter_hls_0 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0_dataflow_ana.wcfg 
+Execute       syn_report -protoinst -model StreamingDataWidthConverter_hls_0 -o /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.protoinst 
+Execute       sc_get_clocks StreamingDataWidthConverter_hls_0 
+Execute       sc_get_portdomain StreamingDataWidthConverter_hls_0 
+INFO-FLOW: Model list for RTL component generation: {StreamingDataWidthConverter_Batch<12u, 108u, 194688u>} {StreamingDataWidthConverter_Batch<108u, 27u, 21632u>} StreamingDataWidthConverter_hls_0
+INFO-FLOW: Handling components in module [StreamingDataWidthConverter_Batch_12u_108u_194688u_s] ... 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s.compgen.tcl 
+INFO-FLOW: Found component StreamingDataWidthConverter_hls_0_regslice_both.
+INFO-FLOW: Append model StreamingDataWidthConverter_hls_0_regslice_both
+INFO-FLOW: Found component StreamingDataWidthConverter_hls_0_flow_control_loop_pipe.
+INFO-FLOW: Append model StreamingDataWidthConverter_hls_0_flow_control_loop_pipe
+INFO-FLOW: Handling components in module [StreamingDataWidthConverter_Batch_108u_27u_21632u_s] ... 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s.compgen.tcl 
+INFO-FLOW: Found component StreamingDataWidthConverter_hls_0_regslice_both.
+INFO-FLOW: Append model StreamingDataWidthConverter_hls_0_regslice_both
+INFO-FLOW: Found component StreamingDataWidthConverter_hls_0_flow_control_loop_pipe.
+INFO-FLOW: Append model StreamingDataWidthConverter_hls_0_flow_control_loop_pipe
+INFO-FLOW: Handling components in module [StreamingDataWidthConverter_hls_0] ... 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.compgen.tcl 
+INFO-FLOW: Found component StreamingDataWidthConverter_hls_0_fifo_w108_d2_S.
+INFO-FLOW: Append model StreamingDataWidthConverter_hls_0_fifo_w108_d2_S
+INFO-FLOW: Append model StreamingDataWidthConverter_Batch_12u_108u_194688u_s
+INFO-FLOW: Append model StreamingDataWidthConverter_Batch_108u_27u_21632u_s
+INFO-FLOW: Append model StreamingDataWidthConverter_hls_0
+INFO-FLOW: Generating RTL model list ...
+INFO-FLOW: All models in this session: StreamingDataWidthConverter_hls_0_regslice_both StreamingDataWidthConverter_hls_0_flow_control_loop_pipe StreamingDataWidthConverter_hls_0_regslice_both StreamingDataWidthConverter_hls_0_flow_control_loop_pipe StreamingDataWidthConverter_hls_0_fifo_w108_d2_S StreamingDataWidthConverter_Batch_12u_108u_194688u_s StreamingDataWidthConverter_Batch_108u_27u_21632u_s StreamingDataWidthConverter_hls_0
+INFO-FLOW: Generating /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/autopilot.rtl.models.txt file...
+INFO-FLOW: To file: write model StreamingDataWidthConverter_hls_0_regslice_both
+INFO-FLOW: To file: write model StreamingDataWidthConverter_hls_0_flow_control_loop_pipe
+INFO-FLOW: To file: write model StreamingDataWidthConverter_hls_0_regslice_both
+INFO-FLOW: To file: write model StreamingDataWidthConverter_hls_0_flow_control_loop_pipe
+INFO-FLOW: To file: write model StreamingDataWidthConverter_hls_0_fifo_w108_d2_S
+INFO-FLOW: To file: write model StreamingDataWidthConverter_Batch_12u_108u_194688u_s
+INFO-FLOW: To file: write model StreamingDataWidthConverter_Batch_108u_27u_21632u_s
+INFO-FLOW: To file: write model StreamingDataWidthConverter_hls_0
+INFO-FLOW: Generating /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/autopilot.rtl.models.tcl file...
+INFO-FLOW: Finished generating RTL model list.
+
+
+INFO-FLOW: RTL Generation done.
+INFO-FLOW: CAS Generation done.
+INFO-FLOW: CBC Generation done.
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate_csynth_design
+INFO-FLOW: DBG:PUTS: read_platform_lib /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/common.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/interface.gen 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/xilinx.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/plb46.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/axi4.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute           source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/saxilite.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfir.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/util.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfft.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command       ap_source done; 0.12 sec.
+INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::generate_ip_cores gen_sim_model='1' gen_fp_models='0' gen_for_export='0' dstSCDir='' dstVhdlDir='/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/vhdl' dstVlogDir='/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/vlog' tclDir='/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db' modelList='StreamingDataWidthConverter_hls_0_regslice_both
+StreamingDataWidthConverter_hls_0_flow_control_loop_pipe
+StreamingDataWidthConverter_hls_0_regslice_both
+StreamingDataWidthConverter_hls_0_flow_control_loop_pipe
+StreamingDataWidthConverter_hls_0_fifo_w108_d2_S
+StreamingDataWidthConverter_Batch_12u_108u_194688u_s
+StreamingDataWidthConverter_Batch_108u_27u_21632u_s
+StreamingDataWidthConverter_hls_0
+' expOnly='0'
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s.compgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s.compgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.compgen.tcl 
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0.28 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.3 seconds; current allocated memory: 803.695 MB.
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::create_csynth_xml bind_info_var='bind_info' RtlSubPrefix='StreamingDataWidthConverter_hls_0_' outfile=''
+INFO-FLOW: Running: create_csynth_xml read xml data
+INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml bind info
+INFO-FLOW: Done: create_csynth_xml bind info time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml config info
+INFO-FLOW: Done: create_csynth_xml config info time: 0 seconds per iteration
+INFO-FLOW: Running: create_csynth_xml write xml
+INFO-FLOW: Done: create_csynth_xml write xml time: 0 seconds per iteration
+INFO-FLOW: DBG:PUTS:      create_csynth_xml wrote csynth_xml=/tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/syn/report/csynth.xml
+INFO-FLOW: DBG:PROC: ::AP::DESIGN_DATA::generate_json generate_bd_files='0' generate_xo_files='0' modelList='StreamingDataWidthConverter_hls_0_regslice_both
+StreamingDataWidthConverter_hls_0_flow_control_loop_pipe
+StreamingDataWidthConverter_hls_0_regslice_both
+StreamingDataWidthConverter_hls_0_flow_control_loop_pipe
+StreamingDataWidthConverter_hls_0_fifo_w108_d2_S
+StreamingDataWidthConverter_Batch_12u_108u_194688u_s
+StreamingDataWidthConverter_Batch_108u_27u_21632u_s
+StreamingDataWidthConverter_hls_0
+' rtl_lang='both' bootstrap_tcl='false' outdir='' outfilename=''
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top-io-be.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.rtl_wrap.cfg.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.compgen.dataonly.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s.tbgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s.tbgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute       ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute       ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.constraint.tcl 
+Execute       sc_get_clocks StreamingDataWidthConverter_hls_0 
+Execute       source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::add_csynth_report_sections bind_info_dict='adapter_nodes {} report_dict {TOPINST StreamingDataWidthConverter_hls_0 MODULE2INSTS {StreamingDataWidthConverter_hls_0 StreamingDataWidthConverter_hls_0 StreamingDataWidthConverter_Batch_12u_108u_194688u_s StreamingDataWidthConverter_Batch_12u_108u_194688u_U0 StreamingDataWidthConverter_Batch_108u_27u_21632u_s StreamingDataWidthConverter_Batch_108u_27u_21632u_U0} INST2MODULE {StreamingDataWidthConverter_hls_0 StreamingDataWidthConverter_hls_0 StreamingDataWidthConverter_Batch_12u_108u_194688u_U0 StreamingDataWidthConverter_Batch_12u_108u_194688u_s StreamingDataWidthConverter_Batch_108u_27u_21632u_U0 StreamingDataWidthConverter_Batch_108u_27u_21632u_s} INSTDATA {StreamingDataWidthConverter_hls_0 {DEPTH 1 CHILDREN {StreamingDataWidthConverter_Batch_12u_108u_194688u_U0 StreamingDataWidthConverter_Batch_108u_27u_21632u_U0}} StreamingDataWidthConverter_Batch_12u_108u_194688u_U0 {DEPTH 2 CHILDREN {}} StreamingDataWidthConverter_Batch_108u_27u_21632u_U0 {DEPTH 2 CHILDREN {}}} MODULEDATA {StreamingDataWidthConverter_Batch_12u_108u_194688u_s {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME t_2_fu_105_p2 SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:557 VARIABLE t_2 LOOP VITIS_LOOP_557_3 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME i_1_fu_118_p2 SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:564 VARIABLE i_1 LOOP VITIS_LOOP_557_3 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}}} AREA {DSP 0 BRAM 0 URAM 0}} StreamingDataWidthConverter_Batch_108u_27u_21632u_s {BINDINFO {{BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME t_4_fu_114_p2 SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:526 VARIABLE t_4 LOOP VITIS_LOOP_526_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME o_4_fu_126_p2 SOURCE /media/clr/XIlinx/finn/deps/finn-hlslib/streamtools.h:538 VARIABLE o_4 LOOP VITIS_LOOP_526_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_op add}}} AREA {DSP 0 BRAM 0 URAM 0}} StreamingDataWidthConverter_hls_0 {BINDINFO {{BINDTYPE storage ID {} IMPL srl LATENCY 0 OPTYPE fifo PRAGMA {} RTLNAME intermediate_U SOURCE /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/top_StreamingDataWidthConverter_hls_0.cpp:23 VARIABLE intermediate LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 DISPNAME {bind_storage fifo}}} AREA {DSP 0 BRAM 0 URAM 0}}}}'
+INFO-FLOW: DBG:PUTS:      update_csynth_reports json2rpt_hw_sw_interfaces
+INFO-FLOW: Running: gen_csynth_sec_pragma
+INFO-FLOW: Done: gen_csynth_sec_pragma time: 0.1 seconds per iteration
+INFO-FLOW: DBG:PUTS:      update_csynth_reports wrote xml
+INFO-FLOW: DBG:PUTS:      update_csynth_reports appended to csynth rpt file
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0.4 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.41 seconds; current allocated memory: 806.621 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for StreamingDataWidthConverter_hls_0.
+INFO: [VLOG 209-307] Generating Verilog RTL for StreamingDataWidthConverter_hls_0.
+Execute       syn_report -model StreamingDataWidthConverter_hls_0 -printsummary 
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 131.73 MHz
+Command     autosyn done; 1.4 sec.
+Command   csynth_design done; 17.06 sec.
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 15.43 seconds. CPU system time: 1.55 seconds. Elapsed time: 17.06 seconds; current allocated memory: 58.531 MB.
+Execute   export_design -format ip_catalog 
+INFO: [HLS 200-1510] Running: export_design -format ip_catalog 
+Execute     config_export -format=ip_catalog 
+INFO-FLOW: DBG:PUTS: export_design_wrap: -format ip_catalog -rtl verilog
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS:   auto_impl: pack: -export -rtl verilog
+INFO-FLOW: DBG:PROC: ::AESL_AUTOIMPL::auto_impl args='-export -rtl verilog'
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS: automg_wrap -export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag
+INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::auto_generate args='-export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag'
+INFO-FLOW: DBG:PUTS:     auto_generate -export -pcore_version 1.00.a -rtl vlog -tool Vivado -impltomg_flag
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS: read_platform_lib /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/common.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/interface.gen 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/saxilite.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/util.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command     ap_source done; 0.12 sec.
+INFO-FLOW: DBG:PUTS:       initCTypeInfo top_module=StreamingDataWidthConverter_hls_0 xml_exists=0
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+INFO-FLOW: DBG:PUTS:       cosim_export_main adding deadlock detection to StreamingDataWidthConverter_hls_0
+INFO-FLOW: DBG:PUTS: Skipping loadAnalyze_DB, #g_database=2
+INFO-FLOW: DBG:PUTS:       generate_json generate_bd_files=0 generate_xo_files=false #modelList=8 #gSsdmPorts=0
+INFO-FLOW: DBG:PROC: ::AP::DESIGN_DATA::generate_json generate_bd_files='0' generate_xo_files='false' modelList='StreamingDataWidthConverter_hls_0_regslice_both
+StreamingDataWidthConverter_hls_0_flow_control_loop_pipe
+StreamingDataWidthConverter_hls_0_regslice_both
+StreamingDataWidthConverter_hls_0_flow_control_loop_pipe
+StreamingDataWidthConverter_hls_0_fifo_w108_d2_S
+StreamingDataWidthConverter_Batch_12u_108u_194688u_s
+StreamingDataWidthConverter_Batch_108u_27u_21632u_s
+StreamingDataWidthConverter_hls_0
+' rtl_lang='vlog' bootstrap_tcl='false' outdir='' outfilename=''
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/top-io-be.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.compgen.dataonly.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_12u_108u_194688u_s.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_Batch_108u_27u_21632u_s.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.constraint.tcl 
+Execute     sc_get_clocks StreamingDataWidthConverter_hls_0 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+INFO-FLOW: DBG:PUTS:       cosim_export_main adding deadlock detection to StreamingDataWidthConverter_hls_0
+INFO-FLOW: DBG:PUTS:       generate_ip_script #gSsdmPorts=0 g_lang=vlog is_sdaccel=false is_sdsoc=true xo_file=
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS:       generate_top_info
+INFO-FLOW: DBG:PUTS:       prepArgInfo -> loadAnalyze_DB top_module=StreamingDataWidthConverter_hls_0
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.rtl_wrap.cfg.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.constraint.tcl 
+INFO-FLOW: DBG:PUTS:       generate_ipi_example_script
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+INFO-FLOW: DBG:PUTS:       generate_syn_sh
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+INFO-FLOW: DBG:PUTS:       generate_imp_constraints
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.constraint.tcl 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/StreamingDataWidthConverter_hls_0.tbgen.tcl 
+INFO-FLOW: DBG:PUTS:       delete-temp-dirs (skipped for debug)
+Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
+Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+INFO-FLOW: DBG:PUTS: read_platform_lib /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/common.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/APCoreGen.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/op_simcore.gen 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/generic/autopilot/interface.gen 
+Execute     source /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/.autopilot/db/global.setting.tcl 
+Execute     source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/common/xilinx.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/plb46.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/axi4.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute         source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/saxilite.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfir.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/util.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/xfft.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/ip/dds_compiler.gen 
+Execute       source /media/clr/XIlinx/Vitis_HLS/2022.2/common/technology/xilinx/DSP48/dsp48.gen 
+Command     ap_source done; 0.12 sec.
+INFO-FLOW: DBG:PUTS:     IP package: exec /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/impl/ip/pack.sh
+INFO-FLOW: DBG:PUTS:     IP package: success /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/impl/ip/pack.sh
+Execute     send_msg_by_id INFO @200-802@%s project_StreamingDataWidthConverter_hls_0/sol1/impl/export.zip 
+INFO: [HLS 200-802] Generated output file project_StreamingDataWidthConverter_hls_0/sol1/impl/export.zip
+Command   export_design done; 19.45 sec.
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 17.02 seconds. CPU system time: 1.28 seconds. Elapsed time: 19.45 seconds; current allocated memory: 6.449 MB.
+Execute   cleanup_all 

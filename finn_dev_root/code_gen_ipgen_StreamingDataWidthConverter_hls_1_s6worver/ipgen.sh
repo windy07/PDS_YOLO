@@ -1,0 +1,4 @@
+#!/bin/bash 
+cd /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_1_s6worver
+vitis_hls /tmp/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_1_s6worver/hls_syn_StreamingDataWidthConverter_hls_1.tcl
+cd /media/clr/XIlinx/finn

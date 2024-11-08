@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Nov  8 15:27:16 2024
+# Process ID: 27008
+# Current directory: /tmp/finn_dev_root/synth_out_of_context_4mza9pi4/results_finn_design_wrapper/vivadocompile/vivadocompile.runs/synth_1
+# Command line: vivado -log finn_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source finn_design_wrapper.tcl
+# Log file: /tmp/finn_dev_root/synth_out_of_context_4mza9pi4/results_finn_design_wrapper/vivadocompile/vivadocompile.runs/synth_1/finn_design_wrapper.vds
+# Journal file: /tmp/finn_dev_root/synth_out_of_context_4mza9pi4/results_finn_design_wrapper/vivadocompile/vivadocompile.runs/synth_1/vivado.jou
+# Running On: finn_dev_root, OS: Linux, CPU Frequency: 2637.532 MHz, CPU Physical cores: 12, Host memory: 16475 MB
+#-----------------------------------------------------------
+source finn_design_wrapper.tcl -notrace

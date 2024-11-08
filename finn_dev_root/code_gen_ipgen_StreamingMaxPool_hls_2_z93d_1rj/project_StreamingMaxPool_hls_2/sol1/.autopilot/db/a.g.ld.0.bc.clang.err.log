@@ -1,0 +1,5 @@
+remark: /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:161:29: Loop 'VITIS_LOOP_161_7' is marked as complete unroll implied by the pipeline pragma
+remark: /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:142:0: Unrolling loop 'VITIS_LOOP_161_7' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:161:29) in function 'StreamingMaxPool_Precision<104u, 2u, 16u, ap_uint<3>, 0, 48>' completely with a factor of 16
+remark: /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:142:0: Unrolling loop 'VITIS_LOOP_175_9' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:175:25) in function 'StreamingMaxPool_Precision<104u, 2u, 16u, ap_uint<3>, 0, 48>' completely with a factor of 16
+remark: /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:142:0: Unrolling loop 'VITIS_LOOP_148_2' (/media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:148:23) in function 'StreamingMaxPool_Precision<104u, 2u, 16u, ap_uint<3>, 0, 48>' completely with a factor of 16
+remark: /media/clr/XIlinx/finn/deps/finn-hlslib/maxpool.h:145:11: Applying array_partition to 'buf': Complete partitioning on dimension 2.

@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "StreamingMaxPool_hls_0",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/tmp\/finn_dev_root\/code_gen_ipgen_StreamingMaxPool_hls_0_5ojjcg8a\/hls_syn_StreamingMaxPool_hls_0.tcl",
+          "sourceLine": "29",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "StreamingMaxPool_hls_0"
+              }]
+          }
+        }]
+    }]}
