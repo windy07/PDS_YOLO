@@ -1,0 +1,48 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc
+E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p
+xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd
+
+Reading NGO file
+"E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_h
+dmi_colorbar.ngc" ...
+Loading design module "ipcore_dir/convert_30to15_fifo.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf"
+...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC "TS_sys_clk" = PERIOD
+   "sys_clk"  20  ns HIGH 50 %;>
+   [E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.uc
+   f(2)]: Unable to find an active 'TNM' or 'TimeGrp' constraint named
+   'sys_clk'.
+
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Total memory usage is 166048 kilobytes
+
+Writing NGD file "top_hdmi_colorbar.ngd" ...
+Total REAL time to NGDBUILD completion:  1 sec
+Total CPU time to NGDBUILD completion:   1 sec
+
+Writing NGDBUILD log file "top_hdmi_colorbar.bld"...

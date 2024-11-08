@@ -1,0 +1,62 @@
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.xst" -ofn "C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ngd top_hdmi_colorbar.pcf 
+par -w -intstyle ise -ol high -mt off top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ncd top_hdmi_colorbar.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_hdmi_colorbar.twx top_hdmi_colorbar.ncd -o top_hdmi_colorbar.twr top_hdmi_colorbar.pcf 
+bitgen -intstyle ise -f top_hdmi_colorbar.ut top_hdmi_colorbar.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.xst" -ofn "C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ngd top_hdmi_colorbar.pcf 
+par -w -intstyle ise -ol high -mt off top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ncd top_hdmi_colorbar.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_hdmi_colorbar.twx top_hdmi_colorbar.ncd -o top_hdmi_colorbar.twr top_hdmi_colorbar.pcf 
+bitgen -intstyle ise -f top_hdmi_colorbar.ut top_hdmi_colorbar.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.xst" -ofn "C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.syr" 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.xst" -ofn "C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ngd top_hdmi_colorbar.pcf 
+par -w -intstyle ise -ol high -mt off top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ncd top_hdmi_colorbar.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_hdmi_colorbar.twx top_hdmi_colorbar.ncd -o top_hdmi_colorbar.twr top_hdmi_colorbar.pcf 
+bitgen -intstyle ise -f top_hdmi_colorbar.ut top_hdmi_colorbar.ncd 
+xst -intstyle ise -ifn "C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.xst" -ofn "C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Users/Administrator/Desktop/pro/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ngd top_hdmi_colorbar.pcf 
+par -w -intstyle ise -ol high -mt off top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ncd top_hdmi_colorbar.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_hdmi_colorbar.twx top_hdmi_colorbar.ncd -o top_hdmi_colorbar.twr top_hdmi_colorbar.pcf 
+bitgen -intstyle ise -f top_hdmi_colorbar.ut top_hdmi_colorbar.ncd 
+xst -intstyle ise -ifn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.xst" -ofn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ngd top_hdmi_colorbar.pcf 
+par -w -intstyle ise -ol high -mt off top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ncd top_hdmi_colorbar.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_hdmi_colorbar.twx top_hdmi_colorbar.ncd -o top_hdmi_colorbar.twr top_hdmi_colorbar.pcf 
+bitgen -intstyle ise -f top_hdmi_colorbar.ut top_hdmi_colorbar.ncd 
+xst -intstyle ise -ifn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.xst" -ofn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ngd top_hdmi_colorbar.pcf 
+par -w -intstyle ise -ol high -mt off top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ncd top_hdmi_colorbar.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_hdmi_colorbar.twx top_hdmi_colorbar.ncd -o top_hdmi_colorbar.twr top_hdmi_colorbar.pcf 
+bitgen -intstyle ise -f top_hdmi_colorbar.ut top_hdmi_colorbar.ncd 
+xst -intstyle ise -ifn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.xst" -ofn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ngd top_hdmi_colorbar.pcf 
+par -w -intstyle ise -ol high -mt off top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ncd top_hdmi_colorbar.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_hdmi_colorbar.twx top_hdmi_colorbar.ncd -o top_hdmi_colorbar.twr top_hdmi_colorbar.pcf 
+bitgen -intstyle ise -f top_hdmi_colorbar.ut top_hdmi_colorbar.ncd 
+xst -intstyle ise -ifn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.xst" -ofn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ngd top_hdmi_colorbar.pcf 
+par -w -intstyle ise -ol high -mt off top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ncd top_hdmi_colorbar.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_hdmi_colorbar.twx top_hdmi_colorbar.ncd -o top_hdmi_colorbar.twr top_hdmi_colorbar.pcf 
+bitgen -intstyle ise -f top_hdmi_colorbar.ut top_hdmi_colorbar.ncd 
+xst -intstyle ise -ifn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.xst" -ofn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ngd top_hdmi_colorbar.pcf 
+par -w -intstyle ise -ol high -mt off top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ncd top_hdmi_colorbar.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_hdmi_colorbar.twx top_hdmi_colorbar.ncd -o top_hdmi_colorbar.twr top_hdmi_colorbar.pcf 
+bitgen -intstyle ise -f top_hdmi_colorbar.ut top_hdmi_colorbar.ncd 
+xst -intstyle ise -ifn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.xst" -ofn "E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar/top_hdmi_colorbar.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc E:/sp6/chaoyuez/hdmi_colorbar_top/top_hdmi_colorbar/prj/top_hdmi_colorbar.ucf -p xc6slx16-ftg256-2 top_hdmi_colorbar.ngc top_hdmi_colorbar.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ngd top_hdmi_colorbar.pcf 
+par -w -intstyle ise -ol high -mt off top_hdmi_colorbar_map.ncd top_hdmi_colorbar.ncd top_hdmi_colorbar.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml top_hdmi_colorbar.twx top_hdmi_colorbar.ncd -o top_hdmi_colorbar.twr top_hdmi_colorbar.pcf 
+bitgen -intstyle ise -f top_hdmi_colorbar.ut top_hdmi_colorbar.ncd 

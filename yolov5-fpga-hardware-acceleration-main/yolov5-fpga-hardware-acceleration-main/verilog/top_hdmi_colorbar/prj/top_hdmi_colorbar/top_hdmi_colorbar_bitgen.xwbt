@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\sp6\chaoyuez\hdmi_colorbar_top\top_hdmi_colorbar\prj\top_hdmi_colorbar\top_hdmi_colorbar.ncd
+OUTFILE=E:\sp6\chaoyuez\hdmi_colorbar_top\top_hdmi_colorbar\prj\top_hdmi_colorbar\top_hdmi_colorbar.bit
+FAMILY=Spartan6
+PART=xc6slx16-2ftg256
+WORKINGDIR=E:\sp6\chaoyuez\hdmi_colorbar_top\top_hdmi_colorbar\prj\top_hdmi_colorbar
+LICENSE=WebPack
+USER_INFO=__0_0_0
