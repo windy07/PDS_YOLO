@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------------------
+Notes: 
+  Total_num: the numbers of add/sub in rtl
+  Module Name: the module name of the instantiated module calling directly the add/sub sub module
+  Location/Inst Name: if linefile info exists(no optimization), print the codes location of add/sub in rtl, else print the inst name
+  Count: the amount of lutcarry for add/sub
+  Number: the numbers of add/sub with the same lutcarry counts and linefile
+
+Detailed RTL Component Info :
+-----Add :
+               Total_Num :1
+-----Sub :
+               Total_Num :0
+-----AddSub :
+               Total_Num :0
+
+Add_Sub_AddSub: Initial Mapping Report :
+|----------------------|---------|---------|---------|----------------------------------------------------------|
+|Module Name           |Type     |Count    |Number   |Location/Inst Name                                        |
+|----------------------|---------|---------|---------|----------------------------------------------------------|
+|led_test              |Add      |25       |1        |../source/Desktop/01_led_test.v:46                        |
+|----------------------|---------|---------|---------|----------------------------------------------------------|
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+

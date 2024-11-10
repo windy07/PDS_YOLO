@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="compile_source_files" title="Design Files Read" column_number="2">
+        <column_headers>
+            <data>File Name</data>
+            <data>File Type</data>
+        </column_headers>
+        <row>
+            <data>C:/Users/G1320/Desktop/01_led_test/01_led_test/source/Desktop/01_led_test.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/matrix_fifo_buf.idf</data>
+            <data>IP</data>
+        </row>
+    </table>
+    <table id="compile_runtime" title="Compile Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:0m:0s</data>
+            <data>0h:0m:0s</data>
+            <data>0h:0m:3s</data>
+            <data>142</data>
+            <data>WINDOWS 10 x86_64</data>
+            <data>13th Gen Intel(R) Core(TM) i7-13700KF</data>
+            <data>32</data>
+        </row>
+    </table>
+    <table id="compile_messages" title="Compile Messages" column_number="1">
+        <column_headers/>
+        <row>
+            <data message="4">Enable Verilog2k features and keywords</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/G1320/Desktop/01_led_test/01_led_test/source/Desktop/01_led_test.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/G1320/Desktop/01_led_test/01_led_test/source/Desktop/01_led_test.v(line number: 24)] Analyzing module led_test (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_fifo_ctrl_v1_3.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_fifo_ctrl_v1_3.v(line number: 21)] Analyzing module ipml_fifo_ctrl_v1_3 (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 20)] Analyzing module ipml_sdpram_v1_6_matrix_fifo_buf (library work)</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 309)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 310)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 313)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 317)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 321)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 325)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 329)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 330)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 333)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 334)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 337)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 338)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 341)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 342)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 345)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 346)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 349)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 350)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 353)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 354)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 357)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 358)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 361)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 362)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 365)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 366)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 369)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 370)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 374)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 375)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 378)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 379)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 383)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 384)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 387)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 388)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 391)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 392)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 395)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 396)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 399)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 400)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 405)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 406)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 409)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 410)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 415)] Ignore 'system task' $display</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2008: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 416)] Ignore 'system task' $finish</data>
+        </row>
+        <row>
+            <data message="5">Verilog-2010: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v(line number: 307)] Ignore initial statements except memory $readmemh/$readmemb initialization statements</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_fifo_v1_6_matrix_fifo_buf.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/rtl/ipml_fifo_v1_6_matrix_fifo_buf.v(line number: 25)] Analyzing module ipml_fifo_v1_6_matrix_fifo_buf (library work)</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/matrix_fifo_buf.v</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0002: [C:/Users/G1320/Desktop/01_led_test/01_led_test/ipcore/FIFO/matrix_fifo_buf.v(line number: 18)] Analyzing module matrix_fifo_buf (library work)</data>
+        </row>
+        <row>
+            <data message="4">Module &quot;led_test&quot; is set as top module.</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/G1320/Desktop/01_led_test/01_led_test/source/Desktop/01_led_test.v(line number: 24)] Elaborating module led_test</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+    </table>
+    <general_container id="compile_settings">
+        <table_container>
+            <table id="compile_settings" title="Compile Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PGL50H-6FBG484</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>led_test</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>Verilog</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>SystemVerilog</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Allow Duplicate Modules</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Include Path Order: 
+ (Relative to Verilog File)</data>
+                        <data>C:/Users/G1320/Desktop/01_led_test/01_led_test	</data>
+                    </row>
+                    <row>
+                        <data>Parameters/Generics</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Compiler Directives</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Loop Limit</data>
+                        <data>2000</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Options</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>FSM Compiler</data>
+                        <data>auto</data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
+</tables>

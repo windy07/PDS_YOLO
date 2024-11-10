@@ -1,0 +1,2312 @@
+[Info] [2023-2-8 18:53:30] /***************************Start Configuration***************************/
+[Info] [2023-2-8 18:53:30] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-2-8 18:53:30] Version: 99559
+[Info] [2023-2-8 18:53:31] Current Path: C:/Users/w/Desktop/07_hdmi_rx_tx
+[Info] [2023-2-8 18:53:31] PDS Dir Path: C:/Users/w/Desktop/07_hdmi_rx_tx
+[Info] [2023-2-8 18:53:33] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-2-8 18:53:33] Client Local host name:admin
+[Debug] [2023-2-8 18:53:33] Client Local Address:192.168.0.155
+[Debug] [2023-2-8 18:53:33] Server Address:127.0.0.1, Port:65420
+[Info] [2023-2-8 18:53:33] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-2-8 18:53:33] Finish.
+[Info] [2023-2-8 18:53:33] Connect server succeeded
+[Debug] [2023-2-8 18:53:33] Send RPC:1
+[Debug] [2023-2-8 18:53:33] Send cmd [check version information:40005] OK
+[Debug] [2023-2-8 18:53:33] Send RPC:2
+[Debug] [2023-2-8 18:53:33] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-2-8 18:53:33] Begin to send initialize chain cmd...
+[Debug] [2023-2-8 18:53:33] Send RPC:3
+[Debug] [2023-2-8 18:53:33] Send cmd [Open config cable:20001] OK
+[Debug] [2023-2-8 18:53:33] End to send initialize chain cmd.
+[Debug] [2023-2-8 18:53:33] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-2-8 18:53:34] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2023-2-8 18:53:34] begin the exec of open cable cmd...
+[Debug] [2023-2-8 18:53:34] Begin to deal with chain from server...
+[Debug] [2023-2-8 18:53:34] Begin to set user chain...
+[Debug] [2023-2-8 18:53:34] End to set user chain.
+[Debug] [2023-2-8 18:53:34] Begin to update graphic item and tree item ...
+[Debug] [2023-2-8 18:53:34] End to update graphic item and tree item ...
+[Info] [2023-2-8 18:53:36] set OpenLastPath: C:/Users/w/Desktop/07_hdmi_rx_tx/generate_bitstream/hdmi_rx_tx.sbit
+[Debug] [2023-2-8 18:53:36] begin to get device info from CFG file...
+[Debug] [2023-2-8 18:53:36] end to get device info from CFG file...
+[Debug] [2023-2-8 18:53:36] Begin to update graphic item and tree item ...
+[Debug] [2023-2-8 18:53:36] End to update graphic item and tree item ...
+[Debug] [2023-2-8 18:53:36] End to deal wiht chain from server.
+[Debug] [2023-2-8 18:53:36] end the exec of open cable cmd.
+[Debug] [2023-2-8 18:53:36] COMMAND[Open config cable] execute successfully, takes 2.9 secs.
+[Debug] [2023-2-8 18:53:37] Begin to send programming cmd...
+[Debug] [2023-2-8 18:53:37] Send RPC:4
+[Debug] [2023-2-8 18:53:37] Begin to send program data.
+[Debug] [2023-2-8 18:53:37] End to send program data.
+[Debug] [2023-2-8 18:53:37] Send cmd [Program:20002] OK
+[Debug] [2023-2-8 18:53:38] The value of Progress is 6
+[Debug] [2023-2-8 18:53:38] The value of Progress is 10
+[Debug] [2023-2-8 18:53:38] The value of Progress is 15
+[Debug] [2023-2-8 18:53:38] The value of Progress is 20
+[Debug] [2023-2-8 18:53:38] The value of Progress is 25
+[Debug] [2023-2-8 18:53:38] The value of Progress is 30
+[Debug] [2023-2-8 18:53:38] The value of Progress is 35
+[Debug] [2023-2-8 18:53:38] The value of Progress is 40
+[Debug] [2023-2-8 18:53:38] The value of Progress is 45
+[Debug] [2023-2-8 18:53:38] The value of Progress is 50
+[Debug] [2023-2-8 18:53:39] The value of Progress is 55
+[Debug] [2023-2-8 18:53:39] The value of Progress is 60
+[Debug] [2023-2-8 18:53:39] The value of Progress is 65
+[Debug] [2023-2-8 18:53:39] The value of Progress is 70
+[Debug] [2023-2-8 18:53:39] The value of Progress is 75
+[Debug] [2023-2-8 18:53:39] The value of Progress is 80
+[Debug] [2023-2-8 18:53:39] The value of Progress is 85
+[Debug] [2023-2-8 18:53:39] The value of Progress is 90
+[Debug] [2023-2-8 18:53:39] The value of Progress is 95
+[Debug] [2023-2-8 18:53:39] The value of Progress is 100
+[Debug] [2023-2-8 18:53:39] COMMAND[Program] execute successfully, takes 1.9 secs.
+[Debug] [2023-2-8 18:53:39] End to send programming cmd.
+[Info] [2023-2-8 18:53:47] /***************************End Configration***************************/
+[Info] [2023-2-8 20:23:33] /***************************Start Configuration***************************/
+[Info] [2023-2-8 20:23:33] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-2-8 20:23:33] Version: 99559
+[Info] [2023-2-8 20:23:34] Current Path: C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx
+[Info] [2023-2-8 20:23:34] PDS Dir Path: C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx
+[Info] [2023-2-8 20:23:36] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-2-8 20:23:36] Client Local host name:admin
+[Debug] [2023-2-8 20:23:36] Client Local Address:192.168.0.155
+[Debug] [2023-2-8 20:23:36] Server Address:127.0.0.1, Port:65420
+[Info] [2023-2-8 20:23:36] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-2-8 20:23:36] Finish.
+[Info] [2023-2-8 20:23:36] Connect server succeeded
+[Debug] [2023-2-8 20:23:36] Send RPC:1
+[Debug] [2023-2-8 20:23:36] Send cmd [check version information:40005] OK
+[Debug] [2023-2-8 20:23:36] Send RPC:2
+[Debug] [2023-2-8 20:23:36] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-2-8 20:23:36] Begin to send initialize chain cmd...
+[Debug] [2023-2-8 20:23:36] Send RPC:3
+[Debug] [2023-2-8 20:23:36] Send cmd [Open config cable:20001] OK
+[Debug] [2023-2-8 20:23:36] End to send initialize chain cmd.
+[Debug] [2023-2-8 20:23:36] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-2-8 20:23:37] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-2-8 20:23:37] begin the exec of open cable cmd...
+[Debug] [2023-2-8 20:23:37] Begin to deal with chain from server...
+[Debug] [2023-2-8 20:23:37] Begin to set user chain...
+[Debug] [2023-2-8 20:23:37] End to set user chain.
+[Debug] [2023-2-8 20:23:37] Begin to update graphic item and tree item ...
+[Debug] [2023-2-8 20:23:37] End to update graphic item and tree item ...
+[Info] [2023-2-8 20:24:15] set OpenLastPath: C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/generate_bitstream/hdmi_rx_tx.sbit
+[Debug] [2023-2-8 20:24:15] begin to get device info from CFG file...
+[Debug] [2023-2-8 20:24:15] end to get device info from CFG file...
+[Debug] [2023-2-8 20:24:15] Begin to update graphic item and tree item ...
+[Debug] [2023-2-8 20:24:15] End to update graphic item and tree item ...
+[Debug] [2023-2-8 20:24:16] End to deal wiht chain from server.
+[Debug] [2023-2-8 20:24:16] end the exec of open cable cmd.
+[Debug] [2023-2-8 20:24:16] COMMAND[Open config cable] execute successfully, takes 39.9 secs.
+[Info] [2023-2-8 20:24:17] /***************************End Configration***************************/
+[Info] [2023-2-8 20:24:18] /***************************Start Configuration***************************/
+[Info] [2023-2-8 20:24:18] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-2-8 20:24:18] Version: 99559
+[Info] [2023-2-8 20:24:19] Current Path: C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx
+[Info] [2023-2-8 20:24:19] PDS Dir Path: C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx
+[Info] [2023-2-8 20:24:21] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-2-8 20:24:21] Client Local host name:admin
+[Debug] [2023-2-8 20:24:21] Client Local Address:192.168.0.155
+[Debug] [2023-2-8 20:24:21] Server Address:127.0.0.1, Port:65420
+[Info] [2023-2-8 20:24:21] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-2-8 20:24:21] Finish.
+[Info] [2023-2-8 20:24:21] Connect server succeeded
+[Debug] [2023-2-8 20:24:21] Send RPC:1
+[Debug] [2023-2-8 20:24:21] Send cmd [check version information:40005] OK
+[Debug] [2023-2-8 20:24:21] Send RPC:2
+[Debug] [2023-2-8 20:24:21] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-2-8 20:24:21] Begin to send initialize chain cmd...
+[Debug] [2023-2-8 20:24:21] Send RPC:3
+[Debug] [2023-2-8 20:24:21] Send cmd [Open config cable:20001] OK
+[Debug] [2023-2-8 20:24:21] End to send initialize chain cmd.
+[Debug] [2023-2-8 20:24:21] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-2-8 20:24:21] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-2-8 20:24:23] begin the exec of open cable cmd...
+[Debug] [2023-2-8 20:24:23] Begin to deal with chain from server...
+[Debug] [2023-2-8 20:24:23] Begin to set user chain...
+[Debug] [2023-2-8 20:24:23] End to set user chain.
+[Debug] [2023-2-8 20:24:23] Begin to update graphic item and tree item ...
+[Debug] [2023-2-8 20:24:23] End to update graphic item and tree item ...
+[Info] [2023-2-8 20:24:25] set OpenLastPath: C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/generate_bitstream/hdmi_rx_tx.sbit
+[Debug] [2023-2-8 20:24:25] begin to get device info from CFG file...
+[Debug] [2023-2-8 20:24:25] end to get device info from CFG file...
+[Debug] [2023-2-8 20:24:25] Begin to update graphic item and tree item ...
+[Debug] [2023-2-8 20:24:25] End to update graphic item and tree item ...
+[Debug] [2023-2-8 20:24:25] End to deal wiht chain from server.
+[Debug] [2023-2-8 20:24:25] end the exec of open cable cmd.
+[Debug] [2023-2-8 20:24:25] COMMAND[Open config cable] execute successfully, takes 4.6 secs.
+[Debug] [2023-2-8 20:24:27] Begin to send programming cmd...
+[Debug] [2023-2-8 20:24:27] Send RPC:4
+[Debug] [2023-2-8 20:24:27] Begin to send program data.
+[Debug] [2023-2-8 20:24:27] End to send program data.
+[Debug] [2023-2-8 20:24:27] Send cmd [Program:20002] OK
+[Debug] [2023-2-8 20:24:27] The value of Progress is 6
+[Debug] [2023-2-8 20:24:27] The value of Progress is 10
+[Debug] [2023-2-8 20:24:27] The value of Progress is 15
+[Debug] [2023-2-8 20:24:27] The value of Progress is 20
+[Debug] [2023-2-8 20:24:27] The value of Progress is 25
+[Debug] [2023-2-8 20:24:27] The value of Progress is 30
+[Debug] [2023-2-8 20:24:27] The value of Progress is 35
+[Debug] [2023-2-8 20:24:27] The value of Progress is 40
+[Debug] [2023-2-8 20:24:27] The value of Progress is 45
+[Debug] [2023-2-8 20:24:28] The value of Progress is 50
+[Debug] [2023-2-8 20:24:28] The value of Progress is 55
+[Debug] [2023-2-8 20:24:28] The value of Progress is 60
+[Debug] [2023-2-8 20:24:28] The value of Progress is 65
+[Debug] [2023-2-8 20:24:28] The value of Progress is 70
+[Debug] [2023-2-8 20:24:28] The value of Progress is 75
+[Debug] [2023-2-8 20:24:28] The value of Progress is 80
+[Debug] [2023-2-8 20:24:28] The value of Progress is 85
+[Debug] [2023-2-8 20:24:28] The value of Progress is 90
+[Debug] [2023-2-8 20:24:28] The value of Progress is 95
+[Debug] [2023-2-8 20:24:28] The value of Progress is 100
+[Debug] [2023-2-8 20:24:28] COMMAND[Program] execute successfully, takes 1.9 secs.
+[Debug] [2023-2-8 20:24:28] End to send programming cmd.
+[Info] [2023-2-8 20:25:07] /***************************End Configration***************************/
+[Info] [2023-2-8 20:25:17] /***************************Start Configuration***************************/
+[Info] [2023-2-8 20:25:17] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-2-8 20:25:17] Version: 99559
+[Info] [2023-2-8 20:25:18] Current Path: C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx
+[Info] [2023-2-8 20:25:18] PDS Dir Path: C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx
+[Info] [2023-2-8 20:25:19] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-2-8 20:25:19] Client Local host name:admin
+[Debug] [2023-2-8 20:25:19] Client Local Address:192.168.0.155
+[Debug] [2023-2-8 20:25:19] Server Address:127.0.0.1, Port:65420
+[Info] [2023-2-8 20:25:20] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-2-8 20:25:20] Finish.
+[Info] [2023-2-8 20:25:20] Connect server succeeded
+[Debug] [2023-2-8 20:25:20] Send RPC:1
+[Debug] [2023-2-8 20:25:20] Send cmd [check version information:40005] OK
+[Debug] [2023-2-8 20:25:20] Send RPC:2
+[Debug] [2023-2-8 20:25:20] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-2-8 20:25:20] Begin to send initialize chain cmd...
+[Debug] [2023-2-8 20:25:20] Send RPC:3
+[Debug] [2023-2-8 20:25:20] Send cmd [Open config cable:20001] OK
+[Debug] [2023-2-8 20:25:20] End to send initialize chain cmd.
+[Debug] [2023-2-8 20:25:20] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-2-8 20:25:20] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-2-8 20:25:21] begin the exec of open cable cmd...
+[Debug] [2023-2-8 20:25:21] Begin to deal with chain from server...
+[Debug] [2023-2-8 20:25:21] Begin to set user chain...
+[Debug] [2023-2-8 20:25:21] End to set user chain.
+[Debug] [2023-2-8 20:25:21] Begin to update graphic item and tree item ...
+[Debug] [2023-2-8 20:25:21] End to update graphic item and tree item ...
+[Info] [2023-2-8 20:25:23] set OpenLastPath: C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/generate_bitstream/hdmi_rx_tx.sbit
+[Debug] [2023-2-8 20:25:23] begin to get device info from CFG file...
+[Debug] [2023-2-8 20:25:23] end to get device info from CFG file...
+[Debug] [2023-2-8 20:25:23] Begin to update graphic item and tree item ...
+[Debug] [2023-2-8 20:25:23] End to update graphic item and tree item ...
+[Debug] [2023-2-8 20:25:23] End to deal wiht chain from server.
+[Debug] [2023-2-8 20:25:23] end the exec of open cable cmd.
+[Debug] [2023-2-8 20:25:23] COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2023-2-8 20:25:24] Begin to send programming cmd...
+[Debug] [2023-2-8 20:25:24] Send RPC:4
+[Debug] [2023-2-8 20:25:24] Begin to send program data.
+[Debug] [2023-2-8 20:25:24] End to send program data.
+[Debug] [2023-2-8 20:25:24] Send cmd [Program:20002] OK
+[Debug] [2023-2-8 20:25:24] The value of Progress is 6
+[Debug] [2023-2-8 20:25:24] The value of Progress is 10
+[Debug] [2023-2-8 20:25:25] The value of Progress is 15
+[Debug] [2023-2-8 20:25:25] The value of Progress is 20
+[Debug] [2023-2-8 20:25:25] The value of Progress is 25
+[Debug] [2023-2-8 20:25:25] The value of Progress is 30
+[Debug] [2023-2-8 20:25:25] The value of Progress is 35
+[Debug] [2023-2-8 20:25:25] The value of Progress is 40
+[Debug] [2023-2-8 20:25:25] The value of Progress is 45
+[Debug] [2023-2-8 20:25:25] The value of Progress is 50
+[Debug] [2023-2-8 20:25:25] The value of Progress is 55
+[Debug] [2023-2-8 20:25:25] The value of Progress is 60
+[Debug] [2023-2-8 20:25:25] The value of Progress is 65
+[Debug] [2023-2-8 20:25:26] The value of Progress is 70
+[Debug] [2023-2-8 20:25:26] The value of Progress is 75
+[Debug] [2023-2-8 20:25:26] The value of Progress is 80
+[Debug] [2023-2-8 20:25:26] The value of Progress is 85
+[Debug] [2023-2-8 20:25:26] The value of Progress is 90
+[Debug] [2023-2-8 20:25:26] The value of Progress is 95
+[Debug] [2023-2-8 20:25:26] The value of Progress is 100
+[Debug] [2023-2-8 20:25:26] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-2-8 20:25:26] End to send programming cmd.
+[Info] [2023-2-8 20:25:46] /***************************End Configration***************************/
+[Info] [2023-2-27 15:06:25] /***************************Start Configuration***************************/
+[Info] [2023-2-27 15:06:25] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-2-27 15:06:25] Version: 99559
+[Info] [2023-2-27 15:06:26] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/07_hdmi_loop
+[Info] [2023-2-27 15:06:26] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/07_hdmi_loop
+[Info] [2023-2-27 15:06:28] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-2-27 15:06:28] Client Local host name:admin
+[Debug] [2023-2-27 15:06:28] Client Local Address:192.168.3.6
+[Debug] [2023-2-27 15:06:28] Server Address:127.0.0.1, Port:65420
+[Info] [2023-2-27 15:06:28] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-2-27 15:06:28] Finish.
+[Info] [2023-2-27 15:06:28] Connect server succeeded
+[Debug] [2023-2-27 15:06:28] Send RPC:1
+[Debug] [2023-2-27 15:06:28] Send cmd [check version information:40005] OK
+[Debug] [2023-2-27 15:06:28] Send RPC:2
+[Debug] [2023-2-27 15:06:28] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-2-27 15:06:28] Begin to send initialize chain cmd...
+[Debug] [2023-2-27 15:06:28] Send RPC:3
+[Debug] [2023-2-27 15:06:28] Send cmd [Open config cable:20001] OK
+[Debug] [2023-2-27 15:06:28] End to send initialize chain cmd.
+[Debug] [2023-2-27 15:06:28] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-2-27 15:06:29] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-2-27 15:06:30] begin the exec of open cable cmd...
+[Debug] [2023-2-27 15:06:30] Begin to deal with chain from server...
+[Debug] [2023-2-27 15:06:30] Begin to set user chain...
+[Debug] [2023-2-27 15:06:30] End to set user chain.
+[Debug] [2023-2-27 15:06:30] Begin to update graphic item and tree item ...
+[Debug] [2023-2-27 15:06:30] End to update graphic item and tree item ...
+[Info] [2023-2-27 15:06:31] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/07_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-2-27 15:06:31] begin to get device info from CFG file...
+[Debug] [2023-2-27 15:06:31] end to get device info from CFG file...
+[Debug] [2023-2-27 15:06:31] Begin to update graphic item and tree item ...
+[Debug] [2023-2-27 15:06:31] End to update graphic item and tree item ...
+[Debug] [2023-2-27 15:06:31] End to deal wiht chain from server.
+[Debug] [2023-2-27 15:06:31] end the exec of open cable cmd.
+[Debug] [2023-2-27 15:06:31] COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2023-2-27 15:06:33] Begin to send programming cmd...
+[Debug] [2023-2-27 15:06:33] Send RPC:4
+[Debug] [2023-2-27 15:06:33] Begin to send program data.
+[Debug] [2023-2-27 15:06:33] End to send program data.
+[Debug] [2023-2-27 15:06:33] Send cmd [Program:20002] OK
+[Debug] [2023-2-27 15:06:33] The value of Progress is 6
+[Debug] [2023-2-27 15:06:33] The value of Progress is 10
+[Debug] [2023-2-27 15:06:33] The value of Progress is 15
+[Debug] [2023-2-27 15:06:33] The value of Progress is 20
+[Debug] [2023-2-27 15:06:33] The value of Progress is 25
+[Debug] [2023-2-27 15:06:33] The value of Progress is 30
+[Debug] [2023-2-27 15:06:33] The value of Progress is 35
+[Debug] [2023-2-27 15:06:33] The value of Progress is 40
+[Debug] [2023-2-27 15:06:34] The value of Progress is 45
+[Debug] [2023-2-27 15:06:34] The value of Progress is 50
+[Debug] [2023-2-27 15:06:34] The value of Progress is 55
+[Debug] [2023-2-27 15:06:34] The value of Progress is 60
+[Debug] [2023-2-27 15:06:34] The value of Progress is 65
+[Debug] [2023-2-27 15:06:34] The value of Progress is 70
+[Debug] [2023-2-27 15:06:34] The value of Progress is 75
+[Debug] [2023-2-27 15:06:34] The value of Progress is 80
+[Debug] [2023-2-27 15:06:34] The value of Progress is 85
+[Debug] [2023-2-27 15:06:34] The value of Progress is 90
+[Debug] [2023-2-27 15:06:34] The value of Progress is 95
+[Debug] [2023-2-27 15:06:35] The value of Progress is 100
+[Debug] [2023-2-27 15:06:35] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2023-2-27 15:06:35] End to send programming cmd.
+[Debug] [2023-2-27 15:06:43] Begin to send programming cmd...
+[Debug] [2023-2-27 15:06:43] Send RPC:5
+[Debug] [2023-2-27 15:06:43] Begin to send program data.
+[Debug] [2023-2-27 15:06:43] End to send program data.
+[Debug] [2023-2-27 15:06:43] Send cmd [Program:20002] OK
+[Debug] [2023-2-27 15:06:43] The value of Progress is 6
+[Debug] [2023-2-27 15:06:43] The value of Progress is 10
+[Debug] [2023-2-27 15:06:43] The value of Progress is 15
+[Debug] [2023-2-27 15:06:43] The value of Progress is 20
+[Debug] [2023-2-27 15:06:43] The value of Progress is 25
+[Debug] [2023-2-27 15:06:43] The value of Progress is 30
+[Debug] [2023-2-27 15:06:43] The value of Progress is 35
+[Debug] [2023-2-27 15:06:44] The value of Progress is 40
+[Debug] [2023-2-27 15:06:44] The value of Progress is 45
+[Debug] [2023-2-27 15:06:44] The value of Progress is 50
+[Debug] [2023-2-27 15:06:44] The value of Progress is 55
+[Debug] [2023-2-27 15:06:44] The value of Progress is 60
+[Debug] [2023-2-27 15:06:44] The value of Progress is 65
+[Debug] [2023-2-27 15:06:44] The value of Progress is 70
+[Debug] [2023-2-27 15:06:44] The value of Progress is 75
+[Debug] [2023-2-27 15:06:44] The value of Progress is 80
+[Debug] [2023-2-27 15:06:44] The value of Progress is 85
+[Debug] [2023-2-27 15:06:44] The value of Progress is 90
+[Debug] [2023-2-27 15:06:44] The value of Progress is 95
+[Debug] [2023-2-27 15:06:45] The value of Progress is 100
+[Debug] [2023-2-27 15:06:45] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-2-27 15:06:45] End to send programming cmd.
+[Debug] [2023-2-27 15:06:51] Begin to send programming cmd...
+[Debug] [2023-2-27 15:06:51] Send RPC:6
+[Debug] [2023-2-27 15:06:51] Begin to send program data.
+[Debug] [2023-2-27 15:06:51] End to send program data.
+[Debug] [2023-2-27 15:06:51] Send cmd [Program:20002] OK
+[Debug] [2023-2-27 15:06:51] The value of Progress is 6
+[Debug] [2023-2-27 15:06:51] The value of Progress is 10
+[Debug] [2023-2-27 15:06:51] The value of Progress is 15
+[Debug] [2023-2-27 15:06:51] The value of Progress is 20
+[Debug] [2023-2-27 15:06:51] The value of Progress is 25
+[Debug] [2023-2-27 15:06:51] The value of Progress is 30
+[Debug] [2023-2-27 15:06:51] The value of Progress is 35
+[Debug] [2023-2-27 15:06:52] The value of Progress is 40
+[Debug] [2023-2-27 15:06:52] The value of Progress is 45
+[Debug] [2023-2-27 15:06:52] The value of Progress is 50
+[Debug] [2023-2-27 15:06:52] The value of Progress is 55
+[Debug] [2023-2-27 15:06:52] The value of Progress is 60
+[Debug] [2023-2-27 15:06:52] The value of Progress is 65
+[Debug] [2023-2-27 15:06:52] The value of Progress is 70
+[Debug] [2023-2-27 15:06:52] The value of Progress is 75
+[Debug] [2023-2-27 15:06:52] The value of Progress is 80
+[Debug] [2023-2-27 15:06:52] The value of Progress is 85
+[Debug] [2023-2-27 15:06:52] The value of Progress is 90
+[Debug] [2023-2-27 15:06:52] The value of Progress is 95
+[Debug] [2023-2-27 15:06:53] The value of Progress is 100
+[Debug] [2023-2-27 15:06:53] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2023-2-27 15:06:53] End to send programming cmd.
+[Info] [2023-2-27 15:10:16] /***************************End Configration***************************/
+[Info] [2023-2-27 15:27:29] /***************************Start Configuration***************************/
+[Info] [2023-2-27 15:27:29] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-2-27 15:27:29] Version: 99559
+[Info] [2023-2-27 15:27:30] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/07_hdmi_loop
+[Info] [2023-2-27 15:27:30] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/07_hdmi_loop
+[Info] [2023-2-27 15:27:31] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-2-27 15:27:31] Client Local host name:admin
+[Debug] [2023-2-27 15:27:31] Client Local Address:192.168.3.6
+[Debug] [2023-2-27 15:27:31] Server Address:127.0.0.1, Port:65420
+[Info] [2023-2-27 15:27:31] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-2-27 15:27:31] Finish.
+[Info] [2023-2-27 15:27:31] Connect server succeeded
+[Debug] [2023-2-27 15:27:31] Send RPC:1
+[Debug] [2023-2-27 15:27:31] Send cmd [check version information:40005] OK
+[Debug] [2023-2-27 15:27:31] Send RPC:2
+[Debug] [2023-2-27 15:27:31] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-2-27 15:27:31] Begin to send initialize chain cmd...
+[Debug] [2023-2-27 15:27:31] Send RPC:3
+[Debug] [2023-2-27 15:27:31] Send cmd [Open config cable:20001] OK
+[Debug] [2023-2-27 15:27:31] End to send initialize chain cmd.
+[Debug] [2023-2-27 15:27:31] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-2-27 15:27:32] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-2-27 15:27:32] begin the exec of open cable cmd...
+[Debug] [2023-2-27 15:27:32] Begin to deal with chain from server...
+[Debug] [2023-2-27 15:27:32] Begin to set user chain...
+[Debug] [2023-2-27 15:27:32] End to set user chain.
+[Debug] [2023-2-27 15:27:32] Begin to update graphic item and tree item ...
+[Debug] [2023-2-27 15:27:32] End to update graphic item and tree item ...
+[Info] [2023-2-27 15:27:34] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/07_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-2-27 15:27:34] begin to get device info from CFG file...
+[Debug] [2023-2-27 15:27:34] end to get device info from CFG file...
+[Debug] [2023-2-27 15:27:34] Begin to update graphic item and tree item ...
+[Debug] [2023-2-27 15:27:34] End to update graphic item and tree item ...
+[Debug] [2023-2-27 15:27:34] End to deal wiht chain from server.
+[Debug] [2023-2-27 15:27:34] end the exec of open cable cmd.
+[Debug] [2023-2-27 15:27:34] COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2023-2-27 15:27:36] Begin to send programming cmd...
+[Debug] [2023-2-27 15:27:36] Send RPC:4
+[Debug] [2023-2-27 15:27:36] Begin to send program data.
+[Debug] [2023-2-27 15:27:36] End to send program data.
+[Debug] [2023-2-27 15:27:36] Send cmd [Program:20002] OK
+[Debug] [2023-2-27 15:27:36] The value of Progress is 6
+[Debug] [2023-2-27 15:27:36] The value of Progress is 10
+[Debug] [2023-2-27 15:27:36] The value of Progress is 15
+[Debug] [2023-2-27 15:27:36] The value of Progress is 20
+[Debug] [2023-2-27 15:27:36] The value of Progress is 25
+[Debug] [2023-2-27 15:27:36] The value of Progress is 30
+[Debug] [2023-2-27 15:27:37] The value of Progress is 35
+[Debug] [2023-2-27 15:27:37] The value of Progress is 40
+[Debug] [2023-2-27 15:27:37] The value of Progress is 45
+[Debug] [2023-2-27 15:27:37] The value of Progress is 50
+[Debug] [2023-2-27 15:27:37] The value of Progress is 55
+[Debug] [2023-2-27 15:27:37] The value of Progress is 60
+[Debug] [2023-2-27 15:27:37] The value of Progress is 65
+[Debug] [2023-2-27 15:27:37] The value of Progress is 70
+[Debug] [2023-2-27 15:27:37] The value of Progress is 75
+[Debug] [2023-2-27 15:27:37] The value of Progress is 80
+[Debug] [2023-2-27 15:27:37] The value of Progress is 85
+[Debug] [2023-2-27 15:27:38] The value of Progress is 90
+[Debug] [2023-2-27 15:27:38] The value of Progress is 95
+[Debug] [2023-2-27 15:27:38] The value of Progress is 100
+[Debug] [2023-2-27 15:27:38] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-2-27 15:27:38] End to send programming cmd.
+[Debug] [2023-2-27 15:27:47] Begin to send programming cmd...
+[Debug] [2023-2-27 15:27:47] Send RPC:5
+[Debug] [2023-2-27 15:27:47] Begin to send program data.
+[Debug] [2023-2-27 15:27:47] End to send program data.
+[Debug] [2023-2-27 15:27:47] Send cmd [Program:20002] OK
+[Debug] [2023-2-27 15:27:47] The value of Progress is 6
+[Debug] [2023-2-27 15:27:47] The value of Progress is 10
+[Debug] [2023-2-27 15:27:47] The value of Progress is 15
+[Debug] [2023-2-27 15:27:47] The value of Progress is 20
+[Debug] [2023-2-27 15:27:47] The value of Progress is 25
+[Debug] [2023-2-27 15:27:47] The value of Progress is 30
+[Debug] [2023-2-27 15:27:47] The value of Progress is 35
+[Debug] [2023-2-27 15:27:48] The value of Progress is 40
+[Debug] [2023-2-27 15:27:48] The value of Progress is 45
+[Debug] [2023-2-27 15:27:48] The value of Progress is 50
+[Debug] [2023-2-27 15:27:48] The value of Progress is 55
+[Debug] [2023-2-27 15:27:48] The value of Progress is 60
+[Debug] [2023-2-27 15:27:48] The value of Progress is 65
+[Debug] [2023-2-27 15:27:48] The value of Progress is 70
+[Debug] [2023-2-27 15:27:48] The value of Progress is 75
+[Debug] [2023-2-27 15:27:48] The value of Progress is 80
+[Debug] [2023-2-27 15:27:48] The value of Progress is 85
+[Debug] [2023-2-27 15:27:48] The value of Progress is 90
+[Debug] [2023-2-27 15:27:49] The value of Progress is 95
+[Debug] [2023-2-27 15:27:49] The value of Progress is 100
+[Debug] [2023-2-27 15:27:49] COMMAND[Program] execute successfully, takes 2.7 secs.
+[Debug] [2023-2-27 15:27:49] End to send programming cmd.
+[Info] [2023-2-27 15:28:11] /***************************End Configration***************************/
+[Info] [2023-2-28 15:38:33] /***************************Start Configuration***************************/
+[Info] [2023-2-28 15:38:33] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-2-28 15:38:33] Version: 99559
+[Info] [2023-2-28 15:38:34] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-2-28 15:38:34] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-2-28 15:38:43] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-2-28 15:38:43] Client Local host name:admin
+[Debug] [2023-2-28 15:38:43] Client Local Address:192.168.3.6
+[Debug] [2023-2-28 15:38:43] Server Address:127.0.0.1, Port:65420
+[Info] [2023-2-28 15:38:43] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-2-28 15:38:43] Finish.
+[Info] [2023-2-28 15:38:43] Connect server succeeded
+[Debug] [2023-2-28 15:38:43] Send RPC:1
+[Debug] [2023-2-28 15:38:43] Send cmd [check version information:40005] OK
+[Debug] [2023-2-28 15:38:43] Send RPC:2
+[Debug] [2023-2-28 15:38:43] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-2-28 15:38:43] Begin to send initialize chain cmd...
+[Debug] [2023-2-28 15:38:43] Send RPC:3
+[Debug] [2023-2-28 15:38:43] Send cmd [Open config cable:20001] OK
+[Debug] [2023-2-28 15:38:43] End to send initialize chain cmd.
+[Debug] [2023-2-28 15:38:43] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-2-28 15:38:44] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Error] [2023-2-28 15:38:48] fail to exec Open config cable cmd...
+[Debug] [2023-2-28 15:39:08] Begin to send initialize chain cmd...
+[Debug] [2023-2-28 15:39:08] Send RPC:4
+[Debug] [2023-2-28 15:39:08] Send cmd [Open config cable:20001] OK
+[Debug] [2023-2-28 15:39:08] End to send initialize chain cmd.
+[Debug] [2023-2-28 15:39:09] begin the exec of open cable cmd...
+[Debug] [2023-2-28 15:39:09] Begin to deal with chain from server...
+[Debug] [2023-2-28 15:39:09] Begin to set user chain...
+[Debug] [2023-2-28 15:39:09] End to set user chain.
+[Debug] [2023-2-28 15:39:09] Begin to update graphic item and tree item ...
+[Debug] [2023-2-28 15:39:09] End to update graphic item and tree item ...
+[Info] [2023-2-28 15:39:11] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-2-28 15:39:11] begin to get device info from CFG file...
+[Debug] [2023-2-28 15:39:11] end to get device info from CFG file...
+[Debug] [2023-2-28 15:39:11] Begin to update graphic item and tree item ...
+[Debug] [2023-2-28 15:39:11] End to update graphic item and tree item ...
+[Debug] [2023-2-28 15:39:11] End to deal wiht chain from server.
+[Debug] [2023-2-28 15:39:11] end the exec of open cable cmd.
+[Debug] [2023-2-28 15:39:11] COMMAND[Open config cable] execute successfully, takes 2.6 secs.
+[Debug] [2023-2-28 15:39:12] Begin to send programming cmd...
+[Debug] [2023-2-28 15:39:12] Send RPC:5
+[Debug] [2023-2-28 15:39:12] Begin to send program data.
+[Debug] [2023-2-28 15:39:12] End to send program data.
+[Debug] [2023-2-28 15:39:12] Send cmd [Program:20002] OK
+[Debug] [2023-2-28 15:39:12] The value of Progress is 6
+[Debug] [2023-2-28 15:39:12] The value of Progress is 10
+[Debug] [2023-2-28 15:39:12] The value of Progress is 15
+[Debug] [2023-2-28 15:39:12] The value of Progress is 20
+[Debug] [2023-2-28 15:39:13] The value of Progress is 25
+[Debug] [2023-2-28 15:39:13] The value of Progress is 30
+[Debug] [2023-2-28 15:39:13] The value of Progress is 35
+[Debug] [2023-2-28 15:39:13] The value of Progress is 40
+[Debug] [2023-2-28 15:39:13] The value of Progress is 45
+[Debug] [2023-2-28 15:39:13] The value of Progress is 50
+[Debug] [2023-2-28 15:39:13] The value of Progress is 55
+[Debug] [2023-2-28 15:39:13] The value of Progress is 60
+[Debug] [2023-2-28 15:39:13] The value of Progress is 65
+[Debug] [2023-2-28 15:39:13] The value of Progress is 70
+[Debug] [2023-2-28 15:39:13] The value of Progress is 75
+[Debug] [2023-2-28 15:39:14] The value of Progress is 80
+[Debug] [2023-2-28 15:39:14] The value of Progress is 85
+[Debug] [2023-2-28 15:39:14] The value of Progress is 90
+[Debug] [2023-2-28 15:39:14] The value of Progress is 95
+[Debug] [2023-2-28 15:39:14] The value of Progress is 100
+[Debug] [2023-2-28 15:39:14] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-2-28 15:39:14] End to send programming cmd.
+[Info] [2023-2-28 17:20:54] /***************************End Configration***************************/
+[Info] [2023-2-28 18:46:09] /***************************Start Configuration***************************/
+[Info] [2023-2-28 18:46:09] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-2-28 18:46:09] Version: 99559
+[Info] [2023-2-28 18:46:10] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-2-28 18:46:10] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-2-28 18:46:12] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-2-28 18:46:12] Client Local host name:admin
+[Debug] [2023-2-28 18:46:12] Client Local Address:192.168.3.6
+[Debug] [2023-2-28 18:46:12] Server Address:127.0.0.1, Port:65420
+[Info] [2023-2-28 18:46:13] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-2-28 18:46:13] Finish.
+[Info] [2023-2-28 18:46:13] Connect server succeeded
+[Debug] [2023-2-28 18:46:13] Send RPC:1
+[Debug] [2023-2-28 18:46:13] Send cmd [check version information:40005] OK
+[Debug] [2023-2-28 18:46:13] Send RPC:2
+[Debug] [2023-2-28 18:46:13] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-2-28 18:46:13] Begin to send initialize chain cmd...
+[Debug] [2023-2-28 18:46:13] Send RPC:3
+[Debug] [2023-2-28 18:46:13] Send cmd [Open config cable:20001] OK
+[Debug] [2023-2-28 18:46:13] End to send initialize chain cmd.
+[Debug] [2023-2-28 18:46:13] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-2-28 18:46:13] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-2-28 18:46:14] begin the exec of open cable cmd...
+[Debug] [2023-2-28 18:46:14] Begin to deal with chain from server...
+[Debug] [2023-2-28 18:46:14] Begin to set user chain...
+[Debug] [2023-2-28 18:46:14] End to set user chain.
+[Debug] [2023-2-28 18:46:14] Begin to update graphic item and tree item ...
+[Debug] [2023-2-28 18:46:14] End to update graphic item and tree item ...
+[Info] [2023-2-28 18:46:16] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-2-28 18:46:16] begin to get device info from CFG file...
+[Debug] [2023-2-28 18:46:16] end to get device info from CFG file...
+[Debug] [2023-2-28 18:46:16] Begin to update graphic item and tree item ...
+[Debug] [2023-2-28 18:46:16] End to update graphic item and tree item ...
+[Debug] [2023-2-28 18:46:16] End to deal wiht chain from server.
+[Debug] [2023-2-28 18:46:16] end the exec of open cable cmd.
+[Debug] [2023-2-28 18:46:16] COMMAND[Open config cable] execute successfully, takes 3.2 secs.
+[Debug] [2023-2-28 18:46:17] Begin to send programming cmd...
+[Debug] [2023-2-28 18:46:17] Send RPC:4
+[Debug] [2023-2-28 18:46:17] Begin to send program data.
+[Debug] [2023-2-28 18:46:17] End to send program data.
+[Debug] [2023-2-28 18:46:17] Send cmd [Program:20002] OK
+[Debug] [2023-2-28 18:46:17] The value of Progress is 6
+[Debug] [2023-2-28 18:46:17] The value of Progress is 10
+[Debug] [2023-2-28 18:46:17] The value of Progress is 15
+[Debug] [2023-2-28 18:46:17] The value of Progress is 20
+[Debug] [2023-2-28 18:46:18] The value of Progress is 25
+[Debug] [2023-2-28 18:46:18] The value of Progress is 30
+[Debug] [2023-2-28 18:46:18] The value of Progress is 35
+[Debug] [2023-2-28 18:46:18] The value of Progress is 40
+[Debug] [2023-2-28 18:46:18] The value of Progress is 45
+[Debug] [2023-2-28 18:46:18] The value of Progress is 50
+[Debug] [2023-2-28 18:46:18] The value of Progress is 55
+[Debug] [2023-2-28 18:46:18] The value of Progress is 60
+[Debug] [2023-2-28 18:46:18] The value of Progress is 65
+[Debug] [2023-2-28 18:46:18] The value of Progress is 70
+[Debug] [2023-2-28 18:46:18] The value of Progress is 75
+[Debug] [2023-2-28 18:46:18] The value of Progress is 80
+[Debug] [2023-2-28 18:46:19] The value of Progress is 85
+[Debug] [2023-2-28 18:46:19] The value of Progress is 90
+[Debug] [2023-2-28 18:46:19] The value of Progress is 95
+[Debug] [2023-2-28 18:46:19] The value of Progress is 100
+[Debug] [2023-2-28 18:46:19] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-2-28 18:46:19] End to send programming cmd.
+[Info] [2023-2-28 18:48:53] /***************************End Configration***************************/
+[Info] [2023-3-1 14:43:41] /***************************Start Configuration***************************/
+[Info] [2023-3-1 14:43:41] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-1 14:43:41] Version: 99559
+[Info] [2023-3-1 14:43:42] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 14:43:42] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 14:43:43] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-1 14:43:43] Client Local host name:admin
+[Debug] [2023-3-1 14:43:43] Client Local Address:192.168.3.6
+[Debug] [2023-3-1 14:43:43] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-1 14:43:43] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-1 14:43:43] Finish.
+[Info] [2023-3-1 14:43:43] Connect server succeeded
+[Debug] [2023-3-1 14:43:43] Send RPC:1
+[Debug] [2023-3-1 14:43:43] Send cmd [check version information:40005] OK
+[Debug] [2023-3-1 14:43:43] Send RPC:2
+[Debug] [2023-3-1 14:43:43] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-1 14:43:43] Begin to send initialize chain cmd...
+[Debug] [2023-3-1 14:43:43] Send RPC:3
+[Debug] [2023-3-1 14:43:43] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-1 14:43:43] End to send initialize chain cmd.
+[Debug] [2023-3-1 14:43:43] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-1 14:43:44] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-1 14:43:45] begin the exec of open cable cmd...
+[Debug] [2023-3-1 14:43:45] Begin to deal with chain from server...
+[Debug] [2023-3-1 14:43:45] Begin to set user chain...
+[Debug] [2023-3-1 14:43:45] End to set user chain.
+[Debug] [2023-3-1 14:43:45] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 14:43:45] End to update graphic item and tree item ...
+[Info] [2023-3-1 14:43:46] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-1 14:43:46] begin to get device info from CFG file...
+[Debug] [2023-3-1 14:43:46] end to get device info from CFG file...
+[Debug] [2023-3-1 14:43:46] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 14:43:46] End to update graphic item and tree item ...
+[Debug] [2023-3-1 14:43:46] End to deal wiht chain from server.
+[Debug] [2023-3-1 14:43:46] end the exec of open cable cmd.
+[Debug] [2023-3-1 14:43:46] COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2023-3-1 14:43:48] Begin to send programming cmd...
+[Debug] [2023-3-1 14:43:48] Send RPC:4
+[Debug] [2023-3-1 14:43:48] Begin to send program data.
+[Debug] [2023-3-1 14:43:48] End to send program data.
+[Debug] [2023-3-1 14:43:48] Send cmd [Program:20002] OK
+[Debug] [2023-3-1 14:43:48] The value of Progress is 6
+[Debug] [2023-3-1 14:43:48] The value of Progress is 10
+[Debug] [2023-3-1 14:43:48] The value of Progress is 15
+[Debug] [2023-3-1 14:43:48] The value of Progress is 20
+[Debug] [2023-3-1 14:43:48] The value of Progress is 25
+[Debug] [2023-3-1 14:43:49] The value of Progress is 30
+[Debug] [2023-3-1 14:43:49] The value of Progress is 35
+[Debug] [2023-3-1 14:43:49] The value of Progress is 40
+[Debug] [2023-3-1 14:43:49] The value of Progress is 45
+[Debug] [2023-3-1 14:43:49] The value of Progress is 50
+[Debug] [2023-3-1 14:43:49] The value of Progress is 55
+[Debug] [2023-3-1 14:43:49] The value of Progress is 60
+[Debug] [2023-3-1 14:43:49] The value of Progress is 65
+[Debug] [2023-3-1 14:43:49] The value of Progress is 70
+[Debug] [2023-3-1 14:43:49] The value of Progress is 75
+[Debug] [2023-3-1 14:43:49] The value of Progress is 80
+[Debug] [2023-3-1 14:43:50] The value of Progress is 85
+[Debug] [2023-3-1 14:43:50] The value of Progress is 90
+[Debug] [2023-3-1 14:43:50] The value of Progress is 95
+[Debug] [2023-3-1 14:43:50] The value of Progress is 100
+[Debug] [2023-3-1 14:43:50] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-1 14:43:50] End to send programming cmd.
+[Info] [2023-3-1 14:45:06] /***************************End Configration***************************/
+[Info] [2023-3-1 14:45:08] /***************************Start Configuration***************************/
+[Info] [2023-3-1 14:45:08] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-1 14:45:08] Version: 99559
+[Info] [2023-3-1 14:45:09] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 14:45:09] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 14:45:10] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-1 14:45:11] Client Local host name:admin
+[Debug] [2023-3-1 14:45:11] Client Local Address:192.168.3.6
+[Debug] [2023-3-1 14:45:11] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-1 14:45:11] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-1 14:45:11] Finish.
+[Info] [2023-3-1 14:45:11] Connect server succeeded
+[Debug] [2023-3-1 14:45:11] Send RPC:1
+[Debug] [2023-3-1 14:45:11] Send cmd [check version information:40005] OK
+[Debug] [2023-3-1 14:45:11] Send RPC:2
+[Debug] [2023-3-1 14:45:11] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-1 14:45:11] Begin to send initialize chain cmd...
+[Debug] [2023-3-1 14:45:11] Send RPC:3
+[Debug] [2023-3-1 14:45:11] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-1 14:45:11] End to send initialize chain cmd.
+[Debug] [2023-3-1 14:45:11] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-1 14:45:11] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-1 14:45:12] begin the exec of open cable cmd...
+[Debug] [2023-3-1 14:45:12] Begin to deal with chain from server...
+[Debug] [2023-3-1 14:45:12] Begin to set user chain...
+[Debug] [2023-3-1 14:45:12] End to set user chain.
+[Debug] [2023-3-1 14:45:12] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 14:45:12] End to update graphic item and tree item ...
+[Info] [2023-3-1 14:45:14] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-1 14:45:14] begin to get device info from CFG file...
+[Debug] [2023-3-1 14:45:14] end to get device info from CFG file...
+[Debug] [2023-3-1 14:45:14] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 14:45:14] End to update graphic item and tree item ...
+[Debug] [2023-3-1 14:45:14] End to deal wiht chain from server.
+[Debug] [2023-3-1 14:45:14] end the exec of open cable cmd.
+[Debug] [2023-3-1 14:45:14] COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2023-3-1 14:45:15] Begin to send programming cmd...
+[Debug] [2023-3-1 14:45:15] Send RPC:4
+[Debug] [2023-3-1 14:45:15] Begin to send program data.
+[Debug] [2023-3-1 14:45:15] End to send program data.
+[Debug] [2023-3-1 14:45:15] Send cmd [Program:20002] OK
+[Debug] [2023-3-1 14:45:15] The value of Progress is 6
+[Debug] [2023-3-1 14:45:15] The value of Progress is 10
+[Debug] [2023-3-1 14:45:15] The value of Progress is 15
+[Debug] [2023-3-1 14:45:15] The value of Progress is 20
+[Debug] [2023-3-1 14:45:15] The value of Progress is 25
+[Debug] [2023-3-1 14:45:15] The value of Progress is 30
+[Debug] [2023-3-1 14:45:16] The value of Progress is 35
+[Debug] [2023-3-1 14:45:16] The value of Progress is 40
+[Debug] [2023-3-1 14:45:16] The value of Progress is 45
+[Debug] [2023-3-1 14:45:16] The value of Progress is 50
+[Debug] [2023-3-1 14:45:16] The value of Progress is 55
+[Debug] [2023-3-1 14:45:16] The value of Progress is 60
+[Debug] [2023-3-1 14:45:16] The value of Progress is 65
+[Debug] [2023-3-1 14:45:16] The value of Progress is 70
+[Debug] [2023-3-1 14:45:16] The value of Progress is 75
+[Debug] [2023-3-1 14:45:16] The value of Progress is 80
+[Debug] [2023-3-1 14:45:16] The value of Progress is 85
+[Debug] [2023-3-1 14:45:16] The value of Progress is 90
+[Debug] [2023-3-1 14:45:17] The value of Progress is 95
+[Debug] [2023-3-1 14:45:17] The value of Progress is 100
+[Debug] [2023-3-1 14:45:17] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2023-3-1 14:45:17] End to send programming cmd.
+[Info] [2023-3-1 14:47:00] /***************************End Configration***************************/
+[Info] [2023-3-1 17:02:17] /***************************Start Configuration***************************/
+[Info] [2023-3-1 17:02:17] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-1 17:02:17] Version: 99559
+[Info] [2023-3-1 17:02:18] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 17:02:18] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 17:02:20] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-1 17:02:20] Client Local host name:admin
+[Debug] [2023-3-1 17:02:20] Client Local Address:192.168.3.6
+[Debug] [2023-3-1 17:02:20] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-1 17:02:20] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-1 17:02:20] Finish.
+[Info] [2023-3-1 17:02:20] Connect server succeeded
+[Debug] [2023-3-1 17:02:20] Send RPC:1
+[Debug] [2023-3-1 17:02:20] Send cmd [check version information:40005] OK
+[Debug] [2023-3-1 17:02:20] Send RPC:2
+[Debug] [2023-3-1 17:02:20] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-1 17:02:20] Begin to send initialize chain cmd...
+[Debug] [2023-3-1 17:02:20] Send RPC:3
+[Debug] [2023-3-1 17:02:20] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-1 17:02:20] End to send initialize chain cmd.
+[Debug] [2023-3-1 17:02:20] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-1 17:02:20] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-1 17:02:21] begin the exec of open cable cmd...
+[Debug] [2023-3-1 17:02:21] Begin to deal with chain from server...
+[Debug] [2023-3-1 17:02:21] Begin to set user chain...
+[Debug] [2023-3-1 17:02:21] End to set user chain.
+[Debug] [2023-3-1 17:02:21] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 17:02:21] End to update graphic item and tree item ...
+[Info] [2023-3-1 17:02:23] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-1 17:02:23] begin to get device info from CFG file...
+[Debug] [2023-3-1 17:02:23] end to get device info from CFG file...
+[Debug] [2023-3-1 17:02:23] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 17:02:23] End to update graphic item and tree item ...
+[Debug] [2023-3-1 17:02:23] End to deal wiht chain from server.
+[Debug] [2023-3-1 17:02:23] end the exec of open cable cmd.
+[Debug] [2023-3-1 17:02:23] COMMAND[Open config cable] execute successfully, takes 2.9 secs.
+[Debug] [2023-3-1 17:02:24] Begin to send programming cmd...
+[Debug] [2023-3-1 17:02:24] Send RPC:4
+[Debug] [2023-3-1 17:02:24] Begin to send program data.
+[Debug] [2023-3-1 17:02:24] End to send program data.
+[Debug] [2023-3-1 17:02:24] Send cmd [Program:20002] OK
+[Debug] [2023-3-1 17:02:25] The value of Progress is 6
+[Debug] [2023-3-1 17:02:25] The value of Progress is 10
+[Debug] [2023-3-1 17:02:25] The value of Progress is 15
+[Debug] [2023-3-1 17:02:25] The value of Progress is 20
+[Debug] [2023-3-1 17:02:25] The value of Progress is 25
+[Debug] [2023-3-1 17:02:25] The value of Progress is 30
+[Debug] [2023-3-1 17:02:25] The value of Progress is 35
+[Debug] [2023-3-1 17:02:25] The value of Progress is 40
+[Debug] [2023-3-1 17:02:25] The value of Progress is 45
+[Debug] [2023-3-1 17:02:25] The value of Progress is 50
+[Debug] [2023-3-1 17:02:25] The value of Progress is 55
+[Debug] [2023-3-1 17:02:25] The value of Progress is 60
+[Debug] [2023-3-1 17:02:26] The value of Progress is 65
+[Debug] [2023-3-1 17:02:26] The value of Progress is 70
+[Debug] [2023-3-1 17:02:26] The value of Progress is 75
+[Debug] [2023-3-1 17:02:26] The value of Progress is 80
+[Debug] [2023-3-1 17:02:26] The value of Progress is 85
+[Debug] [2023-3-1 17:02:26] The value of Progress is 90
+[Debug] [2023-3-1 17:02:26] The value of Progress is 95
+[Debug] [2023-3-1 17:02:26] The value of Progress is 100
+[Debug] [2023-3-1 17:02:26] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-1 17:02:26] End to send programming cmd.
+[Debug] [2023-3-1 17:03:45] Begin to send programming cmd...
+[Debug] [2023-3-1 17:03:45] Send RPC:5
+[Debug] [2023-3-1 17:03:45] Begin to send program data.
+[Debug] [2023-3-1 17:03:45] End to send program data.
+[Debug] [2023-3-1 17:03:45] Send cmd [Program:20002] OK
+[Debug] [2023-3-1 17:03:45] The value of Progress is 6
+[Debug] [2023-3-1 17:03:45] The value of Progress is 10
+[Debug] [2023-3-1 17:03:46] The value of Progress is 15
+[Debug] [2023-3-1 17:03:46] The value of Progress is 20
+[Debug] [2023-3-1 17:03:46] The value of Progress is 25
+[Debug] [2023-3-1 17:03:46] The value of Progress is 30
+[Debug] [2023-3-1 17:03:46] The value of Progress is 35
+[Debug] [2023-3-1 17:03:46] The value of Progress is 40
+[Debug] [2023-3-1 17:03:46] The value of Progress is 45
+[Debug] [2023-3-1 17:03:46] The value of Progress is 50
+[Debug] [2023-3-1 17:03:46] The value of Progress is 55
+[Debug] [2023-3-1 17:03:46] The value of Progress is 60
+[Debug] [2023-3-1 17:03:46] The value of Progress is 65
+[Debug] [2023-3-1 17:03:47] The value of Progress is 70
+[Debug] [2023-3-1 17:03:47] The value of Progress is 75
+[Debug] [2023-3-1 17:03:47] The value of Progress is 80
+[Debug] [2023-3-1 17:03:47] The value of Progress is 85
+[Debug] [2023-3-1 17:03:47] The value of Progress is 90
+[Debug] [2023-3-1 17:03:47] The value of Progress is 95
+[Debug] [2023-3-1 17:03:47] The value of Progress is 100
+[Debug] [2023-3-1 17:03:47] COMMAND[Program] execute successfully, takes 2.1 secs.
+[Debug] [2023-3-1 17:03:47] End to send programming cmd.
+[Info] [2023-3-1 17:07:13] /***************************End Configration***************************/
+[Info] [2023-3-1 17:07:15] /***************************Start Configuration***************************/
+[Info] [2023-3-1 17:07:15] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-1 17:07:15] Version: 99559
+[Info] [2023-3-1 17:07:16] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 17:07:16] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 17:07:18] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-1 17:07:18] Client Local host name:admin
+[Debug] [2023-3-1 17:07:18] Client Local Address:192.168.3.6
+[Debug] [2023-3-1 17:07:18] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-1 17:07:19] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-1 17:07:19] Finish.
+[Info] [2023-3-1 17:07:19] Connect server succeeded
+[Debug] [2023-3-1 17:07:19] Send RPC:1
+[Debug] [2023-3-1 17:07:19] Send cmd [check version information:40005] OK
+[Debug] [2023-3-1 17:07:19] Send RPC:2
+[Debug] [2023-3-1 17:07:19] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-1 17:07:19] Begin to send initialize chain cmd...
+[Debug] [2023-3-1 17:07:19] Send RPC:3
+[Debug] [2023-3-1 17:07:19] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-1 17:07:19] End to send initialize chain cmd.
+[Debug] [2023-3-1 17:07:19] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-1 17:07:20] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-1 17:07:24] begin the exec of open cable cmd...
+[Debug] [2023-3-1 17:07:24] Begin to deal with chain from server...
+[Debug] [2023-3-1 17:07:24] Begin to set user chain...
+[Debug] [2023-3-1 17:07:24] End to set user chain.
+[Debug] [2023-3-1 17:07:24] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 17:07:24] End to update graphic item and tree item ...
+[Info] [2023-3-1 17:07:28] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-1 17:07:28] begin to get device info from CFG file...
+[Debug] [2023-3-1 17:07:28] end to get device info from CFG file...
+[Debug] [2023-3-1 17:07:28] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 17:07:28] End to update graphic item and tree item ...
+[Debug] [2023-3-1 17:07:28] End to deal wiht chain from server.
+[Debug] [2023-3-1 17:07:28] end the exec of open cable cmd.
+[Debug] [2023-3-1 17:07:28] COMMAND[Open config cable] execute successfully, takes 8.7 secs.
+[Debug] [2023-3-1 17:07:29] Begin to send programming cmd...
+[Debug] [2023-3-1 17:07:29] Send RPC:4
+[Debug] [2023-3-1 17:07:29] Begin to send program data.
+[Debug] [2023-3-1 17:07:29] End to send program data.
+[Debug] [2023-3-1 17:07:29] Send cmd [Program:20002] OK
+[Debug] [2023-3-1 17:07:29] The value of Progress is 6
+[Debug] [2023-3-1 17:07:29] The value of Progress is 10
+[Debug] [2023-3-1 17:07:29] The value of Progress is 15
+[Debug] [2023-3-1 17:07:29] The value of Progress is 20
+[Debug] [2023-3-1 17:07:30] The value of Progress is 25
+[Debug] [2023-3-1 17:07:30] The value of Progress is 30
+[Debug] [2023-3-1 17:07:30] The value of Progress is 35
+[Debug] [2023-3-1 17:07:30] The value of Progress is 40
+[Debug] [2023-3-1 17:07:30] The value of Progress is 45
+[Debug] [2023-3-1 17:07:30] The value of Progress is 50
+[Debug] [2023-3-1 17:07:30] The value of Progress is 55
+[Debug] [2023-3-1 17:07:30] The value of Progress is 60
+[Debug] [2023-3-1 17:07:30] The value of Progress is 65
+[Debug] [2023-3-1 17:07:30] The value of Progress is 70
+[Debug] [2023-3-1 17:07:30] The value of Progress is 75
+[Debug] [2023-3-1 17:07:31] The value of Progress is 80
+[Debug] [2023-3-1 17:07:31] The value of Progress is 85
+[Debug] [2023-3-1 17:07:31] The value of Progress is 90
+[Debug] [2023-3-1 17:07:31] The value of Progress is 95
+[Debug] [2023-3-1 17:07:31] The value of Progress is 100
+[Debug] [2023-3-1 17:07:31] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2023-3-1 17:07:31] End to send programming cmd.
+[Debug] [2023-3-1 17:07:39] Begin to send programming cmd...
+[Debug] [2023-3-1 17:07:39] Send RPC:5
+[Debug] [2023-3-1 17:07:39] Begin to send program data.
+[Debug] [2023-3-1 17:07:39] End to send program data.
+[Debug] [2023-3-1 17:07:39] Send cmd [Program:20002] OK
+[Debug] [2023-3-1 17:07:40] The value of Progress is 6
+[Debug] [2023-3-1 17:07:40] The value of Progress is 10
+[Debug] [2023-3-1 17:07:40] The value of Progress is 15
+[Debug] [2023-3-1 17:07:40] The value of Progress is 20
+[Debug] [2023-3-1 17:07:40] The value of Progress is 25
+[Debug] [2023-3-1 17:07:40] The value of Progress is 30
+[Debug] [2023-3-1 17:07:40] The value of Progress is 35
+[Debug] [2023-3-1 17:07:40] The value of Progress is 40
+[Debug] [2023-3-1 17:07:40] The value of Progress is 45
+[Debug] [2023-3-1 17:07:40] The value of Progress is 50
+[Debug] [2023-3-1 17:07:41] The value of Progress is 55
+[Debug] [2023-3-1 17:07:41] The value of Progress is 60
+[Debug] [2023-3-1 17:07:41] The value of Progress is 65
+[Debug] [2023-3-1 17:07:41] The value of Progress is 70
+[Debug] [2023-3-1 17:07:41] The value of Progress is 75
+[Debug] [2023-3-1 17:07:41] The value of Progress is 80
+[Debug] [2023-3-1 17:07:41] The value of Progress is 85
+[Debug] [2023-3-1 17:07:41] The value of Progress is 90
+[Debug] [2023-3-1 17:07:41] The value of Progress is 95
+[Debug] [2023-3-1 17:07:41] The value of Progress is 100
+[Debug] [2023-3-1 17:07:41] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-1 17:07:41] End to send programming cmd.
+[Info] [2023-3-1 17:09:35] /***************************End Configration***************************/
+[Info] [2023-3-1 17:10:01] /***************************Start Configuration***************************/
+[Info] [2023-3-1 17:10:01] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-1 17:10:01] Version: 99559
+[Info] [2023-3-1 17:10:02] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 17:10:02] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 17:10:04] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-1 17:10:04] Client Local host name:admin
+[Debug] [2023-3-1 17:10:04] Client Local Address:192.168.3.6
+[Debug] [2023-3-1 17:10:04] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-1 17:10:04] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-1 17:10:04] Finish.
+[Info] [2023-3-1 17:10:04] Connect server succeeded
+[Debug] [2023-3-1 17:10:04] Send RPC:1
+[Debug] [2023-3-1 17:10:04] Send cmd [check version information:40005] OK
+[Debug] [2023-3-1 17:10:04] Send RPC:2
+[Debug] [2023-3-1 17:10:04] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-1 17:10:04] Begin to send initialize chain cmd...
+[Debug] [2023-3-1 17:10:04] Send RPC:3
+[Debug] [2023-3-1 17:10:04] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-1 17:10:04] End to send initialize chain cmd.
+[Debug] [2023-3-1 17:10:04] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-1 17:10:05] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2023-3-1 17:10:06] begin the exec of open cable cmd...
+[Debug] [2023-3-1 17:10:06] Begin to deal with chain from server...
+[Debug] [2023-3-1 17:10:06] Begin to set user chain...
+[Debug] [2023-3-1 17:10:06] End to set user chain.
+[Debug] [2023-3-1 17:10:06] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 17:10:06] End to update graphic item and tree item ...
+[Info] [2023-3-1 17:10:07] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-1 17:10:07] begin to get device info from CFG file...
+[Debug] [2023-3-1 17:10:07] end to get device info from CFG file...
+[Debug] [2023-3-1 17:10:07] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 17:10:07] End to update graphic item and tree item ...
+[Debug] [2023-3-1 17:10:07] End to deal wiht chain from server.
+[Debug] [2023-3-1 17:10:07] end the exec of open cable cmd.
+[Debug] [2023-3-1 17:10:07] COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2023-3-1 17:10:09] Begin to send programming cmd...
+[Debug] [2023-3-1 17:10:09] Send RPC:4
+[Debug] [2023-3-1 17:10:09] Begin to send program data.
+[Debug] [2023-3-1 17:10:09] End to send program data.
+[Debug] [2023-3-1 17:10:09] Send cmd [Program:20002] OK
+[Debug] [2023-3-1 17:10:09] The value of Progress is 6
+[Debug] [2023-3-1 17:10:09] The value of Progress is 10
+[Debug] [2023-3-1 17:10:09] The value of Progress is 15
+[Debug] [2023-3-1 17:10:09] The value of Progress is 20
+[Debug] [2023-3-1 17:10:09] The value of Progress is 25
+[Debug] [2023-3-1 17:10:09] The value of Progress is 30
+[Debug] [2023-3-1 17:10:09] The value of Progress is 35
+[Debug] [2023-3-1 17:10:10] The value of Progress is 40
+[Debug] [2023-3-1 17:10:10] The value of Progress is 45
+[Debug] [2023-3-1 17:10:10] The value of Progress is 50
+[Debug] [2023-3-1 17:10:10] The value of Progress is 55
+[Debug] [2023-3-1 17:10:10] The value of Progress is 60
+[Debug] [2023-3-1 17:10:10] The value of Progress is 65
+[Debug] [2023-3-1 17:10:10] The value of Progress is 70
+[Debug] [2023-3-1 17:10:10] The value of Progress is 75
+[Debug] [2023-3-1 17:10:10] The value of Progress is 80
+[Debug] [2023-3-1 17:10:10] The value of Progress is 85
+[Debug] [2023-3-1 17:10:10] The value of Progress is 90
+[Debug] [2023-3-1 17:10:11] The value of Progress is 95
+[Debug] [2023-3-1 17:10:11] The value of Progress is 100
+[Debug] [2023-3-1 17:10:11] COMMAND[Program] execute successfully, takes 2.3 secs.
+[Debug] [2023-3-1 17:10:11] End to send programming cmd.
+[Info] [2023-3-1 17:10:22] /***************************End Configration***************************/
+[Info] [2023-3-1 17:12:56] /***************************Start Configuration***************************/
+[Info] [2023-3-1 17:12:56] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-1 17:12:56] Version: 99559
+[Info] [2023-3-1 17:12:57] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 17:12:57] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-1 17:12:59] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-1 17:12:59] Client Local host name:admin
+[Debug] [2023-3-1 17:12:59] Client Local Address:192.168.3.6
+[Debug] [2023-3-1 17:12:59] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-1 17:12:59] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-1 17:12:59] Finish.
+[Info] [2023-3-1 17:12:59] Connect server succeeded
+[Debug] [2023-3-1 17:12:59] Send RPC:1
+[Debug] [2023-3-1 17:12:59] Send cmd [check version information:40005] OK
+[Debug] [2023-3-1 17:12:59] Send RPC:2
+[Debug] [2023-3-1 17:12:59] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-1 17:12:59] Begin to send initialize chain cmd...
+[Debug] [2023-3-1 17:12:59] Send RPC:3
+[Debug] [2023-3-1 17:12:59] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-1 17:12:59] End to send initialize chain cmd.
+[Debug] [2023-3-1 17:12:59] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-1 17:12:59] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-1 17:13:00] begin the exec of open cable cmd...
+[Debug] [2023-3-1 17:13:00] Begin to deal with chain from server...
+[Debug] [2023-3-1 17:13:00] Begin to set user chain...
+[Debug] [2023-3-1 17:13:00] End to set user chain.
+[Debug] [2023-3-1 17:13:00] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 17:13:00] End to update graphic item and tree item ...
+[Info] [2023-3-1 17:13:02] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-1 17:13:02] begin to get device info from CFG file...
+[Debug] [2023-3-1 17:13:02] end to get device info from CFG file...
+[Debug] [2023-3-1 17:13:02] Begin to update graphic item and tree item ...
+[Debug] [2023-3-1 17:13:02] End to update graphic item and tree item ...
+[Debug] [2023-3-1 17:13:02] End to deal wiht chain from server.
+[Debug] [2023-3-1 17:13:02] end the exec of open cable cmd.
+[Debug] [2023-3-1 17:13:02] COMMAND[Open config cable] execute successfully, takes 3.3 secs.
+[Debug] [2023-3-1 17:13:03] Begin to send programming cmd...
+[Debug] [2023-3-1 17:13:03] Send RPC:4
+[Debug] [2023-3-1 17:13:03] Begin to send program data.
+[Debug] [2023-3-1 17:13:03] End to send program data.
+[Debug] [2023-3-1 17:13:03] Send cmd [Program:20002] OK
+[Debug] [2023-3-1 17:13:03] The value of Progress is 6
+[Debug] [2023-3-1 17:13:03] The value of Progress is 10
+[Debug] [2023-3-1 17:13:03] The value of Progress is 15
+[Debug] [2023-3-1 17:13:03] The value of Progress is 20
+[Debug] [2023-3-1 17:13:04] The value of Progress is 25
+[Debug] [2023-3-1 17:13:04] The value of Progress is 30
+[Debug] [2023-3-1 17:13:04] The value of Progress is 35
+[Debug] [2023-3-1 17:13:04] The value of Progress is 40
+[Debug] [2023-3-1 17:13:04] The value of Progress is 45
+[Debug] [2023-3-1 17:13:04] The value of Progress is 50
+[Debug] [2023-3-1 17:13:04] The value of Progress is 55
+[Debug] [2023-3-1 17:13:04] The value of Progress is 60
+[Debug] [2023-3-1 17:13:04] The value of Progress is 65
+[Debug] [2023-3-1 17:13:04] The value of Progress is 70
+[Debug] [2023-3-1 17:13:04] The value of Progress is 75
+[Debug] [2023-3-1 17:13:05] The value of Progress is 80
+[Debug] [2023-3-1 17:13:05] The value of Progress is 85
+[Debug] [2023-3-1 17:13:05] The value of Progress is 90
+[Debug] [2023-3-1 17:13:05] The value of Progress is 95
+[Debug] [2023-3-1 17:13:05] The value of Progress is 100
+[Debug] [2023-3-1 17:13:05] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-1 17:13:05] End to send programming cmd.
+[Info] [2023-3-1 17:14:06] /***************************End Configration***************************/
+[Info] [2023-3-2 19:31:23] /***************************Start Configuration***************************/
+[Info] [2023-3-2 19:31:23] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-2 19:31:23] Version: 99559
+[Info] [2023-3-2 19:31:24] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 19:31:24] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 19:31:27] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-2 19:31:27] Client Local host name:admin
+[Debug] [2023-3-2 19:31:27] Client Local Address:192.168.3.6
+[Debug] [2023-3-2 19:31:27] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-2 19:31:27] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-2 19:31:27] Finish.
+[Info] [2023-3-2 19:31:27] Connect server succeeded
+[Debug] [2023-3-2 19:31:27] Send RPC:1
+[Debug] [2023-3-2 19:31:27] Send cmd [check version information:40005] OK
+[Debug] [2023-3-2 19:31:27] Send RPC:2
+[Debug] [2023-3-2 19:31:27] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-2 19:31:27] Begin to send initialize chain cmd...
+[Debug] [2023-3-2 19:31:27] Send RPC:3
+[Debug] [2023-3-2 19:31:27] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-2 19:31:27] End to send initialize chain cmd.
+[Debug] [2023-3-2 19:31:27] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-2 19:31:28] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-2 19:31:28] begin the exec of open cable cmd...
+[Debug] [2023-3-2 19:31:28] Begin to deal with chain from server...
+[Debug] [2023-3-2 19:31:28] Begin to set user chain...
+[Debug] [2023-3-2 19:31:28] End to set user chain.
+[Debug] [2023-3-2 19:31:28] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 19:31:28] End to update graphic item and tree item ...
+[Info] [2023-3-2 19:31:31] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-2 19:31:31] begin to get device info from CFG file...
+[Debug] [2023-3-2 19:31:31] end to get device info from CFG file...
+[Debug] [2023-3-2 19:31:31] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 19:31:31] End to update graphic item and tree item ...
+[Debug] [2023-3-2 19:31:31] End to deal wiht chain from server.
+[Debug] [2023-3-2 19:31:31] end the exec of open cable cmd.
+[Debug] [2023-3-2 19:31:31] COMMAND[Open config cable] execute successfully, takes 3.8 secs.
+[Debug] [2023-3-2 19:31:33] Begin to send programming cmd...
+[Debug] [2023-3-2 19:31:33] Send RPC:4
+[Debug] [2023-3-2 19:31:33] Begin to send program data.
+[Debug] [2023-3-2 19:31:33] End to send program data.
+[Debug] [2023-3-2 19:31:33] Send cmd [Program:20002] OK
+[Debug] [2023-3-2 19:31:33] The value of Progress is 6
+[Debug] [2023-3-2 19:31:33] The value of Progress is 10
+[Debug] [2023-3-2 19:31:33] The value of Progress is 15
+[Debug] [2023-3-2 19:31:33] The value of Progress is 20
+[Debug] [2023-3-2 19:31:33] The value of Progress is 25
+[Debug] [2023-3-2 19:31:33] The value of Progress is 30
+[Debug] [2023-3-2 19:31:33] The value of Progress is 35
+[Debug] [2023-3-2 19:31:33] The value of Progress is 40
+[Debug] [2023-3-2 19:31:33] The value of Progress is 45
+[Debug] [2023-3-2 19:31:34] The value of Progress is 50
+[Debug] [2023-3-2 19:31:34] The value of Progress is 55
+[Debug] [2023-3-2 19:31:34] The value of Progress is 60
+[Debug] [2023-3-2 19:31:34] The value of Progress is 65
+[Debug] [2023-3-2 19:31:34] The value of Progress is 70
+[Debug] [2023-3-2 19:31:34] The value of Progress is 75
+[Debug] [2023-3-2 19:31:34] The value of Progress is 80
+[Debug] [2023-3-2 19:31:34] The value of Progress is 85
+[Debug] [2023-3-2 19:31:34] The value of Progress is 90
+[Debug] [2023-3-2 19:31:34] The value of Progress is 95
+[Debug] [2023-3-2 19:31:34] The value of Progress is 100
+[Debug] [2023-3-2 19:31:34] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-2 19:31:34] End to send programming cmd.
+[Debug] [2023-3-2 19:33:19] Begin to send programming cmd...
+[Debug] [2023-3-2 19:33:19] Send RPC:5
+[Debug] [2023-3-2 19:33:19] Begin to send program data.
+[Debug] [2023-3-2 19:33:19] End to send program data.
+[Debug] [2023-3-2 19:33:19] Send cmd [Program:20002] OK
+[Debug] [2023-3-2 19:33:20] The value of Progress is 6
+[Debug] [2023-3-2 19:33:20] The value of Progress is 10
+[Debug] [2023-3-2 19:33:20] The value of Progress is 15
+[Debug] [2023-3-2 19:33:20] The value of Progress is 20
+[Debug] [2023-3-2 19:33:20] The value of Progress is 25
+[Debug] [2023-3-2 19:33:20] The value of Progress is 30
+[Debug] [2023-3-2 19:33:20] The value of Progress is 35
+[Debug] [2023-3-2 19:33:20] The value of Progress is 40
+[Debug] [2023-3-2 19:33:20] The value of Progress is 45
+[Debug] [2023-3-2 19:33:20] The value of Progress is 50
+[Debug] [2023-3-2 19:33:21] The value of Progress is 55
+[Debug] [2023-3-2 19:33:21] The value of Progress is 60
+[Debug] [2023-3-2 19:33:21] The value of Progress is 65
+[Debug] [2023-3-2 19:33:21] The value of Progress is 70
+[Debug] [2023-3-2 19:33:21] The value of Progress is 75
+[Debug] [2023-3-2 19:33:21] The value of Progress is 80
+[Debug] [2023-3-2 19:33:21] The value of Progress is 85
+[Debug] [2023-3-2 19:33:21] The value of Progress is 90
+[Debug] [2023-3-2 19:33:21] The value of Progress is 95
+[Debug] [2023-3-2 19:33:21] The value of Progress is 100
+[Debug] [2023-3-2 19:33:21] COMMAND[Program] execute successfully, takes 1.9 secs.
+[Debug] [2023-3-2 19:33:21] End to send programming cmd.
+[Debug] [2023-3-2 19:36:14] Begin to send programming cmd...
+[Debug] [2023-3-2 19:36:14] Send RPC:6
+[Debug] [2023-3-2 19:36:14] Begin to send program data.
+[Debug] [2023-3-2 19:36:14] End to send program data.
+[Debug] [2023-3-2 19:36:14] Send cmd [Program:20002] OK
+[Debug] [2023-3-2 19:36:15] The value of Progress is 6
+[Debug] [2023-3-2 19:36:15] The value of Progress is 10
+[Debug] [2023-3-2 19:36:15] The value of Progress is 15
+[Debug] [2023-3-2 19:36:15] The value of Progress is 20
+[Debug] [2023-3-2 19:36:15] The value of Progress is 25
+[Debug] [2023-3-2 19:36:15] The value of Progress is 30
+[Debug] [2023-3-2 19:36:15] The value of Progress is 35
+[Debug] [2023-3-2 19:36:15] The value of Progress is 40
+[Debug] [2023-3-2 19:36:15] The value of Progress is 45
+[Debug] [2023-3-2 19:36:15] The value of Progress is 50
+[Debug] [2023-3-2 19:36:16] The value of Progress is 55
+[Debug] [2023-3-2 19:36:16] The value of Progress is 60
+[Debug] [2023-3-2 19:36:16] The value of Progress is 65
+[Debug] [2023-3-2 19:36:16] The value of Progress is 70
+[Debug] [2023-3-2 19:36:16] The value of Progress is 75
+[Debug] [2023-3-2 19:36:16] The value of Progress is 80
+[Debug] [2023-3-2 19:36:16] The value of Progress is 85
+[Debug] [2023-3-2 19:36:16] The value of Progress is 90
+[Debug] [2023-3-2 19:36:16] The value of Progress is 95
+[Debug] [2023-3-2 19:36:16] The value of Progress is 100
+[Debug] [2023-3-2 19:36:17] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2023-3-2 19:36:17] End to send programming cmd.
+[Info] [2023-3-2 19:47:48] /***************************End Configration***************************/
+[Info] [2023-3-2 19:49:00] /***************************Start Configuration***************************/
+[Info] [2023-3-2 19:49:00] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-2 19:49:00] Version: 99559
+[Info] [2023-3-2 19:49:01] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 19:49:01] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 19:49:03] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-2 19:49:03] Client Local host name:admin
+[Debug] [2023-3-2 19:49:03] Client Local Address:192.168.3.6
+[Debug] [2023-3-2 19:49:03] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-2 19:49:03] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-2 19:49:03] Finish.
+[Info] [2023-3-2 19:49:03] Connect server succeeded
+[Debug] [2023-3-2 19:49:03] Send RPC:1
+[Debug] [2023-3-2 19:49:03] Send cmd [check version information:40005] OK
+[Debug] [2023-3-2 19:49:03] Send RPC:2
+[Debug] [2023-3-2 19:49:03] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-2 19:49:03] Begin to send initialize chain cmd...
+[Debug] [2023-3-2 19:49:03] Send RPC:3
+[Debug] [2023-3-2 19:49:03] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-2 19:49:03] End to send initialize chain cmd.
+[Debug] [2023-3-2 19:49:03] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-2 19:49:04] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2023-3-2 19:49:04] begin the exec of open cable cmd...
+[Debug] [2023-3-2 19:49:04] Begin to deal with chain from server...
+[Debug] [2023-3-2 19:49:04] Begin to set user chain...
+[Debug] [2023-3-2 19:49:04] End to set user chain.
+[Debug] [2023-3-2 19:49:04] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 19:49:04] End to update graphic item and tree item ...
+[Info] [2023-3-2 19:49:06] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-2 19:49:06] begin to get device info from CFG file...
+[Debug] [2023-3-2 19:49:06] end to get device info from CFG file...
+[Debug] [2023-3-2 19:49:06] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 19:49:06] End to update graphic item and tree item ...
+[Debug] [2023-3-2 19:49:06] End to deal wiht chain from server.
+[Debug] [2023-3-2 19:49:06] end the exec of open cable cmd.
+[Debug] [2023-3-2 19:49:06] COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2023-3-2 19:49:07] Begin to send programming cmd...
+[Debug] [2023-3-2 19:49:07] Send RPC:4
+[Debug] [2023-3-2 19:49:07] Begin to send program data.
+[Debug] [2023-3-2 19:49:07] End to send program data.
+[Debug] [2023-3-2 19:49:07] Send cmd [Program:20002] OK
+[Debug] [2023-3-2 19:49:08] The value of Progress is 6
+[Debug] [2023-3-2 19:49:08] The value of Progress is 10
+[Debug] [2023-3-2 19:49:08] The value of Progress is 15
+[Debug] [2023-3-2 19:49:08] The value of Progress is 20
+[Debug] [2023-3-2 19:49:08] The value of Progress is 25
+[Debug] [2023-3-2 19:49:08] The value of Progress is 30
+[Debug] [2023-3-2 19:49:08] The value of Progress is 35
+[Debug] [2023-3-2 19:49:08] The value of Progress is 40
+[Debug] [2023-3-2 19:49:08] The value of Progress is 45
+[Debug] [2023-3-2 19:49:08] The value of Progress is 50
+[Debug] [2023-3-2 19:49:08] The value of Progress is 55
+[Debug] [2023-3-2 19:49:09] The value of Progress is 60
+[Debug] [2023-3-2 19:49:09] The value of Progress is 65
+[Debug] [2023-3-2 19:49:09] The value of Progress is 70
+[Debug] [2023-3-2 19:49:09] The value of Progress is 75
+[Debug] [2023-3-2 19:49:09] The value of Progress is 80
+[Debug] [2023-3-2 19:49:09] The value of Progress is 85
+[Debug] [2023-3-2 19:49:09] The value of Progress is 90
+[Debug] [2023-3-2 19:49:09] The value of Progress is 95
+[Debug] [2023-3-2 19:49:09] The value of Progress is 100
+[Debug] [2023-3-2 19:49:09] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-2 19:49:09] End to send programming cmd.
+[Info] [2023-3-2 19:49:23] /***************************End Configration***************************/
+[Info] [2023-3-2 19:56:50] /***************************Start Configuration***************************/
+[Info] [2023-3-2 19:56:50] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-2 19:56:50] Version: 99559
+[Info] [2023-3-2 19:56:51] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 19:56:51] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 19:56:53] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-2 19:56:53] Client Local host name:admin
+[Debug] [2023-3-2 19:56:53] Client Local Address:192.168.3.6
+[Debug] [2023-3-2 19:56:53] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-2 19:56:54] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-2 19:56:54] Finish.
+[Info] [2023-3-2 19:56:54] Connect server succeeded
+[Debug] [2023-3-2 19:56:54] Send RPC:1
+[Debug] [2023-3-2 19:56:54] Send cmd [check version information:40005] OK
+[Debug] [2023-3-2 19:56:54] Send RPC:2
+[Debug] [2023-3-2 19:56:54] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-2 19:56:54] Begin to send initialize chain cmd...
+[Debug] [2023-3-2 19:56:54] Send RPC:3
+[Debug] [2023-3-2 19:56:54] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-2 19:56:54] End to send initialize chain cmd.
+[Debug] [2023-3-2 19:56:54] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-2 19:56:54] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2023-3-2 19:56:55] begin the exec of open cable cmd...
+[Debug] [2023-3-2 19:56:55] Begin to deal with chain from server...
+[Debug] [2023-3-2 19:56:55] Begin to set user chain...
+[Debug] [2023-3-2 19:56:55] End to set user chain.
+[Debug] [2023-3-2 19:56:55] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 19:56:55] End to update graphic item and tree item ...
+[Info] [2023-3-2 19:56:59] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-2 19:56:59] begin to get device info from CFG file...
+[Debug] [2023-3-2 19:56:59] end to get device info from CFG file...
+[Debug] [2023-3-2 19:56:59] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 19:56:59] End to update graphic item and tree item ...
+[Debug] [2023-3-2 19:56:59] End to deal wiht chain from server.
+[Debug] [2023-3-2 19:56:59] end the exec of open cable cmd.
+[Debug] [2023-3-2 19:56:59] COMMAND[Open config cable] execute successfully, takes 4.9 secs.
+[Debug] [2023-3-2 19:57:00] Begin to send programming cmd...
+[Debug] [2023-3-2 19:57:00] Send RPC:4
+[Debug] [2023-3-2 19:57:00] Begin to send program data.
+[Debug] [2023-3-2 19:57:00] End to send program data.
+[Debug] [2023-3-2 19:57:00] Send cmd [Program:20002] OK
+[Debug] [2023-3-2 19:57:00] The value of Progress is 6
+[Debug] [2023-3-2 19:57:00] The value of Progress is 10
+[Debug] [2023-3-2 19:57:00] The value of Progress is 15
+[Debug] [2023-3-2 19:57:00] The value of Progress is 20
+[Debug] [2023-3-2 19:57:01] The value of Progress is 25
+[Debug] [2023-3-2 19:57:01] The value of Progress is 30
+[Debug] [2023-3-2 19:57:01] The value of Progress is 35
+[Debug] [2023-3-2 19:57:01] The value of Progress is 40
+[Debug] [2023-3-2 19:57:01] The value of Progress is 45
+[Debug] [2023-3-2 19:57:01] The value of Progress is 50
+[Debug] [2023-3-2 19:57:01] The value of Progress is 55
+[Debug] [2023-3-2 19:57:01] The value of Progress is 60
+[Debug] [2023-3-2 19:57:01] The value of Progress is 65
+[Debug] [2023-3-2 19:57:01] The value of Progress is 70
+[Debug] [2023-3-2 19:57:01] The value of Progress is 75
+[Debug] [2023-3-2 19:57:02] The value of Progress is 80
+[Debug] [2023-3-2 19:57:02] The value of Progress is 85
+[Debug] [2023-3-2 19:57:02] The value of Progress is 90
+[Debug] [2023-3-2 19:57:02] The value of Progress is 95
+[Debug] [2023-3-2 19:57:02] The value of Progress is 100
+[Debug] [2023-3-2 19:57:02] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2023-3-2 19:57:02] End to send programming cmd.
+[Debug] [2023-3-2 20:00:20] Begin to send initialize chain cmd...
+[Debug] [2023-3-2 20:00:20] Send RPC:5
+[Debug] [2023-3-2 20:00:20] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-2 20:00:20] End to send initialize chain cmd.
+[Debug] [2023-3-2 20:00:21] begin the exec of open cable cmd...
+[Debug] [2023-3-2 20:00:21] Begin to deal with chain from server...
+[Debug] [2023-3-2 20:00:21] Begin to set user chain...
+[Debug] [2023-3-2 20:00:21] End to set user chain.
+[Debug] [2023-3-2 20:00:21] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 20:00:21] End to update graphic item and tree item ...
+[Info] [2023-3-2 20:00:22] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-2 20:00:22] begin to get device info from CFG file...
+[Debug] [2023-3-2 20:00:22] end to get device info from CFG file...
+[Debug] [2023-3-2 20:00:22] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 20:00:22] End to update graphic item and tree item ...
+[Debug] [2023-3-2 20:00:22] End to deal wiht chain from server.
+[Debug] [2023-3-2 20:00:22] end the exec of open cable cmd.
+[Debug] [2023-3-2 20:00:22] COMMAND[Open config cable] execute successfully, takes 2.1 secs.
+[Debug] [2023-3-2 20:00:24] Begin to send programming cmd...
+[Debug] [2023-3-2 20:00:24] Send RPC:6
+[Debug] [2023-3-2 20:00:24] Begin to send program data.
+[Debug] [2023-3-2 20:00:24] End to send program data.
+[Debug] [2023-3-2 20:00:24] Send cmd [Program:20002] OK
+[Debug] [2023-3-2 20:00:24] The value of Progress is 6
+[Debug] [2023-3-2 20:00:24] The value of Progress is 10
+[Debug] [2023-3-2 20:00:24] The value of Progress is 15
+[Debug] [2023-3-2 20:00:24] The value of Progress is 20
+[Debug] [2023-3-2 20:00:24] The value of Progress is 25
+[Debug] [2023-3-2 20:00:24] The value of Progress is 30
+[Debug] [2023-3-2 20:00:24] The value of Progress is 35
+[Debug] [2023-3-2 20:00:24] The value of Progress is 40
+[Debug] [2023-3-2 20:00:24] The value of Progress is 45
+[Debug] [2023-3-2 20:00:25] The value of Progress is 50
+[Debug] [2023-3-2 20:00:25] The value of Progress is 55
+[Debug] [2023-3-2 20:00:25] The value of Progress is 60
+[Debug] [2023-3-2 20:00:25] The value of Progress is 65
+[Debug] [2023-3-2 20:00:25] The value of Progress is 70
+[Debug] [2023-3-2 20:00:25] The value of Progress is 75
+[Debug] [2023-3-2 20:00:25] The value of Progress is 80
+[Debug] [2023-3-2 20:00:25] The value of Progress is 85
+[Debug] [2023-3-2 20:00:25] The value of Progress is 90
+[Debug] [2023-3-2 20:00:25] The value of Progress is 95
+[Debug] [2023-3-2 20:00:25] The value of Progress is 100
+[Debug] [2023-3-2 20:00:25] COMMAND[Program] execute successfully, takes 1.9 secs.
+[Debug] [2023-3-2 20:00:25] End to send programming cmd.
+[Info] [2023-3-2 20:00:46] /***************************End Configration***************************/
+[Info] [2023-3-2 20:04:08] /***************************Start Configuration***************************/
+[Info] [2023-3-2 20:04:08] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-2 20:04:08] Version: 99559
+[Info] [2023-3-2 20:04:09] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 20:04:09] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 20:04:12] /***************************End Configration***************************/
+[Info] [2023-3-2 20:04:14] /***************************Start Configuration***************************/
+[Info] [2023-3-2 20:04:14] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-2 20:04:14] Version: 99559
+[Info] [2023-3-2 20:04:15] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 20:04:15] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 20:04:16] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-2 20:04:16] Client Local host name:admin
+[Debug] [2023-3-2 20:04:16] Client Local Address:192.168.3.6
+[Debug] [2023-3-2 20:04:16] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-2 20:04:17] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-2 20:04:17] Finish.
+[Info] [2023-3-2 20:04:17] Connect server succeeded
+[Debug] [2023-3-2 20:04:17] Send RPC:1
+[Debug] [2023-3-2 20:04:17] Send cmd [check version information:40005] OK
+[Debug] [2023-3-2 20:04:17] Send RPC:2
+[Debug] [2023-3-2 20:04:17] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-2 20:04:17] Begin to send initialize chain cmd...
+[Debug] [2023-3-2 20:04:17] Send RPC:3
+[Debug] [2023-3-2 20:04:17] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-2 20:04:17] End to send initialize chain cmd.
+[Debug] [2023-3-2 20:04:17] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-2 20:04:17] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2023-3-2 20:04:18] begin the exec of open cable cmd...
+[Debug] [2023-3-2 20:04:18] Begin to deal with chain from server...
+[Debug] [2023-3-2 20:04:18] Begin to set user chain...
+[Debug] [2023-3-2 20:04:18] End to set user chain.
+[Debug] [2023-3-2 20:04:18] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 20:04:18] End to update graphic item and tree item ...
+[Info] [2023-3-2 20:04:20] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-2 20:04:20] begin to get device info from CFG file...
+[Debug] [2023-3-2 20:04:20] end to get device info from CFG file...
+[Debug] [2023-3-2 20:04:20] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 20:04:20] End to update graphic item and tree item ...
+[Debug] [2023-3-2 20:04:20] End to deal wiht chain from server.
+[Debug] [2023-3-2 20:04:20] end the exec of open cable cmd.
+[Debug] [2023-3-2 20:04:20] COMMAND[Open config cable] execute successfully, takes 3.3 secs.
+[Debug] [2023-3-2 20:04:21] Begin to send programming cmd...
+[Debug] [2023-3-2 20:04:21] Send RPC:4
+[Debug] [2023-3-2 20:04:21] Begin to send program data.
+[Debug] [2023-3-2 20:04:21] End to send program data.
+[Debug] [2023-3-2 20:04:21] Send cmd [Program:20002] OK
+[Debug] [2023-3-2 20:04:21] The value of Progress is 6
+[Debug] [2023-3-2 20:04:22] The value of Progress is 10
+[Debug] [2023-3-2 20:04:22] The value of Progress is 15
+[Debug] [2023-3-2 20:04:22] The value of Progress is 20
+[Debug] [2023-3-2 20:04:22] The value of Progress is 25
+[Debug] [2023-3-2 20:04:22] The value of Progress is 30
+[Debug] [2023-3-2 20:04:22] The value of Progress is 35
+[Debug] [2023-3-2 20:04:22] The value of Progress is 40
+[Debug] [2023-3-2 20:04:22] The value of Progress is 45
+[Debug] [2023-3-2 20:04:22] The value of Progress is 50
+[Debug] [2023-3-2 20:04:22] The value of Progress is 55
+[Debug] [2023-3-2 20:04:22] The value of Progress is 60
+[Debug] [2023-3-2 20:04:22] The value of Progress is 65
+[Debug] [2023-3-2 20:04:23] The value of Progress is 70
+[Debug] [2023-3-2 20:04:23] The value of Progress is 75
+[Debug] [2023-3-2 20:04:23] The value of Progress is 80
+[Debug] [2023-3-2 20:04:23] The value of Progress is 85
+[Debug] [2023-3-2 20:04:23] The value of Progress is 90
+[Debug] [2023-3-2 20:04:23] The value of Progress is 95
+[Debug] [2023-3-2 20:04:23] The value of Progress is 100
+[Debug] [2023-3-2 20:04:23] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2023-3-2 20:04:23] End to send programming cmd.
+[Info] [2023-3-2 20:05:19] /***************************End Configration***************************/
+[Info] [2023-3-2 20:10:33] /***************************Start Configuration***************************/
+[Info] [2023-3-2 20:10:33] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-2 20:10:33] Version: 99559
+[Info] [2023-3-2 20:10:34] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 20:10:34] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 20:10:37] /***************************End Configration***************************/
+[Info] [2023-3-2 20:10:46] /***************************Start Configuration***************************/
+[Info] [2023-3-2 20:10:46] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-2 20:10:46] Version: 99559
+[Info] [2023-3-2 20:10:47] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 20:10:47] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop
+[Info] [2023-3-2 20:10:48] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-2 20:10:48] Client Local host name:admin
+[Debug] [2023-3-2 20:10:48] Client Local Address:192.168.3.6
+[Debug] [2023-3-2 20:10:48] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-2 20:10:49] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-2 20:10:49] Finish.
+[Info] [2023-3-2 20:10:49] Connect server succeeded
+[Debug] [2023-3-2 20:10:49] Send RPC:1
+[Debug] [2023-3-2 20:10:49] Send cmd [check version information:40005] OK
+[Debug] [2023-3-2 20:10:49] Send RPC:2
+[Debug] [2023-3-2 20:10:49] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-2 20:10:49] Begin to send initialize chain cmd...
+[Debug] [2023-3-2 20:10:49] Send RPC:3
+[Debug] [2023-3-2 20:10:49] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-2 20:10:49] End to send initialize chain cmd.
+[Debug] [2023-3-2 20:10:49] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-2 20:10:50] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2023-3-2 20:10:50] begin the exec of open cable cmd...
+[Debug] [2023-3-2 20:10:50] Begin to deal with chain from server...
+[Debug] [2023-3-2 20:10:50] Begin to set user chain...
+[Debug] [2023-3-2 20:10:50] End to set user chain.
+[Debug] [2023-3-2 20:10:50] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 20:10:50] End to update graphic item and tree item ...
+[Info] [2023-3-2 20:10:52] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-2 20:10:52] begin to get device info from CFG file...
+[Debug] [2023-3-2 20:10:52] end to get device info from CFG file...
+[Debug] [2023-3-2 20:10:52] Begin to update graphic item and tree item ...
+[Debug] [2023-3-2 20:10:52] End to update graphic item and tree item ...
+[Debug] [2023-3-2 20:10:52] End to deal wiht chain from server.
+[Debug] [2023-3-2 20:10:52] end the exec of open cable cmd.
+[Debug] [2023-3-2 20:10:52] COMMAND[Open config cable] execute successfully, takes 3.2 secs.
+[Debug] [2023-3-2 20:10:53] Begin to send programming cmd...
+[Debug] [2023-3-2 20:10:53] Send RPC:4
+[Debug] [2023-3-2 20:10:53] Begin to send program data.
+[Debug] [2023-3-2 20:10:53] End to send program data.
+[Debug] [2023-3-2 20:10:53] Send cmd [Program:20002] OK
+[Debug] [2023-3-2 20:10:53] The value of Progress is 6
+[Debug] [2023-3-2 20:10:54] The value of Progress is 10
+[Debug] [2023-3-2 20:10:54] The value of Progress is 15
+[Debug] [2023-3-2 20:10:54] The value of Progress is 20
+[Debug] [2023-3-2 20:10:54] The value of Progress is 25
+[Debug] [2023-3-2 20:10:54] The value of Progress is 30
+[Debug] [2023-3-2 20:10:54] The value of Progress is 35
+[Debug] [2023-3-2 20:10:54] The value of Progress is 40
+[Debug] [2023-3-2 20:10:54] The value of Progress is 45
+[Debug] [2023-3-2 20:10:54] The value of Progress is 50
+[Debug] [2023-3-2 20:10:54] The value of Progress is 55
+[Debug] [2023-3-2 20:10:54] The value of Progress is 60
+[Debug] [2023-3-2 20:10:55] The value of Progress is 65
+[Debug] [2023-3-2 20:10:55] The value of Progress is 70
+[Debug] [2023-3-2 20:10:55] The value of Progress is 75
+[Debug] [2023-3-2 20:10:55] The value of Progress is 80
+[Debug] [2023-3-2 20:10:55] The value of Progress is 85
+[Debug] [2023-3-2 20:10:55] The value of Progress is 90
+[Debug] [2023-3-2 20:10:55] The value of Progress is 95
+[Debug] [2023-3-2 20:10:55] The value of Progress is 100
+[Debug] [2023-3-2 20:10:55] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-2 20:10:55] End to send programming cmd.
+[Info] [2023-3-2 20:11:58] /***************************End Configration***************************/
+[Info] [2023-3-3 17:04:00] /***************************Start Configuration***************************/
+[Info] [2023-3-3 17:04:00] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-3 17:04:00] Version: 99559
+[Info] [2023-3-3 17:04:01] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:04:01] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:04:02] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-3 17:04:02] Client Local host name:admin
+[Debug] [2023-3-3 17:04:02] Client Local Address:192.168.3.6
+[Debug] [2023-3-3 17:04:02] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-3 17:04:03] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-3 17:04:03] Finish.
+[Info] [2023-3-3 17:04:03] Connect server succeeded
+[Debug] [2023-3-3 17:04:03] Send RPC:1
+[Debug] [2023-3-3 17:04:03] Send cmd [check version information:40005] OK
+[Debug] [2023-3-3 17:04:03] Send RPC:2
+[Debug] [2023-3-3 17:04:03] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-3 17:04:03] Begin to send initialize chain cmd...
+[Debug] [2023-3-3 17:04:03] Send RPC:3
+[Debug] [2023-3-3 17:04:03] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-3 17:04:03] End to send initialize chain cmd.
+[Debug] [2023-3-3 17:04:03] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-3 17:04:03] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-3 17:04:04] begin the exec of open cable cmd...
+[Debug] [2023-3-3 17:04:04] Begin to deal with chain from server...
+[Debug] [2023-3-3 17:04:04] Begin to set user chain...
+[Debug] [2023-3-3 17:04:04] End to set user chain.
+[Debug] [2023-3-3 17:04:04] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:04:04] End to update graphic item and tree item ...
+[Info] [2023-3-3 17:04:06] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-3 17:04:06] begin to get device info from CFG file...
+[Debug] [2023-3-3 17:04:06] end to get device info from CFG file...
+[Debug] [2023-3-3 17:04:06] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:04:06] End to update graphic item and tree item ...
+[Debug] [2023-3-3 17:04:06] End to deal wiht chain from server.
+[Debug] [2023-3-3 17:04:06] end the exec of open cable cmd.
+[Debug] [2023-3-3 17:04:06] COMMAND[Open config cable] execute successfully, takes 3.3 secs.
+[Debug] [2023-3-3 17:04:07] Begin to send programming cmd...
+[Debug] [2023-3-3 17:04:07] Send RPC:4
+[Debug] [2023-3-3 17:04:07] Begin to send program data.
+[Debug] [2023-3-3 17:04:07] End to send program data.
+[Debug] [2023-3-3 17:04:07] Send cmd [Program:20002] OK
+[Debug] [2023-3-3 17:04:07] The value of Progress is 6
+[Debug] [2023-3-3 17:04:07] The value of Progress is 10
+[Debug] [2023-3-3 17:04:07] The value of Progress is 15
+[Debug] [2023-3-3 17:04:07] The value of Progress is 20
+[Debug] [2023-3-3 17:04:07] The value of Progress is 25
+[Debug] [2023-3-3 17:04:08] The value of Progress is 30
+[Debug] [2023-3-3 17:04:08] The value of Progress is 35
+[Debug] [2023-3-3 17:04:08] The value of Progress is 40
+[Debug] [2023-3-3 17:04:08] The value of Progress is 45
+[Debug] [2023-3-3 17:04:08] The value of Progress is 50
+[Debug] [2023-3-3 17:04:08] The value of Progress is 55
+[Debug] [2023-3-3 17:04:08] The value of Progress is 60
+[Debug] [2023-3-3 17:04:08] The value of Progress is 65
+[Debug] [2023-3-3 17:04:08] The value of Progress is 70
+[Debug] [2023-3-3 17:04:08] The value of Progress is 75
+[Debug] [2023-3-3 17:04:08] The value of Progress is 80
+[Debug] [2023-3-3 17:04:09] The value of Progress is 85
+[Debug] [2023-3-3 17:04:09] The value of Progress is 90
+[Debug] [2023-3-3 17:04:09] The value of Progress is 95
+[Debug] [2023-3-3 17:04:09] The value of Progress is 100
+[Debug] [2023-3-3 17:04:09] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-3 17:04:09] End to send programming cmd.
+[Info] [2023-3-3 17:13:30] /***************************End Configration***************************/
+[Info] [2023-3-3 17:22:22] /***************************Start Configuration***************************/
+[Info] [2023-3-3 17:22:22] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-3 17:22:22] Version: 99559
+[Info] [2023-3-3 17:22:23] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:22:23] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:22:24] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-3 17:22:25] Client Local host name:admin
+[Debug] [2023-3-3 17:22:25] Client Local Address:192.168.3.6
+[Debug] [2023-3-3 17:22:25] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-3 17:22:25] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-3 17:22:25] Finish.
+[Info] [2023-3-3 17:22:25] Connect server succeeded
+[Debug] [2023-3-3 17:22:25] Send RPC:1
+[Debug] [2023-3-3 17:22:25] Send cmd [check version information:40005] OK
+[Debug] [2023-3-3 17:22:25] Send RPC:2
+[Debug] [2023-3-3 17:22:25] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-3 17:22:25] Begin to send initialize chain cmd...
+[Debug] [2023-3-3 17:22:25] Send RPC:3
+[Debug] [2023-3-3 17:22:25] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-3 17:22:25] End to send initialize chain cmd.
+[Debug] [2023-3-3 17:22:25] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-3 17:22:25] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-3 17:22:26] begin the exec of open cable cmd...
+[Debug] [2023-3-3 17:22:26] Begin to deal with chain from server...
+[Debug] [2023-3-3 17:22:26] Begin to set user chain...
+[Debug] [2023-3-3 17:22:26] End to set user chain.
+[Debug] [2023-3-3 17:22:26] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:22:26] End to update graphic item and tree item ...
+[Info] [2023-3-3 17:22:28] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-3 17:22:28] begin to get device info from CFG file...
+[Debug] [2023-3-3 17:22:28] end to get device info from CFG file...
+[Debug] [2023-3-3 17:22:28] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:22:28] End to update graphic item and tree item ...
+[Debug] [2023-3-3 17:22:28] End to deal wiht chain from server.
+[Debug] [2023-3-3 17:22:28] end the exec of open cable cmd.
+[Debug] [2023-3-3 17:22:28] COMMAND[Open config cable] execute successfully, takes 3.6 secs.
+[Debug] [2023-3-3 17:22:29] Begin to send programming cmd...
+[Debug] [2023-3-3 17:22:29] Send RPC:4
+[Debug] [2023-3-3 17:22:29] Begin to send program data.
+[Debug] [2023-3-3 17:22:29] End to send program data.
+[Debug] [2023-3-3 17:22:29] Send cmd [Program:20002] OK
+[Debug] [2023-3-3 17:22:30] The value of Progress is 6
+[Debug] [2023-3-3 17:22:30] The value of Progress is 10
+[Debug] [2023-3-3 17:22:30] The value of Progress is 15
+[Debug] [2023-3-3 17:22:30] The value of Progress is 20
+[Debug] [2023-3-3 17:22:30] The value of Progress is 25
+[Debug] [2023-3-3 17:22:30] The value of Progress is 30
+[Debug] [2023-3-3 17:22:30] The value of Progress is 35
+[Debug] [2023-3-3 17:22:30] The value of Progress is 40
+[Debug] [2023-3-3 17:22:30] The value of Progress is 45
+[Debug] [2023-3-3 17:22:30] The value of Progress is 50
+[Debug] [2023-3-3 17:22:30] The value of Progress is 55
+[Debug] [2023-3-3 17:22:30] The value of Progress is 60
+[Debug] [2023-3-3 17:22:31] The value of Progress is 65
+[Debug] [2023-3-3 17:22:31] The value of Progress is 70
+[Debug] [2023-3-3 17:22:31] The value of Progress is 75
+[Debug] [2023-3-3 17:22:31] The value of Progress is 80
+[Debug] [2023-3-3 17:22:31] The value of Progress is 85
+[Debug] [2023-3-3 17:22:31] The value of Progress is 90
+[Debug] [2023-3-3 17:22:31] The value of Progress is 95
+[Debug] [2023-3-3 17:22:31] The value of Progress is 100
+[Debug] [2023-3-3 17:22:32] COMMAND[Program] execute successfully, takes 2.7 secs.
+[Debug] [2023-3-3 17:22:32] End to send programming cmd.
+[Debug] [2023-3-3 17:27:23] Begin to send programming cmd...
+[Debug] [2023-3-3 17:27:23] Send RPC:5
+[Debug] [2023-3-3 17:27:23] Begin to send program data.
+[Debug] [2023-3-3 17:27:23] End to send program data.
+[Debug] [2023-3-3 17:27:23] Send cmd [Program:20002] OK
+[Debug] [2023-3-3 17:27:23] The value of Progress is 6
+[Debug] [2023-3-3 17:27:23] The value of Progress is 10
+[Debug] [2023-3-3 17:27:23] The value of Progress is 15
+[Debug] [2023-3-3 17:27:23] The value of Progress is 20
+[Debug] [2023-3-3 17:27:24] The value of Progress is 25
+[Debug] [2023-3-3 17:27:24] The value of Progress is 30
+[Debug] [2023-3-3 17:27:24] The value of Progress is 35
+[Debug] [2023-3-3 17:27:24] The value of Progress is 40
+[Debug] [2023-3-3 17:27:24] The value of Progress is 45
+[Debug] [2023-3-3 17:27:24] The value of Progress is 50
+[Debug] [2023-3-3 17:27:24] The value of Progress is 55
+[Debug] [2023-3-3 17:27:24] The value of Progress is 60
+[Debug] [2023-3-3 17:27:24] The value of Progress is 65
+[Debug] [2023-3-3 17:27:24] The value of Progress is 70
+[Debug] [2023-3-3 17:27:24] The value of Progress is 75
+[Debug] [2023-3-3 17:27:24] The value of Progress is 80
+[Debug] [2023-3-3 17:27:25] The value of Progress is 85
+[Debug] [2023-3-3 17:27:25] The value of Progress is 90
+[Debug] [2023-3-3 17:27:25] The value of Progress is 95
+[Debug] [2023-3-3 17:27:25] The value of Progress is 100
+[Debug] [2023-3-3 17:27:25] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2023-3-3 17:27:25] End to send programming cmd.
+[Info] [2023-3-3 17:27:48] /***************************End Configration***************************/
+[Info] [2023-3-3 17:35:37] /***************************Start Configuration***************************/
+[Info] [2023-3-3 17:35:37] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-3 17:35:37] Version: 99559
+[Info] [2023-3-3 17:35:38] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:35:38] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:35:40] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-3 17:35:40] Client Local host name:admin
+[Debug] [2023-3-3 17:35:40] Client Local Address:192.168.3.6
+[Debug] [2023-3-3 17:35:40] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-3 17:35:41] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-3 17:35:41] Finish.
+[Info] [2023-3-3 17:35:41] Connect server succeeded
+[Debug] [2023-3-3 17:35:41] Send RPC:1
+[Debug] [2023-3-3 17:35:41] Send cmd [check version information:40005] OK
+[Debug] [2023-3-3 17:35:41] Send RPC:2
+[Debug] [2023-3-3 17:35:41] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-3 17:35:41] Begin to send initialize chain cmd...
+[Debug] [2023-3-3 17:35:41] Send RPC:3
+[Debug] [2023-3-3 17:35:41] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-3 17:35:41] End to send initialize chain cmd.
+[Debug] [2023-3-3 17:35:41] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-3 17:35:41] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-3 17:35:42] begin the exec of open cable cmd...
+[Debug] [2023-3-3 17:35:42] Begin to deal with chain from server...
+[Debug] [2023-3-3 17:35:42] Begin to set user chain...
+[Debug] [2023-3-3 17:35:42] End to set user chain.
+[Debug] [2023-3-3 17:35:42] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:35:42] End to update graphic item and tree item ...
+[Info] [2023-3-3 17:35:44] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-3 17:35:44] begin to get device info from CFG file...
+[Debug] [2023-3-3 17:35:44] end to get device info from CFG file...
+[Debug] [2023-3-3 17:35:44] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:35:44] End to update graphic item and tree item ...
+[Debug] [2023-3-3 17:35:44] End to deal wiht chain from server.
+[Debug] [2023-3-3 17:35:44] end the exec of open cable cmd.
+[Debug] [2023-3-3 17:35:44] COMMAND[Open config cable] execute successfully, takes 3.2 secs.
+[Debug] [2023-3-3 17:35:45] Begin to send programming cmd...
+[Debug] [2023-3-3 17:35:45] Send RPC:4
+[Debug] [2023-3-3 17:35:45] Begin to send program data.
+[Debug] [2023-3-3 17:35:45] End to send program data.
+[Debug] [2023-3-3 17:35:45] Send cmd [Program:20002] OK
+[Debug] [2023-3-3 17:35:46] The value of Progress is 6
+[Debug] [2023-3-3 17:35:46] The value of Progress is 10
+[Debug] [2023-3-3 17:35:46] The value of Progress is 15
+[Debug] [2023-3-3 17:35:46] The value of Progress is 20
+[Debug] [2023-3-3 17:35:46] The value of Progress is 25
+[Debug] [2023-3-3 17:35:46] The value of Progress is 30
+[Debug] [2023-3-3 17:35:46] The value of Progress is 35
+[Debug] [2023-3-3 17:35:46] The value of Progress is 40
+[Debug] [2023-3-3 17:35:46] The value of Progress is 45
+[Debug] [2023-3-3 17:35:46] The value of Progress is 50
+[Debug] [2023-3-3 17:35:47] The value of Progress is 55
+[Debug] [2023-3-3 17:35:47] The value of Progress is 60
+[Debug] [2023-3-3 17:35:47] The value of Progress is 65
+[Debug] [2023-3-3 17:35:47] The value of Progress is 70
+[Debug] [2023-3-3 17:35:47] The value of Progress is 75
+[Debug] [2023-3-3 17:35:47] The value of Progress is 80
+[Debug] [2023-3-3 17:35:47] The value of Progress is 85
+[Debug] [2023-3-3 17:35:47] The value of Progress is 90
+[Debug] [2023-3-3 17:35:47] The value of Progress is 95
+[Debug] [2023-3-3 17:35:47] The value of Progress is 100
+[Debug] [2023-3-3 17:35:47] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-3 17:35:47] End to send programming cmd.
+[Info] [2023-3-3 17:36:40] /***************************End Configration***************************/
+[Info] [2023-3-3 17:40:54] /***************************Start Configuration***************************/
+[Info] [2023-3-3 17:40:54] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-3 17:40:54] Version: 99559
+[Info] [2023-3-3 17:40:55] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:40:55] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:40:57] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-3 17:40:57] Client Local host name:admin
+[Debug] [2023-3-3 17:40:57] Client Local Address:192.168.3.6
+[Debug] [2023-3-3 17:40:57] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-3 17:40:57] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-3 17:40:57] Finish.
+[Info] [2023-3-3 17:40:57] Connect server succeeded
+[Debug] [2023-3-3 17:40:57] Send RPC:1
+[Debug] [2023-3-3 17:40:57] Send cmd [check version information:40005] OK
+[Debug] [2023-3-3 17:40:57] Send RPC:2
+[Debug] [2023-3-3 17:40:57] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-3 17:40:57] Begin to send initialize chain cmd...
+[Debug] [2023-3-3 17:40:57] Send RPC:3
+[Debug] [2023-3-3 17:40:57] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-3 17:40:57] End to send initialize chain cmd.
+[Debug] [2023-3-3 17:40:57] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-3 17:40:58] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-3 17:40:58] begin the exec of open cable cmd...
+[Debug] [2023-3-3 17:40:58] Begin to deal with chain from server...
+[Debug] [2023-3-3 17:40:58] Begin to set user chain...
+[Debug] [2023-3-3 17:40:58] End to set user chain.
+[Debug] [2023-3-3 17:40:58] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:40:58] End to update graphic item and tree item ...
+[Info] [2023-3-3 17:41:00] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-3 17:41:00] begin to get device info from CFG file...
+[Debug] [2023-3-3 17:41:00] end to get device info from CFG file...
+[Debug] [2023-3-3 17:41:00] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:41:00] End to update graphic item and tree item ...
+[Debug] [2023-3-3 17:41:00] End to deal wiht chain from server.
+[Debug] [2023-3-3 17:41:00] end the exec of open cable cmd.
+[Debug] [2023-3-3 17:41:00] COMMAND[Open config cable] execute successfully, takes 3.4 secs.
+[Debug] [2023-3-3 17:41:02] Begin to send programming cmd...
+[Debug] [2023-3-3 17:41:02] Send RPC:4
+[Debug] [2023-3-3 17:41:02] Begin to send program data.
+[Debug] [2023-3-3 17:41:02] End to send program data.
+[Debug] [2023-3-3 17:41:02] Send cmd [Program:20002] OK
+[Debug] [2023-3-3 17:41:02] The value of Progress is 6
+[Debug] [2023-3-3 17:41:02] The value of Progress is 10
+[Debug] [2023-3-3 17:41:02] The value of Progress is 15
+[Debug] [2023-3-3 17:41:02] The value of Progress is 20
+[Debug] [2023-3-3 17:41:02] The value of Progress is 25
+[Debug] [2023-3-3 17:41:02] The value of Progress is 30
+[Debug] [2023-3-3 17:41:02] The value of Progress is 35
+[Debug] [2023-3-3 17:41:02] The value of Progress is 40
+[Debug] [2023-3-3 17:41:02] The value of Progress is 45
+[Debug] [2023-3-3 17:41:03] The value of Progress is 50
+[Debug] [2023-3-3 17:41:03] The value of Progress is 55
+[Debug] [2023-3-3 17:41:03] The value of Progress is 60
+[Debug] [2023-3-3 17:41:03] The value of Progress is 65
+[Debug] [2023-3-3 17:41:03] The value of Progress is 70
+[Debug] [2023-3-3 17:41:03] The value of Progress is 75
+[Debug] [2023-3-3 17:41:03] The value of Progress is 80
+[Debug] [2023-3-3 17:41:03] The value of Progress is 85
+[Debug] [2023-3-3 17:41:03] The value of Progress is 90
+[Debug] [2023-3-3 17:41:03] The value of Progress is 95
+[Debug] [2023-3-3 17:41:03] The value of Progress is 100
+[Debug] [2023-3-3 17:41:03] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-3 17:41:03] End to send programming cmd.
+[Info] [2023-3-3 17:44:45] /***************************End Configration***************************/
+[Info] [2023-3-3 17:47:01] /***************************Start Configuration***************************/
+[Info] [2023-3-3 17:47:01] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-3 17:47:01] Version: 99559
+[Info] [2023-3-3 17:47:02] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:47:02] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:47:04] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-3 17:47:04] Client Local host name:admin
+[Debug] [2023-3-3 17:47:04] Client Local Address:192.168.3.6
+[Debug] [2023-3-3 17:47:04] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-3 17:47:04] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-3 17:47:04] Finish.
+[Info] [2023-3-3 17:47:04] Connect server succeeded
+[Debug] [2023-3-3 17:47:04] Send RPC:1
+[Debug] [2023-3-3 17:47:04] Send cmd [check version information:40005] OK
+[Debug] [2023-3-3 17:47:04] Send RPC:2
+[Debug] [2023-3-3 17:47:04] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-3 17:47:04] Begin to send initialize chain cmd...
+[Debug] [2023-3-3 17:47:04] Send RPC:3
+[Debug] [2023-3-3 17:47:04] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-3 17:47:04] End to send initialize chain cmd.
+[Debug] [2023-3-3 17:47:04] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-3 17:47:05] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-3 17:47:05] begin the exec of open cable cmd...
+[Debug] [2023-3-3 17:47:05] Begin to deal with chain from server...
+[Debug] [2023-3-3 17:47:05] Begin to set user chain...
+[Debug] [2023-3-3 17:47:05] End to set user chain.
+[Debug] [2023-3-3 17:47:05] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:47:05] End to update graphic item and tree item ...
+[Info] [2023-3-3 17:47:07] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-3 17:47:07] begin to get device info from CFG file...
+[Debug] [2023-3-3 17:47:07] end to get device info from CFG file...
+[Debug] [2023-3-3 17:47:07] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:47:07] End to update graphic item and tree item ...
+[Debug] [2023-3-3 17:47:07] End to deal wiht chain from server.
+[Debug] [2023-3-3 17:47:07] end the exec of open cable cmd.
+[Debug] [2023-3-3 17:47:07] COMMAND[Open config cable] execute successfully, takes 2.8 secs.
+[Debug] [2023-3-3 17:47:08] Begin to send programming cmd...
+[Debug] [2023-3-3 17:47:08] Send RPC:4
+[Debug] [2023-3-3 17:47:08] Begin to send program data.
+[Debug] [2023-3-3 17:47:08] End to send program data.
+[Debug] [2023-3-3 17:47:08] Send cmd [Program:20002] OK
+[Debug] [2023-3-3 17:47:08] The value of Progress is 6
+[Debug] [2023-3-3 17:47:08] The value of Progress is 10
+[Debug] [2023-3-3 17:47:08] The value of Progress is 15
+[Debug] [2023-3-3 17:47:09] The value of Progress is 20
+[Debug] [2023-3-3 17:47:09] The value of Progress is 25
+[Debug] [2023-3-3 17:47:09] The value of Progress is 30
+[Debug] [2023-3-3 17:47:09] The value of Progress is 35
+[Debug] [2023-3-3 17:47:09] The value of Progress is 40
+[Debug] [2023-3-3 17:47:09] The value of Progress is 45
+[Debug] [2023-3-3 17:47:09] The value of Progress is 50
+[Debug] [2023-3-3 17:47:09] The value of Progress is 55
+[Debug] [2023-3-3 17:47:09] The value of Progress is 60
+[Debug] [2023-3-3 17:47:09] The value of Progress is 65
+[Debug] [2023-3-3 17:47:09] The value of Progress is 70
+[Debug] [2023-3-3 17:47:10] The value of Progress is 75
+[Debug] [2023-3-3 17:47:10] The value of Progress is 80
+[Debug] [2023-3-3 17:47:10] The value of Progress is 85
+[Debug] [2023-3-3 17:47:10] The value of Progress is 90
+[Debug] [2023-3-3 17:47:10] The value of Progress is 95
+[Debug] [2023-3-3 17:47:10] The value of Progress is 100
+[Debug] [2023-3-3 17:47:10] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-3 17:47:10] End to send programming cmd.
+[Info] [2023-3-3 17:50:25] /***************************End Configration***************************/
+[Info] [2023-3-3 17:50:29] /***************************Start Configuration***************************/
+[Info] [2023-3-3 17:50:29] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-3 17:50:29] Version: 99559
+[Info] [2023-3-3 17:50:30] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:50:30] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 17:50:32] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-3 17:50:32] Client Local host name:admin
+[Debug] [2023-3-3 17:50:32] Client Local Address:192.168.3.6
+[Debug] [2023-3-3 17:50:32] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-3 17:50:32] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-3 17:50:32] Finish.
+[Info] [2023-3-3 17:50:32] Connect server succeeded
+[Debug] [2023-3-3 17:50:32] Send RPC:1
+[Debug] [2023-3-3 17:50:32] Send cmd [check version information:40005] OK
+[Debug] [2023-3-3 17:50:32] Send RPC:2
+[Debug] [2023-3-3 17:50:32] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-3 17:50:32] Begin to send initialize chain cmd...
+[Debug] [2023-3-3 17:50:32] Send RPC:3
+[Debug] [2023-3-3 17:50:32] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-3 17:50:32] End to send initialize chain cmd.
+[Debug] [2023-3-3 17:50:32] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-3 17:50:33] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2023-3-3 17:50:33] begin the exec of open cable cmd...
+[Debug] [2023-3-3 17:50:33] Begin to deal with chain from server...
+[Debug] [2023-3-3 17:50:33] Begin to set user chain...
+[Debug] [2023-3-3 17:50:33] End to set user chain.
+[Debug] [2023-3-3 17:50:33] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:50:33] End to update graphic item and tree item ...
+[Info] [2023-3-3 17:50:35] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-3 17:50:35] begin to get device info from CFG file...
+[Debug] [2023-3-3 17:50:35] end to get device info from CFG file...
+[Debug] [2023-3-3 17:50:35] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 17:50:35] End to update graphic item and tree item ...
+[Debug] [2023-3-3 17:50:35] End to deal wiht chain from server.
+[Debug] [2023-3-3 17:50:35] end the exec of open cable cmd.
+[Debug] [2023-3-3 17:50:35] COMMAND[Open config cable] execute successfully, takes 3.0 secs.
+[Debug] [2023-3-3 17:50:36] Begin to send programming cmd...
+[Debug] [2023-3-3 17:50:36] Send RPC:4
+[Debug] [2023-3-3 17:50:36] Begin to send program data.
+[Debug] [2023-3-3 17:50:36] End to send program data.
+[Debug] [2023-3-3 17:50:36] Send cmd [Program:20002] OK
+[Debug] [2023-3-3 17:50:36] The value of Progress is 6
+[Debug] [2023-3-3 17:50:36] The value of Progress is 10
+[Debug] [2023-3-3 17:50:36] The value of Progress is 15
+[Debug] [2023-3-3 17:50:36] The value of Progress is 20
+[Debug] [2023-3-3 17:50:36] The value of Progress is 25
+[Debug] [2023-3-3 17:50:37] The value of Progress is 30
+[Debug] [2023-3-3 17:50:37] The value of Progress is 35
+[Debug] [2023-3-3 17:50:37] The value of Progress is 40
+[Debug] [2023-3-3 17:50:37] The value of Progress is 45
+[Debug] [2023-3-3 17:50:37] The value of Progress is 50
+[Debug] [2023-3-3 17:50:37] The value of Progress is 55
+[Debug] [2023-3-3 17:50:37] The value of Progress is 60
+[Debug] [2023-3-3 17:50:37] The value of Progress is 65
+[Debug] [2023-3-3 17:50:37] The value of Progress is 70
+[Debug] [2023-3-3 17:50:37] The value of Progress is 75
+[Debug] [2023-3-3 17:50:37] The value of Progress is 80
+[Debug] [2023-3-3 17:50:38] The value of Progress is 85
+[Debug] [2023-3-3 17:50:38] The value of Progress is 90
+[Debug] [2023-3-3 17:50:38] The value of Progress is 95
+[Debug] [2023-3-3 17:50:38] The value of Progress is 100
+[Debug] [2023-3-3 17:50:38] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-3 17:50:38] End to send programming cmd.
+[Info] [2023-3-3 17:50:47] /***************************End Configration***************************/
+[Info] [2023-3-3 19:58:37] /***************************Start Configuration***************************/
+[Info] [2023-3-3 19:58:37] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-3 19:58:37] Version: 99559
+[Info] [2023-3-3 19:58:38] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 19:58:38] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 19:58:40] /***************************End Configration***************************/
+[Info] [2023-3-3 19:58:41] /***************************Start Configuration***************************/
+[Info] [2023-3-3 19:58:41] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-3 19:58:41] Version: 99559
+[Info] [2023-3-3 19:58:42] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 19:58:42] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop
+[Info] [2023-3-3 19:58:44] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-3 19:58:44] Client Local host name:admin
+[Debug] [2023-3-3 19:58:44] Client Local Address:192.168.3.6
+[Debug] [2023-3-3 19:58:44] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-3 19:58:45] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-3 19:58:45] Finish.
+[Info] [2023-3-3 19:58:45] Connect server succeeded
+[Debug] [2023-3-3 19:58:45] Send RPC:1
+[Debug] [2023-3-3 19:58:45] Send cmd [check version information:40005] OK
+[Debug] [2023-3-3 19:58:45] Send RPC:2
+[Debug] [2023-3-3 19:58:45] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-3 19:58:45] Begin to send initialize chain cmd...
+[Debug] [2023-3-3 19:58:45] Send RPC:3
+[Debug] [2023-3-3 19:58:45] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-3 19:58:45] End to send initialize chain cmd.
+[Debug] [2023-3-3 19:58:45] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-3 19:58:45] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Error] [2023-3-3 19:58:50] fail to exec Open config cable cmd...
+[Debug] [2023-3-3 19:58:53] Begin to send initialize chain cmd...
+[Debug] [2023-3-3 19:58:53] Send RPC:4
+[Debug] [2023-3-3 19:58:53] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-3 19:58:53] End to send initialize chain cmd.
+[Error] [2023-3-3 19:58:57] fail to exec Open config cable cmd...
+[Debug] [2023-3-3 19:59:05] Begin to send initialize chain cmd...
+[Debug] [2023-3-3 19:59:05] Send RPC:5
+[Debug] [2023-3-3 19:59:05] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-3 19:59:05] End to send initialize chain cmd.
+[Debug] [2023-3-3 19:59:08] begin the exec of open cable cmd...
+[Debug] [2023-3-3 19:59:08] Begin to deal with chain from server...
+[Debug] [2023-3-3 19:59:08] Begin to set user chain...
+[Debug] [2023-3-3 19:59:08] End to set user chain.
+[Debug] [2023-3-3 19:59:08] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 19:59:08] End to update graphic item and tree item ...
+[Info] [2023-3-3 19:59:11] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_Demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-3 19:59:11] begin to get device info from CFG file...
+[Debug] [2023-3-3 19:59:11] end to get device info from CFG file...
+[Debug] [2023-3-3 19:59:11] Begin to update graphic item and tree item ...
+[Debug] [2023-3-3 19:59:11] End to update graphic item and tree item ...
+[Debug] [2023-3-3 19:59:11] End to deal wiht chain from server.
+[Debug] [2023-3-3 19:59:11] end the exec of open cable cmd.
+[Debug] [2023-3-3 19:59:11] COMMAND[Open config cable] execute successfully, takes 5.4 secs.
+[Debug] [2023-3-3 19:59:12] Begin to send programming cmd...
+[Debug] [2023-3-3 19:59:12] Send RPC:6
+[Debug] [2023-3-3 19:59:12] Begin to send program data.
+[Debug] [2023-3-3 19:59:12] End to send program data.
+[Debug] [2023-3-3 19:59:12] Send cmd [Program:20002] OK
+[Debug] [2023-3-3 19:59:12] The value of Progress is 6
+[Debug] [2023-3-3 19:59:12] The value of Progress is 10
+[Debug] [2023-3-3 19:59:12] The value of Progress is 15
+[Debug] [2023-3-3 19:59:12] The value of Progress is 20
+[Debug] [2023-3-3 19:59:13] The value of Progress is 25
+[Debug] [2023-3-3 19:59:13] The value of Progress is 30
+[Debug] [2023-3-3 19:59:13] The value of Progress is 35
+[Debug] [2023-3-3 19:59:13] The value of Progress is 40
+[Debug] [2023-3-3 19:59:13] The value of Progress is 45
+[Debug] [2023-3-3 19:59:13] The value of Progress is 50
+[Debug] [2023-3-3 19:59:13] The value of Progress is 55
+[Debug] [2023-3-3 19:59:13] The value of Progress is 60
+[Debug] [2023-3-3 19:59:13] The value of Progress is 65
+[Debug] [2023-3-3 19:59:13] The value of Progress is 70
+[Debug] [2023-3-3 19:59:13] The value of Progress is 75
+[Debug] [2023-3-3 19:59:14] The value of Progress is 80
+[Debug] [2023-3-3 19:59:14] The value of Progress is 85
+[Debug] [2023-3-3 19:59:14] The value of Progress is 90
+[Debug] [2023-3-3 19:59:14] The value of Progress is 95
+[Debug] [2023-3-3 19:59:14] The value of Progress is 100
+[Debug] [2023-3-3 19:59:14] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-3 19:59:14] End to send programming cmd.
+[Info] [2023-3-3 20:00:39] /***************************End Configration***************************/
+[Info] [2023-3-29 19:50:28] /***************************Start Configuration***************************/
+[Info] [2023-3-29 19:50:28] Path: D:/pango/PDS_2022.1/bin
+[Info] [2023-3-29 19:50:28] Version: 99559
+[Info] [2023-3-29 19:50:29] Current Path: C:/Users/w/Desktop/MES50HP/MES50HP_v2/2_Demo/06_hdmi_loop
+[Info] [2023-3-29 19:50:29] PDS Dir Path: C:/Users/w/Desktop/MES50HP/MES50HP_v2/2_Demo/06_hdmi_loop
+[Info] [2023-3-29 19:50:34] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2023-3-29 19:50:34] Client Local host name:admin
+[Debug] [2023-3-29 19:50:34] Client Local Address:192.168.3.6
+[Debug] [2023-3-29 19:50:34] Server Address:127.0.0.1, Port:65420
+[Info] [2023-3-29 19:50:34] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2023-3-29 19:50:34] Finish.
+[Info] [2023-3-29 19:50:34] Connect server succeeded
+[Debug] [2023-3-29 19:50:34] Send RPC:1
+[Debug] [2023-3-29 19:50:34] Send cmd [check version information:40005] OK
+[Debug] [2023-3-29 19:50:34] Send RPC:2
+[Debug] [2023-3-29 19:50:34] Send cmd [get_cable_paras:40011] OK
+[Debug] [2023-3-29 19:50:34] Begin to send initialize chain cmd...
+[Debug] [2023-3-29 19:50:34] Send RPC:3
+[Debug] [2023-3-29 19:50:34] Send cmd [Open config cable:20001] OK
+[Debug] [2023-3-29 19:50:34] End to send initialize chain cmd.
+[Debug] [2023-3-29 19:50:34] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2023-3-29 19:50:35] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2023-3-29 19:50:35] begin the exec of open cable cmd...
+[Debug] [2023-3-29 19:50:35] Begin to deal with chain from server...
+[Debug] [2023-3-29 19:50:35] Begin to set user chain...
+[Debug] [2023-3-29 19:50:35] End to set user chain.
+[Debug] [2023-3-29 19:50:35] Begin to update graphic item and tree item ...
+[Debug] [2023-3-29 19:50:35] End to update graphic item and tree item ...
+[Info] [2023-3-29 19:50:37] set OpenLastPath: C:/Users/w/Desktop/MES50HP/MES50HP_v2/2_Demo/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2023-3-29 19:50:37] begin to get device info from CFG file...
+[Debug] [2023-3-29 19:50:37] end to get device info from CFG file...
+[Debug] [2023-3-29 19:50:37] Begin to update graphic item and tree item ...
+[Debug] [2023-3-29 19:50:37] End to update graphic item and tree item ...
+[Debug] [2023-3-29 19:50:37] End to deal wiht chain from server.
+[Debug] [2023-3-29 19:50:37] end the exec of open cable cmd.
+[Debug] [2023-3-29 19:50:37] COMMAND[Open config cable] execute successfully, takes 3.3 secs.
+[Debug] [2023-3-29 19:50:39] Begin to send programming cmd...
+[Debug] [2023-3-29 19:50:39] Send RPC:4
+[Debug] [2023-3-29 19:50:39] Begin to send program data.
+[Debug] [2023-3-29 19:50:39] End to send program data.
+[Debug] [2023-3-29 19:50:39] Send cmd [Program:20002] OK
+[Debug] [2023-3-29 19:50:39] The value of Progress is 6
+[Debug] [2023-3-29 19:50:39] The value of Progress is 10
+[Debug] [2023-3-29 19:50:39] The value of Progress is 15
+[Debug] [2023-3-29 19:50:39] The value of Progress is 20
+[Debug] [2023-3-29 19:50:39] The value of Progress is 25
+[Debug] [2023-3-29 19:50:39] The value of Progress is 30
+[Debug] [2023-3-29 19:50:39] The value of Progress is 35
+[Debug] [2023-3-29 19:50:40] The value of Progress is 40
+[Debug] [2023-3-29 19:50:40] The value of Progress is 45
+[Debug] [2023-3-29 19:50:40] The value of Progress is 50
+[Debug] [2023-3-29 19:50:40] The value of Progress is 55
+[Debug] [2023-3-29 19:50:40] The value of Progress is 60
+[Debug] [2023-3-29 19:50:40] The value of Progress is 65
+[Debug] [2023-3-29 19:50:40] The value of Progress is 70
+[Debug] [2023-3-29 19:50:40] The value of Progress is 75
+[Debug] [2023-3-29 19:50:40] The value of Progress is 80
+[Debug] [2023-3-29 19:50:40] The value of Progress is 85
+[Debug] [2023-3-29 19:50:40] The value of Progress is 90
+[Debug] [2023-3-29 19:50:41] The value of Progress is 95
+[Debug] [2023-3-29 19:50:41] The value of Progress is 100
+[Debug] [2023-3-29 19:50:41] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-29 19:50:41] End to send programming cmd.
+[Debug] [2023-3-29 19:55:32] Begin to send programming cmd...
+[Debug] [2023-3-29 19:55:32] Send RPC:5
+[Debug] [2023-3-29 19:55:32] Begin to send program data.
+[Debug] [2023-3-29 19:55:32] End to send program data.
+[Debug] [2023-3-29 19:55:32] Send cmd [Program:20002] OK
+[Debug] [2023-3-29 19:55:32] The value of Progress is 6
+[Debug] [2023-3-29 19:55:32] The value of Progress is 10
+[Debug] [2023-3-29 19:55:32] The value of Progress is 15
+[Debug] [2023-3-29 19:55:33] The value of Progress is 20
+[Debug] [2023-3-29 19:55:33] The value of Progress is 25
+[Debug] [2023-3-29 19:55:33] The value of Progress is 30
+[Debug] [2023-3-29 19:55:33] The value of Progress is 35
+[Debug] [2023-3-29 19:55:33] The value of Progress is 40
+[Debug] [2023-3-29 19:55:33] The value of Progress is 45
+[Debug] [2023-3-29 19:55:33] The value of Progress is 50
+[Debug] [2023-3-29 19:55:33] The value of Progress is 55
+[Debug] [2023-3-29 19:55:33] The value of Progress is 60
+[Debug] [2023-3-29 19:55:33] The value of Progress is 65
+[Debug] [2023-3-29 19:55:33] The value of Progress is 70
+[Debug] [2023-3-29 19:55:33] The value of Progress is 75
+[Debug] [2023-3-29 19:55:34] The value of Progress is 80
+[Debug] [2023-3-29 19:55:34] The value of Progress is 85
+[Debug] [2023-3-29 19:55:34] The value of Progress is 90
+[Debug] [2023-3-29 19:55:34] The value of Progress is 95
+[Debug] [2023-3-29 19:55:34] The value of Progress is 100
+[Debug] [2023-3-29 19:55:34] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2023-3-29 19:55:34] End to send programming cmd.
+[Info] [2023-3-29 20:09:32] /***************************End Configration***************************/
+[Info] [2024-10-6 20:14:38] /***************************Start Configuration***************************/
+[Info] [2024-10-6 20:14:38] Path: C:/pango/PDS_2022.1/bin
+[Info] [2024-10-6 20:14:38] Version: 99559
+[Info] [2024-10-6 20:14:40] Current Path: C:/Users/G1320/Desktop/06_hdmi_loop
+[Info] [2024-10-6 20:14:40] PDS Dir Path: C:/Users/G1320/Desktop/06_hdmi_loop
+[Info] [2024-10-6 20:14:53] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-10-6 20:14:53] Client Local host name:liu
+[Debug] [2024-10-6 20:14:53] Client Local Address:10.199.179.59
+[Debug] [2024-10-6 20:14:53] Server Address:127.0.0.1, Port:65420
+[Info] [2024-10-6 20:14:54] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-10-6 20:14:54] Finish.
+[Info] [2024-10-6 20:14:54] Connect server succeeded
+[Debug] [2024-10-6 20:14:54] Send RPC:1
+[Debug] [2024-10-6 20:14:54] Send cmd [check version information:40005] OK
+[Debug] [2024-10-6 20:14:54] Send RPC:2
+[Debug] [2024-10-6 20:14:54] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-10-6 20:14:54] Begin to send initialize chain cmd...
+[Debug] [2024-10-6 20:14:54] Send RPC:3
+[Debug] [2024-10-6 20:14:54] Send cmd [Open config cable:20001] OK
+[Debug] [2024-10-6 20:14:54] End to send initialize chain cmd.
+[Debug] [2024-10-6 20:14:54] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-10-6 20:14:54] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Error] [2024-10-6 20:14:54] fail to exec Open config cable cmd...
+[Debug] [2024-10-6 20:15:03] Begin to send initialize chain cmd...
+[Debug] [2024-10-6 20:15:03] Send RPC:4
+[Debug] [2024-10-6 20:15:03] Send cmd [Open config cable:20001] OK
+[Debug] [2024-10-6 20:15:03] End to send initialize chain cmd.
+[Error] [2024-10-6 20:15:03] fail to exec Open config cable cmd...
+[Debug] [2024-10-6 20:15:04] Begin to send initialize chain cmd...
+[Debug] [2024-10-6 20:15:04] Send RPC:5
+[Debug] [2024-10-6 20:15:04] Send cmd [Open config cable:20001] OK
+[Debug] [2024-10-6 20:15:04] End to send initialize chain cmd.
+[Error] [2024-10-6 20:15:04] fail to exec Open config cable cmd...
+[Info] [2024-10-6 20:15:08] /***************************End Configration***************************/
+[Info] [2024-10-6 20:15:08] /***************************Start Configuration***************************/
+[Info] [2024-10-6 20:15:08] Path: C:/pango/PDS_2022.1/bin
+[Info] [2024-10-6 20:15:08] Version: 99559
+[Info] [2024-10-6 20:15:10] Current Path: C:/Users/G1320/Desktop/06_hdmi_loop
+[Info] [2024-10-6 20:15:10] PDS Dir Path: C:/Users/G1320/Desktop/06_hdmi_loop
+[Info] [2024-10-6 20:15:11] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-10-6 20:15:11] Client Local host name:liu
+[Debug] [2024-10-6 20:15:11] Client Local Address:10.199.179.59
+[Debug] [2024-10-6 20:15:11] Server Address:127.0.0.1, Port:65420
+[Info] [2024-10-6 20:15:11] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-10-6 20:15:11] Finish.
+[Info] [2024-10-6 20:15:11] Connect server succeeded
+[Debug] [2024-10-6 20:15:11] Send RPC:1
+[Debug] [2024-10-6 20:15:11] Send cmd [check version information:40005] OK
+[Debug] [2024-10-6 20:15:11] Send RPC:2
+[Debug] [2024-10-6 20:15:11] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-10-6 20:15:11] Begin to send initialize chain cmd...
+[Debug] [2024-10-6 20:15:11] Send RPC:3
+[Debug] [2024-10-6 20:15:11] Send cmd [Open config cable:20001] OK
+[Debug] [2024-10-6 20:15:11] End to send initialize chain cmd.
+[Debug] [2024-10-6 20:15:11] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-10-6 20:15:12] COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[Debug] [2024-10-6 20:15:13] begin the exec of open cable cmd...
+[Debug] [2024-10-6 20:15:13] Begin to deal with chain from server...
+[Debug] [2024-10-6 20:15:13] Begin to set user chain...
+[Debug] [2024-10-6 20:15:13] End to set user chain.
+[Debug] [2024-10-6 20:15:13] Begin to update graphic item and tree item ...
+[Debug] [2024-10-6 20:15:13] End to update graphic item and tree item ...
+[Info] [2024-10-6 20:15:18] set OpenLastPath: C:/Users/G1320/Desktop/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2024-10-6 20:15:18] begin to get device info from CFG file...
+[Debug] [2024-10-6 20:15:18] end to get device info from CFG file...
+[Debug] [2024-10-6 20:15:18] Begin to update graphic item and tree item ...
+[Debug] [2024-10-6 20:15:18] End to update graphic item and tree item ...
+[Debug] [2024-10-6 20:15:18] End to deal wiht chain from server.
+[Debug] [2024-10-6 20:15:18] end the exec of open cable cmd.
+[Debug] [2024-10-6 20:15:18] COMMAND[Open config cable] execute successfully, takes 6.5 secs.
+[Debug] [2024-10-6 20:15:20] Begin to send programming cmd...
+[Debug] [2024-10-6 20:15:20] Send RPC:4
+[Debug] [2024-10-6 20:15:20] Begin to send program data.
+[Debug] [2024-10-6 20:15:20] End to send program data.
+[Debug] [2024-10-6 20:15:20] Send cmd [Program:20002] OK
+[Debug] [2024-10-6 20:15:20] The value of Progress is 6
+[Debug] [2024-10-6 20:15:20] The value of Progress is 10
+[Debug] [2024-10-6 20:15:20] The value of Progress is 15
+[Debug] [2024-10-6 20:15:20] The value of Progress is 20
+[Debug] [2024-10-6 20:15:20] The value of Progress is 25
+[Debug] [2024-10-6 20:15:20] The value of Progress is 30
+[Debug] [2024-10-6 20:15:21] The value of Progress is 35
+[Debug] [2024-10-6 20:15:21] The value of Progress is 40
+[Debug] [2024-10-6 20:15:21] The value of Progress is 45
+[Debug] [2024-10-6 20:15:21] The value of Progress is 50
+[Debug] [2024-10-6 20:15:21] The value of Progress is 55
+[Debug] [2024-10-6 20:15:21] The value of Progress is 60
+[Debug] [2024-10-6 20:15:21] The value of Progress is 65
+[Debug] [2024-10-6 20:15:21] The value of Progress is 70
+[Debug] [2024-10-6 20:15:21] The value of Progress is 75
+[Debug] [2024-10-6 20:15:21] The value of Progress is 80
+[Debug] [2024-10-6 20:15:21] The value of Progress is 85
+[Debug] [2024-10-6 20:15:21] The value of Progress is 90
+[Debug] [2024-10-6 20:15:22] The value of Progress is 95
+[Debug] [2024-10-6 20:15:22] The value of Progress is 100
+[Debug] [2024-10-6 20:15:22] COMMAND[Program] execute successfully, takes 2.1 secs.
+[Debug] [2024-10-6 20:15:22] End to send programming cmd.
+[Info] [2024-10-6 20:16:48] /***************************End Configration***************************/
+[Info] [2024-10-6 20:19:09] /***************************Start Configuration***************************/
+[Info] [2024-10-6 20:19:09] Path: C:/pango/PDS_2022.1/bin
+[Info] [2024-10-6 20:19:09] Version: 99559
+[Info] [2024-10-6 20:19:10] Current Path: C:/Users/G1320/Desktop/06_hdmi_loop
+[Info] [2024-10-6 20:19:10] PDS Dir Path: C:/Users/G1320/Desktop/06_hdmi_loop
+[Info] [2024-10-6 20:19:12] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-10-6 20:19:12] Client Local host name:liu
+[Debug] [2024-10-6 20:19:12] Client Local Address:10.199.179.59
+[Debug] [2024-10-6 20:19:12] Server Address:127.0.0.1, Port:65420
+[Info] [2024-10-6 20:19:13] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-10-6 20:19:13] Finish.
+[Info] [2024-10-6 20:19:13] Connect server succeeded
+[Debug] [2024-10-6 20:19:13] Send RPC:1
+[Debug] [2024-10-6 20:19:13] Send cmd [check version information:40005] OK
+[Debug] [2024-10-6 20:19:13] Send RPC:2
+[Debug] [2024-10-6 20:19:13] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-10-6 20:19:13] Begin to send initialize chain cmd...
+[Debug] [2024-10-6 20:19:13] Send RPC:3
+[Debug] [2024-10-6 20:19:13] Send cmd [Open config cable:20001] OK
+[Debug] [2024-10-6 20:19:13] End to send initialize chain cmd.
+[Debug] [2024-10-6 20:19:13] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-10-6 20:19:13] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2024-10-6 20:19:14] begin the exec of open cable cmd...
+[Debug] [2024-10-6 20:19:14] Begin to deal with chain from server...
+[Debug] [2024-10-6 20:19:14] Begin to set user chain...
+[Debug] [2024-10-6 20:19:14] End to set user chain.
+[Debug] [2024-10-6 20:19:14] Begin to update graphic item and tree item ...
+[Debug] [2024-10-6 20:19:14] End to update graphic item and tree item ...
+[Info] [2024-10-6 20:19:15] set OpenLastPath: C:/Users/G1320/Desktop/06_hdmi_loop/generate_bitstream/hdmi_loop.sbit
+[Debug] [2024-10-6 20:19:15] begin to get device info from CFG file...
+[Debug] [2024-10-6 20:19:15] end to get device info from CFG file...
+[Debug] [2024-10-6 20:19:15] Begin to update graphic item and tree item ...
+[Debug] [2024-10-6 20:19:15] End to update graphic item and tree item ...
+[Debug] [2024-10-6 20:19:15] End to deal wiht chain from server.
+[Debug] [2024-10-6 20:19:15] end the exec of open cable cmd.
+[Debug] [2024-10-6 20:19:15] COMMAND[Open config cable] execute successfully, takes 2.8 secs.
+[Debug] [2024-10-6 20:19:17] Begin to send programming cmd...
+[Debug] [2024-10-6 20:19:17] Send RPC:4
+[Debug] [2024-10-6 20:19:17] Begin to send program data.
+[Debug] [2024-10-6 20:19:17] End to send program data.
+[Debug] [2024-10-6 20:19:17] Send cmd [Program:20002] OK
+[Debug] [2024-10-6 20:19:17] The value of Progress is 6
+[Debug] [2024-10-6 20:19:17] The value of Progress is 10
+[Debug] [2024-10-6 20:19:17] The value of Progress is 15
+[Debug] [2024-10-6 20:19:17] The value of Progress is 20
+[Debug] [2024-10-6 20:19:17] The value of Progress is 25
+[Debug] [2024-10-6 20:19:17] The value of Progress is 30
+[Debug] [2024-10-6 20:19:17] The value of Progress is 35
+[Debug] [2024-10-6 20:19:18] The value of Progress is 40
+[Debug] [2024-10-6 20:19:18] The value of Progress is 45
+[Debug] [2024-10-6 20:19:18] The value of Progress is 50
+[Debug] [2024-10-6 20:19:18] The value of Progress is 55
+[Debug] [2024-10-6 20:19:18] The value of Progress is 60
+[Debug] [2024-10-6 20:19:18] The value of Progress is 65
+[Debug] [2024-10-6 20:19:18] The value of Progress is 70
+[Debug] [2024-10-6 20:19:18] The value of Progress is 75
+[Debug] [2024-10-6 20:19:18] The value of Progress is 80
+[Debug] [2024-10-6 20:19:18] The value of Progress is 85
+[Debug] [2024-10-6 20:19:18] The value of Progress is 90
+[Debug] [2024-10-6 20:19:18] The value of Progress is 95
+[Debug] [2024-10-6 20:19:19] The value of Progress is 100
+[Debug] [2024-10-6 20:19:19] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-10-6 20:19:19] End to send programming cmd.
+[Info] [2024-10-6 20:20:40] /***************************End Configration***************************/
+[Info] [2024-10-12 19:22:05] /***************************Start Configuration***************************/
+[Info] [2024-10-12 19:22:05] Path: C:/pango/PDS_2022.1/bin
+[Info] [2024-10-12 19:22:05] Version: 99559
+[Info] [2024-10-12 19:22:06] Current Path: C:/Users/G1320/Desktop/gauss_experience/06_hdmi_loop - wc
+[Info] [2024-10-12 19:22:06] PDS Dir Path: C:/Users/G1320/Desktop/gauss_experience/06_hdmi_loop - wc
+[Info] [2024-10-12 19:22:08] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-10-12 19:22:08] Client Local host name:liu
+[Debug] [2024-10-12 19:22:08] Client Local Address:10.198.128.56
+[Debug] [2024-10-12 19:22:08] Server Address:127.0.0.1, Port:65420
+[Info] [2024-10-12 19:22:09] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-10-12 19:22:09] Finish.
+[Info] [2024-10-12 19:22:09] Connect server succeeded
+[Debug] [2024-10-12 19:22:09] Send RPC:1
+[Debug] [2024-10-12 19:22:09] Send cmd [check version information:40005] OK
+[Debug] [2024-10-12 19:22:09] Send RPC:2
+[Debug] [2024-10-12 19:22:09] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-10-12 19:22:09] Begin to send initialize chain cmd...
+[Debug] [2024-10-12 19:22:09] Send RPC:3
+[Debug] [2024-10-12 19:22:09] Send cmd [Open config cable:20001] OK
+[Debug] [2024-10-12 19:22:09] End to send initialize chain cmd.
+[Debug] [2024-10-12 19:22:09] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-10-12 19:22:10] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2024-10-12 19:22:10] begin the exec of open cable cmd...
+[Debug] [2024-10-12 19:22:10] Begin to deal with chain from server...
+[Debug] [2024-10-12 19:22:10] Begin to set user chain...
+[Debug] [2024-10-12 19:22:10] End to set user chain.
+[Debug] [2024-10-12 19:22:10] Begin to update graphic item and tree item ...
+[Debug] [2024-10-12 19:22:10] End to update graphic item and tree item ...
+[Info] [2024-10-12 19:22:13] set OpenLastPath: C:/Users/G1320/Desktop/gauss_experience/06_hdmi_loop - wc/generate_bitstream/hdmi_loop.sbit
+[Debug] [2024-10-12 19:22:13] begin to get device info from CFG file...
+[Debug] [2024-10-12 19:22:13] end to get device info from CFG file...
+[Debug] [2024-10-12 19:22:13] Begin to update graphic item and tree item ...
+[Debug] [2024-10-12 19:22:13] End to update graphic item and tree item ...
+[Debug] [2024-10-12 19:22:13] End to deal wiht chain from server.
+[Debug] [2024-10-12 19:22:13] end the exec of open cable cmd.
+[Debug] [2024-10-12 19:22:13] COMMAND[Open config cable] execute successfully, takes 3.7 secs.
+[Debug] [2024-10-12 19:22:14] Begin to send programming cmd...
+[Debug] [2024-10-12 19:22:14] Send RPC:4
+[Debug] [2024-10-12 19:22:14] Begin to send program data.
+[Debug] [2024-10-12 19:22:14] End to send program data.
+[Debug] [2024-10-12 19:22:14] Send cmd [Program:20002] OK
+[Debug] [2024-10-12 19:22:14] The value of Progress is 6
+[Debug] [2024-10-12 19:22:14] The value of Progress is 10
+[Debug] [2024-10-12 19:22:15] The value of Progress is 15
+[Debug] [2024-10-12 19:22:15] The value of Progress is 20
+[Debug] [2024-10-12 19:22:15] The value of Progress is 25
+[Debug] [2024-10-12 19:22:15] The value of Progress is 30
+[Debug] [2024-10-12 19:22:15] The value of Progress is 35
+[Debug] [2024-10-12 19:22:15] The value of Progress is 40
+[Debug] [2024-10-12 19:22:15] The value of Progress is 45
+[Debug] [2024-10-12 19:22:15] The value of Progress is 50
+[Debug] [2024-10-12 19:22:15] The value of Progress is 55
+[Debug] [2024-10-12 19:22:15] The value of Progress is 60
+[Debug] [2024-10-12 19:22:15] The value of Progress is 65
+[Debug] [2024-10-12 19:22:16] The value of Progress is 70
+[Debug] [2024-10-12 19:22:16] The value of Progress is 75
+[Debug] [2024-10-12 19:22:16] The value of Progress is 80
+[Debug] [2024-10-12 19:22:16] The value of Progress is 85
+[Debug] [2024-10-12 19:22:16] The value of Progress is 90
+[Debug] [2024-10-12 19:22:16] The value of Progress is 95
+[Debug] [2024-10-12 19:22:16] The value of Progress is 100
+[Debug] [2024-10-12 19:22:16] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-10-12 19:22:16] End to send programming cmd.
+[Info] [2024-10-12 19:22:30] /***************************End Configration***************************/
+[Info] [2024-10-12 19:24:14] /***************************Start Configuration***************************/
+[Info] [2024-10-12 19:24:14] Path: C:/pango/PDS_2022.1/bin
+[Info] [2024-10-12 19:24:14] Version: 99559
+[Info] [2024-10-12 19:24:15] Current Path: C:/Users/G1320/Desktop/gauss_experience/06_hdmi_loop - wc
+[Info] [2024-10-12 19:24:15] PDS Dir Path: C:/Users/G1320/Desktop/gauss_experience/06_hdmi_loop - wc
+[Info] [2024-10-12 19:24:16] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2024-10-12 19:24:16] Client Local host name:liu
+[Debug] [2024-10-12 19:24:16] Client Local Address:10.198.128.56
+[Debug] [2024-10-12 19:24:16] Server Address:127.0.0.1, Port:65420
+[Info] [2024-10-12 19:24:16] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2024-10-12 19:24:16] Finish.
+[Info] [2024-10-12 19:24:16] Connect server succeeded
+[Debug] [2024-10-12 19:24:16] Send RPC:1
+[Debug] [2024-10-12 19:24:16] Send cmd [check version information:40005] OK
+[Debug] [2024-10-12 19:24:16] Send RPC:2
+[Debug] [2024-10-12 19:24:16] Send cmd [get_cable_paras:40011] OK
+[Debug] [2024-10-12 19:24:16] Begin to send initialize chain cmd...
+[Debug] [2024-10-12 19:24:16] Send RPC:3
+[Debug] [2024-10-12 19:24:16] Send cmd [Open config cable:20001] OK
+[Debug] [2024-10-12 19:24:16] End to send initialize chain cmd.
+[Debug] [2024-10-12 19:24:16] COMMAND[check version information] execute successfully, takes 0.0 secs.
+[Debug] [2024-10-12 19:24:17] COMMAND[get_cable_paras] execute successfully, takes 0.7 secs.
+[Debug] [2024-10-12 19:24:18] begin the exec of open cable cmd...
+[Debug] [2024-10-12 19:24:18] Begin to deal with chain from server...
+[Debug] [2024-10-12 19:24:18] Begin to set user chain...
+[Debug] [2024-10-12 19:24:18] End to set user chain.
+[Debug] [2024-10-12 19:24:18] Begin to update graphic item and tree item ...
+[Debug] [2024-10-12 19:24:18] End to update graphic item and tree item ...
+[Info] [2024-10-12 19:24:19] set OpenLastPath: C:/Users/G1320/Desktop/gauss_experience/06_hdmi_loop - wc/generate_bitstream/hdmi_loop.sbit
+[Debug] [2024-10-12 19:24:19] begin to get device info from CFG file...
+[Debug] [2024-10-12 19:24:19] end to get device info from CFG file...
+[Debug] [2024-10-12 19:24:19] Begin to update graphic item and tree item ...
+[Debug] [2024-10-12 19:24:19] End to update graphic item and tree item ...
+[Debug] [2024-10-12 19:24:19] End to deal wiht chain from server.
+[Debug] [2024-10-12 19:24:19] end the exec of open cable cmd.
+[Debug] [2024-10-12 19:24:19] COMMAND[Open config cable] execute successfully, takes 2.9 secs.
+[Debug] [2024-10-12 19:24:20] Begin to send programming cmd...
+[Debug] [2024-10-12 19:24:20] Send RPC:4
+[Debug] [2024-10-12 19:24:20] Begin to send program data.
+[Debug] [2024-10-12 19:24:20] End to send program data.
+[Debug] [2024-10-12 19:24:20] Send cmd [Program:20002] OK
+[Debug] [2024-10-12 19:24:21] The value of Progress is 6
+[Debug] [2024-10-12 19:24:21] The value of Progress is 10
+[Debug] [2024-10-12 19:24:21] The value of Progress is 15
+[Debug] [2024-10-12 19:24:21] The value of Progress is 20
+[Debug] [2024-10-12 19:24:21] The value of Progress is 25
+[Debug] [2024-10-12 19:24:21] The value of Progress is 30
+[Debug] [2024-10-12 19:24:21] The value of Progress is 35
+[Debug] [2024-10-12 19:24:21] The value of Progress is 40
+[Debug] [2024-10-12 19:24:21] The value of Progress is 45
+[Debug] [2024-10-12 19:24:21] The value of Progress is 50
+[Debug] [2024-10-12 19:24:22] The value of Progress is 55
+[Debug] [2024-10-12 19:24:22] The value of Progress is 60
+[Debug] [2024-10-12 19:24:22] The value of Progress is 65
+[Debug] [2024-10-12 19:24:22] The value of Progress is 70
+[Debug] [2024-10-12 19:24:22] The value of Progress is 75
+[Debug] [2024-10-12 19:24:22] The value of Progress is 80
+[Debug] [2024-10-12 19:24:22] The value of Progress is 85
+[Debug] [2024-10-12 19:24:22] The value of Progress is 90
+[Debug] [2024-10-12 19:24:22] The value of Progress is 95
+[Debug] [2024-10-12 19:24:22] The value of Progress is 100
+[Debug] [2024-10-12 19:24:22] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2024-10-12 19:24:22] End to send programming cmd.
+[Info] [2024-10-12 19:24:51] /***************************End Configration***************************/

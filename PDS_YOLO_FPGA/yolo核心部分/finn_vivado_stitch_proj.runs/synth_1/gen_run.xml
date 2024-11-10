@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1731164372">
+  <File Type="PA-TCL" Name="finn_design_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="finn_design_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="finn_design_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="finn_design_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="finn_design_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="finn_design_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="finn_design_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="finn_design_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="finn_design_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_0_wlfxl4wj/Q_srl.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_0_wlfxl4wj/StreamingFIFO_rtl_0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_1_6i63ps7x/StreamingFIFO_rtl_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_7_3zgpn366/axi2we.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_7_3zgpn366/fmpadding.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_7_3zgpn366/fmpadding_axi.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_0_c1yl8wwu/FMPadding_rtl_0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_2_ns3a5jn3/StreamingFIFO_rtl_2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_0_8tlt_04t/swg_pkg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/swg_pkg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/swg_pkg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/swg_pkg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/swg_pkg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/swg_pkg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/swg_pkg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/swg_pkg.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_0_8tlt_04t/ConvolutionInputGenerator_rtl_0_impl.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/swg_common.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_0_8tlt_04t/ConvolutionInputGenerator_rtl_0_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_9_166qp8mj/dwc.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_9_166qp8mj/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_0_pgm__mle/StreamingDataWidthConverter_rtl_0.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_4_lbnaqceg/StreamingFIFO_rtl_4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_5_mrxzdn8q/StreamingFIFO_rtl_5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_6_0tg6i1t4/StreamingFIFO_rtl_6.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd/FMPadding_rtl_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_7_0_5dpxcc/StreamingFIFO_rtl_7.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_1_9n0z3xny/StreamingDataWidthConverter_rtl_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/ConvolutionInputGenerator_rtl_1_impl.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/ConvolutionInputGenerator_rtl_1_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_9_abi4l1b9/StreamingFIFO_rtl_9.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_10_h0juerdy/StreamingFIFO_rtl_10.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_11_3tv6qxnb/StreamingFIFO_rtl_11.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_2_u3hxulek/StreamingDataWidthConverter_rtl_2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_12_lm1clnxa/StreamingFIFO_rtl_12.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_13_583cxnvb/StreamingFIFO_rtl_13.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_2_oczdtiib/FMPadding_rtl_2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_14_k4fncn1n/StreamingFIFO_rtl_14.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_3_de665nz_/StreamingDataWidthConverter_rtl_3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/ConvolutionInputGenerator_rtl_2_impl.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/ConvolutionInputGenerator_rtl_2_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_16_hou74g4l/StreamingFIFO_rtl_16.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_17_cmro96l_/StreamingFIFO_rtl_17.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_18_b5raj_ho/StreamingFIFO_rtl_18.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_4_c3ztzkwv/StreamingDataWidthConverter_rtl_4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_19_enco_dbj/StreamingFIFO_rtl_19.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_20_nu4uu0sy/StreamingFIFO_rtl_20.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_3_fpihnftc/FMPadding_rtl_3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_21_086iw6t9/StreamingFIFO_rtl_21.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_5_5t1fuam0/StreamingDataWidthConverter_rtl_5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/ConvolutionInputGenerator_rtl_3_impl.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/ConvolutionInputGenerator_rtl_3_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_23_y9rnvntt/StreamingFIFO_rtl_23.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_6_05ww9hda/StreamingDataWidthConverter_rtl_6.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_25_5vaibwsp/StreamingFIFO_rtl_25.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_7_ab4eighi/StreamingDataWidthConverter_rtl_7.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_26_xzg9s7nq/StreamingFIFO_rtl_26.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_27_ej9wchtr/StreamingFIFO_rtl_27.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_4_lasvhgnt/FMPadding_rtl_4.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_28_hm6xtqk0/StreamingFIFO_rtl_28.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_8__bwffe1d/StreamingDataWidthConverter_rtl_8.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/ConvolutionInputGenerator_rtl_4_impl.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/ConvolutionInputGenerator_rtl_4_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_30_c_bk1cl9/StreamingFIFO_rtl_30.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_9_166qp8mj/StreamingDataWidthConverter_rtl_9.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_32_59unwooc/StreamingFIFO_rtl_32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_10_0s7sq3bt/StreamingDataWidthConverter_rtl_10.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_33_iufu7as2/StreamingFIFO_rtl_33.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_5_c0eo27gp/FMPadding_rtl_5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_34_70ldgat7/StreamingFIFO_rtl_34.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_11_l6pn1lgr/StreamingDataWidthConverter_rtl_11.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/ConvolutionInputGenerator_rtl_5_impl.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/ConvolutionInputGenerator_rtl_5_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_36_x2yax__b/StreamingFIFO_rtl_36.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_12_31ouz5n4/StreamingDataWidthConverter_rtl_12.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_38_68gyno9a/StreamingFIFO_rtl_38.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_39_711xoee7/StreamingFIFO_rtl_39.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_40_qmte1qgl/StreamingFIFO_rtl_40.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_13_mxe_m8it/StreamingDataWidthConverter_rtl_13.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_41_ydah_m51/StreamingFIFO_rtl_41.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_6_59g9igco/FMPadding_rtl_6.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_42_slirpjfi/StreamingFIFO_rtl_42.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_14_4npximp0/StreamingDataWidthConverter_rtl_14.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/ConvolutionInputGenerator_rtl_6_impl.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/ConvolutionInputGenerator_rtl_6_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_44_3nh99_gf/StreamingFIFO_rtl_44.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_15_evu11cig/StreamingDataWidthConverter_rtl_15.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_46_fggz943t/StreamingFIFO_rtl_46.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_16_jrps1wlr/StreamingDataWidthConverter_rtl_16.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_47_imagao10/StreamingFIFO_rtl_47.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_7_3zgpn366/FMPadding_rtl_7.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_48_eoppwpa1/StreamingFIFO_rtl_48.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_17_6dd98hur/StreamingDataWidthConverter_rtl_17.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/ConvolutionInputGenerator_rtl_7_impl.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/ConvolutionInputGenerator_rtl_7_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_50_3zqrx3cs/StreamingFIFO_rtl_50.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_18_am1ikf8v/StreamingDataWidthConverter_rtl_18.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_52__h23uns3/StreamingFIFO_rtl_52.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/finn_design/finn_design.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/finn_design/hdl/finn_design_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_1_6i63ps7x/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_0_c1yl8wwu/fmpadding_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_0_c1yl8wwu/fmpadding.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_0_c1yl8wwu/axi2we.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_2_ns3a5jn3/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_0_8tlt_04t/swg_common.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_0_pgm__mle/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_0_pgm__mle/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_4_lbnaqceg/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_5_mrxzdn8q/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_6_0tg6i1t4/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd/fmpadding_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd/fmpadding.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd/axi2we.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_7_0_5dpxcc/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_1_9n0z3xny/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_1_9n0z3xny/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/swg_common.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_9_abi4l1b9/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_10_h0juerdy/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_11_3tv6qxnb/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_2_u3hxulek/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_2_u3hxulek/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_12_lm1clnxa/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_13_583cxnvb/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_2_oczdtiib/fmpadding_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_2_oczdtiib/fmpadding.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_2_oczdtiib/axi2we.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_14_k4fncn1n/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_3_de665nz_/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_3_de665nz_/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/swg_common.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_16_hou74g4l/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_17_cmro96l_/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_18_b5raj_ho/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_4_c3ztzkwv/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_4_c3ztzkwv/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_19_enco_dbj/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_20_nu4uu0sy/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_3_fpihnftc/fmpadding_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_3_fpihnftc/fmpadding.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_3_fpihnftc/axi2we.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_21_086iw6t9/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_5_5t1fuam0/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_5_5t1fuam0/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/swg_common.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_23_y9rnvntt/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_6_05ww9hda/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_6_05ww9hda/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_25_5vaibwsp/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_7_ab4eighi/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_7_ab4eighi/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_26_xzg9s7nq/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_27_ej9wchtr/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_4_lasvhgnt/fmpadding_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_4_lasvhgnt/fmpadding.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_4_lasvhgnt/axi2we.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_28_hm6xtqk0/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_8__bwffe1d/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_8__bwffe1d/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/swg_common.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_30_c_bk1cl9/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_32_59unwooc/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_10_0s7sq3bt/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_10_0s7sq3bt/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_33_iufu7as2/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_5_c0eo27gp/fmpadding_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_5_c0eo27gp/fmpadding.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_5_c0eo27gp/axi2we.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_34_70ldgat7/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_11_l6pn1lgr/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_11_l6pn1lgr/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/swg_common.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_36_x2yax__b/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_12_31ouz5n4/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_12_31ouz5n4/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_38_68gyno9a/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_39_711xoee7/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_40_qmte1qgl/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_13_mxe_m8it/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_13_mxe_m8it/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_41_ydah_m51/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_6_59g9igco/fmpadding_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_6_59g9igco/fmpadding.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_FMPadding_rtl_6_59g9igco/axi2we.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_42_slirpjfi/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_14_4npximp0/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_14_4npximp0/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/swg_common.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_44_3nh99_gf/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_15_evu11cig/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_15_evu11cig/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_46_fggz943t/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_16_jrps1wlr/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_16_jrps1wlr/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_47_imagao10/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_48_eoppwpa1/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_17_6dd98hur/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_17_6dd98hur/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_50_3zqrx3cs/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_18_am1ikf8v/dwc_axi.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingDataWidthConverter_rtl_18_am1ikf8v/dwc.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../code_gen_ipgen_StreamingFIFO_rtl_52__h23uns3/Q_srl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="finn_design_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_33_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_44_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_8_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_ConvolutionInputGenerator_rtl_7_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_48_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_50_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_ConvolutionInputGenerator_rtl_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_12"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_14_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_36_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_47_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_41_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_52_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_ConvolutionInputGenerator_rtl_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_11"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_18_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_9"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_8_wstrm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_FMPadding_rtl_7_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_8"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_17_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_7_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_32_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_13_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_14_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_7"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_16_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_42_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_ConvolutionInputGenerator_rtl_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_10"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_FMPadding_rtl_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_11_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_12_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_34_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_12_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_6_wstrm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_40_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_FMPadding_rtl_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_5_wstrm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_0_wstrm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_15_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_7_wstrm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_38_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_39_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_4_wstrm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_13_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_46_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_7_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingMaxPool_hls_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_hls_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_FMPadding_rtl_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_hls_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_8_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingMaxPool_hls_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_FMPadding_rtl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_FMPadding_rtl_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_9_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_ConvolutionInputGenerator_rtl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_7_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_1_wstrm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_11_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_9_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingMaxPool_hls_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_ConvolutionInputGenerator_rtl_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_6"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_3_wstrm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_19_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_hls_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_23_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_25_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_ConvolutionInputGenerator_rtl_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_fifo_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingMaxPool_hls_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_MVAU_hls_2_wstrm_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_20_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_21_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_5_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_ConvolutionInputGenerator_rtl_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingMaxPool_hls_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_FMPadding_rtl_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_16_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_17_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_18_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_FMPadding_rtl_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingDataWidthConverter_rtl_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_26_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_28_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_30_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="finn_design_StreamingFIFO_rtl_27_0"/>
+</GenRun>

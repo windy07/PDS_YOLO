@@ -1,0 +1,452 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Nov  9 23:01:35 2024
+# Process ID: 34172
+# Current directory: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_8_wstrm_0_synth_1
+# Command line: vivado.exe -log finn_design_MVAU_hls_8_wstrm_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source finn_design_MVAU_hls_8_wstrm_0.tcl
+# Log file: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_8_wstrm_0_synth_1/finn_design_MVAU_hls_8_wstrm_0.vds
+# Journal file: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_8_wstrm_0_synth_1\vivado.jou
+# Running On: fengwuyu, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 42082 MB
+#-----------------------------------------------------------
+source finn_design_MVAU_hls_8_wstrm_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1003.332 ; gain = 118.328
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_8_wstrm_0_synth_1/media/clr/XIlinx/finn/finn-rtllib/memstream'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_0_wlfxl4wj'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_0_5ojjcg8a/project_StreamingMaxPool_hls_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_1_6i63ps7x'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_0_c1yl8wwu'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_2_ns3a5jn3'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_8tlt_04t'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_3_xcuclu_f'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_pgm__mle'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_4_lbnaqceg'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_0_pm17mzbp/project_MVAU_hls_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_5_mrxzdn8q'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_6_0tg6i1t4'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_7_0_5dpxcc'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_9n0z3xny'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_8__tki43oj'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_9_abi4l1b9'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_10_h0juerdy'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/project_MVAU_hls_1/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_11_3tv6qxnb'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_u3hxulek'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_12_lm1clnxa'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_13_583cxnvb'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_2_oczdtiib'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_14_k4fncn1n'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_de665nz_'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_15_1i7_04ny'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_16_hou74g4l'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_1_s6worver/project_StreamingDataWidthConverter_hls_1/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_17_cmro96l_'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_2_ufu323e_/project_MVAU_hls_2/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_18_b5raj_ho'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_c3ztzkwv'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_19_enco_dbj'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_20_nu4uu0sy'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_3_fpihnftc'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_21_086iw6t9'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_5t1fuam0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_22_t4n_jkuj'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_23_y9rnvntt'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_05ww9hda'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_24_ylzveoao'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_25_5vaibwsp'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_ab4eighi'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_26_xzg9s7nq'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_4_o30d23mp/project_StreamingMaxPool_hls_4/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_27_ej9wchtr'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_4_lasvhgnt'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_28_hm6xtqk0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_8__bwffe1d'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_29_oqgwb2ay'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_30_c_bk1cl9'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_9_166qp8mj'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_31_tt3lfz47'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_4__ok_a9cj/project_MVAU_hls_4/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_32_59unwooc'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_10_0s7sq3bt'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_33_iufu7as2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_5_c0eo27gp'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_34_70ldgat7'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_11_l6pn1lgr'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_35_5c_fr02n'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_36_x2yax__b'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_12_31ouz5n4'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_37_iz2r64sq'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_5_ol2hz86g/project_MVAU_hls_5/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_38_68gyno9a'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_39_711xoee7'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_6_y0qmdba0/project_MVAU_hls_6/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_40_qmte1qgl'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_13_mxe_m8it'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_41_ydah_m51'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_6_59g9igco'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_42_slirpjfi'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_14_4npximp0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_43_4lup8wdo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_44_3nh99_gf'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_15_evu11cig'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_45_8stog746'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_7_urf094np/project_MVAU_hls_7/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_46_fggz943t'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_16_jrps1wlr'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_47_imagao10'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_7_3zgpn366'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_48_eoppwpa1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_17_6dd98hur'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_49_33e6bl_t'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy'.
+INFO: [Common 17-14] Message 'IP_Flow 19-1700' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1028.156 ; gain = 24.824
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_8_wstrm_0
+Command: synth_design -top finn_design_MVAU_hls_8_wstrm_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+INFO: [IP_Flow 19-2162] IP 'finn_design_MVAU_hls_8_wstrm_0' is locked:
+* IP definition 'memstream (1.0)' for IP 'finn_design_MVAU_hls_8_wstrm_0' (customized with software release 2022.2) was not found in the IP Catalog.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4948
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+WARNING: [Synth 8-9661] initial value of parameter 'DEPTH' is omitted [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream.sv:34]
+WARNING: [Synth 8-9661] initial value of parameter 'WIDTH' is omitted [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream.sv:35]
+WARNING: [Synth 8-10636] default field of an assignment pattern cannot contain another assignment pattern [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream.sv:73]
+WARNING: [Synth 8-9661] initial value of parameter 'DEPTH' is omitted [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream_axi.sv:34]
+WARNING: [Synth 8-9661] initial value of parameter 'WIDTH' is omitted [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream_axi.sv:35]
+WARNING: [Synth 8-10592] closing label :memstream_axi_wrapper is only allowed in SystemVerilog mode [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream_axi_wrapper.v:123]
+WARNING: [Synth 8-10592] closing label :memstream_axi_wrapper is only allowed in SystemVerilog mode [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream_axi_wrapper.v:123]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1858.973 ; gain = 413.637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'finn_design_MVAU_hls_8_wstrm_0' [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_8_wstrm_0/synth/finn_design_MVAU_hls_8_wstrm_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'memstream_axi_wrapper' [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream_axi_wrapper.v:33]
+INFO: [Synth 8-6157] synthesizing module 'memstream_axi' [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream_axi.sv:33]
+INFO: [Synth 8-6157] synthesizing module 'axi4lite_if' [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/axilite_if.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'axi4lite_if' (0#1) [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/axilite_if.v:31]
+WARNING: [Synth 8-689] width (32) of port connection 'ip_addr' does not match port width (15) of module 'axi4lite_if' [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream_axi.sv:105]
+INFO: [Synth 8-6157] synthesizing module 'memstream' [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream.sv:33]
+CRITICAL WARNING: [Synth 8-4445] could not open $readmem data file '/tmp/finn_dev_root/code_gen_ipgen_MVAU_hls_8_p121gcnq/memblock.dat'; please make sure the file is added to project and has read permission, ignoring [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream.sv:138]
+INFO: [Synth 8-6155] done synthesizing module 'memstream' (0#1) [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream.sv:33]
+INFO: [Synth 8-6155] done synthesizing module 'memstream_axi' (0#1) [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream_axi.sv:33]
+INFO: [Synth 8-6155] done synthesizing module 'memstream_axi_wrapper' (0#1) [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/memstream_axi_wrapper.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'finn_design_MVAU_hls_8_wstrm_0' (0#1) [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_8_wstrm_0/synth/finn_design_MVAU_hls_8_wstrm_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element wready_reg was removed.  [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/axilite_if.v:135]
+WARNING: [Synth 8-6014] Unused sequential element internal_wack_reg was removed.  [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/axilite_if.v:154]
+WARNING: [Synth 8-7129] Port config_address[31] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[30] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[29] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[28] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[27] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[26] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[25] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[24] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[23] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[22] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[21] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[20] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[19] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[18] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[17] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[16] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[15] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[14] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[13] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[12] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port config_address[11] in module memstream is either unconnected or has no load
+WARNING: [Synth 8-7129] Port awprot[2] in module axi4lite_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port awprot[1] in module axi4lite_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port awprot[0] in module axi4lite_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[3] in module axi4lite_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[2] in module axi4lite_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[1] in module axi4lite_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[0] in module axi4lite_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arprot[2] in module axi4lite_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arprot[1] in module axi4lite_if is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arprot[0] in module axi4lite_if is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1957.742 ; gain = 512.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1957.742 ; gain = 512.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1957.742 ; gain = 512.406
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1957.742 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2046.410 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 2046.434 ; gain = 0.023
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'fold.gen_wdata[2].ip_wdata_wide_reg' and it is trimmed from '32' to '8' bits. [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/axilite_if.v:175]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi4lite_if'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              STATE_IDLE |                               00 |                               00
+             STATE_WRITE |                               01 |                               10
+              STATE_READ |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'axi4lite_if'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   11 Bit       Adders := 1     
++---Registers : 
+	               72 Bit    Registers := 1     
+	               32 Bit    Registers := 3     
+	               15 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 14    
++---RAMs : 
+	             131K Bit	(1872 X 72 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 3     
+	   3 Input    8 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 13    
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3936] Found unconnected internal register 'inst/core/config_if/ip_addr_reg' and it is trimmed from '15' to '11' bits. [d:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ipshared/bcb1/hdl/axilite_if.v:153]
+WARNING: [Synth 8-7129] Port awprot[2] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port awprot[1] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port awprot[0] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port awaddr[1] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port awaddr[0] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[3] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[2] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[1] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wstrb[0] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arprot[2] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arprot[1] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arprot[0] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port araddr[1] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port araddr[0] in module finn_design_MVAU_hls_8_wstrm_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++-------------------------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                    | RTL Object                      | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|finn_design_MVAU_hls_8_wstrm_0 | inst/core/mem/blkStage2.Mem_reg | 1 K x 72(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
++-------------------------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++-------------------------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                    | RTL Object                      | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|finn_design_MVAU_hls_8_wstrm_0 | inst/core/mem/blkStage2.Mem_reg | 1 K x 72(READ_FIRST)   | W | R |                        |   |   | Port A           | 0      | 4      | 
++-------------------------------+---------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/core/mem/blkStage2.Mem_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/core/mem/blkStage2.Mem_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/core/mem/blkStage2.Mem_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/core/mem/blkStage2.Mem_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:39 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |     3|
+|2     |LUT1     |     1|
+|3     |LUT2     |     7|
+|4     |LUT3     |    15|
+|5     |LUT4     |     8|
+|6     |LUT5     |    32|
+|7     |LUT6     |    42|
+|8     |RAMB36E1 |     4|
+|9     |FDCE     |    36|
+|10    |FDRE     |   202|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:47 . Memory (MB): peak = 2046.434 ; gain = 601.098
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 2046.434 ; gain = 512.406
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:48 . Memory (MB): peak = 2046.434 ; gain = 601.098
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2046.434 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2046.434 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 47a405b8
+INFO: [Common 17-83] Releasing license: Synthesis
+139 Infos, 58 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:01:06 . Memory (MB): peak = 2046.434 ; gain = 1010.102
+INFO: [Common 17-1381] The checkpoint 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_8_wstrm_0_synth_1/finn_design_MVAU_hls_8_wstrm_0.dcp' has been generated.
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+INFO: [Common 17-1381] The checkpoint 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_8_wstrm_0_synth_1/finn_design_MVAU_hls_8_wstrm_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file finn_design_MVAU_hls_8_wstrm_0_utilization_synth.rpt -pb finn_design_MVAU_hls_8_wstrm_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  9 23:03:10 2024...

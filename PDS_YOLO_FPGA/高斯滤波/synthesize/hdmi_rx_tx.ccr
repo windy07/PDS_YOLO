@@ -1,0 +1,946 @@
+##### Written on 2023/02/08 20:22:44 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	hdmi_rx_tx
+
+Constraint File(s) : 
+	C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 20 critical warning(s), 205 warning(s), out of 588 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:b_out[7]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 378)] PAP_IO_DIRECTION is already defined in p:b_out[7], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_LOC} {P19}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 379)] PAP_IO_LOC is already defined in p:b_out[7], new value P19 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 380)] PAP_IO_VCCIO is already defined in p:b_out[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 381)] PAP_IO_STANDARD is already defined in p:b_out[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 382)] PAP_IO_DRIVE is already defined in p:b_out[7], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 383)] PAP_IO_NONE is already defined in p:b_out[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[7]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 384)] PAP_IO_SLEW is already defined in p:b_out[7], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 385)] PAP_IO_DIRECTION is already defined in p:b_out[6], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_LOC} {R19}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 386)] PAP_IO_LOC is already defined in p:b_out[6], new value R19 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 387)] PAP_IO_VCCIO is already defined in p:b_out[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 388)] PAP_IO_STANDARD is already defined in p:b_out[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 389)] PAP_IO_DRIVE is already defined in p:b_out[6], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 390)] PAP_IO_NONE is already defined in p:b_out[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[6]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 391)] PAP_IO_SLEW is already defined in p:b_out[6], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 392)] PAP_IO_DIRECTION is already defined in p:b_out[5], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_LOC} {R22}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 393)] PAP_IO_LOC is already defined in p:b_out[5], new value R22 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 394)] PAP_IO_VCCIO is already defined in p:b_out[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 395)] PAP_IO_STANDARD is already defined in p:b_out[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 396)] PAP_IO_DRIVE is already defined in p:b_out[5], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 397)] PAP_IO_NONE is already defined in p:b_out[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 398)] PAP_IO_SLEW is already defined in p:b_out[5], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 399)] PAP_IO_DIRECTION is already defined in p:b_out[4], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_LOC} {R20}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 400)] PAP_IO_LOC is already defined in p:b_out[4], new value R20 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 401)] PAP_IO_VCCIO is already defined in p:b_out[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 402)] PAP_IO_STANDARD is already defined in p:b_out[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 403)] PAP_IO_DRIVE is already defined in p:b_out[4], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 404)] PAP_IO_NONE is already defined in p:b_out[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[4]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 405)] PAP_IO_SLEW is already defined in p:b_out[4], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 406)] PAP_IO_DIRECTION is already defined in p:b_out[3], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_LOC} {T22}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 407)] PAP_IO_LOC is already defined in p:b_out[3], new value T22 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 408)] PAP_IO_VCCIO is already defined in p:b_out[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 409)] PAP_IO_STANDARD is already defined in p:b_out[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 410)] PAP_IO_DRIVE is already defined in p:b_out[3], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 411)] PAP_IO_NONE is already defined in p:b_out[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[3]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 412)] PAP_IO_SLEW is already defined in p:b_out[3], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 420)] PAP_IO_DIRECTION is already defined in p:b_out[1], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_LOC} {V22}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 421)] PAP_IO_LOC is already defined in p:b_out[1], new value V22 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 422)] PAP_IO_VCCIO is already defined in p:b_out[1], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 423)] PAP_IO_STANDARD is already defined in p:b_out[1], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 424)] PAP_IO_DRIVE is already defined in p:b_out[1], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 425)] PAP_IO_NONE is already defined in p:b_out[1], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[1]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 426)] PAP_IO_SLEW is already defined in p:b_out[1], new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 427)] PAP_IO_DIRECTION is already defined in p:b_out[0], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_LOC} {V21}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 428)] PAP_IO_LOC is already defined in p:b_out[0], new value V21 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 429)] PAP_IO_VCCIO is already defined in p:b_out[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 430)] PAP_IO_STANDARD is already defined in p:b_out[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 431)] PAP_IO_DRIVE is already defined in p:b_out[0], new value 8 will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 432)] PAP_IO_NONE is already defined in p:b_out[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_out[0]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 433)] PAP_IO_SLEW is already defined in p:b_out[0], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 434)] PAP_IO_DIRECTION is already defined in p:g_out[7], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_LOC} {L17}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 435)] PAP_IO_LOC is already defined in p:g_out[7], new value L17 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 436)] PAP_IO_VCCIO is already defined in p:g_out[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 437)] PAP_IO_STANDARD is already defined in p:g_out[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 438)] PAP_IO_DRIVE is already defined in p:g_out[7], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 439)] PAP_IO_NONE is already defined in p:g_out[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[7]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 440)] PAP_IO_SLEW is already defined in p:g_out[7], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 441)] PAP_IO_DIRECTION is already defined in p:g_out[6], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_LOC} {K20}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 442)] PAP_IO_LOC is already defined in p:g_out[6], new value K20 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 443)] PAP_IO_VCCIO is already defined in p:g_out[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 444)] PAP_IO_STANDARD is already defined in p:g_out[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 445)] PAP_IO_DRIVE is already defined in p:g_out[6], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 446)] PAP_IO_NONE is already defined in p:g_out[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[6]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 447)] PAP_IO_SLEW is already defined in p:g_out[6], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 448)] PAP_IO_DIRECTION is already defined in p:g_out[5], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_LOC} {L19}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 449)] PAP_IO_LOC is already defined in p:g_out[5], new value L19 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 450)] PAP_IO_VCCIO is already defined in p:g_out[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 451)] PAP_IO_STANDARD is already defined in p:g_out[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 452)] PAP_IO_DRIVE is already defined in p:g_out[5], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 453)] PAP_IO_NONE is already defined in p:g_out[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[5]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 454)] PAP_IO_SLEW is already defined in p:g_out[5], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 455)] PAP_IO_DIRECTION is already defined in p:g_out[4], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_LOC} {N15}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 456)] PAP_IO_LOC is already defined in p:g_out[4], new value N15 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 457)] PAP_IO_VCCIO is already defined in p:g_out[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 458)] PAP_IO_STANDARD is already defined in p:g_out[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 459)] PAP_IO_DRIVE is already defined in p:g_out[4], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 460)] PAP_IO_NONE is already defined in p:g_out[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[4]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 461)] PAP_IO_SLEW is already defined in p:g_out[4], new value FAST will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 462)] PAP_IO_DIRECTION is already defined in p:g_out[3], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_LOC} {M16}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 463)] PAP_IO_LOC is already defined in p:g_out[3], new value M16 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 464)] PAP_IO_VCCIO is already defined in p:g_out[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 465)] PAP_IO_STANDARD is already defined in p:g_out[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 466)] PAP_IO_DRIVE is already defined in p:g_out[3], new value 8 will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 467)] PAP_IO_NONE is already defined in p:g_out[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_out[3]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 468)] PAP_IO_SLEW is already defined in p:g_out[3], new value FAST will overwrite the current value.
+
+define_attribute {p:r_out[7]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 490)] PAP_IO_DIRECTION is already defined in p:r_out[7], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:r_out[7]} {PAP_IO_LOC} {H19}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 491)] PAP_IO_LOC is already defined in p:r_out[7], new value H19 will overwrite the current value.
+
+define_attribute {p:r_out[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 492)] PAP_IO_VCCIO is already defined in p:r_out[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_out[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 493)] PAP_IO_STANDARD is already defined in p:r_out[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_out[7]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 494)] PAP_IO_DRIVE is already defined in p:r_out[7], new value 8 will overwrite the current value.
+
+define_attribute {p:r_out[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 495)] PAP_IO_NONE is already defined in p:r_out[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_out[7]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 496)] PAP_IO_SLEW is already defined in p:r_out[7], new value FAST will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 539)] PAP_IO_DIRECTION is already defined in p:r_out[0], new value OUTPUT will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_LOC} {K17}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 540)] PAP_IO_LOC is already defined in p:r_out[0], new value K17 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 541)] PAP_IO_VCCIO is already defined in p:r_out[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 542)] PAP_IO_STANDARD is already defined in p:r_out[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 543)] PAP_IO_DRIVE is already defined in p:r_out[0], new value 8 will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 544)] PAP_IO_NONE is already defined in p:r_out[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_out[0]} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 545)] PAP_IO_SLEW is already defined in p:r_out[0], new value FAST will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 556)] PAP_IO_DIRECTION is already defined in p:b_in[5], new value INPUT will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_LOC} {AB16}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 557)] PAP_IO_LOC is already defined in p:b_in[5], new value AB16 will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 558)] PAP_IO_VCCIO is already defined in p:b_in[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 559)] PAP_IO_STANDARD is already defined in p:b_in[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_in[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 560)] PAP_IO_NONE is already defined in p:b_in[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 566)] PAP_IO_DIRECTION is already defined in p:b_in[3], new value INPUT will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_LOC} {W15}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 567)] PAP_IO_LOC is already defined in p:b_in[3], new value W15 will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 568)] PAP_IO_VCCIO is already defined in p:b_in[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 569)] PAP_IO_STANDARD is already defined in p:b_in[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_in[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 570)] PAP_IO_NONE is already defined in p:b_in[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 581)] PAP_IO_DIRECTION is already defined in p:b_in[0], new value INPUT will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_LOC} {U14}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 582)] PAP_IO_LOC is already defined in p:b_in[0], new value U14 will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 583)] PAP_IO_VCCIO is already defined in p:b_in[0], new value 3.3 will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 584)] PAP_IO_STANDARD is already defined in p:b_in[0], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:b_in[0]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 585)] PAP_IO_NONE is already defined in p:b_in[0], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 586)] PAP_IO_DIRECTION is already defined in p:g_in[7], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_LOC} {W17}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 587)] PAP_IO_LOC is already defined in p:g_in[7], new value W17 will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 588)] PAP_IO_VCCIO is already defined in p:g_in[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 589)] PAP_IO_STANDARD is already defined in p:g_in[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 590)] PAP_IO_NONE is already defined in p:g_in[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 591)] PAP_IO_DIRECTION is already defined in p:g_in[6], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_LOC} {Y18}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 592)] PAP_IO_LOC is already defined in p:g_in[6], new value Y18 will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 593)] PAP_IO_VCCIO is already defined in p:g_in[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 594)] PAP_IO_STANDARD is already defined in p:g_in[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 595)] PAP_IO_NONE is already defined in p:g_in[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 596)] PAP_IO_DIRECTION is already defined in p:g_in[5], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_LOC} {AB18}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 597)] PAP_IO_LOC is already defined in p:g_in[5], new value AB18 will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 598)] PAP_IO_VCCIO is already defined in p:g_in[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 599)] PAP_IO_STANDARD is already defined in p:g_in[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 600)] PAP_IO_NONE is already defined in p:g_in[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 601)] PAP_IO_DIRECTION is already defined in p:g_in[4], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_LOC} {AA18}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 602)] PAP_IO_LOC is already defined in p:g_in[4], new value AA18 will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 603)] PAP_IO_VCCIO is already defined in p:g_in[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 604)] PAP_IO_STANDARD is already defined in p:g_in[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 605)] PAP_IO_NONE is already defined in p:g_in[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 606)] PAP_IO_DIRECTION is already defined in p:g_in[3], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_LOC} {AB19}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 607)] PAP_IO_LOC is already defined in p:g_in[3], new value AB19 will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 608)] PAP_IO_VCCIO is already defined in p:g_in[3], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 609)] PAP_IO_STANDARD is already defined in p:g_in[3], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[3]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 610)] PAP_IO_NONE is already defined in p:g_in[3], new value TRUE will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 616)] PAP_IO_DIRECTION is already defined in p:g_in[1], new value INPUT will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_LOC} {V17}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 617)] PAP_IO_LOC is already defined in p:g_in[1], new value V17 will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 618)] PAP_IO_VCCIO is already defined in p:g_in[1], new value 3.3 will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 619)] PAP_IO_STANDARD is already defined in p:g_in[1], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:g_in[1]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 620)] PAP_IO_NONE is already defined in p:g_in[1], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 626)] PAP_IO_DIRECTION is already defined in p:r_in[7], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_LOC} {Y14}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 627)] PAP_IO_LOC is already defined in p:r_in[7], new value Y14 will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 628)] PAP_IO_VCCIO is already defined in p:r_in[7], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 629)] PAP_IO_STANDARD is already defined in p:r_in[7], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[7]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 630)] PAP_IO_NONE is already defined in p:r_in[7], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 631)] PAP_IO_DIRECTION is already defined in p:r_in[6], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_LOC} {W14}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 632)] PAP_IO_LOC is already defined in p:r_in[6], new value W14 will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 633)] PAP_IO_VCCIO is already defined in p:r_in[6], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 634)] PAP_IO_STANDARD is already defined in p:r_in[6], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[6]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 635)] PAP_IO_NONE is already defined in p:r_in[6], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 636)] PAP_IO_DIRECTION is already defined in p:r_in[5], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_LOC} {AB14}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 637)] PAP_IO_LOC is already defined in p:r_in[5], new value AB14 will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 638)] PAP_IO_VCCIO is already defined in p:r_in[5], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 639)] PAP_IO_STANDARD is already defined in p:r_in[5], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[5]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 640)] PAP_IO_NONE is already defined in p:r_in[5], new value TRUE will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_DIRECTION} {INPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 641)] PAP_IO_DIRECTION is already defined in p:r_in[4], new value INPUT will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_LOC} {AA14}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 642)] PAP_IO_LOC is already defined in p:r_in[4], new value AA14 will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 643)] PAP_IO_VCCIO is already defined in p:r_in[4], new value 3.3 will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 644)] PAP_IO_STANDARD is already defined in p:r_in[4], new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:r_in[4]} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 645)] PAP_IO_NONE is already defined in p:r_in[4], new value TRUE will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_DIRECTION} {INOUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 666)] PAP_IO_DIRECTION is already defined in p:iic_sda, new value INOUT will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_LOC} {V20}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 667)] PAP_IO_LOC is already defined in p:iic_sda, new value V20 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 668)] PAP_IO_VCCIO is already defined in p:iic_sda, new value 3.3 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 669)] PAP_IO_STANDARD is already defined in p:iic_sda, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 670)] PAP_IO_DRIVE is already defined in p:iic_sda, new value 8 will overwrite the current value.
+
+define_attribute {p:iic_sda} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 672)] PAP_IO_SLEW is already defined in p:iic_sda, new value FAST will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_DIRECTION} {INOUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 673)] PAP_IO_DIRECTION is already defined in p:iic_tx_sda, new value INOUT will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_LOC} {P18}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 674)] PAP_IO_LOC is already defined in p:iic_tx_sda, new value P18 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 675)] PAP_IO_VCCIO is already defined in p:iic_tx_sda, new value 3.3 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 676)] PAP_IO_STANDARD is already defined in p:iic_tx_sda, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 677)] PAP_IO_DRIVE is already defined in p:iic_tx_sda, new value 8 will overwrite the current value.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 679)] PAP_IO_SLEW is already defined in p:iic_tx_sda, new value FAST will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 680)] PAP_IO_DIRECTION is already defined in p:de_out, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_LOC} {Y22}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 681)] PAP_IO_LOC is already defined in p:de_out, new value Y22 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 682)] PAP_IO_VCCIO is already defined in p:de_out, new value 3.3 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 683)] PAP_IO_STANDARD is already defined in p:de_out, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 684)] PAP_IO_DRIVE is already defined in p:de_out, new value 8 will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 685)] PAP_IO_NONE is already defined in p:de_out, new value TRUE will overwrite the current value.
+
+define_attribute {p:de_out} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 686)] PAP_IO_SLEW is already defined in p:de_out, new value FAST will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 687)] PAP_IO_DIRECTION is already defined in p:hs_out, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_LOC} {Y21}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 688)] PAP_IO_LOC is already defined in p:hs_out, new value Y21 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 689)] PAP_IO_VCCIO is already defined in p:hs_out, new value 3.3 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 690)] PAP_IO_STANDARD is already defined in p:hs_out, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 691)] PAP_IO_DRIVE is already defined in p:hs_out, new value 8 will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_NONE} {TRUE}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 692)] PAP_IO_NONE is already defined in p:hs_out, new value TRUE will overwrite the current value.
+
+define_attribute {p:hs_out} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 693)] PAP_IO_SLEW is already defined in p:hs_out, new value FAST will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 694)] PAP_IO_DIRECTION is already defined in p:iic_scl, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_LOC} {V19}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 695)] PAP_IO_LOC is already defined in p:iic_scl, new value V19 will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 696)] PAP_IO_VCCIO is already defined in p:iic_scl, new value 3.3 will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 697)] PAP_IO_STANDARD is already defined in p:iic_scl, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 698)] PAP_IO_DRIVE is already defined in p:iic_scl, new value 8 will overwrite the current value.
+
+define_attribute {p:iic_scl} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 700)] PAP_IO_SLEW is already defined in p:iic_scl, new value FAST will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_DIRECTION} {OUTPUT}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 701)] PAP_IO_DIRECTION is already defined in p:iic_tx_scl, new value OUTPUT will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_LOC} {P17}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 702)] PAP_IO_LOC is already defined in p:iic_tx_scl, new value P17 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_VCCIO} {3.3}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 703)] PAP_IO_VCCIO is already defined in p:iic_tx_scl, new value 3.3 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_STANDARD} {LVCMOS33}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 704)] PAP_IO_STANDARD is already defined in p:iic_tx_scl, new value LVCMOS33 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_DRIVE} {8}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 705)] PAP_IO_DRIVE is already defined in p:iic_tx_scl, new value 8 will overwrite the current value.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_SLEW} {FAST}
+
+	W: ConstraintEditor-4026: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 707)] PAP_IO_SLEW is already defined in p:iic_tx_scl, new value FAST will overwrite the current value.
+
+define_attribute {p:b_out[5]} {PAP_IO_LOC} {R22}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 393)] | Port b_out[5] has been placed at location R22, whose type is share pin.
+
+define_attribute {p:b_out[4]} {PAP_IO_LOC} {R20}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 400)] | Port b_out[4] has been placed at location R20, whose type is share pin.
+
+define_attribute {p:g_out[7]} {PAP_IO_LOC} {L17}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 435)] | Port g_out[7] has been placed at location L17, whose type is share pin.
+
+define_attribute {p:g_out[6]} {PAP_IO_LOC} {K20}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 442)] | Port g_out[6] has been placed at location K20, whose type is share pin.
+
+define_attribute {p:g_out[5]} {PAP_IO_LOC} {L19}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 449)] | Port g_out[5] has been placed at location L19, whose type is share pin.
+
+define_attribute {p:r_out[7]} {PAP_IO_LOC} {H19}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 491)] | Port r_out[7] has been placed at location H19, whose type is share pin.
+
+define_attribute {p:r_out[0]} {PAP_IO_LOC} {K17}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 540)] | Port r_out[0] has been placed at location K17, whose type is share pin.
+
+define_attribute {p:iic_sda} {PAP_IO_UNUSED} {TRUE}
+
+	W: ConstraintEditor-4031: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 174)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_UNUSED.
+
+define_attribute {p:iic_sda} {PAP_IO_LOC} {V20}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 667)] | Port iic_sda has been placed at location V20, whose type is share pin.
+
+define_attribute {p:iic_tx_sda} {PAP_IO_UNUSED} {TRUE}
+
+	W: ConstraintEditor-4031: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 181)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_UNUSED.
+
+define_attribute {p:iic_scl} {PAP_IO_UNUSED} {TRUE}
+
+	W: ConstraintEditor-4031: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 202)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_UNUSED.
+
+define_attribute {p:iic_scl} {PAP_IO_LOC} {V19}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 695)] | Port iic_scl has been placed at location V19, whose type is share pin.
+
+define_attribute {p:iic_tx_scl} {PAP_IO_UNUSED} {TRUE}
+
+	W: ConstraintEditor-4031: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 209)] BUS_KEEPER attribute have been defined already, current attribute PAP_IO_NONE will overwrite the old attribute PAP_IO_UNUSED.
+
+define_attribute {p:g_in[5]} {PAP_IO_LOC} {AB18}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 597)] | Port g_in[5] has been placed at location AB18, whose type is share pin.
+
+define_attribute {p:g_in[4]} {PAP_IO_LOC} {AA18}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 602)] | Port g_in[4] has been placed at location AA18, whose type is share pin.
+
+define_attribute {p:g_in[3]} {PAP_IO_LOC} {AB19}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 607)] | Port g_in[3] has been placed at location AB19, whose type is share pin.
+
+define_attribute {p:g_in[1]} {PAP_IO_LOC} {V17}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 617)] | Port g_in[1] has been placed at location V17, whose type is share pin.
+
+define_attribute {p:b_out[2]} {PAP_IO_LOC} {T21}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 414)] | Port b_out[2] has been placed at location T21, whose type is share pin.
+
+define_attribute {p:g_out[0]} {PAP_IO_LOC} {M21}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 484)] | Port g_out[0] has been placed at location M21, whose type is share pin.
+
+define_attribute {p:r_out[6]} {PAP_IO_LOC} {H22}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 498)] | Port r_out[6] has been placed at location H22, whose type is share pin.
+
+define_attribute {p:r_out[5]} {PAP_IO_LOC} {H21}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 505)] | Port r_out[5] has been placed at location H21, whose type is share pin.
+
+define_attribute {p:g_in[2]} {PAP_IO_LOC} {W18}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 612)] | Port g_in[2] has been placed at location W18, whose type is share pin.
+
+define_attribute {p:pixclk} {PAP_IO_LOC} {M22}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 709)] | Port pixclk has been placed at location M22, whose type is share pin.
+
+define_attribute {p:pixclk_in} {PAP_IO_LOC} {AA12}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP_0208/2_demo/07_hdmi_rx_tx/src/hdmi_rx_tx.fdc(line number: 740)] | Port pixclk_in has been placed at location AA12, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

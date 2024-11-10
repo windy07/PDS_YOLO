@@ -1,0 +1,154 @@
+# Reading D:/modeltech64_10.5/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {run_behav_compile.tcl}
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap usim D:/modeltech64_10.5/pango_sim_test_lib/usim 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap adc D:/modeltech64_10.5/pango_sim_test_lib/adc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap ddrc D:/modeltech64_10.5/pango_sim_test_lib/ddrc 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap ddrphy D:/modeltech64_10.5/pango_sim_test_lib/ddrphy 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap hsst_e2 D:/modeltech64_10.5/pango_sim_test_lib/hsst_e2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap iolhr_dft D:/modeltech64_10.5/pango_sim_test_lib/iolhr_dft 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap ipal_e1 D:/modeltech64_10.5/pango_sim_test_lib/ipal_e1 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vmap 10.5 Lib Mapping Utility 2016.02 Feb 13 2016
+# vmap pciegen2 D:/modeltech64_10.5/pango_sim_test_lib/pciegen2 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 12:09:36 on Nov 10,2024
+# vlog -reportprogress 300 D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/Desktop/01_led_test.v -work work 
+# -- Compiling module led_test
+# 
+# Top level modules:
+# 	led_test
+# End time: 12:09:36 on Nov 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 12:09:36 on Nov 10,2024
+# vlog -reportprogress 300 D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/ipcore/fifo/rtl/ipml_fifo_ctrl_v1_3.v -work work 
+# -- Compiling module ipml_fifo_ctrl_v1_3
+# 
+# Top level modules:
+# 	ipml_fifo_ctrl_v1_3
+# End time: 12:09:36 on Nov 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 12:09:36 on Nov 10,2024
+# vlog -reportprogress 300 D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/ipcore/fifo/rtl/ipml_sdpram_v1_6_matrix_fifo_buf.v -work work 
+# -- Compiling module ipml_sdpram_v1_6_matrix_fifo_buf
+# 
+# Top level modules:
+# 	ipml_sdpram_v1_6_matrix_fifo_buf
+# End time: 12:09:36 on Nov 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 12:09:36 on Nov 10,2024
+# vlog -reportprogress 300 D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/ipcore/fifo/rtl/ipml_fifo_v1_6_matrix_fifo_buf.v -work work 
+# -- Compiling module ipml_fifo_v1_6_matrix_fifo_buf
+# 
+# Top level modules:
+# 	ipml_fifo_v1_6_matrix_fifo_buf
+# End time: 12:09:36 on Nov 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 12:09:36 on Nov 10,2024
+# vlog -reportprogress 300 D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/ipcore/fifo/matrix_fifo_buf.v -work work 
+# -- Compiling module matrix_fifo_buf
+# 
+# Top level modules:
+# 	matrix_fifo_buf
+# End time: 12:09:36 on Nov 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 12:09:36 on Nov 10,2024
+# vlog -reportprogress 300 D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v -work work 
+# -- Compiling module matrix_tb
+# 
+# Top level modules:
+# 	matrix_tb
+# End time: 12:09:36 on Nov 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+# Start time: 12:09:36 on Nov 10,2024
+# vlog -reportprogress 300 D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v -work work 
+# -- Compiling module matrix_3_3
+# 
+# Top level modules:
+# 	matrix_3_3
+# End time: 12:09:36 on Nov 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# do {run_behav_simulate.tcl}
+# vsim -novopt -L work -L usim -L adc -L ddrc -L ddrphy -L hsst_e2 -L iolhr_dft -L ipal_e1 -L pciegen2 matrix_tb usim.GTP_GRS 
+# Start time: 12:09:37 on Nov 10,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/sim/behav/work.matrix_tb
+# Loading work.matrix_tb
+# Loading usim.GTP_GRS
+# Refreshing D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/sim/behav/work.matrix_3_3
+# Loading work.matrix_3_3
+# Refreshing D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/sim/behav/work.matrix_fifo_buf
+# Loading work.matrix_fifo_buf
+# Refreshing D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/sim/behav/work.ipml_fifo_v1_6_matrix_fifo_buf
+# Loading work.ipml_fifo_v1_6_matrix_fifo_buf
+# Refreshing D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/sim/behav/work.ipml_sdpram_v1_6_matrix_fifo_buf
+# Loading work.ipml_sdpram_v1_6_matrix_fifo_buf
+# Refreshing D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/sim/behav/work.ipml_fifo_ctrl_v1_3
+# Loading work.ipml_fifo_ctrl_v1_3
+# Loading usim.GTP_DRM9K
+# ** Warning: (vsim-3017) D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v(44): [TFMPC] - Too few port connections. Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /matrix_tb/u_matrix_3_3 File: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v
+# ** Warning: (vsim-3015) D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v(44): [PCDPC] - Port size (8) does not match connection size (1) for port 'matrix11'. The port definition is at: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /matrix_tb/u_matrix_3_3 File: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v
+# ** Warning: (vsim-3015) D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v(44): [PCDPC] - Port size (8) does not match connection size (1) for port 'matrix12'. The port definition is at: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /matrix_tb/u_matrix_3_3 File: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v
+# ** Warning: (vsim-3015) D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v(44): [PCDPC] - Port size (8) does not match connection size (1) for port 'matrix13'. The port definition is at: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /matrix_tb/u_matrix_3_3 File: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v
+# ** Warning: (vsim-3015) D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v(44): [PCDPC] - Port size (8) does not match connection size (1) for port 'matrix21'. The port definition is at: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v(22).
+#    Time: 0 ps  Iteration: 0  Instance: /matrix_tb/u_matrix_3_3 File: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v
+# ** Warning: (vsim-3015) D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v(44): [PCDPC] - Port size (8) does not match connection size (1) for port 'matrix22'. The port definition is at: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /matrix_tb/u_matrix_3_3 File: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v
+# ** Warning: (vsim-3015) D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v(44): [PCDPC] - Port size (8) does not match connection size (1) for port 'matrix23'. The port definition is at: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /matrix_tb/u_matrix_3_3 File: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v
+# ** Warning: (vsim-3015) D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v(44): [PCDPC] - Port size (8) does not match connection size (1) for port 'matrix31'. The port definition is at: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /matrix_tb/u_matrix_3_3 File: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v
+# ** Warning: (vsim-3015) D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v(44): [PCDPC] - Port size (8) does not match connection size (1) for port 'matrix32'. The port definition is at: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v(27).
+#    Time: 0 ps  Iteration: 0  Instance: /matrix_tb/u_matrix_3_3 File: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v
+# ** Warning: (vsim-3015) D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v(44): [PCDPC] - Port size (8) does not match connection size (1) for port 'matrix33'. The port definition is at: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v(28).
+#    Time: 0 ps  Iteration: 0  Instance: /matrix_tb/u_matrix_3_3 File: D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_3_3.v
+# ** Warning: (vsim-3722) D:/PANGO_PROJECT/01_led_test_matrix/01_led_test/source/source/Desktop/matrix_tb.v(44): [TFMPC] - Missing connection for port 'matrix_vs'.
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+reset
+# 无效参数
+# RESET { SESSION }
+# End time: 15:32:21 on Nov 10,2024, Elapsed time: 3:22:44
+# Errors: 1, Warnings: 12

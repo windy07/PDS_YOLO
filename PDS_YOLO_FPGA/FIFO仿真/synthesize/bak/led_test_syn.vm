@@ -1,0 +1,1049 @@
+//
+// Generated (version 2022.1<build 99559>) at Tue Feb 28 20:10:52 2023
+//
+
+module led_test
+(
+    input clk,
+    input rstn,
+    output [7:0] led
+);
+	// SDC constraint : (object clk) (id 1000) (clock led_test|clk) (inferred)
+    wire N0_0;
+    wire [24:0] N6;
+    wire N23;
+    wire N26;
+    wire _N1;
+    wire _N2;
+    wire _N3;
+    wire _N4;
+    wire _N5;
+    wire _N6;
+    wire _N7;
+    wire _N8;
+    wire _N9;
+    wire _N10;
+    wire _N11;
+    wire _N12;
+    wire _N13;
+    wire _N14;
+    wire _N15;
+    wire _N16;
+    wire _N17;
+    wire _N18;
+    wire _N19;
+    wire _N20;
+    wire _N21;
+    wire _N22;
+    wire _N23;
+    wire _N51;
+    wire _N55;
+    wire _N59;
+    wire _N63;
+    wire _N67;
+    wire [24:0] led_light_cnt;
+    wire \led_light_cnt[0]_inv ;
+(* PAP_MARK_DEBUG="1" *)    wire nt_clk;
+    wire [7:0] nt_led;
+(* PAP_MARK_DEBUG="1" *)    wire nt_rstn;
+
+    GTP_GRS GRS_INST (
+            .GRS_N (1'b1));
+
+    GTP_INV N0_0_vname (
+            .Z (N0_0),
+            .I (nt_rstn));
+    // defparam N0_0_vname.orig_name = N0_0;
+
+    GTP_LUT5CARRY /* N6_0_1 */ #(
+            .INIT(32'b01100110011001100000000000000000), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("FALSE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_1 (
+            .COUT (_N1),
+            .Z (N6[1]),
+            .CIN (),
+            .I0 (led_light_cnt[0]),
+            .I1 (led_light_cnt[1]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b1),
+            .ID ());
+	// LUT = I1^I0 ;
+	// CARRY = (1'b0) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_2 */ #(
+            .INIT(32'b01111000011110001000000010000000), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("FALSE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_2 (
+            .COUT (_N2),
+            .Z (N6[2]),
+            .CIN (_N1),
+            .I0 (led_light_cnt[0]),
+            .I1 (led_light_cnt[1]),
+            .I2 (led_light_cnt[2]),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = (I0&I1&~I2)|(~I1&I2)|(~I0&I2) ;
+	// CARRY = (I0&I1&I2) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_3 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_3 (
+            .COUT (_N3),
+            .Z (N6[3]),
+            .CIN (_N2),
+            .I0 (),
+            .I1 (led_light_cnt[3]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_4 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_4 (
+            .COUT (_N4),
+            .Z (N6[4]),
+            .CIN (_N3),
+            .I0 (),
+            .I1 (led_light_cnt[4]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_5 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_5 (
+            .COUT (_N5),
+            .Z (N6[5]),
+            .CIN (_N4),
+            .I0 (),
+            .I1 (led_light_cnt[5]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_6 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_6 (
+            .COUT (_N6),
+            .Z (N6[6]),
+            .CIN (_N5),
+            .I0 (),
+            .I1 (led_light_cnt[6]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_7 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_7 (
+            .COUT (_N7),
+            .Z (N6[7]),
+            .CIN (_N6),
+            .I0 (),
+            .I1 (led_light_cnt[7]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_8 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_8 (
+            .COUT (_N8),
+            .Z (N6[8]),
+            .CIN (_N7),
+            .I0 (),
+            .I1 (led_light_cnt[8]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_9 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_9 (
+            .COUT (_N9),
+            .Z (N6[9]),
+            .CIN (_N8),
+            .I0 (),
+            .I1 (led_light_cnt[9]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_10 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_10 (
+            .COUT (_N10),
+            .Z (N6[10]),
+            .CIN (_N9),
+            .I0 (),
+            .I1 (led_light_cnt[10]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_11 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_11 (
+            .COUT (_N11),
+            .Z (N6[11]),
+            .CIN (_N10),
+            .I0 (),
+            .I1 (led_light_cnt[11]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_12 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_12 (
+            .COUT (_N12),
+            .Z (N6[12]),
+            .CIN (_N11),
+            .I0 (),
+            .I1 (led_light_cnt[12]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_13 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_13 (
+            .COUT (_N13),
+            .Z (N6[13]),
+            .CIN (_N12),
+            .I0 (),
+            .I1 (led_light_cnt[13]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_14 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_14 (
+            .COUT (_N14),
+            .Z (N6[14]),
+            .CIN (_N13),
+            .I0 (),
+            .I1 (led_light_cnt[14]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_15 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_15 (
+            .COUT (_N15),
+            .Z (N6[15]),
+            .CIN (_N14),
+            .I0 (),
+            .I1 (led_light_cnt[15]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_16 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_16 (
+            .COUT (_N16),
+            .Z (N6[16]),
+            .CIN (_N15),
+            .I0 (),
+            .I1 (led_light_cnt[16]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_17 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_17 (
+            .COUT (_N17),
+            .Z (N6[17]),
+            .CIN (_N16),
+            .I0 (),
+            .I1 (led_light_cnt[17]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_18 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_18 (
+            .COUT (_N18),
+            .Z (N6[18]),
+            .CIN (_N17),
+            .I0 (),
+            .I1 (led_light_cnt[18]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_19 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_19 (
+            .COUT (_N19),
+            .Z (N6[19]),
+            .CIN (_N18),
+            .I0 (),
+            .I1 (led_light_cnt[19]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_20 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_20 (
+            .COUT (_N20),
+            .Z (N6[20]),
+            .CIN (_N19),
+            .I0 (),
+            .I1 (led_light_cnt[20]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_21 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_21 (
+            .COUT (_N21),
+            .Z (N6[21]),
+            .CIN (_N20),
+            .I0 (),
+            .I1 (led_light_cnt[21]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_22 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_22 (
+            .COUT (_N22),
+            .Z (N6[22]),
+            .CIN (_N21),
+            .I0 (),
+            .I1 (led_light_cnt[22]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_23 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_23 (
+            .COUT (_N23),
+            .Z (N6[23]),
+            .CIN (_N22),
+            .I0 (),
+            .I1 (led_light_cnt[23]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5CARRY /* N6_0_24 */ #(
+            .INIT(32'b01100110011001101100110011001100), 
+            .ID_TO_LUT("FALSE"), 
+            .CIN_TO_LUT("TRUE"), 
+            .I4_TO_CARRY("TRUE"), 
+            .I4_TO_LUT("FALSE"))
+        N6_0_24 (
+            .COUT (),
+            .Z (N6[24]),
+            .CIN (_N23),
+            .I0 (),
+            .I1 (led_light_cnt[24]),
+            .I2 (),
+            .I3 (),
+            .I4 (1'b0),
+            .ID ());
+	// LUT = I1^CIN ;
+	// CARRY = (I1) ? CIN : (I4) ;
+	// ../source/Desktop/01_led_test.v:46
+
+    GTP_LUT5 /* N23_5 */ #(
+            .INIT(32'b00000000000000000000000000000001))
+        N23_5 (
+            .Z (_N51),
+            .I0 (led_light_cnt[9]),
+            .I1 (led_light_cnt[8]),
+            .I2 (led_light_cnt[7]),
+            .I3 (led_light_cnt[6]),
+            .I4 (led_light_cnt[10]));
+	// LUT = ~I0&~I1&~I2&~I3&~I4 ;
+
+    GTP_LUT5 /* N23_9 */ #(
+            .INIT(32'b00000000000000000001000000000000))
+        N23_9 (
+            .Z (_N55),
+            .I0 (led_light_cnt[17]),
+            .I1 (led_light_cnt[15]),
+            .I2 (led_light_cnt[2]),
+            .I3 (led_light_cnt[1]),
+            .I4 (led_light_cnt[23]));
+	// LUT = ~I0&~I1&I2&I3&~I4 ;
+
+    GTP_LUT5 /* N23_13 */ #(
+            .INIT(32'b10000000000000000000000000000000))
+        N23_13 (
+            .Z (_N59),
+            .I0 (led_light_cnt[11]),
+            .I1 (led_light_cnt[5]),
+            .I2 (led_light_cnt[4]),
+            .I3 (led_light_cnt[3]),
+            .I4 (led_light_cnt[12]));
+	// LUT = I0&I1&I2&I3&I4 ;
+
+    GTP_LUT5 /* N23_17 */ #(
+            .INIT(32'b10000000000000000000000000000000))
+        N23_17 (
+            .Z (_N63),
+            .I0 (led_light_cnt[18]),
+            .I1 (led_light_cnt[16]),
+            .I2 (led_light_cnt[14]),
+            .I3 (led_light_cnt[13]),
+            .I4 (led_light_cnt[19]));
+	// LUT = I0&I1&I2&I3&I4 ;
+
+    GTP_LUT5 /* N23_21 */ #(
+            .INIT(32'b10000000000000000000000000000000))
+        N23_21 (
+            .Z (_N67),
+            .I0 (led_light_cnt[24]),
+            .I1 (led_light_cnt[22]),
+            .I2 (led_light_cnt[21]),
+            .I3 (led_light_cnt[20]),
+            .I4 (led_light_cnt[0]));
+	// LUT = I0&I1&I2&I3&I4 ;
+
+    GTP_LUT5 /* N23_25 */ #(
+            .INIT(32'b10000000000000000000000000000000))
+        N23_25 (
+            .Z (N23),
+            .I0 (_N63),
+            .I1 (_N59),
+            .I2 (_N55),
+            .I3 (_N51),
+            .I4 (_N67));
+	// LUT = I0&I1&I2&I3&I4 ;
+
+    GTP_LUT2 /* N26 */ #(
+            .INIT(4'b1101))
+        N26_vname (
+            .Z (N26),
+            .I0 (nt_rstn),
+            .I1 (N23));
+    // defparam N26_vname.orig_name = N26;
+	// LUT = (~I0)|(I1) ;
+	// ../source/Desktop/01_led_test.v:35
+
+(* PAP_MARK_DEBUG="1", PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="P20", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    GTP_INBUF /* clk_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        clk_ibuf (
+            .O (nt_clk),
+            .I (clk));
+	// ../source/Desktop/01_led_test.v:25
+
+    GTP_DFF_R /* \led_light_cnt[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[0]  (
+            .Q (led_light_cnt[0]),
+            .CLK (nt_clk),
+            .D (\led_light_cnt[0]_inv ),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[1]  (
+            .Q (led_light_cnt[1]),
+            .CLK (nt_clk),
+            .D (N6[1]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[2]  (
+            .Q (led_light_cnt[2]),
+            .CLK (nt_clk),
+            .D (N6[2]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[3]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[3]  (
+            .Q (led_light_cnt[3]),
+            .CLK (nt_clk),
+            .D (N6[3]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[4]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[4]  (
+            .Q (led_light_cnt[4]),
+            .CLK (nt_clk),
+            .D (N6[4]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[5]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[5]  (
+            .Q (led_light_cnt[5]),
+            .CLK (nt_clk),
+            .D (N6[5]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[6]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[6]  (
+            .Q (led_light_cnt[6]),
+            .CLK (nt_clk),
+            .D (N6[6]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[7]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[7]  (
+            .Q (led_light_cnt[7]),
+            .CLK (nt_clk),
+            .D (N6[7]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[8]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[8]  (
+            .Q (led_light_cnt[8]),
+            .CLK (nt_clk),
+            .D (N6[8]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[9]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[9]  (
+            .Q (led_light_cnt[9]),
+            .CLK (nt_clk),
+            .D (N6[9]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[10]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[10]  (
+            .Q (led_light_cnt[10]),
+            .CLK (nt_clk),
+            .D (N6[10]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[11]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[11]  (
+            .Q (led_light_cnt[11]),
+            .CLK (nt_clk),
+            .D (N6[11]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[12]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[12]  (
+            .Q (led_light_cnt[12]),
+            .CLK (nt_clk),
+            .D (N6[12]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[13]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[13]  (
+            .Q (led_light_cnt[13]),
+            .CLK (nt_clk),
+            .D (N6[13]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[14]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[14]  (
+            .Q (led_light_cnt[14]),
+            .CLK (nt_clk),
+            .D (N6[14]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[15]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[15]  (
+            .Q (led_light_cnt[15]),
+            .CLK (nt_clk),
+            .D (N6[15]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[16]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[16]  (
+            .Q (led_light_cnt[16]),
+            .CLK (nt_clk),
+            .D (N6[16]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[17]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[17]  (
+            .Q (led_light_cnt[17]),
+            .CLK (nt_clk),
+            .D (N6[17]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[18]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[18]  (
+            .Q (led_light_cnt[18]),
+            .CLK (nt_clk),
+            .D (N6[18]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[19]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[19]  (
+            .Q (led_light_cnt[19]),
+            .CLK (nt_clk),
+            .D (N6[19]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[20]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[20]  (
+            .Q (led_light_cnt[20]),
+            .CLK (nt_clk),
+            .D (N6[20]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[21]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[21]  (
+            .Q (led_light_cnt[21]),
+            .CLK (nt_clk),
+            .D (N6[21]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[22]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[22]  (
+            .Q (led_light_cnt[22]),
+            .CLK (nt_clk),
+            .D (N6[22]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_DFF_R /* \led_light_cnt[23]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[23]  (
+            .Q (led_light_cnt[23]),
+            .CLK (nt_clk),
+            .D (N6[23]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+    GTP_LUT1 /* \led_light_cnt[24:0]_inv  */ #(
+            .INIT(2'b01))
+        \led_light_cnt[24:0]_inv  (
+            .Z (\led_light_cnt[0]_inv ),
+            .I0 (led_light_cnt[0]));
+	// LUT = ~I0 ;
+
+    GTP_DFF_R /* \led_light_cnt[24]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_light_cnt[24]  (
+            .Q (led_light_cnt[24]),
+            .CLK (nt_clk),
+            .D (N6[24]),
+            .R (N26));
+	// ../source/Desktop/01_led_test.v:39
+
+(* PAP_MARK_DEBUG="1", PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="B2", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="8", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[0]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \led_obuf[0]  (
+            .O (led[0]),
+            .I (nt_led[0]));
+	// ../source/Desktop/01_led_test.v:28
+
+(* PAP_MARK_DEBUG="1", PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="A2", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="8", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[1]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \led_obuf[1]  (
+            .O (led[1]),
+            .I (nt_led[1]));
+	// ../source/Desktop/01_led_test.v:28
+
+(* PAP_MARK_DEBUG="1", PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="B3", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="8", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[2]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \led_obuf[2]  (
+            .O (led[2]),
+            .I (nt_led[2]));
+	// ../source/Desktop/01_led_test.v:28
+
+(* PAP_MARK_DEBUG="1", PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="A3", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="8", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[3]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \led_obuf[3]  (
+            .O (led[3]),
+            .I (nt_led[3]));
+	// ../source/Desktop/01_led_test.v:28
+
+(* PAP_MARK_DEBUG="1", PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="C5", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="8", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[4]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \led_obuf[4]  (
+            .O (led[4]),
+            .I (nt_led[4]));
+	// ../source/Desktop/01_led_test.v:28
+
+(* PAP_MARK_DEBUG="1", PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="A5", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="8", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[5]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \led_obuf[5]  (
+            .O (led[5]),
+            .I (nt_led[5]));
+	// ../source/Desktop/01_led_test.v:28
+
+(* PAP_MARK_DEBUG="1", PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="F7", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="8", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[6]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \led_obuf[6]  (
+            .O (led[6]),
+            .I (nt_led[6]));
+	// ../source/Desktop/01_led_test.v:28
+
+(* PAP_MARK_DEBUG="1", PAP_IO_DIRECTION="OUTPUT", PAP_IO_LOC="F8", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_DRIVE="8", PAP_IO_NONE="TRUE", PAP_IO_SLEW="FAST" *)    GTP_OUTBUF /* \led_obuf[7]  */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .SLEW_RATE("SLOW"), 
+            .DRIVE_STRENGTH("8"))
+        \led_obuf[7]  (
+            .O (led[7]),
+            .I (nt_led[7]));
+	// ../source/Desktop/01_led_test.v:28
+
+    GTP_DFF_SE /* \led_status[0]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b1))
+        \led_status[0]  (
+            .Q (nt_led[0]),
+            .CE (N23),
+            .CLK (nt_clk),
+            .D (nt_led[7]),
+            .S (N0_0));
+	// ../source/Desktop/01_led_test.v:50
+
+    GTP_DFF_RE /* \led_status[1]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_status[1]  (
+            .Q (nt_led[1]),
+            .CE (N23),
+            .CLK (nt_clk),
+            .D (nt_led[0]),
+            .R (N0_0));
+	// ../source/Desktop/01_led_test.v:50
+
+    GTP_DFF_RE /* \led_status[2]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_status[2]  (
+            .Q (nt_led[2]),
+            .CE (N23),
+            .CLK (nt_clk),
+            .D (nt_led[1]),
+            .R (N0_0));
+	// ../source/Desktop/01_led_test.v:50
+
+    GTP_DFF_RE /* \led_status[3]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_status[3]  (
+            .Q (nt_led[3]),
+            .CE (N23),
+            .CLK (nt_clk),
+            .D (nt_led[2]),
+            .R (N0_0));
+	// ../source/Desktop/01_led_test.v:50
+
+    GTP_DFF_RE /* \led_status[4]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_status[4]  (
+            .Q (nt_led[4]),
+            .CE (N23),
+            .CLK (nt_clk),
+            .D (nt_led[3]),
+            .R (N0_0));
+	// ../source/Desktop/01_led_test.v:50
+
+    GTP_DFF_RE /* \led_status[5]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_status[5]  (
+            .Q (nt_led[5]),
+            .CE (N23),
+            .CLK (nt_clk),
+            .D (nt_led[4]),
+            .R (N0_0));
+	// ../source/Desktop/01_led_test.v:50
+
+    GTP_DFF_RE /* \led_status[6]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_status[6]  (
+            .Q (nt_led[6]),
+            .CE (N23),
+            .CLK (nt_clk),
+            .D (nt_led[5]),
+            .R (N0_0));
+	// ../source/Desktop/01_led_test.v:50
+
+    GTP_DFF_RE /* \led_status[7]  */ #(
+            .GRS_EN("TRUE"), 
+            .INIT(1'b0))
+        \led_status[7]  (
+            .Q (nt_led[7]),
+            .CE (N23),
+            .CLK (nt_clk),
+            .D (nt_led[6]),
+            .R (N0_0));
+	// ../source/Desktop/01_led_test.v:50
+
+(* PAP_MARK_DEBUG="1", PAP_IO_DIRECTION="INPUT", PAP_IO_LOC="K18", PAP_IO_VCCIO="3.3", PAP_IO_STANDARD="LVCMOS33", PAP_IO_NONE="TRUE" *)    GTP_INBUF /* rstn_ibuf */ #(
+            .IOSTANDARD("DEFAULT"), 
+            .TERM_DDR("ON"))
+        rstn_ibuf (
+            .O (nt_rstn),
+            .I (rstn));
+	// ../source/Desktop/01_led_test.v:26
+
+
+endmodule
+

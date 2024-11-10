@@ -1,0 +1,76 @@
+#-- Written by Fabric Compiler (version 2021.4-SP2 build 98682) Sat Sep 17 15:29:04 2022
+
+#project files
+add_file -verilog  -lib work "M:/project/Pango_Board/MES100P/prj/hdmi_tx/src/hdmi_out_top.v"
+add_file -verilog  -lib work "M:/project/Pango_Board/MES100P/prj/hdmi_tx/src/iic_dri.v"
+add_file -verilog  -lib work "M:/project/Pango_Board/MES100P/prj/hdmi_tx/src/video_generate/pattern_vg.v"
+add_file -verilog  -lib work "M:/project/Pango_Board/MES100P/prj/hdmi_tx/src/video_generate/sync_vg.v"
+add_file -verilog  -lib work "M:/project/Pango_Board/MES100P/prj/hdmi_tx/src/ms7210_ctl.v"
+add_file -verilog  "M:/project/Pango_Board/MES100P/prj/hdmi_tx/ipcore/mmcm/mmcm.v"
+add_file -constraint "M:/project/Pango_Board/MES100P/prj/hdmi_tx/src/hdmi_out_top.fdc"
+
+#implementation: "synplify_impl"
+impl -add "M:/project/Pango_Board/MES100P/prj/hdmi_tx/synthesize/synplify_impl" -type fpga
+
+#device options
+set_option -technology Logos2
+set_option -part PG2L100H
+set_option -speed_grade -6
+set_option -package FBG676
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module hdmi_out_top
+
+set_option -fanout_limit 10000
+set_option -disable_io_insertion 0
+set_option -update_models_cp 0
+set_option -enable_prepacking 1
+set_option -rw_check_on_ram 0
+set_option -run_prop_extract 1
+set_option -resolve_multiple_driver 0
+
+set_option -automatic_compile_point 0
+set_option -symbolic_fsm_compiler 1
+set_option -syn_encoding {default}
+set_option -resource_sharing 1
+set_option -pipe 1
+set_option -retiming 0
+set_option -distributed_compile 0
+
+set_option -frequency auto
+set_option -auto_constrain_io 0
+
+set_option -num_critical_paths 3
+
+set_option -vlog_std v2001
+set_option -compiler_compatible 0
+set_option -allow_duplicate_modules 0
+set_option -multi_file_compilation_unit 1
+set_option -beta_vfeatures 0
+set_option -synthesis_onoff_pragma 0
+set_option -vhdl2008 0
+set_option -vhdl2019 0
+set_option -supporttypedflt 0
+set_option -beta_vhfeatures 0
+set_option -default_enum_encoding {default}
+set_option -looplimit 2000
+set_option -project_relative_includes 1
+set_option -include_path {M:/project/Pango_Board/MES100P/prj/hdmi_tx}
+set_option -fix_gated_and_generated_clocks 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+#automatic place and route (vendor) options
+set_option -write_verilog 1
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file synplify.vm
+
+#set log file
+project -log_file synplify.log

@@ -1,0 +1,2286 @@
+
+----------------------------------------------------------------------------------------------------
+| Tool Version : Fabric Compiler (version 2022.1 <build 99559>)
+| Date         : Sun Nov 10 09:10:41 2024
+| Design       : hdmi_loop
+| Device       : PGL50H
+| Speed Grade  : -6
+| Package      : FBG484
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+| Timing Models: Production
+| Tcl Command  : report_timing 
+----------------------------------------------------------------------------------------------------
+
+Timing analysis mode : multi corner
+
+ Clock Summary:                                                                                                                  
+*********************************************************************************************************************************
+                                                                              Clock   Non-clock                                  
+ Clock                       Period       Waveform       Type                 Loads       Loads  Sources                         
+---------------------------------------------------------------------------------------------------------------------------------
+ hdmi_loop|sys_clk           1000.000     {0 500}        Declared                 0           0  {sys_clk}                       
+ PLL|u_pll/u_pll_e3/CLKOUT0  1000.000     {0 500}        Declared               230           0  {u_pll/u_pll_e3/goppll/CLKOUT0} 
+ hdmi_loop|pixclk_in         1000.000     {0 500}        Declared               471           1  {pixclk_in}                     
+=================================================================================================================================
+
+ Clock Groups:                                                                                      
+****************************************************************************************************
+ Clock Group                   Group Type                 Clocks                                    
+----------------------------------------------------------------------------------------------------
+ Inferred_clock_group_0        asynchronous               hdmi_loop|sys_clk                         
+ Inferred_clock_group_1        asynchronous               PLL|u_pll/u_pll_e3/CLKOUT0                
+ Inferred_clock_group_2        asynchronous               hdmi_loop|pixclk_in                       
+====================================================================================================
+
+ Performance Summary:                                                                               
+****************************************************************************************************
+                              Requested       Estimated      Requested      Estimated               
+ Clock                        Frequency       Frequency      Period         Period             Slack
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                              1.000 MHz     192.827 MHz       1000.000          5.186        994.814
+ hdmi_loop|pixclk_in          1.000 MHz     139.860 MHz       1000.000          7.150        992.850
+====================================================================================================
+
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                   994.814       0.000              0           1013
+ hdmi_loop|pixclk_in    hdmi_loop|pixclk_in        992.850       0.000              0           1386
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                     0.242       0.000              0           1013
+ hdmi_loop|pixclk_in    hdmi_loop|pixclk_in          0.315       0.000              0           1386
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                   996.435       0.000              0              1
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                     1.817       0.000              0              1
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0                        499.102       0.000              0            230
+ hdmi_loop|pixclk_in                               499.102       0.000              0            471
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                   996.227       0.000              0           1013
+ hdmi_loop|pixclk_in    hdmi_loop|pixclk_in        995.080       0.000              0           1386
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                     0.176       0.000              0           1013
+ hdmi_loop|pixclk_in    hdmi_loop|pixclk_in          0.252       0.000              0           1386
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                   997.416       0.000              0              1
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0
+                        PLL|u_pll/u_pll_e3/CLKOUT0
+                                                     1.313       0.000              0              1
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ PLL|u_pll/u_pll_e3/CLKOUT0                        499.282       0.000              0            230
+ hdmi_loop|pixclk_in                               499.282       0.000              0            471
+====================================================================================================
+
+Slow Corner
+****************************************************************************************************
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/iic_dri_tx/data_out[3]/opit_0/CLK
+Endpoint    : ms72xx_ctl/ms7210_ctl/data_in[7]/opit_0_inv_L5Q_perm/CE
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.663
+  Clock Pessimism Removal :  0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.078       1.078         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.585       2.663         ntclkbufg_1      
+ CLMA_286_88/CLK                                                           r       ms72xx_ctl/iic_dri_tx/data_out[3]/opit_0/CLK
+
+ CLMA_286_88/Q0                    tco                   0.289       2.952 r       ms72xx_ctl/iic_dri_tx/data_out[3]/opit_0/Q
+                                   net (fanout=1)        0.401       3.353         ms72xx_ctl/data_out_tx [3]
+ CLMA_282_84/Y1                    td                    0.460       3.813 r       ms72xx_ctl/ms7210_ctl/N14_6/gateop_perm/Z
+                                   net (fanout=1)        0.124       3.937         ms72xx_ctl/ms7210_ctl/_N6916
+ CLMA_282_84/Y2                    td                    0.210       4.147 r       ms72xx_ctl/ms7210_ctl/N14_8/gateop_perm/Z
+                                   net (fanout=1)        0.337       4.484         ms72xx_ctl/ms7210_ctl/_N6918
+ CLMS_274_85/Y3                    td                    0.459       4.943 r       ms72xx_ctl/ms7210_ctl/N14_9/gateop_perm/Z
+                                   net (fanout=4)        0.418       5.361         ms72xx_ctl/ms7210_ctl/N612 [3]
+ CLMS_274_93/Y3                    td                    0.459       5.820 r       ms72xx_ctl/ms7210_ctl/N591/gateop_perm/Z
+                                   net (fanout=12)       0.562       6.382         ms72xx_ctl/ms7210_ctl/N591
+ CLMS_274_93/CECO                  td                    0.184       6.566 r       ms72xx_ctl/ms7210_ctl/addr[10]/opit_0_inv_L5Q_perm/CEOUT
+                                   net (fanout=3)        0.000       6.566         ntR153           
+ CLMS_274_97/CECO                  td                    0.184       6.750 r       ms72xx_ctl/ms7210_ctl/data_in[6]/opit_0_inv_L5Q_perm/CEOUT
+                                   net (fanout=4)        0.000       6.750         ntR152           
+ CLMS_274_101/CECO                 td                    0.184       6.934 r       ms72xx_ctl/ms7210_ctl/data_in[5]/opit_0_inv_L5Q_perm/CEOUT
+                                   net (fanout=1)        0.000       6.934         ntR151           
+ CLMS_274_105/CECI                                                         r       ms72xx_ctl/ms7210_ctl/data_in[7]/opit_0_inv_L5Q_perm/CE
+
+ Data arrival time                                                   6.934         Logic Levels: 7  
+                                                                                   Logic: 2.429ns(56.872%), Route: 1.842ns(43.128%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.059    1001.059         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000    1001.059 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.531    1002.590         ntclkbufg_1      
+ CLMS_274_105/CLK                                                          r       ms72xx_ctl/ms7210_ctl/data_in[7]/opit_0_inv_L5Q_perm/CLK
+ clock pessimism                                         0.037    1002.627                          
+ clock uncertainty                                      -0.150    1002.477                          
+
+ Setup time                                             -0.729    1001.748                          
+
+ Data required time                                               1001.748                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.748                          
+ Data arrival time                                                   6.934                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       994.814                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7210_ctl/state_0/opit_0_L5Q_perm/CLK
+Endpoint    : ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/Cin
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.663
+  Clock Pessimism Removal :  0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.078       1.078         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.585       2.663         ntclkbufg_1      
+ CLMA_270_96/CLK                                                           r       ms72xx_ctl/ms7210_ctl/state_0/opit_0_L5Q_perm/CLK
+
+ CLMA_270_96/Q0                    tco                   0.289       2.952 r       ms72xx_ctl/ms7210_ctl/state_0/opit_0_L5Q_perm/Q
+                                   net (fanout=5)        0.455       3.407         ms72xx_ctl/ms7210_ctl/state_0
+ CLMA_274_88/Y3                    td                    0.468       3.875 r       ms72xx_ctl/ms7210_ctl/state_fsm[5:0]_5/gateop_perm/Z
+                                   net (fanout=3)        0.267       4.142         ms72xx_ctl/ms7210_ctl/_N6294
+ CLMS_270_89/Y3                    td                    0.459       4.601 r       ms72xx_ctl/ms7210_ctl/state_fsm[5:0]_7_3/gateop/Z
+                                   net (fanout=6)        0.273       4.874         ms72xx_ctl/ms7210_ctl/N388
+ CLMS_274_89/Y2                    td                    0.487       5.361 r       ms72xx_ctl/ms7210_ctl/N49_1/gateop_perm/Z
+                                   net (fanout=8)        0.592       5.953         ms72xx_ctl/ms7210_ctl/_N6227
+ CLMS_270_97/Y2                    td                    0.487       6.440 r       ms72xx_ctl/ms7210_ctl/N577_inv/gateop_perm/Z
+                                   net (fanout=5)        0.540       6.980         ms72xx_ctl/ms7210_ctl/N577_inv
+ CLMA_274_92/COUT                  td                    0.507       7.487 r       ms72xx_ctl/ms7210_ctl/cmd_index[4]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       7.487         ms72xx_ctl/ms7210_ctl/_N776
+ CLMA_274_96/CIN                                                           r       ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/Cin
+
+ Data arrival time                                                   7.487         Logic Levels: 5  
+                                                                                   Logic: 2.697ns(55.908%), Route: 2.127ns(44.092%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.059    1001.059         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000    1001.059 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.531    1002.590         ntclkbufg_1      
+ CLMA_274_96/CLK                                                           r       ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/CLK
+ clock pessimism                                         0.037    1002.627                          
+ clock uncertainty                                      -0.150    1002.477                          
+
+ Setup time                                             -0.170    1002.307                          
+
+ Data required time                                               1002.307                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1002.307                          
+ Data arrival time                                                   7.487                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       994.820                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_inv_L5Q_perm/CLK
+Endpoint    : ms72xx_ctl/ms7200_ctl/freq_ensure/opit_0_MUX4TO1Q/I1
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.663
+  Clock Pessimism Removal :  0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.078       1.078         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.585       2.663         ntclkbufg_1      
+ CLMS_274_81/CLK                                                           r       ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_inv_L5Q_perm/CLK
+
+ CLMS_274_81/Q1                    tco                   0.291       2.954 r       ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_inv_L5Q_perm/Q
+                                   net (fanout=3)        0.562       3.516         ms72xx_ctl/ms7200_ctl/dri_cnt [7]
+ CLMS_274_69/Y3                    td                    0.459       3.975 r       ms72xx_ctl/ms7200_ctl/N40_3/gateop/Z
+                                   net (fanout=1)        0.250       4.225         ms72xx_ctl/ms7200_ctl/_N6211
+ CLMS_274_69/Y1                    td                    0.212       4.437 r       ms72xx_ctl/ms7200_ctl/N1872_5/gateop_perm/Z
+                                   net (fanout=18)       0.132       4.569         ms72xx_ctl/ms7200_ctl/_N6221
+ CLMS_274_69/Y2                    td                    0.210       4.779 r       ms72xx_ctl/ms7200_ctl/N1359_1/gateop_perm/Z
+                                   net (fanout=8)        0.521       5.300         ms72xx_ctl/ms7200_ctl/N1386
+ CLMA_282_60/Y0                    td                    0.478       5.778 r       ms72xx_ctl/ms7200_ctl/N91_203[2]/gateop_perm/Z
+                                   net (fanout=2)        0.422       6.200         ms72xx_ctl/ms7200_ctl/_N1043
+ CLMA_282_68/Y2                    td                    0.322       6.522 r       ms72xx_ctl/ms7200_ctl/N8_8/gateop/F
+                                   net (fanout=3)        0.121       6.643         ms72xx_ctl/ms7200_ctl/N8
+ CLMA_282_68/Y1                    td                    0.460       7.103 r       ms72xx_ctl/ms7200_ctl/N24_5/gateop_perm/Z
+                                   net (fanout=1)        0.254       7.357         ms72xx_ctl/ms7200_ctl/N24
+ CLMA_282_68/A1                                                            r       ms72xx_ctl/ms7200_ctl/freq_ensure/opit_0_MUX4TO1Q/I1
+
+ Data arrival time                                                   7.357         Logic Levels: 6  
+                                                                                   Logic: 2.432ns(51.811%), Route: 2.262ns(48.189%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.059    1001.059         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000    1001.059 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.531    1002.590         ntclkbufg_1      
+ CLMA_282_68/CLK                                                           r       ms72xx_ctl/ms7200_ctl/freq_ensure/opit_0_MUX4TO1Q/CLK
+ clock pessimism                                         0.037    1002.627                          
+ clock uncertainty                                      -0.150    1002.477                          
+
+ Setup time                                             -0.231    1002.246                          
+
+ Data required time                                               1002.246                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1002.246                          
+ Data arrival time                                                   7.357                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       994.889                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7200_ctl/cmd_index[4]/opit_0_inv_A2Q21/CLK
+Endpoint    : ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/ADA0[9]
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.663
+  Launch Clock Delay      :  2.590
+  Clock Pessimism Removal :  -0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.059       1.059         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.059 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.531       2.590         ntclkbufg_1      
+ CLMS_274_53/CLK                                                           r       ms72xx_ctl/ms7200_ctl/cmd_index[4]/opit_0_inv_A2Q21/CLK
+
+ CLMS_274_53/Q3                    tco                   0.221       2.811 f       ms72xx_ctl/ms7200_ctl/cmd_index[4]/opit_0_inv_A2Q21/Q1
+                                   net (fanout=3)        0.218       3.029         ms72xx_ctl/ms7200_ctl/cmd_index [4]
+ DRM_278_44/ADA0[9]                                                        f       ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/ADA0[9]
+
+ Data arrival time                                                   3.029         Logic Levels: 0  
+                                                                                   Logic: 0.221ns(50.342%), Route: 0.218ns(49.658%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.078       1.078         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.585       2.663         ntclkbufg_1      
+ DRM_278_44/CLKA[0]                                                        r       ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/CLKA[0]
+ clock pessimism                                        -0.037       2.626                          
+ clock uncertainty                                       0.000       2.626                          
+
+ Hold time                                               0.161       2.787                          
+
+ Data required time                                                  2.787                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  2.787                          
+ Data arrival time                                                   3.029                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.242                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/CLK
+Endpoint    : ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/ADDRA[10]
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.663
+  Launch Clock Delay      :  2.590
+  Clock Pessimism Removal :  -0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.059       1.059         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.059 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.531       2.590         ntclkbufg_1      
+ CLMA_274_96/CLK                                                           r       ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/CLK
+
+ CLMA_274_96/Q0                    tco                   0.222       2.812 f       ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/Q
+                                   net (fanout=3)        0.313       3.125         ms72xx_ctl/ms7210_ctl/cmd_index [5]
+ DRM_278_88/ADA0[10]                                                       f       ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/ADDRA[10]
+
+ Data arrival time                                                   3.125         Logic Levels: 0  
+                                                                                   Logic: 0.222ns(41.495%), Route: 0.313ns(58.505%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.078       1.078         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.585       2.663         ntclkbufg_1      
+ DRM_278_88/CLKA[0]                                                        r       ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/CLKA
+ clock pessimism                                        -0.037       2.626                          
+ clock uncertainty                                       0.000       2.626                          
+
+ Hold time                                               0.210       2.836                          
+
+ Data required time                                                  2.836                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  2.836                          
+ Data arrival time                                                   3.125                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.289                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7210_ctl/cmd_index[2]/opit_0_inv_A2Q21/CLK
+Endpoint    : ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/ADDRA[7]
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.663
+  Launch Clock Delay      :  2.590
+  Clock Pessimism Removal :  -0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.059       1.059         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.059 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.531       2.590         ntclkbufg_1      
+ CLMA_274_92/CLK                                                           r       ms72xx_ctl/ms7210_ctl/cmd_index[2]/opit_0_inv_A2Q21/CLK
+
+ CLMA_274_92/Q1                    tco                   0.224       2.814 f       ms72xx_ctl/ms7210_ctl/cmd_index[2]/opit_0_inv_A2Q21/Q1
+                                   net (fanout=3)        0.313       3.127         ms72xx_ctl/ms7210_ctl/cmd_index [2]
+ DRM_278_88/ADA0[7]                                                        f       ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/ADDRA[7]
+
+ Data arrival time                                                   3.127         Logic Levels: 0  
+                                                                                   Logic: 0.224ns(41.713%), Route: 0.313ns(58.287%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.078       1.078         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.585       2.663         ntclkbufg_1      
+ DRM_278_88/CLKA[0]                                                        r       ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/CLKA
+ clock pessimism                                        -0.037       2.626                          
+ clock uncertainty                                       0.000       2.626                          
+
+ Hold time                                               0.210       2.836                          
+
+ Data required time                                                  2.836                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  2.836                          
+ Data arrival time                                                   3.127                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.291                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : b_matrix_3_3/y_cnt[6]/opit_0_A2Q1/CLK
+Endpoint    : b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_rempty/opit_0_AQ_perm/Cin
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  5.190
+  Launch Clock Delay      :  5.523
+  Clock Pessimism Removal :  0.297
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.254       1.332 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.332         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.076       1.408 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.530       3.938         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       3.938 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.585       5.523         ntclkbufg_0      
+ CLMA_262_160/CLK                                                          r       b_matrix_3_3/y_cnt[6]/opit_0_A2Q1/CLK
+
+ CLMA_262_160/Q1                   tco                   0.291       5.814 r       b_matrix_3_3/y_cnt[6]/opit_0_A2Q1/Q
+                                   net (fanout=3)        0.883       6.697         b_matrix_3_3/y_cnt [6]
+ CLMS_262_181/Y1                   td                    0.288       6.985 r       b_matrix_3_3/N42_mux11_9/gateop_perm/Z
+                                   net (fanout=1)        0.342       7.327         b_matrix_3_3/_N7022
+ CLMS_254_181/Y2                   td                    0.210       7.537 r       b_matrix_3_3/N42_mux11_11/gateop_perm/Z
+                                   net (fanout=1)        0.447       7.984         b_matrix_3_3/_N7024
+ CLMS_262_181/Y2                   td                    0.286       8.270 r       b_matrix_3_3/N44/gateop_perm/Z
+                                   net (fanout=8)        1.019       9.289         b_matrix_3_3/rd_fifo_en
+                                   td                    0.234       9.523 f       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rbin[1]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       9.523         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N614
+ CLMS_254_157/COUT                 td                    0.058       9.581 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rbin[3]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       9.581         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N616
+                                   td                    0.058       9.639 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rbin[5]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       9.639         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N618
+ CLMS_254_161/Y3                   td                    0.501      10.140 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rbin[7]/opit_0_inv_A2Q21/Y1
+                                   net (fanout=3)        0.585      10.725         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N89 [7]
+ CLMS_262_169/Y2                   td                    0.210      10.935 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N111_9/gateop_perm/Z
+                                   net (fanout=1)        0.912      11.847         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N7072
+ CLMA_254_152/COUT                 td                    0.515      12.362 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N180.eq_2/gateop_A2/Cout
+                                   net (fanout=1)        0.000      12.362         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N180.co [6]
+                                   td                    0.058      12.420 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N180.eq_4/gateop_A2/Cout
+                                   net (fanout=1)        0.000      12.420         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N180.co [10]
+                                                                           r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_rempty/opit_0_AQ_perm/Cin
+
+ Data arrival time                                                  12.420         Logic Levels: 7  
+                                                                                   Logic: 2.709ns(39.278%), Route: 4.188ns(60.722%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                      1000.000    1000.000 r                        
+ AA12                                                    0.000    1000.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078    1000.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.047    1001.125 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000    1001.125         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.048    1001.173 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.486    1003.659         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000    1003.659 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.531    1005.190         ntclkbufg_0      
+ CLMA_254_156/CLK                                                          r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_rempty/opit_0_AQ_perm/CLK
+ clock pessimism                                         0.297    1005.487                          
+ clock uncertainty                                      -0.050    1005.437                          
+
+ Setup time                                             -0.167    1005.270                          
+
+ Data required time                                               1005.270                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1005.270                          
+ Data arrival time                                                  12.420                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       992.850                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/CLK
+Endpoint    : b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/L4
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.029  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  5.190
+  Launch Clock Delay      :  5.523
+  Clock Pessimism Removal :  0.304
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.254       1.332 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.332         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.076       1.408 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.530       3.938         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       3.938 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.585       5.523         ntclkbufg_0      
+ CLMS_262_173/CLK                                                          r       b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/CLK
+
+ CLMS_262_173/Q1                   tco                   0.291       5.814 r       b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/Q
+                                   net (fanout=4)        0.487       6.301         b_matrix_3_3/y_cnt [4]
+ CLMS_254_169/Y2                   td                    0.322       6.623 r       b_matrix_3_3/N11_6/gateop_perm/Z
+                                   net (fanout=1)        0.444       7.067         b_matrix_3_3/_N6401
+ CLMA_262_168/Y1                   td                    0.212       7.279 r       b_matrix_3_3/N37_mux5_1/gateop_perm/Z
+                                   net (fanout=1)        0.447       7.726         b_matrix_3_3/_N181
+ CLMS_254_173/Y2                   td                    0.210       7.936 r       b_matrix_3_3/N39_5/gateop_perm/Z
+                                   net (fanout=8)        0.729       8.665         b_matrix_3_3/wr_fifo_en
+                                   td                    0.288       8.953 f       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[1]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       8.953         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N600
+ CLMS_262_157/COUT                 td                    0.058       9.011 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[3]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       9.011         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N602
+                                   td                    0.058       9.069 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[5]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       9.069         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N604
+ CLMS_262_161/COUT                 td                    0.058       9.127 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[7]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       9.127         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N606
+ CLMS_262_165/Y1                   td                    0.498       9.625 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[9]/opit_0_inv_A2Q21/Y1
+                                   net (fanout=3)        0.549      10.174         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N2 [9]
+ CLMA_266_156/Y0                   td                    0.320      10.494 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N3[9]/gateop_perm/Z
+                                   net (fanout=1)        1.108      11.602         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/wwptr [9]
+ CLMS_262_153/Y1                   td                    0.565      12.167 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N177.eq_4/gateop_A2/Y1
+                                   net (fanout=1)        0.251      12.418         _N3              
+ CLMS_262_153/D4                                                           r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/L4
+
+ Data arrival time                                                  12.418         Logic Levels: 8  
+                                                                                   Logic: 2.880ns(41.769%), Route: 4.015ns(58.231%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                      1000.000    1000.000 r                        
+ AA12                                                    0.000    1000.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078    1000.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.047    1001.125 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000    1001.125         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.048    1001.173 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.486    1003.659         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000    1003.659 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.531    1005.190         ntclkbufg_0      
+ CLMS_262_153/CLK                                                          r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/CLK
+ clock pessimism                                         0.304    1005.494                          
+ clock uncertainty                                      -0.050    1005.444                          
+
+ Setup time                                             -0.120    1005.324                          
+
+ Data required time                                               1005.324                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1005.324                          
+ Data arrival time                                                  12.418                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       992.906                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/CLK
+Endpoint    : b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/L4
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : max (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  5.190
+  Launch Clock Delay      :  5.523
+  Clock Pessimism Removal :  0.297
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.254       1.332 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.332         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.076       1.408 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.530       3.938         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       3.938 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.585       5.523         ntclkbufg_0      
+ CLMS_262_173/CLK                                                          r       b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/CLK
+
+ CLMS_262_173/Q1                   tco                   0.291       5.814 r       b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/Q
+                                   net (fanout=4)        0.487       6.301         b_matrix_3_3/y_cnt [4]
+ CLMS_254_169/Y2                   td                    0.322       6.623 r       b_matrix_3_3/N11_6/gateop_perm/Z
+                                   net (fanout=1)        0.444       7.067         b_matrix_3_3/_N6401
+ CLMA_262_168/Y1                   td                    0.212       7.279 r       b_matrix_3_3/N37_mux5_1/gateop_perm/Z
+                                   net (fanout=1)        0.447       7.726         b_matrix_3_3/_N181
+ CLMS_254_173/Y2                   td                    0.210       7.936 r       b_matrix_3_3/N39_5/gateop_perm/Z
+                                   net (fanout=8)        0.720       8.656         b_matrix_3_3/wr_fifo_en
+                                   td                    0.288       8.944 f       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[1]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       8.944         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N628
+ CLMA_262_180/COUT                 td                    0.058       9.002 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[3]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       9.002         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N630
+                                   td                    0.058       9.060 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[5]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       9.060         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N632
+ CLMA_262_184/COUT                 td                    0.058       9.118 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[7]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       9.118         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N634
+                                   td                    0.058       9.176 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[9]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       9.176         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N636
+ CLMA_262_192/Y3                   td                    0.501       9.677 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[11]/opit_0_inv_A2Q21/Y1
+                                   net (fanout=3)        0.558      10.235         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N2 [11]
+ CLMS_254_181/Y0                   td                    0.210      10.445 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N3[11]_1/gateop_perm/Z
+                                   net (fanout=1)        0.572      11.017         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N7076
+ CLMA_262_176/Y1                   td                    0.575      11.592 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N177.eq_4/gateop_A2/Y1
+                                   net (fanout=1)        0.400      11.992         _N2              
+ CLMA_266_176/A4                                                           r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/L4
+
+ Data arrival time                                                  11.992         Logic Levels: 8  
+                                                                                   Logic: 2.841ns(43.917%), Route: 3.628ns(56.083%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                      1000.000    1000.000 r                        
+ AA12                                                    0.000    1000.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078    1000.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.047    1001.125 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000    1001.125         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.048    1001.173 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.486    1003.659         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000    1003.659 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.531    1005.190         ntclkbufg_0      
+ CLMA_266_176/CLK                                                          r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/CLK
+ clock pessimism                                         0.297    1005.487                          
+ clock uncertainty                                      -0.050    1005.437                          
+
+ Setup time                                             -0.121    1005.316                          
+
+ Data required time                                               1005.316                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1005.316                          
+ Data arrival time                                                  11.992                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       993.324                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : r_matrix_3_3/matrix32[1]/opit_0_L5Q_perm/CLK
+Endpoint    : r_gauss_filter/line3_sum[3]/opit_0_A2Q21/I04
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.029  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  5.523
+  Launch Clock Delay      :  5.190
+  Clock Pessimism Removal :  -0.304
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.047       1.125 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.125         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.048       1.173 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.486       3.659         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       3.659 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.531       5.190         ntclkbufg_0      
+ CLMA_270_128/CLK                                                          r       r_matrix_3_3/matrix32[1]/opit_0_L5Q_perm/CLK
+
+ CLMA_270_128/Q1                   tco                   0.224       5.414 f       r_matrix_3_3/matrix32[1]/opit_0_L5Q_perm/Q
+                                   net (fanout=3)        0.086       5.500         r_matrix32[1]    
+ CLMS_270_129/C4                                                           f       r_gauss_filter/line3_sum[3]/opit_0_A2Q21/I04
+
+ Data arrival time                                                   5.500         Logic Levels: 0  
+                                                                                   Logic: 0.224ns(72.258%), Route: 0.086ns(27.742%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.254       1.332 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.332         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.076       1.408 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.530       3.938         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       3.938 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.585       5.523         ntclkbufg_0      
+ CLMS_270_129/CLK                                                          r       r_gauss_filter/line3_sum[3]/opit_0_A2Q21/CLK
+ clock pessimism                                        -0.304       5.219                          
+ clock uncertainty                                       0.000       5.219                          
+
+ Hold time                                              -0.034       5.185                          
+
+ Data required time                                                  5.185                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  5.185                          
+ Data arrival time                                                   5.500                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.315                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[4]/opit_0/CLK
+Endpoint    : b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/rwptr2[4]/opit_0/D
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.029  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  5.523
+  Launch Clock Delay      :  5.190
+  Clock Pessimism Removal :  -0.304
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.047       1.125 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.125         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.048       1.173 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.486       3.659         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       3.659 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.531       5.190         ntclkbufg_0      
+ CLMA_250_156/CLK                                                          r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[4]/opit_0/CLK
+
+ CLMA_250_156/Q0                   tco                   0.222       5.412 f       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[4]/opit_0/Q
+                                   net (fanout=1)        0.185       5.597         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/rwptr1 [4]
+ CLMA_250_157/CD                                                           f       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/rwptr2[4]/opit_0/D
+
+ Data arrival time                                                   5.597         Logic Levels: 0  
+                                                                                   Logic: 0.222ns(54.545%), Route: 0.185ns(45.455%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.254       1.332 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.332         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.076       1.408 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.530       3.938         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       3.938 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.585       5.523         ntclkbufg_0      
+ CLMA_250_157/CLK                                                          r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/rwptr2[4]/opit_0/CLK
+ clock pessimism                                        -0.304       5.219                          
+ clock uncertainty                                       0.000       5.219                          
+
+ Hold time                                               0.053       5.272                          
+
+ Data required time                                                  5.272                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  5.272                          
+ Data arrival time                                                   5.597                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.325                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : r_matrix_3_3/matrix22[2]/opit_0_L5Q_perm/CLK
+Endpoint    : r_matrix_3_3/matrix21[2]/opit_0_L5Q_perm/L4
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : min (slow corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.000  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  5.523
+  Launch Clock Delay      :  5.190
+  Clock Pessimism Removal :  -0.333
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.047       1.125 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.125         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.048       1.173 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.486       3.659         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       3.659 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.531       5.190         ntclkbufg_0      
+ CLMA_266_124/CLK                                                          r       r_matrix_3_3/matrix22[2]/opit_0_L5Q_perm/CLK
+
+ CLMA_266_124/Q1                   tco                   0.224       5.414 f       r_matrix_3_3/matrix22[2]/opit_0_L5Q_perm/Q
+                                   net (fanout=3)        0.085       5.499         r_matrix22[2]    
+ CLMA_266_124/C4                                                           f       r_matrix_3_3/matrix21[2]/opit_0_L5Q_perm/L4
+
+ Data arrival time                                                   5.499         Logic Levels: 0  
+                                                                                   Logic: 0.224ns(72.492%), Route: 0.085ns(27.508%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.254       1.332 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.332         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.076       1.408 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.530       3.938         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       3.938 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.585       5.523         ntclkbufg_0      
+ CLMA_266_124/CLK                                                          r       r_matrix_3_3/matrix21[2]/opit_0_L5Q_perm/CLK
+ clock pessimism                                        -0.333       5.190                          
+ clock uncertainty                                       0.000       5.190                          
+
+ Hold time                                              -0.034       5.156                          
+
+ Data required time                                                  5.156                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  5.156                          
+ Data arrival time                                                   5.499                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.343                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rstn_1ms[2]/opit_0_inv_A2Q21/CLK
+Endpoint    : ms72xx_ctl/rstn_temp1/opit_0/RS
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (slow corner)
+Path Class  : async timing path
+Clock Skew  :    -0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.590
+  Launch Clock Delay      :  2.663
+  Clock Pessimism Removal :  0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.078       1.078         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.585       2.663         ntclkbufg_1      
+ CLMA_250_40/CLK                                                           r       rstn_1ms[2]/opit_0_inv_A2Q21/CLK
+
+ CLMA_250_40/Q0                    tco                   0.289       2.952 r       rstn_1ms[2]/opit_0_inv_A2Q21/Q0
+                                   net (fanout=3)        0.396       3.348         rstn_1ms[1]      
+ CLMS_246_41/Y1                    td                    0.460       3.808 r       N80_9/gateop_perm/Z
+                                   net (fanout=2)        0.395       4.203         _N6726           
+ CLMS_246_45/Y2                    td                    0.196       4.399 f       b_gauss_filter/N0/gateop_perm/Z
+                                   net (fanout=165)      1.026       5.425         b_gauss_filter/N0
+ CLMA_282_72/RS                                                            f       ms72xx_ctl/rstn_temp1/opit_0/RS
+
+ Data arrival time                                                   5.425         Logic Levels: 2  
+                                                                                   Logic: 0.945ns(34.214%), Route: 1.817ns(65.786%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.059    1001.059         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000    1001.059 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.531    1002.590         ntclkbufg_1      
+ CLMA_282_72/CLK                                                           r       ms72xx_ctl/rstn_temp1/opit_0/CLK
+ clock pessimism                                         0.037    1002.627                          
+ clock uncertainty                                      -0.150    1002.477                          
+
+ Recovery time                                          -0.617    1001.860                          
+
+ Data required time                                               1001.860                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.860                          
+ Data arrival time                                                   5.425                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       996.435                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rstn_1ms[0]/opit_0_inv_L5Q_perm/CLK
+Endpoint    : ms72xx_ctl/rstn_temp1/opit_0/RS
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (slow corner)
+Path Class  : async timing path
+Clock Skew  :    0.036  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  2.663
+  Launch Clock Delay      :  2.590
+  Clock Pessimism Removal :  -0.037
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.059       1.059         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.059 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.531       2.590         ntclkbufg_1      
+ CLMS_246_45/CLK                                                           r       rstn_1ms[0]/opit_0_inv_L5Q_perm/CLK
+
+ CLMS_246_45/Q0                    tco                   0.222       2.812 f       rstn_1ms[0]/opit_0_inv_L5Q_perm/Q
+                                   net (fanout=5)        0.189       3.001         rstn_1ms[0]      
+ CLMS_246_45/Y2                    td                    0.347       3.348 r       b_gauss_filter/N0/gateop_perm/Z
+                                   net (fanout=165)      0.869       4.217         b_gauss_filter/N0
+ CLMA_282_72/RS                                                            r       ms72xx_ctl/rstn_temp1/opit_0/RS
+
+ Data arrival time                                                   4.217         Logic Levels: 1  
+                                                                                   Logic: 0.569ns(34.972%), Route: 1.058ns(65.028%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.078       1.078         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.585       2.663         ntclkbufg_1      
+ CLMA_282_72/CLK                                                           r       ms72xx_ctl/rstn_temp1/opit_0/CLK
+ clock pessimism                                        -0.037       2.626                          
+ clock uncertainty                                       0.000       2.626                          
+
+ Removal time                                           -0.226       2.400                          
+
+ Data required time                                                  2.400                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  2.400                          
+ Data arrival time                                                   4.217                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         1.817                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv/CLK
+Endpoint    : led_int (port)
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        1.078       1.078         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       1.078 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      1.585       2.663         ntclkbufg_1      
+ CLMS_270_89/CLK                                                           r       ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv/CLK
+
+ CLMS_270_89/Q0                    tco                   0.287       2.950 f       ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv/Q
+                                   net (fanout=12)       4.972       7.922         nt_led_int       
+ IOL_19_374/DO                     td                    0.139       8.061 f       led_int_obuf/opit_1/O
+                                   net (fanout=1)        0.000       8.061         led_int_obuf/ntO 
+ IOBD_16_376/PAD                   td                    3.853      11.914 f       led_int_obuf/opit_0/O
+                                   net (fanout=1)        0.109      12.023         led_int          
+ B2                                                                        f       led_int (port)   
+
+ Data arrival time                                                  12.023         Logic Levels: 2  
+                                                                                   Logic: 4.279ns(45.716%), Route: 5.081ns(54.284%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : r_out[0]/opit_0/CLK
+Endpoint    : r_out[0] (port)
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.254       1.332 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.332         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.076       1.408 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.530       3.938         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       3.938 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.585       5.523         ntclkbufg_0      
+ CLMA_274_144/CLK                                                          r       r_out[0]/opit_0/CLK
+
+ CLMA_274_144/Q1                   tco                   0.289       5.812 f       r_out[0]/opit_0/Q
+                                   net (fanout=1)        1.814       7.626         nt_r_out[0]      
+ IOL_327_242/DO                    td                    0.139       7.765 f       r_out_obuf[0]/opit_1/O
+                                   net (fanout=1)        0.000       7.765         r_out_obuf[0]/ntO
+ IOBS_LR_328_241/PAD               td                    3.903      11.668 f       r_out_obuf[0]/opit_0/O
+                                   net (fanout=1)        0.053      11.721         r_out[0]         
+ K17                                                                       f       r_out[0] (port)  
+
+ Data arrival time                                                  11.721         Logic Levels: 2  
+                                                                                   Logic: 4.331ns(69.877%), Route: 1.867ns(30.123%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : b_out[0]/opit_0/CLK
+Endpoint    : g_out[0] (port)
+Path Group  : **default**
+Path Type   : max (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    1.254       1.332 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       1.332         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.076       1.408 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        2.530       3.938         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       3.938 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      1.585       5.523         ntclkbufg_0      
+ CLMA_282_164/CLK                                                          r       b_out[0]/opit_0/CLK
+
+ CLMA_282_164/Q0                   tco                   0.287       5.810 f       b_out[0]/opit_0/Q
+                                   net (fanout=2)        1.194       7.004         nt_b_out[0]      
+ IOL_327_202/DO                    td                    0.139       7.143 f       g_out_obuf[0]/opit_1/O
+                                   net (fanout=1)        0.000       7.143         g_out_obuf[0]/ntO
+ IOBS_LR_328_201/PAD               td                    3.903      11.046 f       g_out_obuf[0]/opit_0/O
+                                   net (fanout=1)        0.106      11.152         g_out[0]         
+ M21                                                                       f       g_out[0] (port)  
+
+ Data arrival time                                                  11.152         Logic Levels: 2  
+                                                                                   Logic: 4.329ns(76.905%), Route: 1.300ns(23.095%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : iic_sda (port)
+Endpoint    : ms72xx_ctl/iic_dri_rx/receiv_data[0]/opit_0/D
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ V20                                                     0.000       0.000 r       iic_sda (port)   
+                                   net (fanout=1)        0.051       0.051         nt_iic_sda       
+ IOBS_LR_328_24/DIN                td                    1.047       1.098 r       ms72xx_ctl.iic_sda_tri/opit_0/O
+                                   net (fanout=1)        0.000       1.098         ms72xx_ctl.iic_sda_tri/ntI
+ IOL_327_25/RX_DATA_DD             td                    0.082       1.180 r       ms72xx_ctl.iic_sda_tri/opit_1/OUT
+                                   net (fanout=1)        0.822       2.002         _N21             
+ CLMA_282_36/M0                                                            r       ms72xx_ctl/iic_dri_rx/receiv_data[0]/opit_0/D
+
+ Data arrival time                                                   2.002         Logic Levels: 2  
+                                                                                   Logic: 1.129ns(56.394%), Route: 0.873ns(43.606%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : iic_tx_sda (port)
+Endpoint    : ms72xx_ctl/iic_dri_tx/receiv_data[0]/opit_0/D
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ P18                                                     0.000       0.000 r       iic_tx_sda (port)
+                                   net (fanout=1)        0.058       0.058         nt_iic_tx_sda    
+ IOBS_LR_328_44/DIN                td                    1.047       1.105 r       ms72xx_ctl.iic_tx_sda_tri/opit_0/O
+                                   net (fanout=1)        0.000       1.105         ms72xx_ctl.iic_tx_sda_tri/ntI
+ IOL_327_45/RX_DATA_DD             td                    0.082       1.187 r       ms72xx_ctl.iic_tx_sda_tri/opit_1/OUT
+                                   net (fanout=1)        1.037       2.224         _N22             
+ CLMS_282_85/M0                                                            r       ms72xx_ctl/iic_dri_tx/receiv_data[0]/opit_0/D
+
+ Data arrival time                                                   2.224         Logic Levels: 2  
+                                                                                   Logic: 1.129ns(50.764%), Route: 1.095ns(49.236%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : r_in[2] (port)
+Endpoint    : r_out1[2]/opit_0_inv/D
+Path Group  : **default**
+Path Type   : min (slow corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ U16                                                     0.000       0.000 r       r_in[2] (port)   
+                                   net (fanout=1)        0.058       0.058         r_in[2]          
+ IOBD_289_0/DIN                    td                    1.047       1.105 r       r_in_ibuf[2]/opit_0/O
+                                   net (fanout=1)        0.000       1.105         r_in_ibuf[2]/ntD 
+ IOL_291_6/RX_DATA_DD              td                    0.082       1.187 r       r_in_ibuf[2]/opit_1/OUT
+                                   net (fanout=1)        1.144       2.331         nt_r_in[2]       
+ CLMS_274_117/M2                                                           r       r_out1[2]/opit_0_inv/D
+
+ Data arrival time                                                   2.331         Logic Levels: 2  
+                                                                                   Logic: 1.129ns(48.434%), Route: 1.202ns(51.566%)
+====================================================================================================
+
+{PLL|u_pll/u_pll_e3/CLKOUT0} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 499.102     500.000         0.898           High Pulse Width  DRM_278_44/CLKA[0]      ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/CLKA[0]
+ 499.102     500.000         0.898           Low Pulse Width   DRM_278_44/CLKA[0]      ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/CLKA[0]
+ 499.102     500.000         0.898           Low Pulse Width   DRM_278_44/CLKB[0]      ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/CLKB[0]
+====================================================================================================
+
+{hdmi_loop|pixclk_in} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 499.102     500.000         0.898           Low Pulse Width   DRM_278_168/CLKA[0]     b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm/CLKA[0]
+ 499.102     500.000         0.898           High Pulse Width  DRM_278_168/CLKA[0]     b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm/CLKA[0]
+ 499.102     500.000         0.898           Low Pulse Width   DRM_278_168/CLKB[0]     b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm/CLKB[0]
+====================================================================================================
+
+====================================================================================================
+Fast Corner
+****************************************************************************************************
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/iic_dri_tx/data_out[3]/opit_0/CLK
+Endpoint    : ms72xx_ctl/ms7210_ctl/data_in[7]/opit_0_inv_L5Q_perm/CE
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.539
+  Clock Pessimism Removal :  0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.614       0.614         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.925       1.539         ntclkbufg_1      
+ CLMA_286_88/CLK                                                           r       ms72xx_ctl/iic_dri_tx/data_out[3]/opit_0/CLK
+
+ CLMA_286_88/Q0                    tco                   0.221       1.760 f       ms72xx_ctl/iic_dri_tx/data_out[3]/opit_0/Q
+                                   net (fanout=1)        0.254       2.014         ms72xx_ctl/data_out_tx [3]
+ CLMA_282_84/Y1                    td                    0.355       2.369 r       ms72xx_ctl/ms7210_ctl/N14_6/gateop_perm/Z
+                                   net (fanout=1)        0.075       2.444         ms72xx_ctl/ms7210_ctl/_N6916
+ CLMA_282_84/Y2                    td                    0.162       2.606 r       ms72xx_ctl/ms7210_ctl/N14_8/gateop_perm/Z
+                                   net (fanout=1)        0.207       2.813         ms72xx_ctl/ms7210_ctl/_N6918
+ CLMS_274_85/Y3                    td                    0.358       3.171 f       ms72xx_ctl/ms7210_ctl/N14_9/gateop_perm/Z
+                                   net (fanout=4)        0.275       3.446         ms72xx_ctl/ms7210_ctl/N612 [3]
+ CLMS_274_93/Y3                    td                    0.358       3.804 f       ms72xx_ctl/ms7210_ctl/N591/gateop_perm/Z
+                                   net (fanout=12)       0.367       4.171         ms72xx_ctl/ms7210_ctl/N591
+ CLMS_274_93/CECO                  td                    0.132       4.303 f       ms72xx_ctl/ms7210_ctl/addr[10]/opit_0_inv_L5Q_perm/CEOUT
+                                   net (fanout=3)        0.000       4.303         ntR153           
+ CLMS_274_97/CECO                  td                    0.132       4.435 f       ms72xx_ctl/ms7210_ctl/data_in[6]/opit_0_inv_L5Q_perm/CEOUT
+                                   net (fanout=4)        0.000       4.435         ntR152           
+ CLMS_274_101/CECO                 td                    0.132       4.567 f       ms72xx_ctl/ms7210_ctl/data_in[5]/opit_0_inv_L5Q_perm/CEOUT
+                                   net (fanout=1)        0.000       4.567         ntR151           
+ CLMS_274_105/CECI                                                         f       ms72xx_ctl/ms7210_ctl/data_in[7]/opit_0_inv_L5Q_perm/CE
+
+ Data arrival time                                                   4.567         Logic Levels: 7  
+                                                                                   Logic: 1.850ns(61.096%), Route: 1.178ns(38.904%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.603    1000.603         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000    1000.603 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.895    1001.498         ntclkbufg_1      
+ CLMS_274_105/CLK                                                          r       ms72xx_ctl/ms7210_ctl/data_in[7]/opit_0_inv_L5Q_perm/CLK
+ clock pessimism                                         0.022    1001.520                          
+ clock uncertainty                                      -0.150    1001.370                          
+
+ Setup time                                             -0.576    1000.794                          
+
+ Data required time                                               1000.794                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1000.794                          
+ Data arrival time                                                   4.567                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       996.227                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7210_ctl/state_0/opit_0_L5Q_perm/CLK
+Endpoint    : ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/Cin
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.539
+  Clock Pessimism Removal :  0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.614       0.614         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.925       1.539         ntclkbufg_1      
+ CLMA_270_96/CLK                                                           r       ms72xx_ctl/ms7210_ctl/state_0/opit_0_L5Q_perm/CLK
+
+ CLMA_270_96/Q0                    tco                   0.221       1.760 f       ms72xx_ctl/ms7210_ctl/state_0/opit_0_L5Q_perm/Q
+                                   net (fanout=5)        0.283       2.043         ms72xx_ctl/ms7210_ctl/state_0
+ CLMA_274_88/Y3                    td                    0.360       2.403 f       ms72xx_ctl/ms7210_ctl/state_fsm[5:0]_5/gateop_perm/Z
+                                   net (fanout=3)        0.170       2.573         ms72xx_ctl/ms7210_ctl/_N6294
+ CLMS_270_89/Y3                    td                    0.358       2.931 f       ms72xx_ctl/ms7210_ctl/state_fsm[5:0]_7_3/gateop/Z
+                                   net (fanout=6)        0.176       3.107         ms72xx_ctl/ms7210_ctl/N388
+ CLMS_274_89/Y2                    td                    0.381       3.488 f       ms72xx_ctl/ms7210_ctl/N49_1/gateop_perm/Z
+                                   net (fanout=8)        0.373       3.861         ms72xx_ctl/ms7210_ctl/_N6227
+ CLMS_270_97/Y2                    td                    0.381       4.242 f       ms72xx_ctl/ms7210_ctl/N577_inv/gateop_perm/Z
+                                   net (fanout=5)        0.347       4.589         ms72xx_ctl/ms7210_ctl/N577_inv
+ CLMA_274_92/COUT                  td                    0.391       4.980 r       ms72xx_ctl/ms7210_ctl/cmd_index[4]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       4.980         ms72xx_ctl/ms7210_ctl/_N776
+ CLMA_274_96/CIN                                                           r       ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/Cin
+
+ Data arrival time                                                   4.980         Logic Levels: 5  
+                                                                                   Logic: 2.092ns(60.796%), Route: 1.349ns(39.204%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.603    1000.603         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000    1000.603 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.895    1001.498         ntclkbufg_1      
+ CLMA_274_96/CLK                                                           r       ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/CLK
+ clock pessimism                                         0.022    1001.520                          
+ clock uncertainty                                      -0.150    1001.370                          
+
+ Setup time                                             -0.132    1001.238                          
+
+ Data required time                                               1001.238                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.238                          
+ Data arrival time                                                   4.980                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       996.258                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_inv_L5Q_perm/CLK
+Endpoint    : ms72xx_ctl/ms7200_ctl/freq_ensure/opit_0_MUX4TO1Q/I1
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.539
+  Clock Pessimism Removal :  0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.614       0.614         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.925       1.539         ntclkbufg_1      
+ CLMS_274_81/CLK                                                           r       ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_inv_L5Q_perm/CLK
+
+ CLMS_274_81/Q1                    tco                   0.223       1.762 f       ms72xx_ctl/ms7200_ctl/dri_cnt[7]/opit_0_inv_L5Q_perm/Q
+                                   net (fanout=3)        0.369       2.131         ms72xx_ctl/ms7200_ctl/dri_cnt [7]
+ CLMS_274_69/Y3                    td                    0.358       2.489 f       ms72xx_ctl/ms7200_ctl/N40_3/gateop/Z
+                                   net (fanout=1)        0.152       2.641         ms72xx_ctl/ms7200_ctl/_N6211
+ CLMS_274_69/Y1                    td                    0.162       2.803 r       ms72xx_ctl/ms7200_ctl/N1872_5/gateop_perm/Z
+                                   net (fanout=18)       0.081       2.884         ms72xx_ctl/ms7200_ctl/_N6221
+ CLMS_274_69/Y2                    td                    0.162       3.046 r       ms72xx_ctl/ms7200_ctl/N1359_1/gateop_perm/Z
+                                   net (fanout=8)        0.326       3.372         ms72xx_ctl/ms7200_ctl/N1386
+ CLMA_282_60/Y0                    td                    0.378       3.750 f       ms72xx_ctl/ms7200_ctl/N91_203[2]/gateop_perm/Z
+                                   net (fanout=2)        0.265       4.015         ms72xx_ctl/ms7200_ctl/_N1043
+ CLMA_282_68/Y2                    td                    0.264       4.279 f       ms72xx_ctl/ms7200_ctl/N8_8/gateop/F
+                                   net (fanout=3)        0.068       4.347         ms72xx_ctl/ms7200_ctl/N8
+ CLMA_282_68/Y1                    td                    0.359       4.706 f       ms72xx_ctl/ms7200_ctl/N24_5/gateop_perm/Z
+                                   net (fanout=1)        0.152       4.858         ms72xx_ctl/ms7200_ctl/N24
+ CLMA_282_68/A1                                                            f       ms72xx_ctl/ms7200_ctl/freq_ensure/opit_0_MUX4TO1Q/I1
+
+ Data arrival time                                                   4.858         Logic Levels: 6  
+                                                                                   Logic: 1.906ns(57.427%), Route: 1.413ns(42.573%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.603    1000.603         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000    1000.603 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.895    1001.498         ntclkbufg_1      
+ CLMA_282_68/CLK                                                           r       ms72xx_ctl/ms7200_ctl/freq_ensure/opit_0_MUX4TO1Q/CLK
+ clock pessimism                                         0.022    1001.520                          
+ clock uncertainty                                      -0.150    1001.370                          
+
+ Setup time                                             -0.191    1001.179                          
+
+ Data required time                                               1001.179                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1001.179                          
+ Data arrival time                                                   4.858                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       996.321                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7200_ctl/cmd_index[4]/opit_0_inv_A2Q21/CLK
+Endpoint    : ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/ADA0[9]
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.539
+  Launch Clock Delay      :  1.498
+  Clock Pessimism Removal :  -0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.603       0.603         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.603 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.895       1.498         ntclkbufg_1      
+ CLMS_274_53/CLK                                                           r       ms72xx_ctl/ms7200_ctl/cmd_index[4]/opit_0_inv_A2Q21/CLK
+
+ CLMS_274_53/Q3                    tco                   0.182       1.680 r       ms72xx_ctl/ms7200_ctl/cmd_index[4]/opit_0_inv_A2Q21/Q1
+                                   net (fanout=3)        0.140       1.820         ms72xx_ctl/ms7200_ctl/cmd_index [4]
+ DRM_278_44/ADA0[9]                                                        r       ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/ADA0[9]
+
+ Data arrival time                                                   1.820         Logic Levels: 0  
+                                                                                   Logic: 0.182ns(56.522%), Route: 0.140ns(43.478%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.614       0.614         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.925       1.539         ntclkbufg_1      
+ DRM_278_44/CLKA[0]                                                        r       ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/CLKA[0]
+ clock pessimism                                        -0.022       1.517                          
+ clock uncertainty                                       0.000       1.517                          
+
+ Hold time                                               0.127       1.644                          
+
+ Data required time                                                  1.644                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  1.644                          
+ Data arrival time                                                   1.820                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.176                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/CLK
+Endpoint    : ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/ADDRA[10]
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.539
+  Launch Clock Delay      :  1.498
+  Clock Pessimism Removal :  -0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.603       0.603         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.603 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.895       1.498         ntclkbufg_1      
+ CLMA_274_96/CLK                                                           r       ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/CLK
+
+ CLMA_274_96/Q0                    tco                   0.182       1.680 r       ms72xx_ctl/ms7210_ctl/cmd_index[5]/opit_0_inv_AQ_perm/Q
+                                   net (fanout=3)        0.200       1.880         ms72xx_ctl/ms7210_ctl/cmd_index [5]
+ DRM_278_88/ADA0[10]                                                       r       ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/ADDRA[10]
+
+ Data arrival time                                                   1.880         Logic Levels: 0  
+                                                                                   Logic: 0.182ns(47.644%), Route: 0.200ns(52.356%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.614       0.614         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.925       1.539         ntclkbufg_1      
+ DRM_278_88/CLKA[0]                                                        r       ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/CLKA
+ clock pessimism                                        -0.022       1.517                          
+ clock uncertainty                                       0.000       1.517                          
+
+ Hold time                                               0.166       1.683                          
+
+ Data required time                                                  1.683                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  1.683                          
+ Data arrival time                                                   1.880                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.197                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7210_ctl/cmd_index[2]/opit_0_inv_A2Q21/CLK
+Endpoint    : ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/ADDRA[7]
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.539
+  Launch Clock Delay      :  1.498
+  Clock Pessimism Removal :  -0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.603       0.603         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.603 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.895       1.498         ntclkbufg_1      
+ CLMA_274_92/CLK                                                           r       ms72xx_ctl/ms7210_ctl/cmd_index[2]/opit_0_inv_A2Q21/CLK
+
+ CLMA_274_92/Q1                    tco                   0.184       1.682 r       ms72xx_ctl/ms7210_ctl/cmd_index[2]/opit_0_inv_A2Q21/Q1
+                                   net (fanout=3)        0.199       1.881         ms72xx_ctl/ms7210_ctl/cmd_index [2]
+ DRM_278_88/ADA0[7]                                                        r       ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/ADDRA[7]
+
+ Data arrival time                                                   1.881         Logic Levels: 0  
+                                                                                   Logic: 0.184ns(48.042%), Route: 0.199ns(51.958%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.614       0.614         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.925       1.539         ntclkbufg_1      
+ DRM_278_88/CLKA[0]                                                        r       ms72xx_ctl/ms7210_ctl/N325_1_concat_2/iGopDrm/CLKA
+ clock pessimism                                        -0.022       1.517                          
+ clock uncertainty                                       0.000       1.517                          
+
+ Hold time                                               0.166       1.683                          
+
+ Data required time                                                  1.683                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  1.683                          
+ Data arrival time                                                   1.881                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.198                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/CLK
+Endpoint    : b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/L4
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.015  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.174
+  Launch Clock Delay      :  3.377
+  Clock Pessimism Removal :  0.188
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.861       0.939 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.939         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.058       0.997 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.455       2.452         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       2.452 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.925       3.377         ntclkbufg_0      
+ CLMS_262_173/CLK                                                          r       b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/CLK
+
+ CLMS_262_173/Q1                   tco                   0.224       3.601 r       b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/Q
+                                   net (fanout=4)        0.303       3.904         b_matrix_3_3/y_cnt [4]
+ CLMS_254_169/Y2                   td                    0.264       4.168 f       b_matrix_3_3/N11_6/gateop_perm/Z
+                                   net (fanout=1)        0.288       4.456         b_matrix_3_3/_N6401
+ CLMA_262_168/Y1                   td                    0.151       4.607 f       b_matrix_3_3/N37_mux5_1/gateop_perm/Z
+                                   net (fanout=1)        0.286       4.893         b_matrix_3_3/_N181
+ CLMS_254_173/Y2                   td                    0.162       5.055 r       b_matrix_3_3/N39_5/gateop_perm/Z
+                                   net (fanout=8)        0.453       5.508         b_matrix_3_3/wr_fifo_en
+                                   td                    0.222       5.730 f       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[1]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.730         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N600
+ CLMS_262_157/COUT                 td                    0.044       5.774 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[3]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.774         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N602
+                                   td                    0.044       5.818 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[5]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.818         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N604
+ CLMS_262_161/COUT                 td                    0.044       5.862 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[7]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.862         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N606
+ CLMS_262_165/Y1                   td                    0.366       6.228 f       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[9]/opit_0_inv_A2Q21/Y1
+                                   net (fanout=3)        0.352       6.580         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N2 [9]
+ CLMA_266_156/Y0                   td                    0.264       6.844 f       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N3[9]/gateop_perm/Z
+                                   net (fanout=1)        0.714       7.558         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/wwptr [9]
+ CLMS_262_153/Y1                   td                    0.435       7.993 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N177.eq_4/gateop_A2/Y1
+                                   net (fanout=1)        0.147       8.140         _N3              
+ CLMS_262_153/D4                                                           r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/L4
+
+ Data arrival time                                                   8.140         Logic Levels: 8  
+                                                                                   Logic: 2.220ns(46.609%), Route: 2.543ns(53.391%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                      1000.000    1000.000 r                        
+ AA12                                                    0.000    1000.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078    1000.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.735    1000.813 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000    1000.813         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.038    1000.851 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.428    1002.279         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000    1002.279 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.895    1003.174         ntclkbufg_0      
+ CLMS_262_153/CLK                                                          r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/CLK
+ clock pessimism                                         0.188    1003.362                          
+ clock uncertainty                                      -0.050    1003.312                          
+
+ Setup time                                             -0.092    1003.220                          
+
+ Data required time                                               1003.220                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1003.220                          
+ Data arrival time                                                   8.140                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       995.080                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : b_matrix_3_3/y_cnt[6]/opit_0_A2Q1/CLK
+Endpoint    : b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_rempty/opit_0_AQ_perm/Cin
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.174
+  Launch Clock Delay      :  3.377
+  Clock Pessimism Removal :  0.184
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.861       0.939 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.939         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.058       0.997 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.455       2.452         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       2.452 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.925       3.377         ntclkbufg_0      
+ CLMA_262_160/CLK                                                          r       b_matrix_3_3/y_cnt[6]/opit_0_A2Q1/CLK
+
+ CLMA_262_160/Q1                   tco                   0.223       3.600 f       b_matrix_3_3/y_cnt[6]/opit_0_A2Q1/Q
+                                   net (fanout=3)        0.565       4.165         b_matrix_3_3/y_cnt [6]
+ CLMS_262_181/Y1                   td                    0.222       4.387 r       b_matrix_3_3/N42_mux11_9/gateop_perm/Z
+                                   net (fanout=1)        0.212       4.599         b_matrix_3_3/_N7022
+ CLMS_254_181/Y2                   td                    0.150       4.749 f       b_matrix_3_3/N42_mux11_11/gateop_perm/Z
+                                   net (fanout=1)        0.289       5.038         b_matrix_3_3/_N7024
+ CLMS_262_181/Y2                   td                    0.227       5.265 f       b_matrix_3_3/N44/gateop_perm/Z
+                                   net (fanout=8)        0.626       5.891         b_matrix_3_3/rd_fifo_en
+                                   td                    0.180       6.071 f       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rbin[1]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       6.071         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N614
+ CLMS_254_157/COUT                 td                    0.044       6.115 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rbin[3]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       6.115         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N616
+                                   td                    0.044       6.159 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rbin[5]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       6.159         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N618
+ CLMS_254_161/Y3                   td                    0.387       6.546 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rbin[7]/opit_0_inv_A2Q21/Y1
+                                   net (fanout=3)        0.353       6.899         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N89 [7]
+ CLMS_262_169/Y2                   td                    0.150       7.049 f       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N111_9/gateop_perm/Z
+                                   net (fanout=1)        0.582       7.631         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N7072
+ CLMA_254_152/COUT                 td                    0.397       8.028 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N180.eq_2/gateop_A2/Cout
+                                   net (fanout=1)        0.000       8.028         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N180.co [6]
+                                   td                    0.044       8.072 r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N180.eq_4/gateop_A2/Cout
+                                   net (fanout=1)        0.000       8.072         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N180.co [10]
+                                                                           r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_rempty/opit_0_AQ_perm/Cin
+
+ Data arrival time                                                   8.072         Logic Levels: 7  
+                                                                                   Logic: 2.068ns(44.047%), Route: 2.627ns(55.953%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                      1000.000    1000.000 r                        
+ AA12                                                    0.000    1000.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078    1000.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.735    1000.813 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000    1000.813         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.038    1000.851 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.428    1002.279         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000    1002.279 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.895    1003.174         ntclkbufg_0      
+ CLMA_254_156/CLK                                                          r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_rempty/opit_0_AQ_perm/CLK
+ clock pessimism                                         0.184    1003.358                          
+ clock uncertainty                                      -0.050    1003.308                          
+
+ Setup time                                             -0.128    1003.180                          
+
+ Data required time                                               1003.180                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1003.180                          
+ Data arrival time                                                   8.072                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       995.108                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/CLK
+Endpoint    : b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/L4
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : max (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    -0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.174
+  Launch Clock Delay      :  3.377
+  Clock Pessimism Removal :  0.184
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.861       0.939 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.939         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.058       0.997 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.455       2.452         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       2.452 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.925       3.377         ntclkbufg_0      
+ CLMS_262_173/CLK                                                          r       b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/CLK
+
+ CLMS_262_173/Q1                   tco                   0.224       3.601 r       b_matrix_3_3/y_cnt[4]/opit_0_L5Q_perm/Q
+                                   net (fanout=4)        0.303       3.904         b_matrix_3_3/y_cnt [4]
+ CLMS_254_169/Y2                   td                    0.264       4.168 f       b_matrix_3_3/N11_6/gateop_perm/Z
+                                   net (fanout=1)        0.288       4.456         b_matrix_3_3/_N6401
+ CLMA_262_168/Y1                   td                    0.151       4.607 f       b_matrix_3_3/N37_mux5_1/gateop_perm/Z
+                                   net (fanout=1)        0.286       4.893         b_matrix_3_3/_N181
+ CLMS_254_173/Y2                   td                    0.150       5.043 f       b_matrix_3_3/N39_5/gateop_perm/Z
+                                   net (fanout=8)        0.455       5.498         b_matrix_3_3/wr_fifo_en
+                                   td                    0.222       5.720 f       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[1]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.720         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N628
+ CLMA_262_180/COUT                 td                    0.044       5.764 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[3]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.764         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N630
+                                   td                    0.044       5.808 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[5]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.808         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N632
+ CLMA_262_184/COUT                 td                    0.044       5.852 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[7]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.852         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N634
+                                   td                    0.044       5.896 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[9]/opit_0_inv_A2Q21/Cout
+                                   net (fanout=1)        0.000       5.896         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N636
+ CLMA_262_192/Y3                   td                    0.387       6.283 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[11]/opit_0_inv_A2Q21/Y1
+                                   net (fanout=3)        0.349       6.632         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N2 [11]
+ CLMS_254_181/Y0                   td                    0.150       6.782 f       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N3[11]_1/gateop_perm/Z
+                                   net (fanout=1)        0.364       7.146         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/_N7076
+ CLMA_262_176/Y1                   td                    0.444       7.590 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/N177.eq_4/gateop_A2/Y1
+                                   net (fanout=1)        0.235       7.825         _N2              
+ CLMA_266_176/A4                                                           r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/L4
+
+ Data arrival time                                                   7.825         Logic Levels: 8  
+                                                                                   Logic: 2.168ns(48.741%), Route: 2.280ns(51.259%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                      1000.000    1000.000 r                        
+ AA12                                                    0.000    1000.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078    1000.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.735    1000.813 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000    1000.813         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.038    1000.851 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.428    1002.279         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000    1002.279 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.895    1003.174         ntclkbufg_0      
+ CLMA_266_176/CLK                                                          r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull/opit_0_L5Q_perm/CLK
+ clock pessimism                                         0.184    1003.358                          
+ clock uncertainty                                      -0.050    1003.308                          
+
+ Setup time                                             -0.093    1003.215                          
+
+ Data required time                                               1003.215                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1003.215                          
+ Data arrival time                                                   7.825                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       995.390                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : r_matrix_3_3/matrix32[1]/opit_0_L5Q_perm/CLK
+Endpoint    : r_gauss_filter/line3_sum[3]/opit_0_A2Q21/I04
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.015  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.377
+  Launch Clock Delay      :  3.174
+  Clock Pessimism Removal :  -0.188
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.735       0.813 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.813         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.038       0.851 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.428       2.279         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       2.279 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.895       3.174         ntclkbufg_0      
+ CLMA_270_128/CLK                                                          r       r_matrix_3_3/matrix32[1]/opit_0_L5Q_perm/CLK
+
+ CLMA_270_128/Q1                   tco                   0.180       3.354 f       r_matrix_3_3/matrix32[1]/opit_0_L5Q_perm/Q
+                                   net (fanout=3)        0.059       3.413         r_matrix32[1]    
+ CLMS_270_129/C4                                                           f       r_gauss_filter/line3_sum[3]/opit_0_A2Q21/I04
+
+ Data arrival time                                                   3.413         Logic Levels: 0  
+                                                                                   Logic: 0.180ns(75.314%), Route: 0.059ns(24.686%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.861       0.939 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.939         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.058       0.997 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.455       2.452         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       2.452 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.925       3.377         ntclkbufg_0      
+ CLMS_270_129/CLK                                                          r       r_gauss_filter/line3_sum[3]/opit_0_A2Q21/CLK
+ clock pessimism                                        -0.188       3.189                          
+ clock uncertainty                                       0.000       3.189                          
+
+ Hold time                                              -0.028       3.161                          
+
+ Data required time                                                  3.161                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  3.161                          
+ Data arrival time                                                   3.413                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.252                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[4]/opit_0/CLK
+Endpoint    : b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/rwptr2[4]/opit_0/D
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.015  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.377
+  Launch Clock Delay      :  3.174
+  Clock Pessimism Removal :  -0.188
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.735       0.813 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.813         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.038       0.851 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.428       2.279         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       2.279 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.895       3.174         ntclkbufg_0      
+ CLMA_250_156/CLK                                                          r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[4]/opit_0/CLK
+
+ CLMA_250_156/Q0                   tco                   0.179       3.353 f       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[4]/opit_0/Q
+                                   net (fanout=1)        0.130       3.483         b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/rwptr1 [4]
+ CLMA_250_157/CD                                                           f       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/rwptr2[4]/opit_0/D
+
+ Data arrival time                                                   3.483         Logic Levels: 0  
+                                                                                   Logic: 0.179ns(57.929%), Route: 0.130ns(42.071%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.861       0.939 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.939         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.058       0.997 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.455       2.452         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       2.452 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.925       3.377         ntclkbufg_0      
+ CLMA_250_157/CLK                                                          r       b_matrix_3_3/matrix_fifo_buf2/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/rwptr2[4]/opit_0/CLK
+ clock pessimism                                        -0.188       3.189                          
+ clock uncertainty                                       0.000       3.189                          
+
+ Hold time                                               0.040       3.229                          
+
+ Data required time                                                  3.229                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  3.229                          
+ Data arrival time                                                   3.483                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.254                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[3]/opit_0_inv_A2Q21/CLK
+Endpoint    : b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm/ADA0[4]
+Path Group  : hdmi_loop|pixclk_in
+Path Type   : min (fast corner)
+Path Class  : sequential timing path
+Clock Skew  :    0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  3.377
+  Launch Clock Delay      :  3.174
+  Clock Pessimism Removal :  -0.184
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.735       0.813 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.813         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.038       0.851 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.428       2.279         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       2.279 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.895       3.174         ntclkbufg_0      
+ CLMA_262_180/CLK                                                          r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[3]/opit_0_inv_A2Q21/CLK
+
+ CLMA_262_180/Q2                   tco                   0.183       3.357 r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_fifo_ctrl/ASYN_CTRL.wbin[3]/opit_0_inv_A2Q21/Q0
+                                   net (fanout=6)        0.223       3.580         b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/wr_addr [2]
+ DRM_278_168/ADA0[4]                                                       r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm/ADA0[4]
+
+ Data arrival time                                                   3.580         Logic Levels: 0  
+                                                                                   Logic: 0.183ns(45.074%), Route: 0.223ns(54.926%)
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.861       0.939 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.939         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.058       0.997 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.455       2.452         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       2.452 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.925       3.377         ntclkbufg_0      
+ DRM_278_168/CLKA[0]                                                       r       b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm/CLKA[0]
+ clock pessimism                                        -0.184       3.193                          
+ clock uncertainty                                       0.000       3.193                          
+
+ Hold time                                               0.127       3.320                          
+
+ Data required time                                                  3.320                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  3.320                          
+ Data arrival time                                                   3.580                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         0.260                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rstn_1ms[2]/opit_0_inv_A2Q21/CLK
+Endpoint    : ms72xx_ctl/rstn_temp1/opit_0/RS
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : max (fast corner)
+Path Class  : async timing path
+Clock Skew  :    -0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.498
+  Launch Clock Delay      :  1.539
+  Clock Pessimism Removal :  0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.614       0.614         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.925       1.539         ntclkbufg_1      
+ CLMA_250_40/CLK                                                           r       rstn_1ms[2]/opit_0_inv_A2Q21/CLK
+
+ CLMA_250_40/Q0                    tco                   0.221       1.760 f       rstn_1ms[2]/opit_0_inv_A2Q21/Q0
+                                   net (fanout=3)        0.250       2.010         rstn_1ms[1]      
+ CLMS_246_41/Y1                    td                    0.359       2.369 f       N80_9/gateop_perm/Z
+                                   net (fanout=2)        0.250       2.619         _N6726           
+ CLMS_246_45/Y2                    td                    0.150       2.769 f       b_gauss_filter/N0/gateop_perm/Z
+                                   net (fanout=165)      0.709       3.478         b_gauss_filter/N0
+ CLMA_282_72/RS                                                            f       ms72xx_ctl/rstn_temp1/opit_0/RS
+
+ Data arrival time                                                   3.478         Logic Levels: 2  
+                                                                                   Logic: 0.730ns(37.648%), Route: 1.209ns(62.352%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                      1000.000    1000.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000    1000.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.603    1000.603         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000    1000.603 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.895    1001.498         ntclkbufg_1      
+ CLMA_282_72/CLK                                                           r       ms72xx_ctl/rstn_temp1/opit_0/CLK
+ clock pessimism                                         0.022    1001.520                          
+ clock uncertainty                                      -0.150    1001.370                          
+
+ Recovery time                                          -0.476    1000.894                          
+
+ Data required time                                               1000.894                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                               1000.894                          
+ Data arrival time                                                   3.478                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                       997.416                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : rstn_1ms[0]/opit_0_inv_L5Q_perm/CLK
+Endpoint    : ms72xx_ctl/rstn_temp1/opit_0/RS
+Path Group  : PLL|u_pll/u_pll_e3/CLKOUT0
+Path Type   : min (fast corner)
+Path Class  : async timing path
+Clock Skew  :    0.019  (Capture Clock Delay - Launch Clock Delay + Clock Pessimism Removal)
+  Capture Clock Delay     :  1.539
+  Launch Clock Delay      :  1.498
+  Clock Pessimism Removal :  -0.022
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.603       0.603         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.603 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.895       1.498         ntclkbufg_1      
+ CLMS_246_45/CLK                                                           r       rstn_1ms[0]/opit_0_inv_L5Q_perm/CLK
+
+ CLMS_246_45/Q0                    tco                   0.182       1.680 r       rstn_1ms[0]/opit_0_inv_L5Q_perm/Q
+                                   net (fanout=5)        0.126       1.806         rstn_1ms[0]      
+ CLMS_246_45/Y2                    td                    0.279       2.085 r       b_gauss_filter/N0/gateop_perm/Z
+                                   net (fanout=165)      0.558       2.643         b_gauss_filter/N0
+ CLMA_282_72/RS                                                            r       ms72xx_ctl/rstn_temp1/opit_0/RS
+
+ Data arrival time                                                   2.643         Logic Levels: 1  
+                                                                                   Logic: 0.461ns(40.262%), Route: 0.684ns(59.738%)
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.614       0.614         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.925       1.539         ntclkbufg_1      
+ CLMA_282_72/CLK                                                           r       ms72xx_ctl/rstn_temp1/opit_0/CLK
+ clock pessimism                                        -0.022       1.517                          
+ clock uncertainty                                       0.000       1.517                          
+
+ Removal time                                           -0.187       1.330                          
+
+ Data required time                                                  1.330                          
+----------------------------------------------------------------------------------------------------
+ Data required time                                                  1.330                          
+ Data arrival time                                                   2.643                          
+----------------------------------------------------------------------------------------------------
+ Slack (MET)                                                         1.313                          
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv/CLK
+Endpoint    : led_int (port)
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock PLL|u_pll/u_pll_e3/CLKOUT0 (rising edge)
+                                                         0.000       0.000 r                        
+ PLL_158_55/CLK_OUT0                                     0.000       0.000 r       u_pll/u_pll_e3/goppll/CLKOUT0
+                                   net (fanout=1)        0.614       0.614         cfg_clk          
+ USCM_84_109/CLK_USCM              td                    0.000       0.614 r       clkbufg_1/gopclkbufg/CLKOUT
+                                   net (fanout=230)      0.925       1.539         ntclkbufg_1      
+ CLMS_270_89/CLK                                                           r       ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv/CLK
+
+ CLMS_270_89/Q0                    tco                   0.221       1.760 f       ms72xx_ctl/ms7210_ctl/init_over/opit_0_inv/Q
+                                   net (fanout=12)       3.512       5.272         nt_led_int       
+ IOL_19_374/DO                     td                    0.106       5.378 f       led_int_obuf/opit_1/O
+                                   net (fanout=1)        0.000       5.378         led_int_obuf/ntO 
+ IOBD_16_376/PAD                   td                    3.238       8.616 f       led_int_obuf/opit_0/O
+                                   net (fanout=1)        0.109       8.725         led_int          
+ B2                                                                        f       led_int (port)   
+
+ Data arrival time                                                   8.725         Logic Levels: 2  
+                                                                                   Logic: 3.565ns(49.610%), Route: 3.621ns(50.390%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : r_out[0]/opit_0/CLK
+Endpoint    : r_out[0] (port)
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.861       0.939 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.939         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.058       0.997 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.455       2.452         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       2.452 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.925       3.377         ntclkbufg_0      
+ CLMA_274_144/CLK                                                          r       r_out[0]/opit_0/CLK
+
+ CLMA_274_144/Q1                   tco                   0.223       3.600 f       r_out[0]/opit_0/Q
+                                   net (fanout=1)        1.271       4.871         nt_r_out[0]      
+ IOL_327_242/DO                    td                    0.106       4.977 f       r_out_obuf[0]/opit_1/O
+                                   net (fanout=1)        0.000       4.977         r_out_obuf[0]/ntO
+ IOBS_LR_328_241/PAD               td                    3.150       8.127 f       r_out_obuf[0]/opit_0/O
+                                   net (fanout=1)        0.053       8.180         r_out[0]         
+ K17                                                                       f       r_out[0] (port)  
+
+ Data arrival time                                                   8.180         Logic Levels: 2  
+                                                                                   Logic: 3.479ns(72.434%), Route: 1.324ns(27.566%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : b_out[0]/opit_0/CLK
+Endpoint    : g_out[0] (port)
+Path Group  : **default**
+Path Type   : max (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+ Clock hdmi_loop|pixclk_in (rising edge)
+                                                         0.000       0.000 r                        
+ AA12                                                    0.000       0.000 r       pixclk_in (port) 
+                                   net (fanout=1)        0.078       0.078         pixclk_in        
+ IOBD_161_0/DIN                    td                    0.861       0.939 r       pixclk_in_ibuf/opit_0/O
+                                   net (fanout=1)        0.000       0.939         pixclk_in_ibuf/ntD
+ IOL_163_6/INCK                    td                    0.058       0.997 r       pixclk_in_ibuf/opit_1/INCK
+                                   net (fanout=1)        1.455       2.452         _N5              
+ USCM_84_108/CLK_USCM              td                    0.000       2.452 r       clkbufg_0/gopclkbufg/CLKOUT
+                                   net (fanout=471)      0.925       3.377         ntclkbufg_0      
+ CLMA_282_164/CLK                                                          r       b_out[0]/opit_0/CLK
+
+ CLMA_282_164/Q0                   tco                   0.221       3.598 f       b_out[0]/opit_0/Q
+                                   net (fanout=2)        0.831       4.429         nt_b_out[0]      
+ IOL_327_202/DO                    td                    0.106       4.535 f       g_out_obuf[0]/opit_1/O
+                                   net (fanout=1)        0.000       4.535         g_out_obuf[0]/ntO
+ IOBS_LR_328_201/PAD               td                    3.150       7.685 f       g_out_obuf[0]/opit_0/O
+                                   net (fanout=1)        0.106       7.791         g_out[0]         
+ M21                                                                       f       g_out[0] (port)  
+
+ Data arrival time                                                   7.791         Logic Levels: 2  
+                                                                                   Logic: 3.477ns(78.772%), Route: 0.937ns(21.228%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : iic_sda (port)
+Endpoint    : ms72xx_ctl/iic_dri_rx/receiv_data[0]/opit_0/D
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ V20                                                     0.000       0.000 r       iic_sda (port)   
+                                   net (fanout=1)        0.051       0.051         nt_iic_sda       
+ IOBS_LR_328_24/DIN                td                    0.735       0.786 r       ms72xx_ctl.iic_sda_tri/opit_0/O
+                                   net (fanout=1)        0.000       0.786         ms72xx_ctl.iic_sda_tri/ntI
+ IOL_327_25/RX_DATA_DD             td                    0.066       0.852 r       ms72xx_ctl.iic_sda_tri/opit_1/OUT
+                                   net (fanout=1)        0.506       1.358         _N21             
+ CLMA_282_36/M0                                                            r       ms72xx_ctl/iic_dri_rx/receiv_data[0]/opit_0/D
+
+ Data arrival time                                                   1.358         Logic Levels: 2  
+                                                                                   Logic: 0.801ns(58.984%), Route: 0.557ns(41.016%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : iic_tx_sda (port)
+Endpoint    : ms72xx_ctl/iic_dri_tx/receiv_data[0]/opit_0/D
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ P18                                                     0.000       0.000 r       iic_tx_sda (port)
+                                   net (fanout=1)        0.058       0.058         nt_iic_tx_sda    
+ IOBS_LR_328_44/DIN                td                    0.735       0.793 r       ms72xx_ctl.iic_tx_sda_tri/opit_0/O
+                                   net (fanout=1)        0.000       0.793         ms72xx_ctl.iic_tx_sda_tri/ntI
+ IOL_327_45/RX_DATA_DD             td                    0.066       0.859 r       ms72xx_ctl.iic_tx_sda_tri/opit_1/OUT
+                                   net (fanout=1)        0.653       1.512         _N22             
+ CLMS_282_85/M0                                                            r       ms72xx_ctl/iic_dri_tx/receiv_data[0]/opit_0/D
+
+ Data arrival time                                                   1.512         Logic Levels: 2  
+                                                                                   Logic: 0.801ns(52.976%), Route: 0.711ns(47.024%)
+====================================================================================================
+
+====================================================================================================
+
+Startpoint  : r_in[2] (port)
+Endpoint    : r_out1[2]/opit_0_inv/D
+Path Group  : **default**
+Path Type   : min (fast corner)
+Path Class  : combinational timing path
+
+ Location                          Delay Type             Incr        Path         Logical Resource 
+----------------------------------------------------------------------------------------------------
+
+
+ U16                                                     0.000       0.000 r       r_in[2] (port)   
+                                   net (fanout=1)        0.058       0.058         r_in[2]          
+ IOBD_289_0/DIN                    td                    0.735       0.793 r       r_in_ibuf[2]/opit_0/O
+                                   net (fanout=1)        0.000       0.793         r_in_ibuf[2]/ntD 
+ IOL_291_6/RX_DATA_DD              td                    0.066       0.859 r       r_in_ibuf[2]/opit_1/OUT
+                                   net (fanout=1)        0.738       1.597         nt_r_in[2]       
+ CLMS_274_117/M2                                                           r       r_out1[2]/opit_0_inv/D
+
+ Data arrival time                                                   1.597         Logic Levels: 2  
+                                                                                   Logic: 0.801ns(50.157%), Route: 0.796ns(49.843%)
+====================================================================================================
+
+{PLL|u_pll/u_pll_e3/CLKOUT0} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 499.282     500.000         0.718           High Pulse Width  DRM_278_44/CLKA[0]      ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/CLKA[0]
+ 499.282     500.000         0.718           Low Pulse Width   DRM_278_44/CLKA[0]      ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/CLKA[0]
+ 499.282     500.000         0.718           Low Pulse Width   DRM_278_44/CLKB[0]      ms72xx_ctl/ms7200_ctl/N1219_1_concat_3/iGopDrm/CLKB[0]
+====================================================================================================
+
+{hdmi_loop|pixclk_in} Minimum Pulse Width :
+****************************************************************************************************
+ Slack       Actual Width    Require Width   Type              Location                Pin          
+----------------------------------------------------------------------------------------------------
+ 499.282     500.000         0.718           Low Pulse Width   DRM_278_168/CLKA[0]     b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm/CLKA[0]
+ 499.282     500.000         0.718           High Pulse Width  DRM_278_168/CLKA[0]     b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm/CLKA[0]
+ 499.282     500.000         0.718           Low Pulse Width   DRM_278_168/CLKB[0]     b_matrix_3_3/matrix_fifo_buf1/U_ipml_fifo_matrix_fifo_buf/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm/CLKB[0]
+====================================================================================================
+
+====================================================================================================
+
+Inputs and Outputs :
++------------------------------------------------------------------------------------------------------------------+
+| Type       | File Name                                                                                          
++------------------------------------------------------------------------------------------------------------------+
+| Input      | C:/Users/G1320/Desktop/dark/gauss_experience/06_hdmi_loop - wc/place_route/hdmi_loop_pnr.adf       
+| Output     | C:/Users/G1320/Desktop/dark/gauss_experience/06_hdmi_loop - wc/report_timing/hdmi_loop_rtp.adf     
+|            | C:/Users/G1320/Desktop/dark/gauss_experience/06_hdmi_loop - wc/report_timing/hdmi_loop.rtr         
+|            | C:/Users/G1320/Desktop/dark/gauss_experience/06_hdmi_loop - wc/report_timing/rtr.db                
++------------------------------------------------------------------------------------------------------------------+
+
+
+Flow Command: report_timing 
+Peak memory: 725 MB
+Total CPU  time to report_timing completion : 0h:0m:3s
+Process Total CPU  time to report_timing completion : 0h:0m:3s
+Total real time to report_timing completion : 0h:0m:5s

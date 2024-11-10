@@ -1,0 +1,50 @@
+##### Written on 2023/02/28 20:10:52 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL50H-6FBG484
+
+Top Module : 
+	led_test
+
+Constraint File(s) : 
+	C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/01_led_test/led_test.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 1 critical warning(s), 0 warning(s), out of 66 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:rstn} {PAP_IO_LOC} {K18}
+
+	C: ConstraintEditor-2002: [C:/Users/w/Desktop/MES50HP/MES50HP_v1/2_demo/01_led_test/led_test.fdc(line number: 63)] | Port rstn has been placed at location K18, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

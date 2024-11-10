@@ -1,0 +1,1017 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Nov  9 01:35:11 2024
+# Process ID: 38104
+# Current directory: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10528 D:\finn_dev_root\vivado_stitch_proj_wlkx21xb\finn_vivado_stitch_proj.xpr
+# Log file: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/vivado.log
+# Journal file: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb\vivado.jou
+# Running On: fengwuyu, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 42082 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/../media/clr/XIlinx/finn/finn-rtllib/memstream'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:media/clr/XIlinx/finn/finn-rtllib/memstream'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_0_wlfxl4wj'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_0_5ojjcg8a/project_StreamingMaxPool_hls_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_1_6i63ps7x'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_0_c1yl8wwu'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_2_ns3a5jn3'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_8tlt_04t'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_3_xcuclu_f'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_pgm__mle'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_4_lbnaqceg'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_0_pm17mzbp/project_MVAU_hls_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_5_mrxzdn8q'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_1_2v0axa4u/project_StreamingMaxPool_hls_1/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_6_0tg6i1t4'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_7_0_5dpxcc'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_9n0z3xny'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_8__tki43oj'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_9_abi4l1b9'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_0_quz2zfen/project_StreamingDataWidthConverter_hls_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_10_h0juerdy'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_1_r23awlkq/project_MVAU_hls_1/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_11_3tv6qxnb'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_u3hxulek'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_12_lm1clnxa'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_2_z93d_1rj/project_StreamingMaxPool_hls_2/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_13_583cxnvb'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_2_oczdtiib'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_14_k4fncn1n'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_de665nz_'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_15_1i7_04ny'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_16_hou74g4l'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_1_s6worver/project_StreamingDataWidthConverter_hls_1/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_17_cmro96l_'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_2_ufu323e_/project_MVAU_hls_2/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_18_b5raj_ho'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_c3ztzkwv'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_19_enco_dbj'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_3_igc1mjk8/project_StreamingMaxPool_hls_3/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_20_nu4uu0sy'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_3_fpihnftc'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_21_086iw6t9'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_5t1fuam0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_22_t4n_jkuj'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_23_y9rnvntt'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_05ww9hda'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_24_ylzveoao'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_3_5vl2hbpw/project_MVAU_hls_3/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_25_5vaibwsp'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_ab4eighi'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_26_xzg9s7nq'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingMaxPool_hls_4_o30d23mp/project_StreamingMaxPool_hls_4/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_27_ej9wchtr'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_4_lasvhgnt'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_28_hm6xtqk0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_8__bwffe1d'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_29_oqgwb2ay'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_30_c_bk1cl9'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_9_166qp8mj'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_31_tt3lfz47'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_4__ok_a9cj/project_MVAU_hls_4/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_32_59unwooc'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_10_0s7sq3bt'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_33_iufu7as2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_5_c0eo27gp'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_34_70ldgat7'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_11_l6pn1lgr'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_35_5c_fr02n'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_36_x2yax__b'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_12_31ouz5n4'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_37_iz2r64sq'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_5_ol2hz86g/project_MVAU_hls_5/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_38_68gyno9a'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_hls_2_8vctij35/project_StreamingDataWidthConverter_hls_2/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_39_711xoee7'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_6_y0qmdba0/project_MVAU_hls_6/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_40_qmte1qgl'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_13_mxe_m8it'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_41_ydah_m51'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_6_59g9igco'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_42_slirpjfi'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_14_4npximp0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_43_4lup8wdo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_44_3nh99_gf'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_15_evu11cig'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_45_8stog746'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_MVAU_hls_7_urf094np/project_MVAU_hls_7/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_46_fggz943t'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_16_jrps1wlr'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_47_imagao10'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_7_3zgpn366'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_48_eoppwpa1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_17_6dd98hur'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_StreamingFIFO_rtl_49_33e6bl_t'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy'.
+INFO: [Common 17-14] Message 'IP_Flow 19-1700' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'finn_design.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+finn_design_MVAU_hls_8_wstrm_0
+finn_design_MVAU_hls_0_wstrm_0
+finn_design_MVAU_hls_1_wstrm_0
+finn_design_MVAU_hls_2_wstrm_0
+finn_design_MVAU_hls_3_wstrm_0
+finn_design_MVAU_hls_4_wstrm_0
+finn_design_MVAU_hls_5_wstrm_0
+finn_design_MVAU_hls_6_wstrm_0
+finn_design_MVAU_hls_7_wstrm_0
+
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1843.770 ; gain = 245.777
+update_compile_order -fileset sources_1
+open_bd_design {D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/finn_design.bd}
+Reading block design file <D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/finn_design.bd>...
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_0:1.0 - StreamingFIFO_rtl_0
+Adding component instance block -- xilinx.com:hls:StreamingMaxPool_hls_0:1.0 - StreamingMaxPool_hls_0
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_1:1.0 - StreamingFIFO_rtl_1
+Adding component instance block -- xilinx.com:module_ref:FMPadding_rtl_0:1.0 - FMPadding_rtl_0
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_2:1.0 - StreamingFIFO_rtl_2
+Adding component instance block -- xilinx.com:module_ref:ConvolutionInputGenerator_rtl_0:1.0 - ConvolutionInputGenerator_rtl_0
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_0:1.0 - StreamingDataWidthConverter_rtl_0
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_4:1.0 - StreamingFIFO_rtl_4
+Adding component instance block -- xilinx.com:hls:MVAU_hls_0:1.0 - MVAU_hls_0
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_0_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_5:1.0 - StreamingFIFO_rtl_5
+Adding component instance block -- xilinx.com:hls:StreamingMaxPool_hls_1:1.0 - StreamingMaxPool_hls_1
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_6:1.0 - StreamingFIFO_rtl_6
+Adding component instance block -- xilinx.com:module_ref:FMPadding_rtl_1:1.0 - FMPadding_rtl_1
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_7:1.0 - StreamingFIFO_rtl_7
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_1:1.0 - StreamingDataWidthConverter_rtl_1
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:module_ref:ConvolutionInputGenerator_rtl_1:1.0 - ConvolutionInputGenerator_rtl_1
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_9:1.0 - StreamingFIFO_rtl_9
+Adding component instance block -- xilinx.com:hls:StreamingDataWidthConverter_hls_0:1.0 - StreamingDataWidthConverter_hls_0
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_10:1.0 - StreamingFIFO_rtl_10
+Adding component instance block -- xilinx.com:hls:MVAU_hls_1:1.0 - MVAU_hls_1
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_1_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_11:1.0 - StreamingFIFO_rtl_11
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_2:1.0 - StreamingDataWidthConverter_rtl_2
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_12:1.0 - StreamingFIFO_rtl_12
+Adding component instance block -- xilinx.com:hls:StreamingMaxPool_hls_2:1.0 - StreamingMaxPool_hls_2
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_13:1.0 - StreamingFIFO_rtl_13
+Adding component instance block -- xilinx.com:module_ref:FMPadding_rtl_2:1.0 - FMPadding_rtl_2
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_14:1.0 - StreamingFIFO_rtl_14
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_3:1.0 - StreamingDataWidthConverter_rtl_3
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:module_ref:ConvolutionInputGenerator_rtl_2:1.0 - ConvolutionInputGenerator_rtl_2
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_16:1.0 - StreamingFIFO_rtl_16
+Adding component instance block -- xilinx.com:hls:StreamingDataWidthConverter_hls_1:1.0 - StreamingDataWidthConverter_hls_1
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_17:1.0 - StreamingFIFO_rtl_17
+Adding component instance block -- xilinx.com:hls:MVAU_hls_2:1.0 - MVAU_hls_2
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_2_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_18:1.0 - StreamingFIFO_rtl_18
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_4:1.0 - StreamingDataWidthConverter_rtl_4
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_19:1.0 - StreamingFIFO_rtl_19
+Adding component instance block -- xilinx.com:hls:StreamingMaxPool_hls_3:1.0 - StreamingMaxPool_hls_3
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_20:1.0 - StreamingFIFO_rtl_20
+Adding component instance block -- xilinx.com:module_ref:FMPadding_rtl_3:1.0 - FMPadding_rtl_3
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_21:1.0 - StreamingFIFO_rtl_21
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_5:1.0 - StreamingDataWidthConverter_rtl_5
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:module_ref:ConvolutionInputGenerator_rtl_3:1.0 - ConvolutionInputGenerator_rtl_3
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_23:1.0 - StreamingFIFO_rtl_23
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_6:1.0 - StreamingDataWidthConverter_rtl_6
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:hls:MVAU_hls_3:1.0 - MVAU_hls_3
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_3_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_25:1.0 - StreamingFIFO_rtl_25
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_7:1.0 - StreamingDataWidthConverter_rtl_7
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_26:1.0 - StreamingFIFO_rtl_26
+Adding component instance block -- xilinx.com:hls:StreamingMaxPool_hls_4:1.0 - StreamingMaxPool_hls_4
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_27:1.0 - StreamingFIFO_rtl_27
+Adding component instance block -- xilinx.com:module_ref:FMPadding_rtl_4:1.0 - FMPadding_rtl_4
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_28:1.0 - StreamingFIFO_rtl_28
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_8:1.0 - StreamingDataWidthConverter_rtl_8
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:module_ref:ConvolutionInputGenerator_rtl_4:1.0 - ConvolutionInputGenerator_rtl_4
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_30:1.0 - StreamingFIFO_rtl_30
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_9:1.0 - StreamingDataWidthConverter_rtl_9
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:hls:MVAU_hls_4:1.0 - MVAU_hls_4
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_4_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_32:1.0 - StreamingFIFO_rtl_32
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_10:1.0 - StreamingDataWidthConverter_rtl_10
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_33:1.0 - StreamingFIFO_rtl_33
+Adding component instance block -- xilinx.com:module_ref:FMPadding_rtl_5:1.0 - FMPadding_rtl_5
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_34:1.0 - StreamingFIFO_rtl_34
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_11:1.0 - StreamingDataWidthConverter_rtl_11
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:module_ref:ConvolutionInputGenerator_rtl_5:1.0 - ConvolutionInputGenerator_rtl_5
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_36:1.0 - StreamingFIFO_rtl_36
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_12:1.0 - StreamingDataWidthConverter_rtl_12
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:hls:MVAU_hls_5:1.0 - MVAU_hls_5
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_5_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_38:1.0 - StreamingFIFO_rtl_38
+Adding component instance block -- xilinx.com:hls:StreamingDataWidthConverter_hls_2:1.0 - StreamingDataWidthConverter_hls_2
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_39:1.0 - StreamingFIFO_rtl_39
+Adding component instance block -- xilinx.com:hls:MVAU_hls_6:1.0 - MVAU_hls_6
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_6_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_40:1.0 - StreamingFIFO_rtl_40
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_13:1.0 - StreamingDataWidthConverter_rtl_13
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_41:1.0 - StreamingFIFO_rtl_41
+Adding component instance block -- xilinx.com:module_ref:FMPadding_rtl_6:1.0 - FMPadding_rtl_6
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_42:1.0 - StreamingFIFO_rtl_42
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_14:1.0 - StreamingDataWidthConverter_rtl_14
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:module_ref:ConvolutionInputGenerator_rtl_6:1.0 - ConvolutionInputGenerator_rtl_6
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_44:1.0 - StreamingFIFO_rtl_44
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_15:1.0 - StreamingDataWidthConverter_rtl_15
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:hls:MVAU_hls_7:1.0 - MVAU_hls_7
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_7_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_46:1.0 - StreamingFIFO_rtl_46
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_16:1.0 - StreamingDataWidthConverter_rtl_16
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_47:1.0 - StreamingFIFO_rtl_47
+Adding component instance block -- xilinx.com:module_ref:FMPadding_rtl_7:1.0 - FMPadding_rtl_7
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_48:1.0 - StreamingFIFO_rtl_48
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_17:1.0 - StreamingDataWidthConverter_rtl_17
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:module_ref:ConvolutionInputGenerator_rtl_7:1.0 - ConvolutionInputGenerator_rtl_7
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_50:1.0 - StreamingFIFO_rtl_50
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_18:1.0 - StreamingDataWidthConverter_rtl_18
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:hls:MVAU_hls_8:1.0 - MVAU_hls_8
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_8_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_52:1.0 - StreamingFIFO_rtl_52
+Successfully read diagram <finn_design> from block design file <D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/finn_design.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:32 . Memory (MB): peak = 2548.039 ; gain = 0.000
+open_bd_design {D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/finn_design.bd}
+open_bd_design {D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/finn_design.bd}
+launch_runs synth_1 -jobs 8
+WARNING: [HDL 9-3756] overwriting previous definition of module 'axi2we' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd/axi2we.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'axi2we' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_2_oczdtiib/axi2we.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'axi2we' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_3_fpihnftc/axi2we.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'axi2we' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_4_lasvhgnt/axi2we.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'axi2we' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_5_c0eo27gp/axi2we.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'axi2we' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_6_59g9igco/axi2we.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'axi2we' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_7_3zgpn366/axi2we.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_10_0s7sq3bt/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_11_l6pn1lgr/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_12_31ouz5n4/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_13_mxe_m8it/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_14_4npximp0/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_15_evu11cig/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_16_jrps1wlr/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_17_6dd98hur/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_18_am1ikf8v/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_9n0z3xny/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_u3hxulek/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_de665nz_/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_c3ztzkwv/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_5t1fuam0/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_05ww9hda/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_ab4eighi/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_8__bwffe1d/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_9_166qp8mj/dwc.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_10_0s7sq3bt/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_11_l6pn1lgr/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_12_31ouz5n4/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_13_mxe_m8it/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_14_4npximp0/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_15_evu11cig/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_16_jrps1wlr/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_17_6dd98hur/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_18_am1ikf8v/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_9n0z3xny/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_u3hxulek/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_de665nz_/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_c3ztzkwv/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_5t1fuam0/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_05ww9hda/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_ab4eighi/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_8__bwffe1d/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'dwc_axi' [D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_9_166qp8mj/dwc_axi.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd/fmpadding.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_2_oczdtiib/fmpadding.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_3_fpihnftc/fmpadding.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_4_lasvhgnt/fmpadding.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_5_c0eo27gp/fmpadding.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_6_59g9igco/fmpadding.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_7_3zgpn366/fmpadding.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding_axi' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd/fmpadding_axi.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding_axi' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_2_oczdtiib/fmpadding_axi.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding_axi' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_3_fpihnftc/fmpadding_axi.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding_axi' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_4_lasvhgnt/fmpadding_axi.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding_axi' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_5_c0eo27gp/fmpadding_axi.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding_axi' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_6_59g9igco/fmpadding_axi.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'fmpadding_axi' [D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_7_3zgpn366/fmpadding_axi.sv:35]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_controller' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/swg_common.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_cyclic_buffer_addressable' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/swg_common.sv:149]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_reg_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/swg_common.sv:176]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_ram_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/swg_common.sv:205]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_controller' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/swg_common.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_cyclic_buffer_addressable' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/swg_common.sv:149]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_reg_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/swg_common.sv:176]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_ram_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/swg_common.sv:205]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_controller' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/swg_common.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_cyclic_buffer_addressable' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/swg_common.sv:149]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_reg_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/swg_common.sv:176]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_ram_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/swg_common.sv:205]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_controller' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/swg_common.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_cyclic_buffer_addressable' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/swg_common.sv:149]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_reg_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/swg_common.sv:176]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_ram_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/swg_common.sv:205]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_controller' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/swg_common.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_cyclic_buffer_addressable' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/swg_common.sv:149]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_reg_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/swg_common.sv:176]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_ram_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/swg_common.sv:205]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_controller' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/swg_common.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_cyclic_buffer_addressable' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/swg_common.sv:149]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_reg_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/swg_common.sv:176]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_ram_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/swg_common.sv:205]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_controller' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/swg_common.sv:34]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_cyclic_buffer_addressable' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/swg_common.sv:149]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_reg_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/swg_common.sv:176]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'swg_ram_buffer' [D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/swg_common.sv:205]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'axi2we()' found in library 'xil_defaultlib'
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_0_c1yl8wwu/axi2we.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd/axi2we.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_2_oczdtiib/axi2we.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_3_fpihnftc/axi2we.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_4_lasvhgnt/axi2we.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_5_c0eo27gp/axi2we.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_6_59g9igco/axi2we.sv
+	(Active) Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_7_3zgpn366/axi2we.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dwc()' found in library 'xil_defaultlib'
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_pgm__mle/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_10_0s7sq3bt/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_11_l6pn1lgr/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_12_31ouz5n4/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_13_mxe_m8it/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_14_4npximp0/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_15_evu11cig/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_16_jrps1wlr/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_17_6dd98hur/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_18_am1ikf8v/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_9n0z3xny/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_u3hxulek/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_de665nz_/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_c3ztzkwv/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_5t1fuam0/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_05ww9hda/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_ab4eighi/dwc.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_8__bwffe1d/dwc.sv
+	(Active) Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_9_166qp8mj/dwc.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dwc_axi()' found in library 'xil_defaultlib'
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_pgm__mle/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_10_0s7sq3bt/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_11_l6pn1lgr/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_12_31ouz5n4/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_13_mxe_m8it/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_14_4npximp0/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_15_evu11cig/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_16_jrps1wlr/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_17_6dd98hur/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_18_am1ikf8v/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_9n0z3xny/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_u3hxulek/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_de665nz_/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_c3ztzkwv/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_5t1fuam0/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_05ww9hda/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_ab4eighi/dwc_axi.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_8__bwffe1d/dwc_axi.sv
+	(Active) Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_StreamingDataWidthConverter_rtl_9_166qp8mj/dwc_axi.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'fmpadding()' found in library 'xil_defaultlib'
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_0_c1yl8wwu/fmpadding.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd/fmpadding.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_2_oczdtiib/fmpadding.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_3_fpihnftc/fmpadding.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_4_lasvhgnt/fmpadding.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_5_c0eo27gp/fmpadding.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_6_59g9igco/fmpadding.sv
+	(Active) Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_7_3zgpn366/fmpadding.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'fmpadding_axi()' found in library 'xil_defaultlib'
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_0_c1yl8wwu/fmpadding_axi.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_1_eo_ft2zd/fmpadding_axi.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_2_oczdtiib/fmpadding_axi.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_3_fpihnftc/fmpadding_axi.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_4_lasvhgnt/fmpadding_axi.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_5_c0eo27gp/fmpadding_axi.sv
+Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_6_59g9igco/fmpadding_axi.sv
+	(Active) Duplicate found at line 35 of file D:/finn_dev_root/code_gen_ipgen_FMPadding_rtl_7_3zgpn366/fmpadding_axi.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'swg_controller()' found in library 'xil_defaultlib'
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_8tlt_04t/swg_common.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/swg_common.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/swg_common.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/swg_common.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/swg_common.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/swg_common.sv
+Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/swg_common.sv
+	(Active) Duplicate found at line 34 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/swg_common.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'swg_cyclic_buffer_addressable()' found in library 'xil_defaultlib'
+Duplicate found at line 149 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_8tlt_04t/swg_common.sv
+Duplicate found at line 149 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/swg_common.sv
+Duplicate found at line 149 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/swg_common.sv
+Duplicate found at line 149 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/swg_common.sv
+Duplicate found at line 149 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/swg_common.sv
+Duplicate found at line 149 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/swg_common.sv
+Duplicate found at line 149 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/swg_common.sv
+	(Active) Duplicate found at line 149 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/swg_common.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'swg_reg_buffer()' found in library 'xil_defaultlib'
+Duplicate found at line 176 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_8tlt_04t/swg_common.sv
+Duplicate found at line 176 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/swg_common.sv
+Duplicate found at line 176 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/swg_common.sv
+Duplicate found at line 176 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/swg_common.sv
+Duplicate found at line 176 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/swg_common.sv
+Duplicate found at line 176 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/swg_common.sv
+Duplicate found at line 176 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/swg_common.sv
+	(Active) Duplicate found at line 176 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/swg_common.sv
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'swg_ram_buffer()' found in library 'xil_defaultlib'
+Duplicate found at line 205 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_8tlt_04t/swg_common.sv
+Duplicate found at line 205 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_oywzn2g7/swg_common.sv
+Duplicate found at line 205 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_qjg7t3xq/swg_common.sv
+Duplicate found at line 205 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_yajhnku3/swg_common.sv
+Duplicate found at line 205 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_cq84zytp/swg_common.sv
+Duplicate found at line 205 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_pr473df_/swg_common.sv
+Duplicate found at line 205 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_t2nz2da6/swg_common.sv
+	(Active) Duplicate found at line 205 of file D:/finn_dev_root/code_gen_ipgen_ConvolutionInputGenerator_rtl_7_5qrmxzdy/swg_common.sv
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_ConvolutionInputGenerator_rtl_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_ConvolutionInputGenerator_rtl_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_ConvolutionInputGenerator_rtl_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_ConvolutionInputGenerator_rtl_3_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_ConvolutionInputGenerator_rtl_4_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_ConvolutionInputGenerator_rtl_5_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_ConvolutionInputGenerator_rtl_6_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_ConvolutionInputGenerator_rtl_7_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_FMPadding_rtl_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_FMPadding_rtl_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_FMPadding_rtl_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_FMPadding_rtl_3_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_FMPadding_rtl_4_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_FMPadding_rtl_5_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_FMPadding_rtl_6_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_FMPadding_rtl_7_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_0_wstrm_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_1_wstrm_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_2_wstrm_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_3_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_3_wstrm_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_4_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_4_wstrm_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_5_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_5_wstrm_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_6_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_6_wstrm_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_7_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_7_wstrm_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_8_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_MVAU_hls_8_wstrm_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_hls_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_hls_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_hls_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_10_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_11_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_12_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_13_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_14_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_15_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_16_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_17_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_18_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_3_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_4_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_5_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_6_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_7_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_8_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingDataWidthConverter_rtl_9_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_10_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_11_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_12_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_13_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_14_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_16_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_17_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_18_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_19_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_20_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_21_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_23_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_25_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_26_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_27_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_28_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_30_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_32_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_33_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_34_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_36_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_38_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_39_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_40_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_41_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_42_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_44_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_46_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_47_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_48_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_4_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_50_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_52_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_5_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_6_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_7_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingFIFO_rtl_9_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingMaxPool_hls_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingMaxPool_hls_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingMaxPool_hls_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP finn_design_StreamingMaxPool_hls_3_0
+INFO: [Common 17-14] Message 'IP_Flow 19-6921' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_ConvolutionInputGenerator_rtl_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_ConvolutionInputGenerator_rtl_1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_FMPadding_rtl_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_FMPadding_rtl_4_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_FMPadding_rtl_6_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_FMPadding_rtl_7_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_0_wstrm_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_2_wstrm_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_3_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_4_wstrm_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_5_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_6_wstrm_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_7_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_8_wstrm_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_hls_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_12_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_14_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_17_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_3_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_9_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_12_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_16_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_25_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_30_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_39_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_47_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_6_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingMaxPool_hls_4_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_fifo_3
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_FMPadding_rtl_3_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_FMPadding_rtl_5_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_1_wstrm_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_3_wstrm_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_4_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_5_wstrm_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_6_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_7_wstrm_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_MVAU_hls_8_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_hls_1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_11_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_15_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_18_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_4_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_7_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_10_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_14_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_19_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_23_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_38_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_46_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_5_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingMaxPool_hls_3_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_fifo_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_ConvolutionInputGenerator_rtl_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_ConvolutionInputGenerator_rtl_3_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_hls_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_10_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_13_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_16_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_6_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_13_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_18_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_21_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_28_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_34_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_41_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_4_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingMaxPool_hls_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_fifo_10
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_fifo_7
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_5_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingDataWidthConverter_rtl_8_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_11_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_17_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_20_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_27_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_32_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_40_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_48_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_7_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_fifo_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_fifo_8
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_ConvolutionInputGenerator_rtl_4_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_ConvolutionInputGenerator_rtl_5_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_26_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_33_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_42_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_50_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_9_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_fifo_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_36_0
+INFO: [Common 17-14] Message 'IP_Flow 19-6924' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_0_0/finn_design_StreamingFIFO_rtl_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingMaxPool_hls_0_0/finn_design_StreamingMaxPool_hls_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_1_0/finn_design_StreamingFIFO_rtl_1_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_FMPadding_rtl_0_0/finn_design_FMPadding_rtl_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_2_0/finn_design_StreamingFIFO_rtl_2_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_ConvolutionInputGenerator_rtl_0_0/finn_design_ConvolutionInputGenerator_rtl_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_fifo_0/finn_design_fifo_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_0_0/finn_design_StreamingDataWidthConverter_rtl_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_4_0/finn_design_StreamingFIFO_rtl_4_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_0_0/finn_design_MVAU_hls_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_0_wstrm_0/finn_design_MVAU_hls_0_wstrm_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_5_0/finn_design_StreamingFIFO_rtl_5_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingMaxPool_hls_1_0/finn_design_StreamingMaxPool_hls_1_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_6_0/finn_design_StreamingFIFO_rtl_6_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_FMPadding_rtl_1_0/finn_design_FMPadding_rtl_1_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_7_0/finn_design_StreamingFIFO_rtl_7_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_1_0/finn_design_StreamingDataWidthConverter_rtl_1_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_fifo_1/finn_design_fifo_1.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_ConvolutionInputGenerator_rtl_1_0/finn_design_ConvolutionInputGenerator_rtl_1_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_9_0/finn_design_StreamingFIFO_rtl_9_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_hls_0_0/finn_design_StreamingDataWidthConverter_hls_0_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_10_0/finn_design_StreamingFIFO_rtl_10_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_1_0/finn_design_MVAU_hls_1_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_1_wstrm_0/finn_design_MVAU_hls_1_wstrm_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_11_0/finn_design_StreamingFIFO_rtl_11_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_2_0/finn_design_StreamingDataWidthConverter_rtl_2_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_12_0/finn_design_StreamingFIFO_rtl_12_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingMaxPool_hls_2_0/finn_design_StreamingMaxPool_hls_2_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_13_0/finn_design_StreamingFIFO_rtl_13_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_FMPadding_rtl_2_0/finn_design_FMPadding_rtl_2_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_14_0/finn_design_StreamingFIFO_rtl_14_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_3_0/finn_design_StreamingDataWidthConverter_rtl_3_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_fifo_2/finn_design_fifo_2.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_ConvolutionInputGenerator_rtl_2_0/finn_design_ConvolutionInputGenerator_rtl_2_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_16_0/finn_design_StreamingFIFO_rtl_16_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_hls_1_0/finn_design_StreamingDataWidthConverter_hls_1_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_17_0/finn_design_StreamingFIFO_rtl_17_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_2_0/finn_design_MVAU_hls_2_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_2_wstrm_0/finn_design_MVAU_hls_2_wstrm_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_18_0/finn_design_StreamingFIFO_rtl_18_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_4_0/finn_design_StreamingDataWidthConverter_rtl_4_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_19_0/finn_design_StreamingFIFO_rtl_19_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingMaxPool_hls_3_0/finn_design_StreamingMaxPool_hls_3_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_20_0/finn_design_StreamingFIFO_rtl_20_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_FMPadding_rtl_3_0/finn_design_FMPadding_rtl_3_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_21_0/finn_design_StreamingFIFO_rtl_21_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_5_0/finn_design_StreamingDataWidthConverter_rtl_5_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_fifo_3/finn_design_fifo_3.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_ConvolutionInputGenerator_rtl_3_0/finn_design_ConvolutionInputGenerator_rtl_3_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_23_0/finn_design_StreamingFIFO_rtl_23_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_6_0/finn_design_StreamingDataWidthConverter_rtl_6_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_fifo_4/finn_design_fifo_4.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_3_0/finn_design_MVAU_hls_3_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_3_wstrm_0/finn_design_MVAU_hls_3_wstrm_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_25_0/finn_design_StreamingFIFO_rtl_25_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_7_0/finn_design_StreamingDataWidthConverter_rtl_7_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_26_0/finn_design_StreamingFIFO_rtl_26_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingMaxPool_hls_4_0/finn_design_StreamingMaxPool_hls_4_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_27_0/finn_design_StreamingFIFO_rtl_27_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_FMPadding_rtl_4_0/finn_design_FMPadding_rtl_4_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_28_0/finn_design_StreamingFIFO_rtl_28_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_8_0/finn_design_StreamingDataWidthConverter_rtl_8_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_fifo_5/finn_design_fifo_5.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_ConvolutionInputGenerator_rtl_4_0/finn_design_ConvolutionInputGenerator_rtl_4_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_30_0/finn_design_StreamingFIFO_rtl_30_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_9_0/finn_design_StreamingDataWidthConverter_rtl_9_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_fifo_6/finn_design_fifo_6.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_4_0/finn_design_MVAU_hls_4_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_4_wstrm_0/finn_design_MVAU_hls_4_wstrm_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_32_0/finn_design_StreamingFIFO_rtl_32_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_10_0/finn_design_StreamingDataWidthConverter_rtl_10_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_33_0/finn_design_StreamingFIFO_rtl_33_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_FMPadding_rtl_5_0/finn_design_FMPadding_rtl_5_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_34_0/finn_design_StreamingFIFO_rtl_34_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_11_0/finn_design_StreamingDataWidthConverter_rtl_11_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_fifo_7/finn_design_fifo_7.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_ConvolutionInputGenerator_rtl_5_0/finn_design_ConvolutionInputGenerator_rtl_5_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_36_0/finn_design_StreamingFIFO_rtl_36_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_12_0/finn_design_StreamingDataWidthConverter_rtl_12_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_fifo_8/finn_design_fifo_8.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_5_0/finn_design_MVAU_hls_5_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_5_wstrm_0/finn_design_MVAU_hls_5_wstrm_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_38_0/finn_design_StreamingFIFO_rtl_38_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_hls_2_0/finn_design_StreamingDataWidthConverter_hls_2_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_39_0/finn_design_StreamingFIFO_rtl_39_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_6_0/finn_design_MVAU_hls_6_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_6_wstrm_0/finn_design_MVAU_hls_6_wstrm_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_40_0/finn_design_StreamingFIFO_rtl_40_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_13_0/finn_design_StreamingDataWidthConverter_rtl_13_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_41_0/finn_design_StreamingFIFO_rtl_41_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_FMPadding_rtl_6_0/finn_design_FMPadding_rtl_6_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_42_0/finn_design_StreamingFIFO_rtl_42_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_14_0/finn_design_StreamingDataWidthConverter_rtl_14_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_fifo_9/finn_design_fifo_9.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_ConvolutionInputGenerator_rtl_6_0/finn_design_ConvolutionInputGenerator_rtl_6_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_44_0/finn_design_StreamingFIFO_rtl_44_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_rtl_15_0/finn_design_StreamingDataWidthConverter_rtl_15_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_fifo_10/finn_design_fifo_10.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_7_0/finn_design_MVAU_hls_7_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [Vivado 12-4802] The synthesis checkpoint for IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_7_wstrm_0/finn_design_MVAU_hls_7_wstrm_0.xci' is not generated and IP is locked. An out-of-context (OOC) run will be created and/or launched, but synthesis may not be able to complete or could result in incorrect behavior.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+INFO: [Common 17-14] Message 'Vivado 12-4802' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_8_wstrm_0/finn_design_MVAU_hls_8_wstrm_0.xci' in run finn_design_MVAU_hls_8_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_6_wstrm_0/finn_design_MVAU_hls_6_wstrm_0.xci' in run finn_design_MVAU_hls_6_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_5_wstrm_0/finn_design_MVAU_hls_5_wstrm_0.xci' in run finn_design_MVAU_hls_5_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_7_wstrm_0/finn_design_MVAU_hls_7_wstrm_0.xci' in run finn_design_MVAU_hls_7_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_4_wstrm_0/finn_design_MVAU_hls_4_wstrm_0.xci' in run finn_design_MVAU_hls_4_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_1_wstrm_0/finn_design_MVAU_hls_1_wstrm_0.xci' in run finn_design_MVAU_hls_1_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_0_wstrm_0/finn_design_MVAU_hls_0_wstrm_0.xci' in run finn_design_MVAU_hls_0_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_3_wstrm_0/finn_design_MVAU_hls_3_wstrm_0.xci' in run finn_design_MVAU_hls_3_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_2_wstrm_0/finn_design_MVAU_hls_2_wstrm_0.xci' in run finn_design_MVAU_hls_2_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_8_wstrm_0/finn_design_MVAU_hls_8_wstrm_0.xci' in run finn_design_MVAU_hls_8_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_6_wstrm_0/finn_design_MVAU_hls_6_wstrm_0.xci' in run finn_design_MVAU_hls_6_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_5_wstrm_0/finn_design_MVAU_hls_5_wstrm_0.xci' in run finn_design_MVAU_hls_5_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_7_wstrm_0/finn_design_MVAU_hls_7_wstrm_0.xci' in run finn_design_MVAU_hls_7_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_4_wstrm_0/finn_design_MVAU_hls_4_wstrm_0.xci' in run finn_design_MVAU_hls_4_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_1_wstrm_0/finn_design_MVAU_hls_1_wstrm_0.xci' in run finn_design_MVAU_hls_1_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_0_wstrm_0/finn_design_MVAU_hls_0_wstrm_0.xci' in run finn_design_MVAU_hls_0_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_3_wstrm_0/finn_design_MVAU_hls_3_wstrm_0.xci' in run finn_design_MVAU_hls_3_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+WARNING: [Project 1-576] IP 'D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/ip/finn_design_MVAU_hls_2_wstrm_0/finn_design_MVAU_hls_2_wstrm_0.xci' in run finn_design_MVAU_hls_2_wstrm_0_synth_1 is locked, no out-of-context (OOC) run will be launched. The run may not be able to complete.
+Please select 'Report IP Status' from 'Tools/Report' or run the Tcl command 'report_ip_status' for more information.
+[Sat Nov  9 22:59:33 2024] Launched finn_design_MVAU_hls_8_0_synth_1, finn_design_StreamingFIFO_rtl_48_0_synth_1, finn_design_StreamingFIFO_rtl_47_0_synth_1, finn_design_StreamingFIFO_rtl_52_0_synth_1, finn_design_fifo_12_synth_1, finn_design_fifo_11_synth_1, finn_design_StreamingFIFO_rtl_50_0_synth_1, finn_design_ConvolutionInputGenerator_rtl_7_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_18_0_synth_1, finn_design_MVAU_hls_8_wstrm_0_synth_1, finn_design_FMPadding_rtl_7_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_17_0_synth_1, finn_design_StreamingFIFO_rtl_32_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_13_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_14_0_synth_1, finn_design_StreamingFIFO_rtl_44_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_16_0_synth_1, finn_design_MVAU_hls_6_0_synth_1, finn_design_fifo_10_synth_1, finn_design_StreamingFIFO_rtl_36_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_10_0_synth_1, finn_design_FMPadding_rtl_5_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_11_0_synth_1, finn_design_StreamingFIFO_rtl_34_0_synth_1, finn_design_StreamingFIFO_rtl_33_0_synth_1, finn_design_fifo_8_synth_1, finn_design_ConvolutionInputGenerator_rtl_5_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_12_0_synth_1, finn_design_fifo_7_synth_1, finn_design_MVAU_hls_5_0_synth_1, finn_design_MVAU_hls_6_wstrm_0_synth_1, finn_design_StreamingFIFO_rtl_40_0_synth_1, finn_design_MVAU_hls_4_0_synth_1, finn_design_FMPadding_rtl_6_0_synth_1, finn_design_MVAU_hls_5_wstrm_0_synth_1, finn_design_StreamingFIFO_rtl_42_0_synth_1, finn_design_fifo_9_synth_1, finn_design_ConvolutionInputGenerator_rtl_6_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_15_0_synth_1, finn_design_MVAU_hls_7_0_synth_1, finn_design_MVAU_hls_7_wstrm_0_synth_1, finn_design_StreamingFIFO_rtl_38_0_synth_1, finn_design_StreamingFIFO_rtl_39_0_synth_1, finn_design_MVAU_hls_4_wstrm_0_synth_1, finn_design_StreamingFIFO_rtl_41_0_synth_1, finn_design_StreamingFIFO_rtl_46_0_synth_1, finn_design_StreamingDataWidthConverter_hls_2_0_synth_1, finn_design_StreamingDataWidthConverter_hls_0_0_synth_1, finn_design_StreamingMaxPool_hls_1_0_synth_1, finn_design_StreamingFIFO_rtl_12_0_synth_1, finn_design_FMPadding_rtl_0_0_synth_1, finn_design_StreamingFIFO_rtl_13_0_synth_1, finn_design_MVAU_hls_1_0_synth_1, finn_design_StreamingMaxPool_hls_0_0_synth_1, finn_design_FMPadding_rtl_2_0_synth_1, finn_design_StreamingFIFO_rtl_10_0_synth_1, finn_design_StreamingFIFO_rtl_14_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_3_0_synth_1, finn_design_StreamingFIFO_rtl_9_0_synth_1, finn_design_StreamingFIFO_rtl_4_0_synth_1, finn_design_MVAU_hls_0_0_synth_1, finn_design_ConvolutionInputGenerator_rtl_0_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_0_0_synth_1, finn_design_StreamingFIFO_rtl_5_0_synth_1, finn_design_FMPadding_rtl_1_0_synth_1, finn_design_StreamingFIFO_rtl_7_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_1_0_synth_1, finn_design_StreamingFIFO_rtl_0_0_synth_1, finn_design_StreamingFIFO_rtl_1_0_synth_1, finn_design_MVAU_hls_1_wstrm_0_synth_1, finn_design_StreamingFIFO_rtl_6_0_synth_1, finn_design_StreamingFIFO_rtl_11_0_synth_1, finn_design_StreamingFIFO_rtl_2_0_synth_1, finn_design_StreamingMaxPool_hls_2_0_synth_1, finn_design_fifo_0_synth_1, finn_design_fifo_1_synth_1, finn_design_MVAU_hls_0_wstrm_0_synth_1, finn_design_ConvolutionInputGenerator_rtl_1_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_2_0_synth_1, finn_design_MVAU_hls_3_0_synth_1, finn_design_fifo_4_synth_1, finn_design_StreamingDataWidthConverter_rtl_9_0_synth_1, finn_design_fifo_6_synth_1, finn_design_fifo_2_synth_1, finn_design_MVAU_hls_3_wstrm_0_synth_1, finn_design_StreamingFIFO_rtl_19_0_synth_1, finn_design_StreamingDataWidthConverter_hls_1_0_synth_1, finn_design_StreamingFIFO_rtl_23_0_synth_1, finn_design_StreamingFIFO_rtl_25_0_synth_1, finn_design_ConvolutionInputGenerator_rtl_2_0_synth_1, finn_design_MVAU_hls_2_0_synth_1, finn_design_fifo_3_synth_1, finn_design_StreamingMaxPool_hls_3_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_6_0_synth_1, finn_design_MVAU_hls_2_wstrm_0_synth_1, finn_design_StreamingFIFO_rtl_20_0_synth_1, finn_design_StreamingFIFO_rtl_21_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_5_0_synth_1, finn_design_ConvolutionInputGenerator_rtl_3_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_7_0_synth_1, finn_design_StreamingMaxPool_hls_4_0_synth_1, finn_design_FMPadding_rtl_4_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_8_0_synth_1, finn_design_StreamingFIFO_rtl_16_0_synth_1, finn_design_StreamingFIFO_rtl_17_0_synth_1, finn_design_StreamingFIFO_rtl_18_0_synth_1, finn_design_FMPadding_rtl_3_0_synth_1, finn_design_StreamingDataWidthConverter_rtl_4_0_synth_1, finn_design_fifo_5_synth_1, finn_design_ConvolutionInputGenerator_rtl_4_0_synth_1, finn_design_StreamingFIFO_rtl_26_0_synth_1, finn_design_StreamingFIFO_rtl_28_0_synth_1, finn_design_StreamingFIFO_rtl_30_0_synth_1, finn_design_StreamingFIFO_rtl_27_0_synth_1...
+Run output will be captured here:
+finn_design_MVAU_hls_8_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_8_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_48_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_48_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_47_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_47_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_52_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_52_0_synth_1/runme.log
+finn_design_fifo_12_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_12_synth_1/runme.log
+finn_design_fifo_11_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_11_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_50_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_50_0_synth_1/runme.log
+finn_design_ConvolutionInputGenerator_rtl_7_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_7_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_18_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_18_0_synth_1/runme.log
+finn_design_MVAU_hls_8_wstrm_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_8_wstrm_0_synth_1/runme.log
+finn_design_FMPadding_rtl_7_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_7_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_17_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_17_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_32_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_32_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_13_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_13_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_14_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_14_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_44_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_44_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_16_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_16_0_synth_1/runme.log
+finn_design_MVAU_hls_6_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_6_0_synth_1/runme.log
+finn_design_fifo_10_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_10_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_36_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_36_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_10_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_10_0_synth_1/runme.log
+finn_design_FMPadding_rtl_5_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_5_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_11_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_11_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_34_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_34_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_33_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_33_0_synth_1/runme.log
+finn_design_fifo_8_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_8_synth_1/runme.log
+finn_design_ConvolutionInputGenerator_rtl_5_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_5_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_12_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_12_0_synth_1/runme.log
+finn_design_fifo_7_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_7_synth_1/runme.log
+finn_design_MVAU_hls_5_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_5_0_synth_1/runme.log
+finn_design_MVAU_hls_6_wstrm_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_6_wstrm_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_40_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_40_0_synth_1/runme.log
+finn_design_MVAU_hls_4_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_4_0_synth_1/runme.log
+finn_design_FMPadding_rtl_6_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_6_0_synth_1/runme.log
+finn_design_MVAU_hls_5_wstrm_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_5_wstrm_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_42_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_42_0_synth_1/runme.log
+finn_design_fifo_9_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_9_synth_1/runme.log
+finn_design_ConvolutionInputGenerator_rtl_6_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_6_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_15_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_15_0_synth_1/runme.log
+finn_design_MVAU_hls_7_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_7_0_synth_1/runme.log
+finn_design_MVAU_hls_7_wstrm_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_7_wstrm_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_38_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_38_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_39_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_39_0_synth_1/runme.log
+finn_design_MVAU_hls_4_wstrm_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_4_wstrm_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_41_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_41_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_46_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_46_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_hls_2_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_hls_2_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_hls_0_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_hls_0_0_synth_1/runme.log
+finn_design_StreamingMaxPool_hls_1_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingMaxPool_hls_1_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_12_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_12_0_synth_1/runme.log
+finn_design_FMPadding_rtl_0_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_0_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_13_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_13_0_synth_1/runme.log
+finn_design_MVAU_hls_1_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_1_0_synth_1/runme.log
+finn_design_StreamingMaxPool_hls_0_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingMaxPool_hls_0_0_synth_1/runme.log
+finn_design_FMPadding_rtl_2_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_2_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_10_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_10_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_14_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_14_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_3_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_3_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_9_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_9_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_4_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_4_0_synth_1/runme.log
+finn_design_MVAU_hls_0_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_0_0_synth_1/runme.log
+finn_design_ConvolutionInputGenerator_rtl_0_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_0_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_0_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_0_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_5_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_5_0_synth_1/runme.log
+finn_design_FMPadding_rtl_1_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_1_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_7_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_7_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_1_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_1_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_0_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_0_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_1_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_1_0_synth_1/runme.log
+finn_design_MVAU_hls_1_wstrm_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_1_wstrm_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_6_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_6_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_11_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_11_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_2_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_2_0_synth_1/runme.log
+finn_design_StreamingMaxPool_hls_2_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingMaxPool_hls_2_0_synth_1/runme.log
+finn_design_fifo_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_0_synth_1/runme.log
+finn_design_fifo_1_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_1_synth_1/runme.log
+finn_design_MVAU_hls_0_wstrm_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_0_wstrm_0_synth_1/runme.log
+finn_design_ConvolutionInputGenerator_rtl_1_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_1_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_2_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_2_0_synth_1/runme.log
+finn_design_MVAU_hls_3_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_3_0_synth_1/runme.log
+finn_design_fifo_4_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_4_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_9_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_9_0_synth_1/runme.log
+finn_design_fifo_6_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_6_synth_1/runme.log
+finn_design_fifo_2_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_2_synth_1/runme.log
+finn_design_MVAU_hls_3_wstrm_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_3_wstrm_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_19_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_19_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_hls_1_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_hls_1_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_23_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_23_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_25_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_25_0_synth_1/runme.log
+finn_design_ConvolutionInputGenerator_rtl_2_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_2_0_synth_1/runme.log
+finn_design_MVAU_hls_2_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_2_0_synth_1/runme.log
+finn_design_fifo_3_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_3_synth_1/runme.log
+finn_design_StreamingMaxPool_hls_3_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingMaxPool_hls_3_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_6_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_6_0_synth_1/runme.log
+finn_design_MVAU_hls_2_wstrm_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_2_wstrm_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_20_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_20_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_21_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_21_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_5_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_5_0_synth_1/runme.log
+finn_design_ConvolutionInputGenerator_rtl_3_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_3_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_7_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_7_0_synth_1/runme.log
+finn_design_StreamingMaxPool_hls_4_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingMaxPool_hls_4_0_synth_1/runme.log
+finn_design_FMPadding_rtl_4_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_4_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_8_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_8_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_16_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_16_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_17_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_17_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_18_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_18_0_synth_1/runme.log
+finn_design_FMPadding_rtl_3_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_3_0_synth_1/runme.log
+finn_design_StreamingDataWidthConverter_rtl_4_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_4_0_synth_1/runme.log
+finn_design_fifo_5_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_5_synth_1/runme.log
+finn_design_ConvolutionInputGenerator_rtl_4_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_4_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_26_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_26_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_28_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_28_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_30_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_30_0_synth_1/runme.log
+finn_design_StreamingFIFO_rtl_27_0_synth_1: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_27_0_synth_1/runme.log
+[Sat Nov  9 22:59:47 2024] Launched synth_1...
+Run output will be captured here: D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:21 ; elapsed = 00:03:49 . Memory (MB): peak = 2785.648 ; gain = 237.609
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 10 11:14:12 2024...

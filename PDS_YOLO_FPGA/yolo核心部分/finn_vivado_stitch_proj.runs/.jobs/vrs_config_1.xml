@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="finn_design_MVAU_hls_8_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_8_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_48_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_48_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_47_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_47_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_52_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_52_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_12_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_11_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_11_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_50_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_50_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_ConvolutionInputGenerator_rtl_7_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_7_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_18_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_18_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_8_wstrm_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_8_wstrm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_FMPadding_rtl_7_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_7_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_17_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_17_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_32_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_32_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_13_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_13_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_14_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_14_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_44_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_44_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_16_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_16_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_6_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_6_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_10_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_10_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_36_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_36_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_10_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_FMPadding_rtl_5_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_5_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_11_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_11_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_34_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_34_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_33_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_33_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_8_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="finn_design_fifo_12_synth_1"/>
+	</Run>
+	<Run Id="finn_design_ConvolutionInputGenerator_rtl_5_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_5_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_12_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_12_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_7_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_7_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="finn_design_fifo_11_synth_1"/>
+	</Run>
+	<Run Id="finn_design_MVAU_hls_5_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_5_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_6_wstrm_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_6_wstrm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_40_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_40_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_4_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_FMPadding_rtl_6_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_6_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_5_wstrm_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_5_wstrm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_42_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_42_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_9_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_9_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_ConvolutionInputGenerator_rtl_6_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_6_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_15_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_15_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_7_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_7_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_7_wstrm_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_7_wstrm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_38_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_38_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_39_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_39_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_4_wstrm_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_4_wstrm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_41_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_41_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_46_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_46_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_hls_2_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_hls_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_hls_0_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_hls_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingMaxPool_hls_1_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingMaxPool_hls_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_12_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_12_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_FMPadding_rtl_0_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_13_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_13_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_1_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingMaxPool_hls_0_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingMaxPool_hls_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_FMPadding_rtl_2_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_10_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_14_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_14_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_3_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_9_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_9_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_4_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_0_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_ConvolutionInputGenerator_rtl_0_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_0_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_5_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_5_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_FMPadding_rtl_1_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_7_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_7_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_1_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_0_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_1_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_1_wstrm_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_1_wstrm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_6_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_6_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_11_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_11_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_2_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingMaxPool_hls_2_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingMaxPool_hls_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_1_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_0_wstrm_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_0_wstrm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_ConvolutionInputGenerator_rtl_1_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_2_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_3_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_4_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_4_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="finn_design_fifo_10_synth_1"/>
+	</Run>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_9_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_9_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_6_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="finn_design_fifo_10_synth_1"/>
+	</Run>
+	<Run Id="finn_design_fifo_2_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="finn_design_fifo_9_synth_1"/>
+	</Run>
+	<Run Id="finn_design_MVAU_hls_3_wstrm_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_3_wstrm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_19_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_19_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_hls_1_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_hls_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_23_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_23_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_25_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_25_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_ConvolutionInputGenerator_rtl_2_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_2_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_3_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="finn_design_fifo_11_synth_1"/>
+	</Run>
+	<Run Id="finn_design_StreamingMaxPool_hls_3_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingMaxPool_hls_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_6_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_6_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_MVAU_hls_2_wstrm_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_MVAU_hls_2_wstrm_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_20_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_20_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_21_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_21_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_5_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_5_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_ConvolutionInputGenerator_rtl_3_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_7_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_7_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingMaxPool_hls_4_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingMaxPool_hls_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_FMPadding_rtl_4_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_8_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_8_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_16_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_16_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_17_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_17_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_18_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_18_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_FMPadding_rtl_3_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_FMPadding_rtl_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingDataWidthConverter_rtl_4_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingDataWidthConverter_rtl_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_fifo_5_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_fifo_5_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="finn_design_fifo_11_synth_1"/>
+	</Run>
+	<Run Id="finn_design_ConvolutionInputGenerator_rtl_4_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_ConvolutionInputGenerator_rtl_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_26_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_26_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_28_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_28_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_30_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_30_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="finn_design_StreamingFIFO_rtl_27_0_synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_27_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/finn_dev_root/vivado_stitch_proj_wlkx21xb/finn_vivado_stitch_proj.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="finn_design_MVAU_hls_8_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_48_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_47_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_52_0_synth_1"/>
+		<Parent Id="finn_design_fifo_12_synth_1"/>
+		<Parent Id="finn_design_fifo_11_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_50_0_synth_1"/>
+		<Parent Id="finn_design_ConvolutionInputGenerator_rtl_7_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_18_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_8_wstrm_0_synth_1"/>
+		<Parent Id="finn_design_FMPadding_rtl_7_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_17_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_32_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_13_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_14_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_44_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_16_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_6_0_synth_1"/>
+		<Parent Id="finn_design_fifo_10_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_36_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_10_0_synth_1"/>
+		<Parent Id="finn_design_FMPadding_rtl_5_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_11_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_34_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_33_0_synth_1"/>
+		<Parent Id="finn_design_fifo_8_synth_1"/>
+		<Parent Id="finn_design_ConvolutionInputGenerator_rtl_5_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_12_0_synth_1"/>
+		<Parent Id="finn_design_fifo_7_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_5_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_6_wstrm_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_40_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_4_0_synth_1"/>
+		<Parent Id="finn_design_FMPadding_rtl_6_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_5_wstrm_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_42_0_synth_1"/>
+		<Parent Id="finn_design_fifo_9_synth_1"/>
+		<Parent Id="finn_design_ConvolutionInputGenerator_rtl_6_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_15_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_7_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_7_wstrm_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_38_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_39_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_4_wstrm_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_41_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_46_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_hls_2_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_hls_0_0_synth_1"/>
+		<Parent Id="finn_design_StreamingMaxPool_hls_1_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_12_0_synth_1"/>
+		<Parent Id="finn_design_FMPadding_rtl_0_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_13_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_1_0_synth_1"/>
+		<Parent Id="finn_design_StreamingMaxPool_hls_0_0_synth_1"/>
+		<Parent Id="finn_design_FMPadding_rtl_2_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_10_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_14_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_3_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_9_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_4_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_0_0_synth_1"/>
+		<Parent Id="finn_design_ConvolutionInputGenerator_rtl_0_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_0_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_5_0_synth_1"/>
+		<Parent Id="finn_design_FMPadding_rtl_1_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_7_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_1_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_0_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_1_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_1_wstrm_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_6_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_11_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_2_0_synth_1"/>
+		<Parent Id="finn_design_StreamingMaxPool_hls_2_0_synth_1"/>
+		<Parent Id="finn_design_fifo_0_synth_1"/>
+		<Parent Id="finn_design_fifo_1_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_0_wstrm_0_synth_1"/>
+		<Parent Id="finn_design_ConvolutionInputGenerator_rtl_1_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_2_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_3_0_synth_1"/>
+		<Parent Id="finn_design_fifo_4_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_9_0_synth_1"/>
+		<Parent Id="finn_design_fifo_6_synth_1"/>
+		<Parent Id="finn_design_fifo_2_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_3_wstrm_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_19_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_hls_1_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_23_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_25_0_synth_1"/>
+		<Parent Id="finn_design_ConvolutionInputGenerator_rtl_2_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_2_0_synth_1"/>
+		<Parent Id="finn_design_fifo_3_synth_1"/>
+		<Parent Id="finn_design_StreamingMaxPool_hls_3_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_6_0_synth_1"/>
+		<Parent Id="finn_design_MVAU_hls_2_wstrm_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_20_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_21_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_5_0_synth_1"/>
+		<Parent Id="finn_design_ConvolutionInputGenerator_rtl_3_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_7_0_synth_1"/>
+		<Parent Id="finn_design_StreamingMaxPool_hls_4_0_synth_1"/>
+		<Parent Id="finn_design_FMPadding_rtl_4_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_8_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_16_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_17_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_18_0_synth_1"/>
+		<Parent Id="finn_design_FMPadding_rtl_3_0_synth_1"/>
+		<Parent Id="finn_design_StreamingDataWidthConverter_rtl_4_0_synth_1"/>
+		<Parent Id="finn_design_fifo_5_synth_1"/>
+		<Parent Id="finn_design_ConvolutionInputGenerator_rtl_4_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_26_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_28_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_30_0_synth_1"/>
+		<Parent Id="finn_design_StreamingFIFO_rtl_27_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
